@@ -271,7 +271,7 @@ ul {
 }
 
 .text-color-secondary {
-  color: #d2a98e;
+  color: #FFC107;
 }
 
 .text-black {
@@ -307,7 +307,7 @@ ul {
 }
 
 .bg-theme-three {
-  background: #002FA6;
+  background: #C18C00;
 }
 
 .sub-heading {
@@ -584,18 +584,18 @@ input[type=checkbox] {
   width: 12px;
   height: 12px;
   opacity: 1;
-  background: #086AD8;
+  background: #C18C00;
 }
 .swiper-pagination .swiper-pagination-bullet-active:before {
   width: 12px;
   height: 12px;
   opacity: 1;
-  background: #086AD8;
+  background: #C18C00;
 }
 
 .site-wrapper-reveal {
   position: relative;
-  z-index: 2;
+  z-index: 2;C18C00
   background: #ffffff;
 }
 
@@ -4329,7 +4329,7 @@ ul.footer-widget__horizontal-list li {
   padding: 0 36px;
   text-align: center;
   color: #ffffff;
-  background: #086AD8;
+  background: #C18C00;
   border-width: 1px;
   -webkit-transform: translateY(0px);
       -ms-transform: translateY(0px);
@@ -4456,11 +4456,11 @@ ul.footer-widget__horizontal-list li {
 }
 .btn--secondary {
   background-image: none;
-  background-color: #d2a98e;
+  background-color: #C18C00;
 }
 .btn--secondary:hover {
   background-image: none;
-  background: #d2a98e;
+  background: #FFC107;
 }
 .btn--black {
   background-image: none;
@@ -5903,7 +5903,7 @@ ul.footer-widget__horizontal-list li {
           transform: translateY(-5px);
 }
 .ht-box-images.style-05:hover .image-box-wrap {
-  background: #002FA6;
+  background: #C18C00;
 }
 .ht-box-images.style-05:hover .box-image .default-image {
   opacity: 0;
@@ -10342,7 +10342,7 @@ ol {
 }
 
 .service-contact-bg {
-  background-color: #002fa6;
+  background-color: #C18C00;
   background-image: url(../images/bg/mitech-home-services-contact-bg.webp);
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -14120,17 +14120,17 @@ blockquote {
 }
 
 .testimonials-contails-machine h6 {
-  font-size: 14px;
+  font-size: 25px;
   font-weight: 700;
   line-height: 2;
   letter-spacing: 3px;
   color: #ababab;
 }
 .testimonials-contails-machine p {
-  font-size: 36px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 1.22;
-  color: #002fa6;
+  color: #6FA3EF;
   margin-top: 20px;
   margin-bottom: 24px;
 }
@@ -14156,7 +14156,7 @@ blockquote {
   left: 0;
 }
 .testimonials-contails-machine .testimonial-info .testimonial-by-line {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 2.29;
   color: #7e7e7e;
