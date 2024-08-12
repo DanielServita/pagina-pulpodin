@@ -299,7 +299,7 @@ ul {
 }
 
 .bg-theme-default {
-  background: #086AD8;
+  background: #3A5199;
 }
 
 .theme-bg-secondary {
@@ -307,7 +307,7 @@ ul {
 }
 
 .bg-theme-three {
-  background: #C18C00;
+  background: #3A5199;
 }
 
 .sub-heading {
@@ -4328,15 +4328,15 @@ ul.footer-widget__horizontal-list li {
   border-color: transparent;
   padding: 0 36px;
   text-align: center;
-  color: #ffffff;
-  background: #C18C00;
+  color: #f5fffe;
+  background: #3A5199;
   border-width: 1px;
   -webkit-transform: translateY(0px);
       -ms-transform: translateY(0px);
           transform: translateY(0px);
 }
 .ht-btn:hover, .ht-btn:active, .ht-btn:focus {
-  color: #ffffff;
+  color: #d3fdf6;
   background-image: #086AD8;
   -webkit-transform: translateY(-3px);
       -ms-transform: translateY(-3px);
@@ -4440,13 +4440,14 @@ ul.footer-widget__horizontal-list li {
   height: 54px;
   line-height: 54px;
   letter-spacing: 0em;
-  color: #ffffff;
+  color: #f2feff;
   background: #086AD8;
   -webkit-transform: translateY(0px);
       -ms-transform: translateY(0px);
           transform: translateY(0px);
 }
 .btn:hover, .btn:active, .btn:focus {
+
   font-weight: 500;
   color: #ffffff;
   background: #086AD8;
@@ -4456,11 +4457,11 @@ ul.footer-widget__horizontal-list li {
 }
 .btn--secondary {
   background-image: none;
-  background-color: #C18C00;
+  background-color: #3A5199;
 }
 .btn--secondary:hover {
   background-image: none;
-  background: #FFC107;
+  background: #3A5199;
 }
 .btn--black {
   background-image: none;
@@ -5903,7 +5904,7 @@ ul.footer-widget__horizontal-list li {
           transform: translateY(-5px);
 }
 .ht-box-images.style-05:hover .image-box-wrap {
-  background: #C18C00;
+  background: #3A5199;
 }
 .ht-box-images.style-05:hover .box-image .default-image {
   opacity: 0;
@@ -10342,7 +10343,7 @@ ol {
 }
 
 .service-contact-bg {
-  background-color: #C18C00;
+  background-color: #3A5199;
   background-image: url(../images/bg/mitech-home-services-contact-bg.webp);
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -14170,7 +14171,7 @@ blockquote {
 
 .software-innovation-hero-text .sub-heading {
   text-transform: uppercase;
-  color: #C2C2C2;
+  color: #D5D6D2;
   line-height: 28px;
   letter-spacing: 3px;
   font-weight: 700;
