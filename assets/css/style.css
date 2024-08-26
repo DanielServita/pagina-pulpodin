@@ -12469,7 +12469,7 @@ blockquote {
 .resolutions-hero-bg {
   background-color: transparent;
   background-repeat: no-repeat;
-  background-image: url("../images/hero/home-resolutions-hero-bg-image.webp");
+  background-image: url("../images/hero/pulpo.jpg");
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -12563,11 +12563,26 @@ blockquote {
 }
 
 .resolutions-hero-bg-2 {
+  position: relative; /* Asegúrate de que el elemento contenedor tenga posición relativa */
   background-color: transparent;
   background-repeat: no-repeat;
-  background-image: url("../images/hero/home-resolutions-hero-bg-image.webp");
+  background-image: url("../images/hero/pulpo.jpg");
   background-size: cover;
   background-position: 50% 50%;
+  width: 100%; /* Ajusta según sea necesario */
+  height: 100vh; /* Ajusta según sea necesario */
+}
+
+.resolutions-hero-bg-2::before {
+  content: ""; /* Necesario para que el pseudo-elemento se muestre */
+  position: absolute; /* Posiciona el pseudo-elemento sobre el contenedor */
+  font-weight: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(130, 128, 128, 0.5); /* Gris con transparencia del 50% */
+  pointer-events: none; /* Asegúrate de que los clics pasen a través de este elemento */
 }
 
 /*=============================================
