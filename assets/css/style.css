@@ -1230,6 +1230,10 @@ input[type=checkbox] {
   padding-top: 80px;
   background-image: url(../images/bg/234.webp);
 }
+.section-space--pt_81 {
+  padding-top: 80px;
+  background-image: url(../images/bg/23.webp);
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-space--pt_80 {
     padding-top: 60px;
