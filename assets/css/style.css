@@ -1140,7 +1140,7 @@ input[type=checkbox] {
 .section-space--ptb_100 {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image:url(../images/hero/servicios.png);
+  background-image:url(../images/hero/banner-servicios-ofrecidos.png);
   background-size: cover;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1157,7 +1157,7 @@ input[type=checkbox] {
 }
 .section-space--pt_100 {
   padding-top: 100px;
-  background-image: url(../images/hero/banner-tecnologia.png);
+  background-image: url(../images/hero/banner-innovacion.png);
   background-size: cover;
 }
 .section-space--pt_100-2 {
@@ -1279,6 +1279,7 @@ input[type=checkbox] {
 .section-space--ptb_70 {
   padding-top: 70px;
   padding-bottom: 70px;
+
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-space--ptb_70 {
@@ -13622,7 +13623,7 @@ blockquote {
 }
 
 .layout-section-bg {
-  background: url(../images/hero/banner-equipo.png);
+  background: url(../images/hero/banner-nosotros.png);
   background-size: cover;
   background-color: #f6f2ed;
   background-repeat: no-repeat;
@@ -13636,7 +13637,7 @@ blockquote {
   background-position: bottom right;
 }
 .layout-section-bg-0 {
-  background: url(../images/hero/ban.png);
+  background: url(../images/hero/banner-consultores.png);
   background-size: cover;
   background-color: #f6f2ed;
   background-repeat: no-repeat;
@@ -13680,7 +13681,7 @@ blockquote {
 }
 
 .prv-section-footer-bg {
-  background: url(../images/preview/mitech-landing-footer-bg-01.webp);
+  background: url(../images/hero/banner-contactanos.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
