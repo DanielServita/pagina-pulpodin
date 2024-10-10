@@ -299,7 +299,7 @@ ul {
 }
 
 .bg-theme-default {
-  background: #3A5199;
+background-image: url(../images/hero/fondo-barra.jpg);
 }
 
 .theme-bg-secondary {
@@ -686,7 +686,6 @@ input[type=checkbox] {
   -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-  background-color: #232325;
 }
 
 .swiper-container:hover .swiper-nav-button {
@@ -1143,6 +1142,18 @@ input[type=checkbox] {
   background-image:url(../images/hero/banner-servicios-ofrecidos.png);
   background-size: cover;
 }
+.section-space--black {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image:url(../images/hero/fondo-solucionestecnologicas.png);
+  background-size: cover;
+}
+.section-space--white {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image:url(../images/hero/fondo-tecnologiaavanzada.png);
+  background-size: cover;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-space--ptb_100 {
     padding-top: 80px;
@@ -1158,6 +1169,11 @@ input[type=checkbox] {
 .section-space--pt_100 {
   padding-top: 100px;
   background-image: url(../images/hero/banner-innovacion.png);
+  background-size: cover;
+}
+.section-space--pt_100-3 {
+  padding-top: 100px;
+  background-image: url(../images/hero/fondo-tendenciastecnologicas.jpg);
   background-size: cover;
 }
 .section-space--pt_100-2 {
@@ -1251,7 +1267,7 @@ input[type=checkbox] {
 }
 .section-space--pt_81 {
   padding-top: 80px;
-  background-image: url(../images/bg/23.webp);
+  background-image: url(../images/hero/banner-principal-innovacion.png);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-space--pt_80 {
@@ -4872,7 +4888,7 @@ ul.footer-widget__horizontal-list li {
 =============================================*/
 .cta-bg-image_one {
   background-color: #454545;
-  background-image: url(../images/patterns/mitech-call-to-action-image-global.webp);
+  background-image: url(../images/hero/fondo-final-innovacion.png);
   background-repeat: no-repeat;
   background-position: top 35% right -68px;
 }
@@ -5806,6 +5822,7 @@ ul.footer-widget__horizontal-list li {
   -webkit-box-shadow: 0 0 41px rgba(0, 0, 0, 0.03);
           box-shadow: 0 0 41px rgba(0, 0, 0, 0.03);
   background-color: #232325;
+  background-size: cover;
   padding: 40px 30px 65px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -10022,7 +10039,7 @@ ol {
 =          32. Project Css           =
 ====================================*/
 .projectinfotechno-bg {
-  background-image: url(../images/patterns/mitech-home-infotechno-case-study-section-bg.webp);
+  background-image: url(../images/hero/fondo-logros.jpg);
   background-repeat: no-repeat;
   background-position: bottom left;
 }
@@ -14324,7 +14341,7 @@ blockquote {
 }
 
 .software-innovation-about-bg {
-  background-image: url("../images/bg/soft-s2-bg.webp");
+  background-image: url("../images/hero/fondo-solucionesatumedida.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -14346,7 +14363,7 @@ blockquote {
 
 .technology-service-bg {
   background-color: #002fa6;
-  background-image: url("../images/bg/soft-s5-bg.webp");
+  background-image: url("../images/hero/fondo-solucionesdesoftware.png");
   background-repeat: no-repeat;
   background-position: left center;
 }
