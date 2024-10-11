@@ -299,7 +299,7 @@ ul {
 }
 
 .bg-theme-default {
-background-image: url(../images/hero/fondo-barra.jpg);
+background-image: url(../images/hero/fondo-barra.png);
 }
 
 .theme-bg-secondary {
@@ -1173,7 +1173,7 @@ input[type=checkbox] {
 }
 .section-space--pt_100-3 {
   padding-top: 100px;
-  background-image: url(../images/hero/fondo-tendenciastecnologicas.jpg);
+  background-image: url(../images/hero/fondo-tendenciastecnologicas.png);
   background-size: cover;
 }
 .section-space--pt_100-2 {
@@ -3153,7 +3153,7 @@ input[type=checkbox] {
   color: #ffffff;
 }
 .navigation-menu--text_white > ul > li:hover > a > span, .navigation-menu--text_white > ul > li.active > a > span {
-  color: #ffffff;
+  color: #000;
 }
 
 .header-bottom-left-wrap .navigation-menu > ul > li:first-child {
@@ -10039,7 +10039,7 @@ ol {
 =          32. Project Css           =
 ====================================*/
 .projectinfotechno-bg {
-  background-image: url(../images/hero/fondo-logros.jpg);
+  background-image: url(../images/hero/fondo-logros.png);
   background-repeat: no-repeat;
   background-position: bottom left;
 }
