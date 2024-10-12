@@ -307,7 +307,7 @@ background-image: url(../images/hero/fondo-barra.png);
 }
 
 .bg-theme-three {
-  background: #3A5199;
+background-image: url(../images/hero/fondo-barra-3d.png);
 }
 
 .sub-heading {
@@ -1169,6 +1169,11 @@ input[type=checkbox] {
 .section-space--pt_100 {
   padding-top: 100px;
   background-image: url(../images/hero/banner-innovacion.png);
+  background-size: cover;
+}
+.section-space--pt_100-5 {
+  padding-top: 100px;
+  background-image: url(../images/hero/fondo-galeria-3d.png);
   background-size: cover;
 }
 .section-space--pt_100-3 {
@@ -10451,7 +10456,7 @@ ol {
 
 .infotechno-contact-us-bg {
   background-color: #eff2f6;
-  background-image: url(../images/bg/home-infotechno-contact-bg.webp);
+  background-image: url(../images/hero/fondo-testimonios-3d.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -13937,7 +13942,7 @@ blockquote {
 =         36. Processing Hero Css             =
 =============================================*/
 .machine-learning-hero-bg {
-  background-image: url("../images/hero/new-slider-bg.webp");
+  background-image: url("../images/hero/banner-principal-3d.png");
   background-color: #072a83;
   background-size: cover;
   background-repeat: no-repeat;
@@ -14169,14 +14174,14 @@ blockquote {
 
 .machine-learning-about-bg {
   background-color: #f8fbfe;
-  background-image: url("../images/bg/n-1-bg.webp");
+  background-image: url("../images/hero/fondo-siloimaginas-3d.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .machine-learning-service-bg {
   background-color: #f8f8f8;
-  background-image: url("../images/bg/n-2-bg.webp");
+  background-image: url("../images/hero/fondo-asesoramiento.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -14196,7 +14201,7 @@ blockquote {
 }
 
 .machine-learning-contact-us-bg {
-  background-image: url("../images/bg/new-cta-bg.webp");
+  background-image: url("../images/hero/fondo-solo-3d.png");
   background-color: #086AD8;
   background-size: cover;
   background-repeat: no-repeat;
@@ -14335,7 +14340,6 @@ blockquote {
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 30px;
-
   }
 }
 
