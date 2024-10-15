@@ -80,7 +80,7 @@ body {
   font-family: "Inter", sans-serif;
   color: #696969;
   position: relative;
-  background-color: #ffffff;
+  background-color: #ffeb00;
 }
 body.no-overflow {
   overflow: hidden;
@@ -299,7 +299,7 @@ ul {
 }
 
 .bg-theme-default {
-background-image: url(../images/hero/fondo-barra.png);
+background-color: white;
 }
 .bg-theme-default2 {
   color: white;
@@ -313,7 +313,7 @@ background-image: url(../images/hero/fondo-barra.png);
 }
 
 .bg-theme-three {
-background-image: url(../images/hero/fondo-barra-3d.png);
+background-image: url(../images/hero/fondo-barra-mark.png);
 }
 
 .sub-heading {
@@ -11795,7 +11795,7 @@ blockquote {
 .processing-hero-bg {
   background-color: transparent;
   background-repeat: no-repeat;
-  background-image: url("../images/hero/slider-processing-slide-01-bg.webp");
+  background-image: url("../images/hero/en-construccion.png");
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -12199,22 +12199,13 @@ blockquote {
   position: relative;
   background-color: transparent;
   background-repeat: no-repeat;
-  background-image: url("../images/hero/home-appointment-hero-bg-image.jpg");
+  background-image: url("../images/hero/en-construccion.png");
   background-size: cover;
   background-position: 50% 50%;
   overflow: hidden; /* Asegura que el pseudo-elemento no se desborde */
 }
 
-.appointment-hero-bg::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Fondo gris con opacidad del 50% */
-  z-index: 1; /* Asegura que el overlay esté sobre la imagen */
-}
+
 
 .appointment-hero-bg > * {
   position: relative;
@@ -12275,7 +12266,7 @@ blockquote {
 .service-hero-bg {
   background-color: transparent;
   background-repeat: no-repeat;
-  background-image: url("../images/hero/home-services-hero-bg.webp");
+  background-image: url("../images/hero/construccion.png");
   background-size: cover;
   background-position: 50% 50%;
 }
