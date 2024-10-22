@@ -1145,13 +1145,25 @@ input[type=checkbox] {
 .section-space--ptb_100 {
   padding-top: 100px;
   padding-bottom: 100px;
+  background-image:url(../images/hero/audiovisual_servicios.png);
+  background-size: cover;
+}
+.section-space--ptb_155 {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-image:url(../images/hero/fondo-2-index.png);
+  background-size: cover;
+}
+.section-space--ptb_103 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image:url(../images/hero/fondo-4-audiovisual.png);
   background-size: cover;
 }
 .section-space--ptb_104 {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image:url(../images/hero/fondo-3-audiovisual.png);
+  background-image:url(../images/hero/audiovisual_transformamos\ tus\ ideas.png);
   background-size: cover;
 }
 .section-space--ptb_105 {
@@ -1164,6 +1176,12 @@ input[type=checkbox] {
   padding-top: 100px;
   padding-bottom: 100px;
   background-image:url(../images/hero/fondo-5-sublimado.png);
+  background-size: cover;
+}
+.section-space--ptb_108 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image:url(../images/hero/audiovisual_clientes.png);
   background-size: cover;
 }
 .section-space--ptb_3 {
@@ -1205,6 +1223,11 @@ input[type=checkbox] {
 .section-space--pt_100 {
   padding-top: 100px;
   background-image: url(../images/hero/fondo-innovacion-index.png);
+  background-size: cover;
+}
+.section-space--pt_150 {
+  padding-top: 100px;
+  background-image: url(../images/hero/audiovisual_creacion\ contenido.png);
   background-size: cover;
 }
 .section-space--pt_102 {
@@ -1294,6 +1317,7 @@ input[type=checkbox] {
 .section-space--ptb_80 {
   padding-top: 80px;
   padding-bottom: 80px;
+  background-color: #ffeb00;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-space--ptb_80 {
@@ -1458,6 +1482,7 @@ input[type=checkbox] {
 }
 .section-space--pb_30 {
   padding-bottom: 30px;
+  background-color: #ffeb00;
 }
 .section-space--mt_15 {
   margin-top: 15px;
@@ -3360,7 +3385,7 @@ input[type=checkbox] {
 .menu-style-three .navigation-menu > ul > li:hover > a:before, .menu-style-three .navigation-menu > ul > li.active > a:before, .menu-style-four .navigation-menu > ul > li:hover > a:before, .menu-style-four .navigation-menu > ul > li.active > a:before {
   width: 0%;
   left: 0;
-  background-color: #fff;
+  background-color: #000;
 }
 .menu-style-three .submenu.left, .menu-style-four .submenu.left {
   left: -100px;
@@ -5837,6 +5862,86 @@ ul.footer-widget__horizontal-list li {
           box-shadow: 0 0 40px 5px rgba(51, 51, 51, 0.1);
   background: #fff;
   border-radius: 5px;
+  padding: 30px 38px;
+  min-height: 150px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.ht-box-images.style-055 .image-box-wrap {
+  -webkit-box-shadow: 0 0 40px 5px rgba(51, 51, 51, 0.1);
+          box-shadow: 0 0 40px 5px rgba(51, 51, 51, 0.1);
+background-image: url(../images/hero/nota-4.png) ;  
+border-radius: 5px;
+  padding: 30px 38px;
+  min-height: 150px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.ht-box-images.style-056 .image-box-wrap {
+  -webkit-box-shadow: 0 0 40px 5px rgba(51, 51, 51, 0.1);
+          box-shadow: 0 0 40px 5px rgba(51, 51, 51, 0.1);
+background-image: url(../images/hero/nota-2.png) ;  
+border-radius: 5px;
+  padding: 30px 38px;
+  min-height: 150px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.ht-box-images.style-057 .image-box-wrap {
+  -webkit-box-shadow: 0 0 40px 5px rgba(51, 51, 51, 0.1);
+          box-shadow: 0 0 40px 5px rgba(51, 51, 51, 0.1);
+background-image: url(../images/hero/nota-3.png) ;  
+border-radius: 5px;
+  padding: 30px 38px;
+  min-height: 150px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.ht-box-images.style-058 .image-box-wrap {
+  -webkit-box-shadow: 0 0 40px 5px rgba(51, 51, 51, 0.1);
+          box-shadow: 0 0 40px 5px rgba(51, 51, 51, 0.1);
+background-image: url(../images/hero/nota-1.png) ;  
+border-radius: 5px;
   padding: 30px 38px;
   min-height: 150px;
   display: -webkit-box;
@@ -10456,7 +10561,7 @@ ol {
 
 .processing-contact-us-bg {
   background-color: #002fa6;
-  background-image: url(../images/bg/mitech-processing-contact-bg.webp);
+  background-image: url(../images/hero/fondo-7-audiovisual.png);
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -12661,7 +12766,7 @@ blockquote {
 .resolutions-hero-bg-2 {
   position: relative; /* Asegúrate de que el elemento contenedor tenga posición relativa */
   background-repeat: no-repeat;
-  background-image: url("../images/hero/Pulpodin.png");
+  background-image: url("../images/hero/Pulpodin1.jpg");
   background-size: cover;
   background-position: 50% 50%;
   width: 100%; /* Ajusta según sea necesario */
@@ -13997,6 +14102,7 @@ blockquote {
   background-repeat: no-repeat;
   padding-top: 320px;
   padding-bottom: 200px;
+  
 }
 @media only screen and (min-width: 1200px) and (max-width: 1499px) {
   .machine-learning-hero-bg {
