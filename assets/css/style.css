@@ -14741,7 +14741,68 @@ body {
       color: #000; /* Letras
   }
 
-  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.feature-images-wrapper {
+    position: relative;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px; /* Ajusta el tamaño mínimo según tus necesidades */
+}
+
+.ht-box-images {
+    display: block;
+    width: 100%;
+    max-width: 300px; /* Ajusta el tamaño máximo según tus necesidades */
+    height: auto;
+    text-align: center;
+    background-color: #232325;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+.ht-box-images .image-box-wrap {
+    margin-bottom: 20px;
+}
+
+.ht-box-images .box-image img {
+    width: 80px;
+    height: 83px;
+    margin-bottom: 20px;
+}
+
+.ht-box-images .heading {
+    font-family: 'anton', sans-serif;
+    color: #FFEB00;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.ht-box-images .text {
+    color: white;
+    font-size: 15px;
+    text-align: left;
+}
+
+.ht-box-images:hover {
+    transform: scale(1.05);
+}
+
 
 
 
