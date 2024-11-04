@@ -1148,6 +1148,24 @@ input[type=checkbox] {
   background-image:url(../images/hero/audiovisual_servicios.png);
   background-size: cover;
 }
+.section-space--ptb_161 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image:url(../images/hero/fondo-3-diseño.png);
+  background-size: cover;
+}
+.section-space--ptb_163 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image:url(../images/hero/fondo-5-diseño.png);
+  background-size: cover;
+}
+.section-space--ptb_160 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image:url(../images/hero/fondo-2-diseño.png);
+  background-size: cover;
+}
 .section-space--ptb_155 {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -1223,6 +1241,11 @@ input[type=checkbox] {
 .section-space--pt_100 {
   padding-top: 100px;
   background-image: url(../images/hero/fondo-innovacion-index.png);
+  background-size: cover;
+}
+.section-space--pt_162 {
+  padding-top: 100px;
+  background-image: url(../images/hero/fondo-4-diseño.png);
   background-size: cover;
 }
 .section-space--pt_150 {
@@ -1338,6 +1361,10 @@ input[type=checkbox] {
 .section-space--pt_81 {
   padding-top: 80px;
   background-image: url(../images/hero/banner-principal-innovacion.png);
+}
+.section-space--pt_82 {
+  padding-top: 80px;
+  background-image: url(../images/hero/banner-principal-diseño.png);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-space--pt_80 {
@@ -3694,7 +3721,7 @@ input[type=checkbox] {
   height: 100%;
   float: right;
   cursor: default;
-  background: #086AD8;
+  background: #ffdc2b;
   -webkit-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -3781,7 +3808,7 @@ input[type=checkbox] {
 }
 .mobile-menu-overlay__body .offcanvas-navigation > ul > li > a, .page-oppen-off-sidebar__body .offcanvas-navigation > ul > li > a {
   display: block;
-  color: #ffffff;
+  color: #000000;
   padding-top: 18px;
   padding-bottom: 18px;
   font-size: 16px;
@@ -3792,7 +3819,7 @@ input[type=checkbox] {
   transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .mobile-menu-overlay__body .offcanvas-navigation > ul > li > a:hover, .page-oppen-off-sidebar__body .offcanvas-navigation > ul > li > a:hover {
-  color: #ffffff;
+  color: #7601d8;
 }
 .mobile-menu-overlay__body .offcanvas-navigation > ul > li:last-child, .page-oppen-off-sidebar__body .offcanvas-navigation > ul > li:last-child {
   border-bottom: 0;
@@ -12394,7 +12421,7 @@ blockquote {
 .service-hero-bg {
   background-color: transparent;
   background-repeat: no-repeat;
-  background-image: url("../images/hero/construccion.png");
+  background-image: url("../images/hero/banner-principal-diseño.png");
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -14617,6 +14644,104 @@ blockquote {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra del texto */
 }
 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header__navigation .navigation-menu ul {
+  display: flex;
+  justify-content: flex-start; /* Alinea el menú a la izquierda */
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header__navigation .navigation-menu ul li {
+  margin-right: 20px; /* Espacio entre los elementos del menú */
+  position: relative; /* Necesario para el submenú */
+}
+
+.header__navigation .navigation-menu ul li a {
+  text-decoration: none;
+   /* Letras negras */
+}
+
+
+
+.header__navigation .navigation-menu ul li a:hover { color: #7601d8; /* Cambia el color al hacer hover */ }
+
+.header__navigation .submenu {
+  background-color: #ffdc2b; /* Fondo amarillo */
+  padding: 10px;
+  list-style: none;
+  position: absolute;
+  top: 100%; /* Alinea el submenú hacia abajo */
+  left: 0;
+  display: none; /* Oculta el submenú por defecto */
+}
+
+.has-children:hover .submenu {
+  display: block; /* Muestra el submenú al hacer hover */
+}
+
+.header__navigation .submenu li {
+  margin-bottom: 5px; /* Espacio entre los elementos del submenú */
+}
+
+.header__navigation .submenu li a {
+  font-family: 'anton', sans-serif;
+  font-weight: 400;
+  color: #000; /* Letras negras */
+}
+
+@media (max-width: 767px) {
+  .mobile-navigation-icon {
+      display: block; /* Mostrar el ícono en dispositivos móviles */
+      cursor: pointer;
+  }
+
+  .header__navigation {
+      background-color: #fff; /* Fondo blanco para el menú principal */
+      padding: 10px;
+  }
+
+  .header__navigation.mobile-active {
+      display: block; /* Mostrar el menú cuando se haga clic en el ícono */
+  }
+
+  .header__navigation .navigation-menu ul {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .header__navigation .navigation-menu ul li {
+      width: 100%;
+      padding: 10px;
+  }
+
+  .header__navigation .navigation-menu ul li a {
+      color: #000; /* Letras negras */
+  }
+
+  .submenu {
+      background-color: #ffdc2b; /* Fondo amarillo para el submenú */
+      position: static; /* Submenú en posición estática para móviles */
+      padding: 0;
+      display: none; /* Oculta el submenú por defecto */
+  }
+
+  .has-children.mobile-active .submenu {
+      display: block; /* Muestra el submenú cuando el padre tiene clase mobile-active */
+  }
+
+  .header__navigation .submenu li a {
+      color: #000; /* Letras
+  }
+
+  
 
 
 

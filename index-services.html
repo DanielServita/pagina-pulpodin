@@ -13,6 +13,11 @@
     <!-- CSS
         ============================================ -->
 
+        <!-- Font Family CSS -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
 
@@ -113,8 +118,12 @@
                                     <nav class="navigation-menu navigation-menu--text_white">
 
                                         <ul>
+                                            <li class="">
+                                                <a style="font-family: 'anton', sans-serif; font-weight: 400;" href="index.html"><span>INICIO</span></a>
+                                                
+                                            </li>
                                             <li class="has-children has-children--multilevel-submenu">
-                                                <a style="font-family: 'anton', sans-serif; font-weight: 400;" href="#"><span>INICIO</span></a>
+                                                <a style="font-family: 'anton', sans-serif; font-weight: 400;" href=""><span>SERVICIOS</span></a>
                                                 <ul class="submenu">
                                                     <li><a href="index-machine-learning.html"><span>Impresiones 3D</span></a></li>
                                                     <li><a href="index-software-innovation.html"><span>Software Innovation</span></a></li>
@@ -125,9 +134,9 @@
                                          
                                                 </ul>
                                             </li>
-                                            <li class="has-children has-children--multilevel-submenu">
-                                                <a style="font-family: 'anton', sans-serif; font-weight: 400;" href="#"><span>COMPAÑÍA</span></a>
-                                                <ul class="submenu">
+                                            <li class="">
+                                                <a style="font-family: 'anton', sans-serif; font-weight: 400;" href="contact-us.html"><span>CONTACTO</span></a>
+                                              <!--  <ul class="submenu">
                                                     <li>
                                                         <a href="about-us-01.html"><span>Sobre Nosotros</span></a>
                                                        
@@ -136,8 +145,10 @@
                                                     <li><a href="why-choose-us.html"><span>¿Por qué escogernos?</span></a></li>
                                                     <li><a href="our-history.html"><span>Nuesta Historia</span></a></li>
                                     
-                                                </ul>
+                                                </ul>-->
                                             </li>
+                                            
+                                            
                                             
                                         </ul>
                                     </nav>
@@ -179,34 +190,27 @@
     <div id="main-wrapper">
         <div class="site-wrapper-reveal section-space--pt__120">
             <!--============ Service Hero Start ============-->
-            <div class="service-hero-wrapper service-hero-space service-hero-bg">
+            <div class="software-innovation-hero-wrapper section-space--pt_82">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 m-auto">
-                            <div class="service-hero-wrap wow move-up">
-                               <!-- <div class="service-hero-text text-center">
-                                    <h3 class="text-white">impresionantes diseños visuales</h3>
-                                    <h1 class="font-weight--reguler text-white mb-30">Pulpodin</h1>
-
-                                    <div class="service-solution-form-wrap me-auto ms-auto">
-                                        <form action="#" method="post">
-                                            <div class="hero-select-form">
-                                                <div class="contact-select">
-                                                    <div class="form-item contact-inner">
-                                                        <span class="inquiry">
-                                                <select class="select-item">
-                                                    <option value="Your inquiry about">Como podemos ayudarte?</option>
-                                                    <option value="General Information Request">Dinos tus ideas!</option>
-                                                    <option value="Partner Relations">Diseños personalizados</option>
-                                                </select>
-                                            </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </form>
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="software-innovation-hero-wrap wow move-up">
+                                <div class="software-innovation-hero-text">
+                                    <p style="color: #ffffff; font-family: 'anton', sans-serif; font-weight: 400;" class="sub-heading">IMPULSA TU MARCA</p>
+                                    <h3 style="color: rgb(0, 0, 0);"></h3>
+                                    <h1 style="font-size: 650%; color: rgb(255, 255, 255); font-family: 'anton', sans-serif; font-weight: 400;" class="font-weight--reguler mb-30">Diseño <span style="color: #ffeb00;">Gráfico</span> </h1>
+                                    <h2 style="text-align: justify;color: rgb(255, 255, 255); font-family: 'anton', sans-serif; font-weight: 400;" class="info-heading">Ofrecemos servicios de diseño gráfico que crean <br> soluciones visuales efectivas para potenciar el éxito de tu negocio.
+                                         </h2>
+                                    <div class="hero-button  mt-30">
+                                        <a style="color: black; background-color: #ffeb00; font-family: 'anton', sans-serif; font-weight: 400;" href="soluciones-" class="ht-btn ht-btn-md">Ver Más</a>
                                     </div>
-                                    <p class="text-white">Ven y descubre los servicios de diseño grafico que Pulpodin tiene para ofrecerte!.</p>-->
                                 </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <div class="software-innovation-hero-image animation_images three mt-30">
+                                <img src="assets/images/hero/icono-diseño.png" class="img-fluid" alt="">
                             </div>
                         </div>
                     </div>
@@ -215,24 +219,19 @@
             <!--============ Service Hero End ============-->
             <!--===========  feature-images-wrapper  Start =============-->
             <div class="feature-images-wrapper position-relative">
-                <div class="grid-wrapper">
-                    <div class="line line-1"></div>
-                    <div class="line line-2"></div>
-                    <div class="line line-3"></div>
-                    <div class="line line-4"></div>
-                </div>
                 <div class="swiper-container service-slider__container">
                     <div class="swiper-wrapper service-slider__wrapper feature-images__three">
                         <div class="swiper-slide">
                             <!-- ht-box-icon Start -->
-                            <a href="#" class="ht-box-images style-03 wow move-up">
+                            <a class="ht-box-images style-03 wow move-up">
                                 <div class="image-box-wrap">
                                     <div class="box-image">
-                                        <img class="img-fulid" src="assets/images/icons/identidad.png" alt="">
+                                        <img class="img-fulid" src="assets/images/icons/identidad.png" width="80" height="83" alt="">
                                     </div>
                                     <div class="content">
-                                        <h5 class="heading">Identidad Corporativa: </h5>
-                                        <div class="text">Creación de logotipos, paletas de colores y manuales de marca que reflejan la esencia y valores de tu empresa, asegurando una imagen coherente y profesional.</div>
+                                        <h5 style="font-family: 'anton', sans-serif; color: #FFEB00; font-size: 30px;" class="heading">Identidad Corporativa</h5>
+                                        <div style="color: white;font-size: 15px; text-align: left;" class="text">Creación de logotipos, paletas de colores y manuales de marca que reflejan la esencia y valores de tu empresa, asegurando una imagen coherente y profesional. <br> <br>
+                                        </div>
                                     </div>
                                 </div>
                             </a>
@@ -240,14 +239,31 @@
                         </div>
                         <div class="swiper-slide">
                             <!-- ht-box-icon Start -->
-                            <a href="#" class="ht-box-images style-03 wow move-up">
+                            <a class="ht-box-images style-03 wow move-up">
                                 <div class="image-box-wrap">
                                     <div class="box-image">
-                                        <img class="img-fulid" src="assets/images/icons/cartelera.png" alt="">
+                                        <img class="img-fulid" src="assets/images/icons/cartelera.png" width="80" height="83" alt="">
                                     </div>
                                     <div class="content">
-                                        <h5 class="heading">Diseño de Materiales Publicitarios:</h5>
-                                        <div class="text">Desarrollo de folletos, carteles, banners y otros materiales promocionales que captan la atención y comunican eficazmente tu mensaje.</div>
+                                        <h5 style="font-family: 'anton', sans-serif; color: #FFEB00; font-size: 30px;" class="heading">Diseño de Materiales Publicitarios</h5>
+                                        <div style="color: white;font-size: 15px; text-align: left;" class="text">Desarrollo de folletos, carteles, banners y otros materiales promocionales que captan la atención y comunican eficazmente tu mensaje.
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- ht-box-icon End -->
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <!-- ht-box-icon Start -->
+                            <a class="ht-box-images style-03 wow move-up">
+                                <div class="image-box-wrap">
+                                    <div class="box-image">
+                                        <img class="img-fulid" src="assets/images/icons/eco-packaging.png" width="80" height="83" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h5 style="font-family: 'anton', sans-serif; color: #FFEB00; font-size: 30px;" class="heading">Diseño de Packaging</h5>
+                                        <div style="color: white;font-size: 15px; text-align: left;" class="text">Diseño de envases y empaques atractivos y funcionales que destacan en el mercado y refuerzan la identidad de tu marca. <br> <br> <br></div>
                                     </div>
                                 </div>
                             </a>
@@ -255,51 +271,39 @@
                         </div>
                         <div class="swiper-slide">
                             <!-- ht-box-icon Start -->
-                            <a href="#" class="ht-box-images style-03 wow move-up">
+                            <a class="ht-box-images style-03 wow move-up">
                                 <div class="image-box-wrap">
                                     <div class="box-image">
-                                        <img class="img-fulid" src="assets/images/icons/eco-packaging.png" alt="">
+                                        <img class="img-fulid" src="assets/images/icons/diseno-web.png" width="80" height="83" alt="">
                                     </div>
                                     <div class="content">
-                                        <h5 class="heading">Diseño de Packaging: </h5>
-                                        <div class="text">Diseño de envases y empaques atractivos y funcionales que destacan en el mercado y refuerzan la identidad de tu marca.</div>
+                                        <h5 style="font-family: 'anton', sans-serif; color: #FFEB00; font-size: 30px;" class="heading">Diseño web</h5>
+                                        <div style="color: white;font-size: 15px; text-align: left;" class="text">Creación de sitios web visualmente atractivos y fáciles de navegar, optimizados para ofrecer una excelente experiencia de usuario en todas las plataformas. <br> <br>
+                                        </div>
                                     </div>
                                 </div>
                             </a>
                             <!-- ht-box-icon End -->
                         </div>
+                        
                         <div class="swiper-slide">
                             <!-- ht-box-icon Start -->
-                            <a href="#" class="ht-box-images style-03 wow move-up">
+                            <a class="ht-box-images style-03 wow move-up">
                                 <div class="image-box-wrap">
                                     <div class="box-image">
-                                        <img class="img-fulid" src="assets/images/icons/diseno-web.png" alt="">
+                                        <img class="img-fulid" src="assets/images/icons/youtube.png" width="80" height="83" alt="">
                                     </div>
                                     <div class="content">
-                                        <h5 class="heading">Diseño Web:</h5>
-                                        <div class="text">Creación de sitios web visualmente atractivos y fáciles de navegar, optimizados para ofrecer una excelente experiencia de usuario en todas las plataformas.</div>
-                                    </div>
-                                </div>
-                            </a>
-                            <!-- ht-box-icon End -->
-                        </div>
-                        <div class="swiper-slide">
-                            <!-- ht-box-icon Start -->
-                            <a href="#" class="ht-box-images style-03 wow move-up">
-                                <div class="image-box-wrap">
-                                    <div class="box-image">
-                                        <img class="img-fulid" src="assets/images/icons/youtube.png" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <h5 class="heading">Diseño para Redes Sociales:</h5>
-                                        <div class="text">Creación de gráficos y contenido visual optimizado para plataformas sociales, ayudando a aumentar la interacción y el alcance de tu marca en línea.</div>
+                                        <h5 style="font-family: 'anton', sans-serif; color: #FFEB00; font-size: 30px;" class="heading">Diseño para redes sociales</h5>
+                                        <div style="color: white;font-size: 15px; text-align: left;" class="text">Creación de gráficos y contenido visual optimizado para plataformas sociales, ayudando a aumentar la interacción y el alcance de tu marca en línea. <br> <br>
+
+                                        </div>
                                     </div>
                                 </div>
                             </a>
                             <!-- ht-box-icon End -->
                         </div>
                     </div>
-                    <div class="swiper-pagination swiper-pagination-service section-space--mt_30"></div>
                 </div>
             </div>
             <!--===========  feature-images-wrapper  End =============-->
@@ -309,7 +313,7 @@
 
             <!--===========  Our Company History Start =============-->
 
-            <div class="our-company-history section-space--ptb_100">
+            <div class="our-company-history section-space--ptb_160">
                 <div class="container-fluid">
                     <div class="grid-wrapper">
                         <div class="line line-1"></div>
@@ -322,13 +326,13 @@
                         <div class="col-lg-6">
                             <div class="faq-custom-col">
                                 <div class="section-title-wrap">
-                                    <h6 class="section-sub-title mb-20">Diseño grafico Pulpodin</h6>
-                                    <h3 class="heading">nuestro equipo de diseño gráfico se dedica a transformar tus ideas en impresionantes creaciones visuales.</h3>
+                                    <h6 style="color: black; font-family: 'anton', sans-serif; font-weight: 400;" class="section-sub-title mb-20">Diseño grafico Pulpodin</h6>
+                                    <h3 style="font-family: 'anton', sans-serif; font-weight: 400;" class="heading">Nuestro equipo de diseño gráfico se dedica a transformar tus ideas en impresionantes creaciones visuales.</h3>
 
-                                    <p class="text mt-30">Desde la identidad corporativa hasta el diseño para redes sociales, estamos aquí para ayudarte a destacar y comunicar tu mensaje de manera efectiva y atractiva.</p>
+                                    <p style="color: black;" class="text mt-30">Desde la identidad corporativa hasta el diseño para redes sociales, estamos aquí para ayudarte a destacar y comunicar tu mensaje de manera efectiva y atractiva.</p>
 
                                     <div class="inner-button-box section-space--mt_60">
-                                        <a href="#" class="ht-btn ht-btn-md">Más Informacion</a>
+                                        <a style="font-family: 'anton', sans-serif; font-weight: 400; background-color: #7601d8;" href="#" class="ht-btn ht-btn-md">Más Informacion</a>
                                     </div>
                                 </div>
                             </div>
@@ -391,21 +395,19 @@
 
 
             <!--====================  gradation process area ====================-->
-            <div class="gradation-process-area section-space--ptb_100">
+            <div class="gradation-process-area section-space--ptb_161">
                 <div class="container">
 
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="gradation-title-wrapper section-space--mb_60">
                                 <div class="gradation-title-wrap ">
-                                    <h6 class="section-sub-title text-black mb-20">Como trabajamos</h6>
-                                    <h4 class="heading">Nuestro modelo de negocio se basa <span class="text-color-primary">en <br>4 pasos clave</span></h4>
+                                    <h6 style="font-family: 'anton', sans-serif; font-weight: 400; color: white;" class="section-sub-title  mb-20">Como trabajamos</h6>
+                                    <h4 style="font-family: 'anton', sans-serif; font-weight: 400; color: white;" class="heading">Nuestro modelo de negocio se basa <span style="color: #FFEB00;">en <br>4 pasos clave</span></h4>
                                 </div>
 
 
-                                <div class="gradation-sub-heading">
-                                    <h3 class="heading"><mark>04</mark> Steps</h3>
-                                </div>
+                                
                             </div>
 
                         </div>
@@ -424,20 +426,20 @@
                                             <div class="wave-pulse wave-pulse-3"></div>
                                         </div>
 
-                                        <h6 class="circle">1</h6>
+                                        <h6 style="font-family: 'anton', sans-serif; font-weight: 400;" class="circle">1</h6>
                                     </div>
 
                                     <div class="content-wrap">
 
-                                        <h6 class="heading">01 .Reunión Inicial y Briefing:</h6>
+                                        <h6 style="font-family: 'anton', sans-serif; font-weight: 400; color: #FFEB00;" class="heading">01 .Reunión Inicial y Briefing:</h6>
 
-                                        <div class="text">Comenzamos con una reunión para entender tus necesidades, objetivos y visión. Recopilamos toda la información necesaria para asegurarnos de que el diseño refleje fielmente tu marca y mensaje.</div>
+                                        <div style="color: white; text-align: justify;" class="text">Comenzamos con una reunión para entender tus necesidades, objetivos y visión. Recopilamos toda la información necesaria para asegurarnos de que el diseño refleje fielmente tu marca y mensaje.</div>
 
-                                        <a class="gradation-btn" href="#">
+                                      <!--  <a class="gradation-btn" href="#">
                                             <span class="button-text" data-text="Look more">
                                         Ver más </span>
                                             <span class="button-icon fas fa-arrow-right"></span>
-                                        </a>
+                                        </a>-->
                                     </div>
                                 </div>
                                 <!-- Single item gradation End -->
@@ -457,15 +459,15 @@
 
                                     <div class="content-wrap">
 
-                                        <h6 class="heading">02. Investigación y Conceptualización:</h6>
+                                        <h6 style="font-family: 'anton', sans-serif; font-weight: 400; color: #FFEB00;" class="heading">02. Investigación y Conceptualización:</h6>
 
-                                        <div class="text">Realizamos una investigación exhaustiva sobre tu industria, competidores y tendencias actuales. A partir de esta información, desarrollamos conceptos creativos que se alineen con tus objetivos.</div>
+                                        <div style="color: white; text-align: justify;" class="text">Realizamos una investigación exhaustiva sobre tu industria, competidores y tendencias actuales. A partir de esta información, desarrollamos conceptos creativos que se alineen con tus objetivos.</div>
 
-                                        <a class="gradation-btn" href="#">
-                                            <span class="button-text" data-text="Look more">
+                                       <!-- <a class="gradation-btn" href="#">
+                                            <span style="color: #FFEB00;" class="button-text" data-text="Look more">
                                             Ver más  </span>
                                             <span class="button-icon fas fa-arrow-right"></span>
-                                        </a>
+                                        </a>-->
                                     </div>
                                 </div>
                                 <!-- Single item gradation End -->
@@ -485,15 +487,15 @@
 
                                     <div class="content-wrap">
 
-                                        <h6 class="heading">03. Diseño y Revisión:</h6>
+                                        <h6 style="font-family: 'anton', sans-serif; font-weight: 400; color: #FFEB00;" class="heading">03. Diseño y Revisión:</h6>
 
-                                        <div class="text">Creamos los diseños iniciales y los compartimos contigo para recibir tu feedback. Realizamos las revisiones necesarias para asegurarnos de que el resultado final cumpla con tus expectativas y requisitos.</div>
+                                        <div style="color: white; text-align: justify;" class="text">Creamos los diseños iniciales y los compartimos contigo para recibir tu feedback. Realizamos las revisiones necesarias para asegurarnos de que el resultado final cumpla con tus expectativas y requisitos.</div>
 
-                                        <a class="gradation-btn" href="#">
-                                            <span class="button-text" data-text="Look more">
+                                       <!-- <a class="gradation-btn" href="#">
+                                            <span style="color: #FFEB00;" class="button-text" data-text="Look more">
                                                 Ver más  </span>
                                             <span class="button-icon fas fa-arrow-right"></span>
-                                        </a>
+                                        </a>-->
                                     </div>
                                 </div>
                                 <!-- Single item gradation End -->
@@ -513,15 +515,15 @@
 
                                     <div class="content-wrap">
 
-                                        <h6 class="heading">04. Entrega y Soporte:</h6>
+                                        <h6 style="font-family: 'anton', sans-serif; font-weight: 400; color: #FFEB00;" class="heading">04. Entrega y Soporte:</h6>
 
-                                        <div class="text">Una vez aprobado el diseño final, te entregamos todos los archivos necesarios en los formatos adecuados. Además, ofrecemos soporte continuo para cualquier ajuste o actualización futura que puedas necesitar.</div>
+                                        <div style="color: white; text-align: justify;" class="text">Una vez aprobado el diseño final, te entregamos todos los archivos necesarios en los formatos adecuados. Además, ofrecemos soporte continuo para cualquier ajuste o actualización futura que puedas necesitar.</div>
 
-                                        <a class="gradation-btn" href="#">
-                                            <span class="button-text" data-text="Look more">
+                                      <!--  <a class="gradation-btn" href="#">
+                                            <span style="color: #FFEB00;" class="button-text" data-text="Look more">
                                                 Ver más  </span>
                                             <span class="button-icon fas fa-arrow-right"></span>
-                                        </a>
+                                        </a>-->
                                     </div>
                                 </div>
                                 <!-- Single item gradation End -->
@@ -549,13 +551,12 @@
                     <div class="row align-items-center">
                         <div class="col-xl-8 col-lg-7">
                             <div class="cta-content md-text-center">
-                                <h3 class="heading text-white">Transforma tu marca con diseños impactantes. ¡Descubre el poder del diseño gráfico con Pulpodin y lleva tu negocio al siguiente nivel!<span class="text-color-secondary"></span></h3>
+                                <h3 style="font-family: 'anton', sans-serif; font-weight: 400;" class="heading text-white"><span style="color: #FFEB00;">Transforma tu marca con diseños impactantes.</span> ¡Descubre el poder del diseño gráfico con Pulpodin y lleva tu negocio al siguiente nivel!<span class="text-color-secondary"></span></h3>
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-5">
                             <div class="cta-button-group--one text-center">
                                 <a href="#" class="btn btn--white btn-one"><span class="btn-icon me-2"><i class="far fa-comment-alt"></i></span> Contactanos</a>
-                                <a href="#" class="btn btn--secondary  btn-two"><span class="btn-icon me-2"><i class="fas fa-info-circle"></i></span> Más Informacion</a>
                             </div>
                         </div>
                     </div>
@@ -564,13 +565,13 @@
             <!--========== Call to Action Area End ============-->
 
             <!--=========== Service Projects Wrapper Start =============-->
-            <div class="service-projects-wrapper section-space--pt_100 mb-20">
+            <div class="service-projects-wrapper section-space--pt_162 mb-20">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="section-title-wrap text-center section-space--mb_60">
-                                <h6 class="section-sub-title mb-20">Proyectos de diseño</h6>
-                                <h3 class="heading">Nos sentimos orgullosos <span class="text-color-primary">de haber realizado proyectos de diseño grafico de calidad</span></h3>
+                                <h6 style="font-family: 'anton', sans-serif; font-weight: 400; color: white;" class="section-sub-title mb-20">Proyectos de diseño</h6>
+                                <h3 style="font-family: 'anton', sans-serif; font-weight: 400; color: white;" class="heading">Nos sentimos orgullosos de haber realizado proyectos de <span style="color: #FFEB00;"> <br> diseño gráfico de calidad</span></h3>
                             </div>
                         </div>
                     </div>
@@ -580,9 +581,9 @@
                                 <div class="row">
                                     <div class="slide-content col-lg-6 col-xl-5 order-2 order-lg-1">
                                         <div class="service-project-slide-info">
-                                            <h4 class="heading font-weight--reguler mb-10">Experiencia en Diseño Gráfico de Pulpodin</h4>
+                                            <h4 style="font-family: 'anton', sans-serif; font-weight: 400; color: white;" class="heading font-weight--reguler mb-10">Experiencia en Diseño Gráfico de <span style="color: #FFEB00;">Pulpodin <br></span></h4>
                                             
-                                            <div class="text">En Pulpodin, contamos con una amplia experiencia en la realización de proyectos de diseño gráfico para diversas industrias. Nuestro equipo ha trabajado con clientes de todos los tamaños, desde startups hasta grandes corporaciones, creando soluciones visuales que destacan y comunican eficazmente sus mensajes. Nos enorgullece nuestra capacidad para entender las necesidades únicas de cada cliente y transformar sus ideas en diseños impactantes y memorables. Con un enfoque en la creatividad, la calidad y la atención al detalle, Pulpodin es tu socio ideal para llevar tu marca al siguiente nivel.</div>
+                                            <div style="color: white; text-align: justify; font-size: 15px;" class="text">En Pulpodin, contamos con una amplia experiencia en la realización de proyectos de diseño gráfico para diversas industrias. Nuestro equipo ha trabajado con clientes de todos los tamaños, desde startups hasta grandes corporaciones, creando soluciones visuales que destacan y comunican eficazmente sus mensajes. Nos enorgullece nuestra capacidad para entender las necesidades únicas de cada cliente y transformar sus ideas en diseños impactantes y memorables. Con un enfoque en la creatividad, la calidad y la atención al detalle, Pulpodin es tu socio ideal para llevar tu marca al siguiente nivel.</div>
                                         </div>
                                     </div>
 
@@ -625,7 +626,7 @@
             <!--=========== Service Projects Wrapper End =============-->
 
             <!--========= Pricing Table Area Start ==========-->
-            <div class="pricing-table-area section-space--pb_70 bg-gradient">
+           <!-- <div class="pricing-table-area section-space--pb_70 bg-gradient">
                 <div class="pricing-table-title-area position-relative">
                     <div class="container">
                         <div class="row">
@@ -726,13 +727,13 @@
             </div>
             <!--========= Pricing Table Area End ==========-->
             <!--=========== Service Projects Wrapper Start =============-->
-            <div class="service-projects-wrapper section-space--ptb_100">
+            <div class="service-projects-wrapper section-space--ptb_163">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="section-title-wrap text-center section-space--mb_60">
-                                <h6 class="section-sub-title mb-20">Proyectos realizados</h6>
-                                <h3 class="heading">Hecha un vistazo a <span class="text-color-primary">Nuestros proyectos</span></h3>
+                                <h6 style="font-family: 'anton', sans-serif; font-weight: 400; color: white;" class="section-sub-title mb-20">Proyectos realizados</h6>
+                                <h3 style="font-family: 'anton', sans-serif; font-weight: 400; color: white;" class="heading">Hecha un vistazo a <span style="color: #FFEB00;">nuestros proyectos</span></h3>
                             </div>
                         </div>
                     </div>
@@ -761,10 +762,10 @@
                                     <!-- Post info Start -->
                                     <div class="post-info lg-blog-post-info mt-20">
                                         <h4 class="post-title">
-                                            <a href="blog-post-layout-one.html">Rebranding Corporativo para TechSolutions</a>
+                                            <a style="font-family: 'anton', sans-serif; font-weight: 400; color: white;" href="blog-post-layout-one.html">Rebranding Corporativo para TechSolutions</a>
                                         </h4>
                                         <div class="post-excerpt mt-15">
-                                            <p>Rediseñamos la identidad visual de TechSolutions, incluyendo un nuevo logotipo, paleta de colores y materiales de marketing. El objetivo fue modernizar la imagen de la empresa y reflejar su innovación y liderazgo en el sector tecnológico.</p>
+                                            <p style=" color: white;">Rediseñamos la identidad visual de TechSolutions, incluyendo un nuevo logotipo, paleta de colores y materiales de marketing. El objetivo fue modernizar la imagen de la empresa y reflejar su innovación y liderazgo en el sector tecnológico.</p>
                                         </div>
                                         <div class="btn-text mt-15">
                                             <a href="#">Leer más <i class="ml-1 button-icon fas fa-arrow-right"></i></a>
@@ -791,13 +792,13 @@
                                     <!-- Post info Start -->
                                     <div class="post-info lg-blog-post-info">
                                         <div class="post-meta mb-10">
-                                            <div class="post-date">
+                                            <div style="color: white;" class="post-date">
                                                 <span class="far fa-calendar meta-icon"></span>
                                                 January 18, 2023
                                             </div>
                                         </div>
                                         <h5 class="post-title">
-                                            <a href="blog-post-layout-one.html">Campaña Publicitaria Visual para EcoFriendly</a>
+                                            <a style="font-family: 'anton', sans-serif; font-weight: 400; color: white;" href="blog-post-layout-one.html">Campaña Publicitaria Visual para EcoFriendly</a>
                                         </h5>
                                     </div>
                                     <!-- Post info End -->
@@ -819,13 +820,13 @@
                                     <!-- Post info Start -->
                                     <div class="post-info lg-blog-post-info">
                                         <div class="post-meta mb-10">
-                                            <div class="post-date">
+                                            <div style="color: white;" class="post-date">
                                                 <span class="far fa-calendar meta-icon"></span>
                                                 February 21, 2019
                                             </div>
                                         </div>
                                         <h5 class="post-title">
-                                            <a href="blog-post-layout-one.html">Diseño de Packaging Innovador para HealthFirst</a>
+                                            <a style="font-family: 'anton', sans-serif; font-weight: 400; color: white;" href="blog-post-layout-one.html">Diseño de Packaging Innovador para HealthFirst</a>
                                         </h5>
                                     </div>
                                     <!-- Post info End -->
@@ -847,13 +848,13 @@
                                     <!-- Post info Start -->
                                     <div class="post-info lg-blog-post-info">
                                         <div class="post-meta mb-10">
-                                            <div class="post-date">
+                                            <div style="color: white;" class="post-date">
                                                 <span class="far fa-calendar meta-icon"></span>
                                                 January 18, 2023
                                             </div>
                                         </div>
                                         <h5 class="post-title">
-                                            <a href="blog-post-layout-one.html">Desarrollo de Identidad Visual para EduTech</a>
+                                            <a style="font-family: 'anton', sans-serif; font-weight: 400; color: white;" href="blog-post-layout-one.html">Desarrollo de Identidad Visual para EduTech</a>
                                         </h5>
                                     </div>
                                     <!-- Post info End -->
@@ -866,7 +867,7 @@
             <!--=========== Service Projects Wrapper End =============-->
 
             <!--============ Contact Us Area Start =================-->
-            <div class="contact-us-area service-contact-bg section-space--ptb_100">
+            <!-- <div class="contact-us-area service-contact-bg section-space--ptb_100">
                 <div class="container">
                     <div class="row align-items-center">
 
@@ -925,7 +926,7 @@
                                 </div>
 
                                 <!-- <form class="contact-form" id="contact-form-2" action="https://whizthemes.com/mail-php/jowel/mitech/php/services-mail.php" method="post"> -->
-                                <form class="contact-form" id="contact-form-2" action="assets/php/services-mail.php" method="post">
+                                <!-- <form class="contact-form" id="contact-form-2" action="assets/php/services-mail.php" method="post">
                                     <div class="contact-form__two">
                                         <div class="contact-input">
                                             <div class="contact-inner">
@@ -967,12 +968,12 @@
             </div>
             <!--============ Contact Us Area End =================-->
             <!--====================  brand logo slider area ====================-->
-            <div class="brand-logo-slider-area section-space--ptb_60">
+            <!-- <div class="brand-logo-slider-area section-space--ptb_60">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
                             <!-- brand logo slider -->
-                            <div class="brand-logo-slider__container-area">
+                 <!--            <div class="brand-logo-slider__container-area">
                                 <div class="swiper-container brand-logo-slider__container">
                                     <div class="swiper-wrapper brand-logo-slider__one">
                                         <div class="swiper-slide brand-logo brand-logo--slider">
@@ -1089,7 +1090,7 @@
 
     </div>
     <!--====================  scroll top ====================-->
-    <a href="#" class="scroll-top" id="scroll-top">
+    <!-- <a href="#" class="scroll-top" id="scroll-top">
         <i class="arrow-top fas fa-chevron-up"></i>
         <i class="arrow-bottom fas fa-chevron-up"></i>
     </a>
@@ -1106,7 +1107,7 @@
                             <!-- logo -->
                             <div class="logo">
                                 <a href="index.html">
-                                    <img src="assets/images/logo/logo-dark.webp" class="img-fluid" alt="">
+                                    <img style="top: -35px;" src="assets/images/hero/logo-principal.png" class="img-fluid" alt="">
                                 </a>
                             </div>
                         </div>
@@ -1120,160 +1121,128 @@
                 </div>
             </div>
             <div class="mobile-menu-overlay__body">
-                <nav class="offcanvas-navigation">
+                <nav class="offcanvas-navigation offcanvas-navigation--onepage">
                     <ul>
-                        <li class="has-children">
-                            <a href="index.html">Home</a>
-                            <ul class="sub-menu">
-                                <li><a href="index-infotechno.html"><span>Infotechno</span></a></li>
-                                <li><a href="index-processing.html"><span>Processing</span></a></li>
-                                <li><a href="index-appointment.html"><span>Appointment</span></a></li>
-                                <li><a href="index-services.html"><span>Services</span></a></li>
-                                <li><a href="index-resolutions.html"><span>Resolutions</span></a></li>
-                                <li><a href="index-cybersecurity.html"><span>cybersecurity</span></a></li>
-                                <li><a href="index-modern-it-company.html"><span>Modern IT Company</span></a></li>
-                                <li><a href="index-machine-learning.html"><span>Machine Learning</span></a></li>
-                                <li><a href="index-software-innovation.html"><span>Software Innovation</span></a></li>
-                            </ul>
-                        </li>
-                        <li class="has-children">
-                            <a href="#">Company</a>
-                            <ul class="sub-menu">
-                                <li class="has-children">
-                                    <a href="about-us-01.html"><span>About us</span></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="about-us-01.html"><span>About us 01</span></a></li>
-                                        <li><a href="about-us-02.html"><span>About us 02</span></a></li>
-                                        <li class="has-children">
-                                            <a href="#"><span>Submenu Level Two</span></a>
-                                            <ul class="sub-menu">
-                                                <li><a href="#"><span>Submenu Level Three</span></a></li>
-                                                <li><a href="#"><span>Submenu Level Three</span></a></li>
-                                                <li><a href="#"><span>Submenu Level Three</span></a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact-us.html"><span>Contact us</span></a></li>
-                                <li><a href="leadership.html"><span>Leadership</span></a></li>
-                                <li><a href="why-choose-us.html"><span>Why choose us</span></a></li>
-                                <li><a href="our-history.html"><span>Our history</span></a></li>
-                                <li><a href="faqs.html"><span>FAQs</span></a></li>
-                                <li><a href="careers.html"><span>Careers</span></a></li>
-                                <li><a href="pricing-plans.html"><span>Pricing plans</span></a></li>
-                            </ul>
-                        </li>
-                        <li class="has-children">
-                            <a href="#">IT solutions</a>
-                            <ul class="sub-menu">
-                                <li><a href="it-services.html"><span>IT Services</span></a></li>
-                                <li><a href="managed-it-service.html"><span>Managed IT Services</span></a></li>
-                                <li><a href="industries.html"><span>Industries</span></a></li>
-                                <li><a href="business-solution.html"><span>Business solution</span></a></li>
-                                <li><a href="it-services-details.html"><span>IT Services Details</span></a></li>
-                            </ul>
-                        </li>
-                        <li class="has-children">
-                            <a href="#">Elements</a>
-                            <ul class="sub-menu">
-                                <li class="has-children">
-                                    <a href="#">Element Group 01</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="element-accordion.html"><span>Accordions & Toggles</span></a></li>
-                                        <li><a href="element-box-icon.html"><span>Box Icon</span></a></li>
-                                        <li><a href="element-box-image.html"><span>Box Image</span></a></li>
-                                        <li><a href="element-box-large-image.html"><span>Box Large Image</span></a></li>
-                                        <li><a href="element-buttons.html"><span>Buttons</span></a></li>
-                                        <li><a href="element-cta.html"><span>Call to action</span></a></li>
-                                        <li><a href="element-client-logo.html"><span>Client Logo</span></a></li>
-                                        <li><a href="element-countdown.html"><span>Countdown</span></a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-children">
-                                    <a href="#">Element Group 02</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="element-counters.html"><span>Counters</span></a></li>
-                                        <li><a href="element-dividers.html"><span>Dividers</span></a></li>
-                                        <li><a href="element-flexible-image-slider.html"><span>Flexible image slider</span></a></li>
-                                        <li><a href="element-google-map.html"><span>Google Map</span></a></li>
-                                        <li><a href="element-gradation.html"><span>Gradation</span></a></li>
-                                        <li><a href="element-instagram.html"><span>Instagram</span></a></li>
-                                        <li><a href="element-lists.html"><span>Lists</span></a></li>
-                                        <li><a href="element-message-box.html"><span>Message box</span></a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-children">
-                                    <a href="#">Element Group 03</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="element-popup-video.html"><span>Popup Video</span></a></li>
-                                        <li><a href="element-pricing-box.html"><span>Pricing Box</span></a></li>
-                                        <li><a href="element-progress-bar.html"><span>Progress Bar</span></a></li>
-                                        <li><a href="element-progress-circle.html"><span>Progress Circle</span></a></li>
-                                        <li><a href="element-rows-columns.html"><span>Rows & Columns</span></a></li>
-                                        <li><a href="element-social-networks.html"><span>Social Networks</span></a></li>
-                                        <li><a href="element-tabs.html"><span>Tabs</span></a></li>
-                                        <li><a href="element-team-member.html"><span>Team member</span></a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-children">
-                                    <a href="#">Element Group 04</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="element-testimonials.html"><span>Testimonials</span></a></li>
-                                        <li><a href="element-timeline.html"><span>Timeline</span></a></li>
-                                        <li><a href="element-carousel-sliders.html"><span>Carousel Sliders</span></a></li>
-                                        <li><a href="element-typed-text.html"><span>Typed Text</span></a></li>
-                                    </ul>
-                                </li>
+                        <li><a style="font-family: 'anton', sans-serif; top: ; color: black; font-size: 20px;" href="index.html">INICIO</a></li>
 
-                            </ul>
+                        <li><a style="font-family: 'anton', sans-serif; top: ; color: black; font-size: 20px;" href="#section-demos">SERVICIOS</a></li>
+                        
+                        <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;" href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0">SUPPORT</a></li>
+                    </ul> 
                         </li>
-                        <li class="has-children">
-                            <a href="javascript:void(0)">Case Studies</a>
-                            <ul class="sub-menu">
-                                <li><a href="case-studies.html"><span>Case Studies 01</span></a></li>
-                                <li><a href="case-studies-02.html"><span>Case Studies 02</span></a></li>
-                                <li><a href="single-smart-vision.html"><span>Single Layout</span></a></li>
-                            </ul>
-                        </li>
-                        <li class="has-children">
-                            <a href="javascript:void(0)">Blogs</a>
-                            <ul class="sub-menu">
-                                <li><a href="blog-list-large-image.html"><span>List Large Image</span></a></li>
-                                <li><a href="blog-list-left-large-image.html"><span>Left Large Image</span></a></li>
-                                <li><a href="blog-grid-classic.html"><span>Grid Classic</span></a></li>
-                                <li><a href="blog-grid-masonry.html"><span>Grid Masonry</span></a></li>
-                                <li class="has-children">
-                                    <a href="blog-post-layout-one.html"><span>Single Layouts</span></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog-post-layout-one.html"><span>Left Sidebar</span></a></li>
-                                        <li><a href="blog-post-right-sidebar.html"><span>Right Sidebar</span></a></li>
-                                        <li><a href="blog-post-no-sidebar.html"><span>No Sidebar</span></a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
+                        
                     </ul>
                 </nav>
             </div>
         </div>
     </div>
     <!--====================  End of mobile menu overlay  ====================-->
+    <footer class="footer-area-preview">
+        <div class="footer-preview section-space--ptb_120 prv-section-footer-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 m-auto">
+                        <div class="footer-preview-content section-space--ptb_70 text-center">
+                            <h2 style="font-family: 'anton', sans-serif; font-weight: 400;" class="heading text-white">Descubre el camino al éxito digital
+                                <br> con pulpodin, tu startup de desarrollo de software y marketing innovador</h2>
+                            <h6 style="font-family: 'anton', sans-serif; font-weight: 400;" class="heading  text-white mt-25">Estrategias de crecimiento integral para tu negocio</h6>
+                            <div class="header-button downlode-btn mt-40">
+                                <a style="font-family: 'anton', sans-serif; font-weight: 400; background-color: #FFEB00; color: black;"  href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0" class="btn btn--white">Contáctanos </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
 
 
+<div class="footer-area-wrapper bg-gray">
+    <div class="footer-area section-space--ptb_80">
+        <div class="container">
+            <div class="row footer-widget-wrapper">
+                <div class="col-lg-4 col-md-6 col-sm-6 footer-widget">
+                    <div class="footer-widget__logo mb-30">
+                        <img src="assets/images/logo/logo-pie.png" width="160" height="48" class="img-fluid" alt="">
+                    </div>
+                    
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
+                    <h6 class="footer-widget__title mb-20">Servicios</h6>
+                    <ul class="footer-widget__list">
+                        <li><a href="index-software-innovation-2.html" class="hover-style-link" style="color: #800080;">Marketing</a></li>
+                        <li><a href="index-appointment.html" class="hover-style-link" style="color: #800080;">Sublimado</a></li>
+                        <li><a href="index-processing.html" class="hover-style-link" style="color: #800080;">Audiovisual</a></li>
+                        <li><a href="index-services.html" class="hover-style-link" style="color: #800080;">Diseño gráfico</a></li>
+                        <li><a href="index-machine-learning.html" class="hover-style-link" style="color: #800080;">Impresiones 3D</a></li>
+                        <li><a href="index-software-innovation.html" class="hover-style-link" style="color: #800080;">Software innovation</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
+                    <h6 class="footer-widget__title mb-20">Direccion y Contacto</h6>
+                    <ul class="footer-widget__list" style="color: #800080;">
+                        <li>Calle Berrizbeitia con avenida <br> Jose Antonio Paez, El Paraiso <br> (Caracas, Venezuela)</li>
+                        <li><a href="mailto:contact@pulpodin.com" class="hover-style-link">contacto@pulpodin.com</a></li>
+                        <li><a href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0" class="hover-style-link text-black font-weight--bold">(+58)4129948381</a></li>
+                        <li><a href="https://principal.pulpodin.com" class="hover-style-link text-color-primary">www.pulpodin.com</a></li>
+                    </ul>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright-area section-space--pb_30">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <span class="copyright-text" style="color: #800080;">&copy; 2024 Pulpodin. <a style="color: #800080;" href="https://hasthemes.com/">All Rights Reserved.</a></span>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <ul class="list ht-social-networks solid-rounded-icon">
+
+                      <!--  <li class="item">
+                            <a href="https://twitter.com" target="_blank" aria-label="Twitter" class="social-link hint--bounce hint--top hint--primary">
+                                <i class="fab fa-twitter link-icon"></i>
+                            </a>
+                        </li>-->
+                        <li class="item">
+                            <a  href="https://www.facebook.com/profile.php?id=100071454318735&mibextid=LQQJ4d" target="_blank" aria-label="Facebook" class="social-link hint--bounce hint--top hint--primary">
+                                <i style="color: #800080;" class="fab fa-facebook-f link-icon"></i>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a style="color: #800080;" href="https://www.instagram.com/pulpodin?igsh=MWV2dHduZmh4MHJiNA%3D%3D&utm_source=qr" target="_blank" aria-label="Instagram" class="social-link hint--bounce hint--top hint--primary">
+                                <i class="fab fa-instagram link-icon"></i>
+                            </a>
+                        </li>
+                        <!-- <li class="item">
+                            <a href="https://linkedin.com" target="_blank" aria-label="Linkedin" class="social-link hint--bounce hint--top hint--primary">
+                                <i class="fab fa-linkedin link-icon"></i>
+                            </a>
+                        </li>-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
 
 
     <!--====================  search overlay ====================-->
-    <div class="search-overlay" id="search-overlay">
+    <!-- <div class="search-overlay" id="search-overlay">
 
         <div class="search-overlay__header">
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="col-md-6 ms-auto col-4">
                         <!-- search content -->
-                        <div class="search-content text-end">
+                        <!-- <div class="search-content text-end">
                             <span class="mobile-navigation-close-icon" id="search-close-trigger"></span>
                         </div>
                     </div>
