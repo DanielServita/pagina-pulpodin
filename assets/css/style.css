@@ -851,7 +851,7 @@ input[type=checkbox] {
   z-index: 999999;
 }
 .preloader-active .preloader-area-wrap .spinner div {
-  background-color: #086AD8;
+  background-color: #ffdc2b;
   border-radius: 50%;
   width: 20px;
   height: 20px;
