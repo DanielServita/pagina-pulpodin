@@ -6019,6 +6019,7 @@ border-radius: 5px;
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100%;
+  
 }
 .ht-box-images.style-03 .image-box-wrap {
   max-width: 340px;
@@ -10128,6 +10129,7 @@ ol {
 }
 .testimonial-slider__container-two .swiper-slide.swiper-slide-next {
   opacity: 0.5;
+  
 }
 
 .modern-it-company-testimonial {
