@@ -757,7 +757,7 @@ input[type=checkbox] {
   background-size: cover;
   z-index: 3;
   position: relative;
-  background-image: url(../images/bg/title-bar-01-bg.webp);
+  background-image: url(../images/hero/banner-contacto.jpg);
 }
 @media only screen and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 992px) and (max-width: 1199px) {
   .breadcrumb-area {
@@ -1157,13 +1157,13 @@ input[type=checkbox] {
 .section-space--ptb_163 {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image:url(../images/hero/fondo-5-diseño.png);
+  background-image:url(../images/hero/fondo-5-diseño.jpg);
   background-size: cover;
 }
 .section-space--ptb_160 {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image:url(../images/hero/fondo-2-diseño.png);
+  background-image:url(../images/hero/fondo-2-diseño.jpg);
   background-size: cover;
 }
 .section-space--ptb_155 {
@@ -1241,6 +1241,11 @@ input[type=checkbox] {
 .section-space--pt_100 {
   padding-top: 100px;
   background-image: url(../images/hero/fondo-innovacion-index.png);
+  background-size: cover;
+}
+.section-space--pt_170 {
+  padding-top: 100px;
+  background-image: url(../images/hero/fondo-2-contacto.jpg);
   background-size: cover;
 }
 .section-space--pt_162 {
@@ -5001,6 +5006,12 @@ ul.footer-widget__horizontal-list li {
 .cta-bg-image_two {
   background-color: #f6f2ed;
   background-image: url(../images/hero/fondo-3-sublimado.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.cta-bg-image_three {
+  background-color: #f6f2ed;
+  background-image: url(../images/hero/fondo-3-contacto.jpg);
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -10673,7 +10684,7 @@ ol {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  background-color: #d2a98e;
+  background-color: #7601d8;
 }
 .conact-us-wrap-one .sub-heading {
   margin-top: 15px;
@@ -13841,6 +13852,13 @@ blockquote {
   background-repeat: no-repeat;
   background-position: bottom right;
 }
+.layout-section-bg-210 {
+  background: url(../images/hero/fondo-2-diseño.jpg);
+  background-size: cover;
+  background-color: #f6f2ed;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
 .layout-section-bg-0 {
   background: url(../images/hero/fondo-4-index.png);
   background-size: cover;
@@ -14811,7 +14829,9 @@ body {
 
 .pt-0 {
   padding-top: 0 !important
+}
 
+.ht-box-images.style-10 .image-box-wrap { display: flex; justify-content: center; /* Centrar horizontalmente */ align-items: center; /* Centrar verticalmente */ border-radius: 50px; } .ht-box-images.style-10 .box-image img { display: block; margin: auto; }
 
 
 
