@@ -5014,6 +5014,7 @@ ul.footer-widget__horizontal-list li {
   background-image: url(../images/hero/fondo-3-contacto.jpg);
   background-repeat: no-repeat;
   background-position: top right;
+  background-size: cover;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
