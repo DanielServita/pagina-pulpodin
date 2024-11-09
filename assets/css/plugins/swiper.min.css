@@ -14,7 +14,7 @@
     overflow: hidden;
 }
 
-.feature-images-wrapper::before,
+
 .feature-images-wrapper::after {
     content: "";
     position: absolute;

@@ -1172,7 +1172,7 @@ input[type=checkbox] {
 .section-space--ptb_161 {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image:url(../images/hero/fondo-3-diseño.png);
+  background-image:url(../images/hero/fondo-3-diseño.jpg);
   background-size: cover;
 }
 .section-space--ptb_163 {
@@ -5645,7 +5645,7 @@ ul.footer-widget__horizontal-list li {
           box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
 }
 .ht-box-icon.style-02 .feature-btn a {
-  color: #086AD8;
+  color: #3e1c57;
   margin-top: 20px;
 }
 .ht-box-icon.style-02 .feature-btn a:hover {
@@ -13861,7 +13861,7 @@ blockquote {
 }
 
 .layout-section-bg {
-  background: url(../images/hero/fondo-3-index.png);
+  background: url(../images/hero/fondo-team.jpg);
   background-size: cover;
   background-color: #f6f2ed;
   background-repeat: no-repeat;
@@ -14864,7 +14864,7 @@ body {
   padding-top: 0 !important
 }
 
-.ht-box-images.style-10 .image-box-wrap { display: flex; justify-content: center; /* Centrar horizontalmente */ align-items: center; /* Centrar verticalmente */ border-radius: 50px; } .ht-box-images.style-10 .box-image img { display: block; margin: auto; }
+
 
 
 
