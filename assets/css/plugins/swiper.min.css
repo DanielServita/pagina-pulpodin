@@ -20,6 +20,7 @@
     position: absolute;
     left: 0;
     right: 0;
+    width: 100%;
     height: 30px;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), transparent);
     z-index: 2;
@@ -33,3 +34,5 @@
 .feature-images-wrapper::before {
     top: 0;
 }
+
+
