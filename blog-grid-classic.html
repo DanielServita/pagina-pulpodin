@@ -24,7 +24,8 @@
     <!-- Font Family CSS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 
     <!-- FontAwesome CSS -->
     <link rel="stylesheet" href="assets/css/vendor/fontawesome-all.min.css">
@@ -49,6 +50,35 @@
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <style>
+        .blog-thumbnail img {
+            border-radius: 90px;
+            /* Bordes más redondeados */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+            /* Sombra */
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .blog-thumbnail img:hover {
+            transform: scale(1.05);
+            /* Efecto de aumento */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            /* Sombra aumentada */
+        }
+
+        .post-title a {
+            font-family: 'anton', sans-serif;
+            font-weight: 400;
+            text-align: center;
+            color: black;
+        }
+
+        .post-excerpt {
+            text-align: justify;
+            color: black;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -70,7 +100,7 @@
     <div class="header-area header-area--default">
 
         <!-- Header Top Wrap Start -->
-       
+
         <!-- Header Top Wrap End -->
 
         <!-- Header Bottom Wrap Start -->
@@ -83,7 +113,8 @@
                             <!-- brand logo -->
                             <div class="header__logo">
                                 <a href="index.html">
-                                    <img src="assets/images/logo/logo-pie.png" aria-label="Mitech Logo" width="160" height="48" class="img-fluid" alt="">
+                                    <img src="assets/images/logo/logo-pie.png" aria-label="Mitech Logo" width="160"
+                                        height="48" class="img-fluid" alt="">
                                 </a>
                             </div>
 
@@ -95,27 +126,39 @@
                                             <!-- navigation menu -->
                                             <div class="header__navigation d-none d-xl-block">
                                                 <nav class="navigation-menu navigation-menu--text_white">
-        
+
                                                     <ul>
                                                         <li class="">
-                                                            <a style="font-family: 'anton', sans-serif; font-weight: 400;" href="index.html"><span>INICIO</span></a>
-                                                            
+                                                            <a style="font-family: 'anton', sans-serif; font-weight: 400;"
+                                                                href="index.html"><span>INICIO</span></a>
+
                                                         </li>
                                                         <li class="has-children has-children--multilevel-submenu">
-                                                            <a style="font-family: 'anton', sans-serif; font-weight: 400;" href=""><span>SERVICIOS</span></a>
+                                                            <a style="font-family: 'anton', sans-serif; font-weight: 400;"
+                                                                href=""><span>SERVICIOS</span></a>
                                                             <ul class="submenu">
-                                                                <li><a href="index-machine-learning.html"><span>Impresiones 3D</span></a></li>
-                                                                <li><a href="index-software-innovation.html"><span>Software Innovation</span></a></li>
-                                                                <li><a href="index-software-innovation-2.html"><span>Marketing</span></a></li>
-                                                                <li><a href="index-appointment.html"><span>Sublimado</span></a></li>
-                                                                <li><a href="index-processing.html"><span>Audiovisual</span></a></li>
-                                                                <li><a href="index-services.html"><span>Diseño Grafico</span></a></li>
-                                                     
+                                                                <li><a href="index-machine-learning.html"><span>Impresiones
+                                                                            3D</span></a></li>
+                                                                <li><a href="index-software-innovation.html"><span>Software
+                                                                            Innovation</span></a></li>
+                                                                <li><a
+                                                                        href="index-software-innovation-2.html"><span>Marketing</span></a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="index-appointment.html"><span>Sublimado</span></a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="index-processing.html"><span>Audiovisual</span></a>
+                                                                </li>
+                                                                <li><a href="index-services.html"><span>Diseño
+                                                                            Grafico</span></a></li>
+
                                                             </ul>
                                                         </li>
                                                         <li class="">
-                                                            <a style="font-family: 'anton', sans-serif; font-weight: 400;" href="contact-us.html"><span>CONTACTO</span></a>
-                                                          <!--  <ul class="submenu">
+                                                            <a style="font-family: 'anton', sans-serif; font-weight: 400;"
+                                                                href="contact-us.html"><span>CONTACTO</span></a>
+                                                            <!--  <ul class="submenu">
                                                                 <li>
                                                                     <a href="about-us-01.html"><span>Sobre Nosotros</span></a>
                                                                    
@@ -126,9 +169,9 @@
                                                 
                                                             </ul>-->
                                                         </li>
-                                                        
-                                                        
-                                                        
+
+
+
                                                     </ul>
                                                 </nav>
                                             </div>
@@ -146,17 +189,21 @@
                                     <div class="language-menu">
                                         <ul>
                                             <li>
-                                               
+
 
                                                 <ul class="ls-sub-menu">
                                                     <li class="">
                                                         <a href="#" class="">
-                                                            <img class="ls-flag" src="assets/images/flags/fr.webp" alt="en" title="Français"><span class="wpml-ls-native">Français</span>
+                                                            <img class="ls-flag" src="assets/images/flags/fr.webp"
+                                                                alt="en" title="Français"><span
+                                                                class="wpml-ls-native">Français</span>
                                                         </a>
                                                     </li>
                                                     <li class="">
                                                         <a href="#" class="">
-                                                            <img class="wpml-ls-flag" src="assets/images/flags/de.webp" alt="de" title="Deutsch"><span class="wpml-ls-native">Deutsch</span>
+                                                            <img class="wpml-ls-flag" src="assets/images/flags/de.webp"
+                                                                alt="de" title="Deutsch"><span
+                                                                class="wpml-ls-native">Deutsch</span>
                                                         </a>
                                                     </li>
 
@@ -168,7 +215,7 @@
                                     </div>
 
                                     <!-- header-search-form -->
-                                    
+
                                 </div>
 
                                 <!-- mobile menu -->
@@ -212,11 +259,14 @@
             <div class="row">
                 <div class="col-12">
                     <div class="breadcrumb_box text-center">
-                        <h2 style="font-family: 'anton', sans-serif; font-weight: 400;" class="breadcrumb-title">Soluciones Tecnológicas</h2>
+                        <h2 style="font-family: 'anton', sans-serif; font-weight: 400;" class="breadcrumb-title">
+                            Soluciones Tecnológicas</h2>
                         <!-- breadcrumb-list start -->
                         <ul class="breadcrumb-list">
-                            <li style="font-family: 'anton', sans-serif; font-weight: 400;" class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-                            <li style="font-family: 'anton', sans-serif; font-weight: 400; color: black;" class="breadcrumb-item active">Soluciones Tecnológicas</li>
+                            <li style="font-family: 'anton', sans-serif; font-weight: 400;" class="breadcrumb-item"><a
+                                    href="index.html">Inicio</a></li>
+                            <li style="font-family: 'anton', sans-serif; font-weight: 400; color: black;"
+                                class="breadcrumb-item active">Soluciones Tecnológicas</li>
                         </ul>
                         <!-- breadcrumb-list end -->
                     </div>
@@ -253,21 +303,36 @@
                                 <!-- Post Feature Start -->
                                 <div class="post-feature blog-thumbnail">
                                     <a href="blog-post-layout-one.html">
-                                        <img class="img-fluid" src="assets/images/hero/desarrollo-tienda-virtuales-ARTE.jpg" alt="Blog Images">
+                                        <img class="img-fluid"
+                                            src="assets/images/hero/desarrollo-tienda-virtuales-ARTE.jpg"
+                                            alt="Blog Images">
                                     </a>
                                 </div>
                                 <!-- Post Feature End -->
 
                                 <!-- Post info Start -->
                                 <div class="post-info lg-blog-post-info">
-                                    
+
 
                                     <h5 class="post-title font-weight--bold">
-                                        <a style="font-family: 'anton', sans-serif; font-weight: 400; text-align: center; color: black;">Desarrollo de tiendas virtuales</a>
+                                        <a
+                                            style="font-family: 'anton', sans-serif; font-weight: 400; text-align: center; color: black;">Desarrollo
+                                            de tiendas virtuales</a>
                                     </h5>
 
                                     <div style="text-align: justify;" class="post-excerpt mt-15">
-                                        <p style="color: black; text-align: justify;"><b>El desarrollo de tiendas virtuales ha revolucionado el comercio electrónico, proporcionando a empresas y emprendedores una plataforma sin fronteras para llegar a un público global, eliminando las limitaciones físicas que una tienda tradicional impone. Esta evolución tecnológica ha transformado profundamente la manera en que compramos y vendemos productos, permitiendo una interacción más dinámica y accesible entre consumidores y vendedores. Además, ha abierto un abanico de nuevas oportunidades para negocios de todos tamaños, desde pequeñas startups hasta grandes corporaciones, al ofrecer herramientas y recursos para gestionar inventarios, realizar ventas y analizar comportamientos de clientes con una eficiencia sin precedentes. </b></p>
+                                        <p style="color: black; text-align: justify; font-family: 'anton', sans-serif; font-weight: 400;">El desarrollo de tiendas
+                                                virtuales ha revolucionado el comercio electrónico, proporcionando a
+                                                empresas y emprendedores una plataforma sin fronteras para llegar a un
+                                                público global, eliminando las limitaciones físicas que una tienda
+                                                tradicional impone. Esta evolución tecnológica ha transformado
+                                                profundamente la manera en que compramos y vendemos productos,
+                                                permitiendo una interacción más dinámica y accesible entre consumidores
+                                                y vendedores. Además, ha abierto un abanico de nuevas oportunidades para
+                                                negocios de todos tamaños, desde pequeñas startups hasta grandes
+                                                corporaciones, al ofrecer herramientas y recursos para gestionar
+                                                inventarios, realizar ventas y analizar comportamientos de clientes con
+                                                una eficiencia sin precedentes. </p>
                                     </div>
 
                                 </div>
@@ -283,23 +348,38 @@
                                 <!-- Post Feature Start -->
                                 <div class="post-feature blog-thumbnail">
                                     <a href="blog-post-layout-one.html">
-                                        <img class="img-fluid" src="assets/images/hero/implementacion-y-gestion-de-acceso-remoto-ARTE.jpg" alt="Blog Images">
+                                        <img class="img-fluid"
+                                            src="assets/images/hero/implementacion-y-gestion-de-acceso-remoto-ARTE.jpg"
+                                            alt="Blog Images">
                                     </a>
                                 </div>
                                 <!-- Post Feature End -->
 
                                 <!-- Post info Start -->
                                 <div class="post-info lg-blog-post-info">
-                                   
+
 
                                     <h5 class="post-title font-weight--bold">
-                                        <a style="font-family: 'anton', sans-serif; font-weight: 400; text-align: center; color: black;">Implementación y gestión de acceso remoto (RDP)</a>
+                                        <a
+                                            style="font-family: 'anton', sans-serif; font-weight: 400; text-align: center; color: black;">Implementación
+                                            y gestión de acceso remoto (RDP)</a>
                                     </h5>
 
                                     <div style="text-align: justify;" class="post-excerpt mt-15">
-                                        <p style="color: black; text-align: justify;"> <b>El acceso remoto a través del Remote Desktop Protocol (RDP) ha transformado radicalmente la manera en que las empresas y los profesionales gestionan y acceden a sus sistemas informáticos. Desarrollado por Microsoft, RDP permite a los usuarios establecer una conexión a un equipo desde una ubicación geográfica diferente, ofreciendo un acceso completo y control total sobre la máquina remota como si estuvieran físicamente presentes frente a ella. Esta capacidad de conexión remota facilita una amplia gama de actividades, desde la administración y mantenimiento de sistemas hasta la resolución de problemas técnicos, permitiendo a los equipos de soporte actuar de manera eficiente sin necesidad de estar en el mismo lugar que el equipo afectado. </b></p>
+                                        <p style="color: black; text-align: justify; font-family: 'anton', sans-serif; font-weight: 400;"> El acceso remoto a través del
+                                                Remote Desktop Protocol (RDP) ha transformado radicalmente la manera en
+                                                que las empresas y los profesionales gestionan y acceden a sus sistemas
+                                                informáticos. Desarrollado por Microsoft, RDP permite a los usuarios
+                                                establecer una conexión a un equipo desde una ubicación geográfica
+                                                diferente, ofreciendo un acceso completo y control total sobre la
+                                                máquina remota como si estuvieran físicamente presentes frente a ella.
+                                                Esta capacidad de conexión remota facilita una amplia gama de
+                                                actividades, desde la administración y mantenimiento de sistemas hasta
+                                                la resolución de problemas técnicos, permitiendo a los equipos de
+                                                soporte actuar de manera eficiente sin necesidad de estar en el mismo
+                                                lugar que el equipo afectado. </p>
                                     </div>
-                                    
+
                                 </div>
                                 <!-- Post info End -->
                             </div>
@@ -313,23 +393,37 @@
                                 <!-- Post Feature Start -->
                                 <div class="post-feature blog-thumbnail">
                                     <a href="blog-post-layout-one.html">
-                                        <img class="img-fluid" src="assets/images/hero/gestion-y-desarrollo-de-bases-de-datos-ARTE.jpg" alt="Blog Images">
+                                        <img class="img-fluid"
+                                            src="assets/images/hero/gestion-y-desarrollo-de-bases-de-datos-ARTE.jpg"
+                                            alt="Blog Images">
                                     </a>
                                 </div>
                                 <!-- Post Feature End -->
 
                                 <!-- Post info Start -->
                                 <div class="post-info lg-blog-post-info">
-                                    
+
 
                                     <h5 class="post-title font-weight--bold">
-                                        <a style="font-family: 'anton', sans-serif; font-weight: 400; text-align: center; color: black;">Gestión y desarrollo de bases de datos</a>
+                                        <a
+                                            style="font-family: 'anton', sans-serif; font-weight: 400; text-align: center; color: black;">Gestión
+                                            y desarrollo de bases de datos</a>
                                     </h5>
 
                                     <div style="text-align: justify;" class="post-excerpt mt-15">
-                                        <p style="color: black; text-align: justify;"> <b>La gestión y el desarrollo de bases de datos son componentes esenciales en la infraestructura de tecnología de la información de cualquier organización, desempeñando un papel fundamental en la operación y el crecimiento empresarial. Las bases de datos son sistemas complejos diseñados para almacenar, organizar y gestionar grandes volúmenes de información, que son vitales para el funcionamiento diario de los negocios. Estos sistemas no solo facilitan el acceso y la actualización de datos en tiempo real, sino que también permiten la integración de información proveniente de diversas fuentes, creando un repositorio centralizado de conocimiento crítico para la organización. </b></p>
+                                        <p style="color: black; text-align: justify; font-family: 'anton', sans-serif; font-weight: 400;">La gestión y el desarrollo de
+                                                bases de datos son componentes esenciales en la infraestructura de
+                                                tecnología de la información de cualquier organización, desempeñando un
+                                                papel fundamental en la operación y el crecimiento empresarial. Las
+                                                bases de datos son sistemas complejos diseñados para almacenar,
+                                                organizar y gestionar grandes volúmenes de información, que son vitales
+                                                para el funcionamiento diario de los negocios. Estos sistemas no solo
+                                                facilitan el acceso y la actualización de datos en tiempo real, sino que
+                                                también permiten la integración de información proveniente de diversas
+                                                fuentes, creando un repositorio centralizado de conocimiento crítico
+                                                para la organización. </p>
                                     </div>
-                                    
+
                                 </div>
                                 <!-- Post info End -->
                             </div>
@@ -343,23 +437,37 @@
                                 <!-- Post Feature Start -->
                                 <div class="post-feature blog-thumbnail">
                                     <a href="blog-post-layout-one.html">
-                                        <img class="img-fluid" src="assets/images/hero/desarrollo-de-aplicacion-web-ARTE.jpg" alt="Blog Images">
+                                        <img class="img-fluid"
+                                            src="assets/images/hero/desarrollo-de-aplicacion-web-ARTE.jpg"
+                                            alt="Blog Images">
                                     </a>
                                 </div>
                                 <!-- Post Feature End -->
 
                                 <!-- Post info Start -->
                                 <div class="post-info lg-blog-post-info">
-                                   
+
 
                                     <h5 class="post-title font-weight--bold">
-                                        <a style="font-family: 'anton', sans-serif; font-weight: 400; text-align: center; color: black;">Desarrollo de aplicaciones web</a>
+                                        <a
+                                            style="font-family: 'anton', sans-serif; font-weight: 400; text-align: center; color: black;">Desarrollo
+                                            de aplicaciones web</a>
                                     </h5>
 
                                     <div style="text-align: justify;" class="post-excerpt mt-15">
-                                        <p style="color: black; text-align: justify;"> <b>El desarrollo de aplicaciones web es una disciplina fundamental en el ámbito de la tecnología de la información, que implica la creación, diseño y mantenimiento de aplicaciones accesibles a través de un navegador web. Este campo ha experimentado un crecimiento exponencial en las últimas décadas, impulsado por la creciente necesidad de soluciones digitales interactivas y accesibles desde cualquier lugar del mundo. A medida que la tecnología avanza, el desarrollo de aplicaciones web se ha convertido en una parte integral de la estrategia digital de empresas de todos los tamaños y sectores, ofreciendo oportunidades para mejorar la eficiencia operativa, la experiencia del usuario y la conectividad global.</b></p>
+                                        <p style="color: black; text-align: justify; font-family: 'anton', sans-serif; font-weight: 400;"> El desarrollo de aplicaciones
+                                                web es una disciplina fundamental en el ámbito de la tecnología de la
+                                                información, que implica la creación, diseño y mantenimiento de
+                                                aplicaciones accesibles a través de un navegador web. Este campo ha
+                                                experimentado un crecimiento exponencial en las últimas décadas,
+                                                impulsado por la creciente necesidad de soluciones digitales
+                                                interactivas y accesibles desde cualquier lugar del mundo. A medida que
+                                                la tecnología avanza, el desarrollo de aplicaciones web se ha convertido
+                                                en una parte integral de la estrategia digital de empresas de todos los
+                                                tamaños y sectores, ofreciendo oportunidades para mejorar la eficiencia
+                                                operativa, la experiencia del usuario y la conectividad global.</p>
                                     </div>
-                                    
+
                                 </div>
                                 <!-- Post info End -->
                             </div>
@@ -373,7 +481,9 @@
                                 <!-- Post Feature Start -->
                                 <div class="post-feature blog-thumbnail">
                                     <a href="blog-post-layout-one.html">
-                                        <img class="img-fluid" src="assets/images/hero/desarrollo-de-paginas-web-cms.jpg" alt="Blog Images">
+                                        <img class="img-fluid"
+                                            src="assets/images/hero/desarrollo-de-paginas-web-cms.jpg"
+                                            alt="Blog Images">
                                     </a>
                                 </div>
                                 <!-- Post Feature End -->
@@ -383,13 +493,24 @@
 
 
                                     <h5 class="post-title font-weight--bold">
-                                        <a style="font-family: 'anton', sans-serif; font-weight: 400; text-align: center; color: black;">Desarrollo de páginas web con sistemas de gestión de contenidos (CMS)</a>
+                                        <a
+                                            style="font-family: 'anton', sans-serif; font-weight: 400; text-align: center; color: black;">Desarrollo
+                                            de páginas web con sistemas de gestión de contenidos (CMS)</a>
                                     </h5>
 
                                     <div style="text-align: justify;" class="post-excerpt mt-15">
-                                        <p style="color: black; text-align: justify;"> <b> El desarrollo de páginas web utilizando sistemas de gestión de contenidos (CMS) ha transformado la forma en que se crean, gestionan y mantienen sitios web en la era digital. Los CMS han democratizado el proceso de desarrollo web, permitiendo a individuos y organizaciones de todos los tamaños construir y administrar sitios web con relativa facilidad, sin necesidad de conocimientos avanzados en programación. Esta transformación no solo ha simplificado el proceso de desarrollo web, sino que también ha permitido una mayor flexibilidad y control sobre el contenido, mejorando la accesibilidad y la funcionalidad de los sitios web. </b></p>
+                                        <p style="color: black; text-align: justify; font-family: 'anton', sans-serif; font-weight: 400;"> El desarrollo de páginas web
+                                                utilizando sistemas de gestión de contenidos (CMS) ha transformado la
+                                                forma en que se crean, gestionan y mantienen sitios web en la era
+                                                digital. Los CMS han democratizado el proceso de desarrollo web,
+                                                permitiendo a individuos y organizaciones de todos los tamaños construir
+                                                y administrar sitios web con relativa facilidad, sin necesidad de
+                                                conocimientos avanzados en programación. Esta transformación no solo ha
+                                                simplificado el proceso de desarrollo web, sino que también ha permitido
+                                                una mayor flexibilidad y control sobre el contenido, mejorando la
+                                                accesibilidad y la funcionalidad de los sitios web. </p>
                                     </div>
-                                    
+
                                 </div>
                                 <!-- Post info End -->
                             </div>
@@ -403,34 +524,50 @@
                                 <!-- Post Feature Start -->
                                 <div class="post-feature blog-thumbnail">
                                     <a href="blog-post-layout-one.html">
-                                        <img class="img-fluid" src="assets/images/hero/analisis-y-diseño-de-sistemas-personalizados.jpg" alt="Blog Images">
+                                        <img class="img-fluid"
+                                            src="assets/images/hero/analisis-y-diseño-de-sistemas-personalizados.jpg"
+                                            alt="Blog Images">
                                     </a>
                                 </div>
                                 <!-- Post Feature End -->
 
                                 <!-- Post info Start -->
                                 <div class="post-info lg-blog-post-info">
-                                    
+
 
                                     <h5 class="post-title font-weight--bold">
-                                        <a style="font-family: 'anton', sans-serif; font-weight: 400; text-align: center; color: black;">Análisis y diseño de sistemas personalizados</a>
+                                        <a
+                                            style="font-family: 'anton', sans-serif; font-weight: 400; text-align: center; color: black;">Análisis
+                                            y diseño de sistemas personalizados</a>
                                     </h5>
 
                                     <div style="text-align: justify;" class="post-excerpt mt-15">
-                                        <p style="color: black; text-align: justify;"> <b> El análisis y diseño de sistemas personalizados es una disciplina crucial en la ingeniería de software y la gestión de tecnologías de la información. Este proceso implica una serie de etapas meticulosas que tienen como objetivo crear soluciones de software adaptadas a las necesidades específicas de una organización o cliente. A diferencia de los sistemas estándar, que están diseñados para ser genéricos y aplicables a una variedad de casos de uso, los sistemas personalizados se desarrollan para abordar requerimientos únicos y ofrecer una funcionalidad específica que se alinea con los objetivos y procesos particulares del usuario. Este enfoque detallado y adaptado tiene el potencial de mejorar significativamente la eficiencia operativa y proporcionar una ventaja competitiva a las organizaciones. </b></p>
+                                        <p style="color: black; text-align: justify; font-family: 'anton', sans-serif; font-weight: 400;"> El análisis y diseño de
+                                                sistemas personalizados es una disciplina crucial en la ingeniería de
+                                                software y la gestión de tecnologías de la información. Este proceso
+                                                implica una serie de etapas meticulosas que tienen como objetivo crear
+                                                soluciones de software adaptadas a las necesidades específicas de una
+                                                organización o cliente. A diferencia de los sistemas estándar, que están
+                                                diseñados para ser genéricos y aplicables a una variedad de casos de
+                                                uso, los sistemas personalizados se desarrollan para abordar
+                                                requerimientos únicos y ofrecer una funcionalidad específica que se
+                                                alinea con los objetivos y procesos particulares del usuario. Este
+                                                enfoque detallado y adaptado tiene el potencial de mejorar
+                                                significativamente la eficiencia operativa y proporcionar una ventaja
+                                                competitiva a las organizaciones. </p>
                                     </div>
-                                    
+
                                 </div>
                                 <!-- Post info End -->
-                                 
+
                             </div>
                             <!--===== Single Blog Item End =========-->
-                            
+
 
                         </div>
 
 
-                        
+
 
                     </div>
                 </div>
@@ -453,13 +590,17 @@
                     <div class="row align-items-center">
                         <div class="col-xl-8 col-lg-7">
                             <div class="cta-content md-text-center">
-                                <h3 style="font-family: 'anton', sans-serif; font-weight: 400;" class="heading text-white">Impulsamos tu futuro con soluciones tecnológicas <span style="color: #FFEB00;">innovadoras</span></h3>
+                                <h3 style="font-family: 'anton', sans-serif; font-weight: 400;"
+                                    class="heading text-white">Impulsamos tu futuro con soluciones tecnológicas <span
+                                        style="color: #FFEB00;">innovadoras</span></h3>
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-5">
                             <div class="cta-button-group--one text-center">
-                                <a href="tel:4129948381" class="btn btn--white btn-one"><span class="btn-icon me-2"><i class="far fa-comment-alt"></i></span> Contáctanos</a>
-                                <a href="index.html" class="btn btn--secondary  btn-two"><span class="btn-icon me-2"><i class="fas fa-info-circle"></i></span> Información</a>
+                                <a href="tel:4129948381" class="btn btn--white btn-one"><span class="btn-icon me-2"><i
+                                            class="far fa-comment-alt"></i></span> Contáctanos</a>
+                                <a href="index.html" class="btn btn--secondary  btn-two"><span class="btn-icon me-2"><i
+                                            class="fas fa-info-circle"></i></span> Información</a>
                             </div>
                         </div>
                     </div>
@@ -477,6 +618,33 @@
         </div>
 
         <!--====================  footer area ====================-->
+        <footer class="footer-area-preview">
+            <div class="footer-preview section-space--ptb_120 prv-section-footer-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 m-auto">
+                            <div class="footer-preview-content section-space--ptb_70 text-center">
+                                <h2 style="font-family: 'anton', sans-serif; font-weight: 400;" class="heading text-white">
+                                    Descubre el camino al éxito digital
+                                    <br> con pulpodin, tu startup de desarrollo de software y marketing innovador
+                                </h2>
+                                <h6 style="font-family: 'anton', sans-serif; font-weight: 400;"
+                                    class="heading  text-white mt-25">Estrategias de crecimiento integral para tu negocio
+                                </h6>
+                                <div class="header-button downlode-btn mt-40">
+                                    <a style="font-family: 'anton', sans-serif; font-weight: 400; background-color: #FFEB00; color: black;"
+                                        href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0"
+                                        class="btn btn--white">Contáctanos </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </div>
+    
+    
         <div class="footer-area-wrapper bg-gray">
             <div class="footer-area section-space--ptb_80">
                 <div class="container">
@@ -485,55 +653,71 @@
                             <div class="footer-widget__logo mb-30">
                                 <img src="assets/images/logo/logo-pie.png" width="160" height="48" class="img-fluid" alt="">
                             </div>
-                            
+    
                         </div>
-                        <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
-                            <h6 class="footer-widget__title mb-20">Servicios</h6>
+                        <div class="col-lg-2 col-md-4 col-sm-6 footer-widget" style="font-weight: 400; font-family: 'anton', sans-serif;">
+                            <h6 class="footer-widget__title mb-20" style="font-weight: 400; font-family: 'anton', sans-serif;">Servicios</h6>
                             <ul class="footer-widget__list">
-                                <li><a href="index-software-innovation-2.html" class="hover-style-link" style="color: #800080;">Marketing</a></li>
-                                <li><a href="index-appointment.html" class="hover-style-link" style="color: #800080;">Sublimado</a></li>
-                                <li><a href="index-processing.html" class="hover-style-link" style="color: #800080;">Audiovisual</a></li>
-                                <li><a href="index-services.html" class="hover-style-link" style="color: #800080;">Diseño gráfico</a></li>
-                                <li><a href="index-machine-learning.html" class="hover-style-link" style="color: #800080;">Impresiones 3D</a></li>
-                                <li><a href="index-software-innovation.html" class="hover-style-link" style="color: #800080;">Software innovation</a></li>
+                                <li><a href="index-software-innovation-2.html" class="hover-style-link"
+                                        style="color: #7601d8;">Marketing</a></li>
+                                <li><a href="index-appointment.html" class="hover-style-link"
+                                        style="color: #7601d8;">Sublimado</a></li>
+                                <li><a href="index-processing.html" class="hover-style-link"
+                                        style="color: #7601d8;">Audiovisual</a></li>
+                                <li><a href="index-services.html" class="hover-style-link" style="color: #7601d8;">Diseño
+                                    gráfico</a></li>
+                                <li><a href="index-machine-learning.html" class="hover-style-link"
+                                        style="color: #7601d8;">Impresiones 3D</a></li>
+                                <li><a href="index-software-innovation.html" class="hover-style-link"
+                                        style="color: #7601d8; text-shadow: #000000;">Software innovation</a></li>
     
                             </ul>
                         </div>
-                        <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
-                            <h6 class="footer-widget__title mb-20">Direccion y Contacto</h6>
-                            <ul class="footer-widget__list" style="color: #800080;">
-                                <li>Calle Berrizbeitia con avenida <br> Jose Antonio Paez, El Paraiso <br> (Caracas, Venezuela)</li>
-                                <li><a href="mailto:contact@pulpodin.com" class="hover-style-link">contacto@pulpodin.com</a></li>
-                                <li><a href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0" class="hover-style-link text-black font-weight--bold">(+58)4129948381</a></li>
-                                <li><a href="https://principal.pulpodin.com" class="hover-style-link text-color-primary">www.pulpodin.com</a></li>
+                        <div class="col-lg-2 col-md-4 col-sm-6 footer-widget" style="font-weight: 400; font-family: 'anton', sans-serif;">
+                            <h6 class="footer-widget__title mb-20" style="font-weight: 400; font-family: 'anton', sans-serif;" >Dirección y Contacto</h6>
+                            <ul class="footer-widget__list" style="color: #7601d8;">
+                                <li>Calle Berrizbeitia con avenida <br> Jose Antonio Paez, El Paraiso <br> (Caracas,
+                                    Venezuela)</li>
+                                <li><a href="mailto:contact@pulpodin.com" class="hover-style-link">contacto@pulpodin.com</a>
+                                </li>
+                                <li><a href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0"
+                                        class="hover-style-link text-black font-weight--bold" style="font-weight: 400; font-family: 'anton', sans-serif;">(+58)4129948381</a></li>
+                                <li><a href="https://principal.pulpodin.com"
+                                        class="hover-style-link text-color-primary" style="color: #7601d8; text-shadow: #000000;">www.pulpodin.com</a></li>
                             </ul>
                         </div>
-                        
-                        
+    
+    
                     </div>
                 </div>
             </div>
-            <div class="footer-copyright-area section-space--pb_30">
+            <div class="footer-copyright-area section-space--pb_30" style="font-weight: 400; font-family: 'anton', sans-serif;">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-6 text-center text-md-start">
-                            <span class="copyright-text" style="color: #800080;">&copy; 2024 Pulpodin. <a style="color: #800080;" href="https://hasthemes.com/">All Rights Reserved.</a></span>
+                            <span class="copyright-text" style="color: #7601d8;">&copy; 2024 Pulpodin. <a
+                                    style="color: #7601d8;">All Rights Reserved.</a></span>
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <ul class="list ht-social-networks solid-rounded-icon">
     
-                              <!--  <li class="item">
+                                <!--  <li class="item">
                                     <a href="https://twitter.com" target="_blank" aria-label="Twitter" class="social-link hint--bounce hint--top hint--primary">
                                         <i class="fab fa-twitter link-icon"></i>
                                     </a>
                                 </li>-->
                                 <li class="item">
-                                    <a  href="https://www.facebook.com/profile.php?id=100071454318735&mibextid=LQQJ4d" target="_blank" aria-label="Facebook" class="social-link hint--bounce hint--top hint--primary">
-                                        <i style="color: #800080;" class="fab fa-facebook-f link-icon"></i>
+                                    <a href="https://www.facebook.com/profile.php?id=100071454318735&mibextid=LQQJ4d"
+                                        target="_blank" aria-label="Facebook"
+                                        class="social-link hint--bounce hint--top hint--primary">
+                                        <i style="color: #000000;" class="fab fa-facebook-f link-icon"></i>
                                     </a>
                                 </li>
                                 <li class="item">
-                                    <a style="color: #800080;" href="https://www.instagram.com/pulpodin?igsh=MWV2dHduZmh4MHJiNA%3D%3D&utm_source=qr" target="_blank" aria-label="Instagram" class="social-link hint--bounce hint--top hint--primary">
+                                    <a style="color: #020202;"
+                                        href="https://www.instagram.com/pulpodin?igsh=MWV2dHduZmh4MHJiNA%3D%3D&utm_source=qr"
+                                        target="_blank" aria-label="Instagram"
+                                        class="social-link hint--bounce hint--top hint--primary">
                                         <i class="fab fa-instagram link-icon"></i>
                                     </a>
                                 </li>
@@ -548,297 +732,117 @@
                 </div>
             </div>
         </div>
-        <!--====================  End of footer area  ====================-->
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    <!--====================  scroll top ====================-->
-    <a href="#" class="scroll-top" id="scroll-top">
-        <i class="arrow-top fas fa-chevron-up"></i>
-        <i class="arrow-bottom fas fa-chevron-up"></i>
-    </a>
-    <!--====================  End of scroll top  ====================-->
-
-
-    <!--====================  mobile menu overlay ====================-->
-    <div class="mobile-menu-overlay" id="mobile-menu-overlay">
-        <div class="mobile-menu-overlay__inner">
-            <div class="mobile-menu-overlay__header">
+        <!--====================  scroll top ====================-->
+        <a href="#" class="scroll-top" id="scroll-top">
+            <i class="arrow-top fas fa-chevron-up"></i>
+            <i class="arrow-bottom fas fa-chevron-up"></i>
+        </a>
+        <!--====================  End of scroll top  ====================-->
+    
+    
+    
+        <!--====================  mobile menu overlay ====================-->
+        <div class="mobile-menu-overlay" id="mobile-menu-overlay">
+            <div class="mobile-menu-overlay__inner">
+                <div class="mobile-menu-overlay__header">
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 col-8">
+                                <!-- logo -->
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img style="top: -35px;" src="assets/images/hero/logo-principal.png"
+                                            class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-4">
+                                <!-- mobile menu content -->
+                                <div class="mobile-menu-content text-end">
+                                    <span class="mobile-navigation-close-icon" id="mobile-menu-close-trigger"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-menu-overlay__body">
+                    <nav class="offcanvas-navigation offcanvas-navigation--onepage">
+                        <ul>
+                            <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
+                                    href="index.html">INICIO</a></li>
+    
+                            <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
+                                    href="#section-demos">SERVICIOS</a></li>
+    
+                            <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
+                                    href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0">SUPPORT</a>
+                            </li>
+    
+    
+    
+                            <li class="">
+                                <a style="font-family: 'anton', sans-serif; font-size: 20px;"
+                                    href="contact-us.html"><span>CONTACTO</span></a>
+                            </li>
+                        </ul>
+                        </li>
+    
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!--====================  End of mobile menu overlay  ====================-->
+    
+    
+    
+    
+    
+        <!--====================  search overlay ====================-->
+        <div class="search-overlay" id="search-overlay">
+    
+            <div class="search-overlay__header">
                 <div class="container-fluid">
                     <div class="row align-items-center">
-                        <div class="col-md-6 col-8">
-                            <!-- logo -->
-                            <div class="logo">
-                                <a href="index.html">
-                                    <img src="assets/images/logo/logo-dark.webp" class="img-fluid" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-4">
-                            <!-- mobile menu content -->
-                            <div class="mobile-menu-content text-end">
-                                <span class="mobile-navigation-close-icon" id="mobile-menu-close-trigger"></span>
+                        <div class="col-md-6 ms-auto col-4">
+                            <!-- search content -->
+                            <div class="search-content text-end">
+                                <span class="mobile-navigation-close-icon" id="search-close-trigger"></span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="mobile-menu-overlay__body">
-                <nav class="offcanvas-navigation">
-                    <ul>
-                        <li class="has-children">
-                            <a href="index.html">Home</a>
-                            <ul class="sub-menu">
-                                <li><a href="index-infotechno.html"><span>Infotechno</span></a></li>
-                                <li><a href="index-processing.html"><span>Processing</span></a></li>
-                                <li><a href="index-appointment.html"><span>Appointment</span></a></li>
-                                <li><a href="index-services.html"><span>Services</span></a></li>
-                                <li><a href="index-resolutions.html"><span>Resolutions</span></a></li>
-                                <li><a href="index-cybersecurity.html"><span>cybersecurity</span></a></li>
-                                <li><a href="index-modern-it-company.html"><span>Modern IT Company</span></a></li>
-                                <li><a href="index-machine-learning.html"><span>Machine Learning</span></a></li>
-                                <li><a href="index-software-innovation.html"><span>Software Innovation</span></a></li>
-                            </ul>
-                        </li>
-                        <li class="has-children">
-                            <a href="#">Company</a>
-                            <ul class="sub-menu">
-                                <li class="has-children">
-                                    <a href="about-us-01.html"><span>About us</span></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="about-us-01.html"><span>About us 01</span></a></li>
-                                        <li><a href="about-us-02.html"><span>About us 02</span></a></li>
-                                        <li class="has-children">
-                                            <a href="#"><span>Submenu Level Two</span></a>
-                                            <ul class="sub-menu">
-                                                <li><a href="#"><span>Submenu Level Three</span></a></li>
-                                                <li><a href="#"><span>Submenu Level Three</span></a></li>
-                                                <li><a href="#"><span>Submenu Level Three</span></a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact-us.html"><span>Contact us</span></a></li>
-                                <li><a href="leadership.html"><span>Leadership</span></a></li>
-                                <li><a href="why-choose-us.html"><span>Why choose us</span></a></li>
-                                <li><a href="our-history.html"><span>Our history</span></a></li>
-                                <li><a href="faqs.html"><span>FAQs</span></a></li>
-                                <li><a href="careers.html"><span>Careers</span></a></li>
-                                <li><a href="pricing-plans.html"><span>Pricing plans</span></a></li>
-                            </ul>
-                        </li>
-                        <li class="has-children">
-                            <a href="#">IT solutions</a>
-                            <ul class="sub-menu">
-                                <li><a href="it-services.html"><span>IT Services</span></a></li>
-                                <li><a href="managed-it-service.html"><span>Managed IT Services</span></a></li>
-                                <li><a href="industries.html"><span>Industries</span></a></li>
-                                <li><a href="business-solution.html"><span>Business solution</span></a></li>
-                                <li><a href="it-services-details.html"><span>IT Services Details</span></a></li>
-                            </ul>
-                        </li>
-                        <li class="has-children">
-                            <a href="#">Elements</a>
-                            <ul class="sub-menu">
-                                <li class="has-children">
-                                    <a href="#">Element Group 01</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="element-accordion.html"><span>Accordions & Toggles</span></a></li>
-                                        <li><a href="element-box-icon.html"><span>Box Icon</span></a></li>
-                                        <li><a href="element-box-image.html"><span>Box Image</span></a></li>
-                                        <li><a href="element-box-large-image.html"><span>Box Large Image</span></a></li>
-                                        <li><a href="element-buttons.html"><span>Buttons</span></a></li>
-                                        <li><a href="element-cta.html"><span>Call to action</span></a></li>
-                                        <li><a href="element-client-logo.html"><span>Client Logo</span></a></li>
-                                        <li><a href="element-countdown.html"><span>Countdown</span></a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-children">
-                                    <a href="#">Element Group 02</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="element-counters.html"><span>Counters</span></a></li>
-                                        <li><a href="element-dividers.html"><span>Dividers</span></a></li>
-                                        <li><a href="element-flexible-image-slider.html"><span>Flexible image slider</span></a></li>
-                                        <li><a href="element-google-map.html"><span>Google Map</span></a></li>
-                                        <li><a href="element-gradation.html"><span>Gradation</span></a></li>
-                                        <li><a href="element-instagram.html"><span>Instagram</span></a></li>
-                                        <li><a href="element-lists.html"><span>Lists</span></a></li>
-                                        <li><a href="element-message-box.html"><span>Message box</span></a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-children">
-                                    <a href="#">Element Group 03</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="element-popup-video.html"><span>Popup Video</span></a></li>
-                                        <li><a href="element-pricing-box.html"><span>Pricing Box</span></a></li>
-                                        <li><a href="element-progress-bar.html"><span>Progress Bar</span></a></li>
-                                        <li><a href="element-progress-circle.html"><span>Progress Circle</span></a></li>
-                                        <li><a href="element-rows-columns.html"><span>Rows & Columns</span></a></li>
-                                        <li><a href="element-social-networks.html"><span>Social Networks</span></a></li>
-                                        <li><a href="element-tabs.html"><span>Tabs</span></a></li>
-                                        <li><a href="element-team-member.html"><span>Team member</span></a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-children">
-                                    <a href="#">Element Group 04</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="element-testimonials.html"><span>Testimonials</span></a></li>
-                                        <li><a href="element-timeline.html"><span>Timeline</span></a></li>
-                                        <li><a href="element-carousel-sliders.html"><span>Carousel Sliders</span></a></li>
-                                        <li><a href="element-typed-text.html"><span>Typed Text</span></a></li>
-                                    </ul>
-                                </li>
-
-                            </ul>
-                        </li>
-                        <li class="has-children">
-                            <a href="javascript:void(0)">Case Studies</a>
-                            <ul class="sub-menu">
-                                <li><a href="case-studies.html"><span>Case Studies 01</span></a></li>
-                                <li><a href="case-studies-02.html"><span>Case Studies 02</span></a></li>
-                                <li><a href="single-smart-vision.html"><span>Single Layout</span></a></li>
-                            </ul>
-                        </li>
-                        <li class="has-children">
-                            <a href="javascript:void(0)">Blogs</a>
-                            <ul class="sub-menu">
-                                <li><a href="blog-list-large-image.html"><span>List Large Image</span></a></li>
-                                <li><a href="blog-list-left-large-image.html"><span>Left Large Image</span></a></li>
-                                <li><a href="blog-grid-classic.html"><span>Grid Classic</span></a></li>
-                                <li><a href="blog-grid-masonry.html"><span>Grid Masonry</span></a></li>
-                                <li class="has-children">
-                                    <a href="blog-post-layout-one.html"><span>Single Layouts</span></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog-post-layout-one.html"><span>Left Sidebar</span></a></li>
-                                        <li><a href="blog-post-right-sidebar.html"><span>Right Sidebar</span></a></li>
-                                        <li><a href="blog-post-no-sidebar.html"><span>No Sidebar</span></a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </div>
-    <!--====================  End of mobile menu overlay  ====================-->
-
-
-
-
-
-
-
-    <!--====================  search overlay ====================-->
-    <div class="search-overlay" id="search-overlay">
-
-        <div class="search-overlay__header">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-md-6 ms-auto col-4">
-                        <!-- search content -->
-                        <div class="search-content text-end">
-                            <span class="mobile-navigation-close-icon" id="search-close-trigger"></span>
-                        </div>
+            <div class="search-overlay__inner">
+                <div class="search-overlay__body">
+                    <div class="search-overlay__form">
+                        <form action="#">
+                            <input type="text" placeholder="Search">
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="search-overlay__inner">
-            <div class="search-overlay__body">
-                <div class="search-overlay__form">
-                    <form action="#">
-                        <input type="text" placeholder="Search">
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--====================  End of search overlay  ====================-->
-
-    <!-- JS
-    ============================================ -->
-    <!-- Modernizer JS -->
-    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
-
-    <!-- jQuery JS -->
-    <script src="assets/js/vendor/jquery-3.5.1.min.js"></script>
-    <script src="assets/js/vendor/jquery-migrate-3.3.0.min.js"></script>
-
-    <!-- Bootstrap JS -->
-    <script src="assets/js/vendor/bootstrap.min.js"></script>
-
-    <!-- wow JS -->
-    <script src="assets/js/plugins/wow.min.js"></script>
-
-    <!-- Swiper Slider JS -->
-    <script src="assets/js/plugins/swiper.min.js"></script>
-
-    <!-- Light gallery JS -->
-    <script src="assets/js/plugins/lightgallery.min.js"></script>
-
-    <!-- Waypoints JS -->
-    <script src="assets/js/plugins/waypoints.min.js"></script>
-
-    <!-- Counter down JS -->
-    <script src="assets/js/plugins/countdown.min.js"></script>
-
-    <!-- Isotope JS -->
-    <script src="assets/js/plugins/isotope.min.js"></script>
-
-    <!-- Masonry JS -->
-    <script src="assets/js/plugins/masonry.min.js"></script>
-
-    <!-- ImagesLoaded JS -->
-    <script src="assets/js/plugins/images-loaded.min.js"></script>
-
-    <!-- Wavify JS -->
-    <script src="assets/js/plugins/wavify.js"></script>
-
-    <!-- jQuery Wavify JS -->
-    <script src="assets/js/plugins/jquery.wavify.js"></script>
-
-    <!-- circle progress JS -->
-    <script src="assets/js/plugins/circle-progress.min.js"></script>
-
-    <!-- counterup JS -->
-    <script src="assets/js/plugins/counterup.min.js"></script>
-
-    <!-- animation text JS -->
-    <script src="assets/js/plugins/animation-text.min.js"></script>
-
-    <!-- Vivus JS -->
-    <script src="assets/js/plugins/vivus.min.js"></script>
-
-    <!-- Some plugins JS -->
-    <script src="assets/js/plugins/some-plugins.js"></script>
-
-    <!-- Jquery Validate JS -->
-    <script src="assets/js/plugins/jquery.validate.min.js"></script>
-
-    <!-- Ajax JS -->
-    <script src="assets/js/plugins/ajax.js"></script>
-
-
-    <!-- Plugins JS (Please remove the comment from below plugins.min.js for better website load performance and remove plugin js files from avobe) -->
-
-    <!--         
-    <script src="assets/js/plugins/plugins.min.js"></script> 
-    -->
-
-    <!-- Main JS -->
-    <script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
+    
+        <!-- JS
+        ============================================ -->
+        <!-- Modernizer JS -->
+        <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    
+        <!-- jQuery JS -->
+        <script src="assets/js/vendor/jquery-3.5.1.min.js"></script>
+        <script src="assets/js/vendor/jquery-migrate-3.3.0.min.js"></script>
+    
+        <!-- Bootstrap JS -->
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
+    
+        <!-- Plugins JS (Please remove the comment from below plugins.min.js for better website load performance and remove plugin js files from avobe) -->
+    
+        <script src="assets/js/plugins/plugins.min.js"></script>
+    
+        <!-- Main JS -->
+        <script src="assets/js/main.js"></script>
+    
+    </body>
+    
+    </html>
