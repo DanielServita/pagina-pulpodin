@@ -8044,6 +8044,7 @@ ol {
 .center-plexible-row .swiper-slide {
   width: auto;
 }
+
 .center-plexible-row .single-flexible-slider img {
   height: 400px;
   /*width: auto;*/
@@ -14689,7 +14690,7 @@ blockquote {
 
 .team-member {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra leve alrededor del marco */
-  border-radius: 8px; /* Opcional: agrega esquinas redondeadas */
+   /* Opcional: agrega esquinas redondeadas */
   overflow: hidden; /* Asegura que la sombra no se desborde */
   transition: box-shadow 0.3s ease; /* Transición suave para la sombra */
 }
@@ -14714,6 +14715,11 @@ blockquote {
   color: #FFEB00; /* Color amarillo */
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); /* Sombra para el texto del párrafo */
 }
+
+.team-row.no-space .col-lg-3,
+.team-row.no-space .col-md-6 { padding: 0; /* Sin espacios entre columnas */ }
+
+.preview-header-inner.header-sticky { background-color: #FFEB00; }
 
 .section-title-wrap h3 {
   font-family: 'Anton', sans-serif; /* Asegúrate de que esta fuente esté cargada */
