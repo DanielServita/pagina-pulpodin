@@ -1440,6 +1440,11 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   background-image: url(../images/hero/fondo-paquetes-mark.png);
   background-size: cover;
 }
+.section-space--pt_172 {
+  padding-top: 100px;
+  background-image: url(../images/hero/audiovisual_transformamos\ tus\ ideas.png);
+  background-size: cover;
+}
 
 .section-space--pt_162 {
   padding-top: 100px;
