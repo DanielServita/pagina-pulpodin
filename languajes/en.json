@@ -1,0 +1,575 @@
+{
+  "primary header": {
+    "HOME": "HOME",
+    "SERVICES": "SERVICES",
+    "WHO WE ARE": "WHO WE ARE",
+    "CONTACT": "CONTACT",
+    "Online 24/7": "Online 24/7",
+    "Email": "Email",
+    "DAYS": "Monday to Saturday"
+  },
+
+  "section hero": {
+    "sub_heading": "BOOST YOUR BRAND",
+    "main_heading": "3D Printing",
+    "info_heading": "We design customized 3D solutions that transform your ideas into impactful and realistic visual experiences.",
+    "button_text": "See More"
+  },
+
+  "fun facts": {
+    "clientes_satisfechos_count": "1970",
+    "clientes_satisfechos_text": "Satisfied Clients",
+    "proyectos_count": "491",
+    "proyectos_text": "Projects",
+    "modelados_count": "245",
+    "modelados_text": "Models",
+    "impresiones_count": "1090",
+    "impresiones_text": "Prints"
+  },
+
+  "machine learning": {
+    "sub_title": "Get to know our 3D printing department",
+    "heading": "If you can imagine it, we can print it with the highest quality",
+    "description": "Our 3D printing service ranges from prototype creation to final part production, adapting to the specific needs of each client. Whether you need a unique model for a special project or a series of components for your business, at Pulpodin we are prepared to help you achieve your goals.",
+    "button_text": "Check our service"
+  },
+
+  "why choose us": {
+    "sub_title": "Why Choose Us?",
+    "heading": "We create personalized designs to your liking",
+    "technology_title": "Advanced 3D Printing Technology:",
+    "technology_text": "At Pulpodin, we use state-of-the-art 3D printing technology to bring your ideas to life with precision and speed. Our advanced printers can handle complex designs, ensuring that every detail is captured just as you imagined.",
+    "customization_title": "Customization Experts:",
+    "customization_text": "Imagination is the only limit when it comes to Pulpodin's customization capabilities. Our team of designers works closely with you to create custom 3D models that meet your exact specifications.",
+    "eco_solutions_title": "Eco-friendly Solutions",
+    "eco_solutions_text": "At Pulpodin, we are committed to sustainability in our 3D printing processes. We use eco-friendly materials and adopt practices that minimize waste without compromising quality."
+  },
+
+  "contact us": {
+    "heading": "We print your ideas in 3D with precision and quality"
+  },
+
+  "gallery": {
+    "title": "Discover our gallery",
+    "description": "We specialize in creating unique solutions through 3D printing, offering a wide range of custom prints that span from industrial prototypes to decorative objects. Our gallery showcases the versatility and precision of our prints, highlighting product engineering, custom design, and innovative applications across various sectors. Explore our collection and discover how we turn ideas into three-dimensional reality.",
+    "material_pop": "P.O.P Material",
+    "logos": "Logos",
+    "engineering": "Engineering",
+    "custom_designs": "Custom Designs"
+  },
+
+  "testimonials": {
+    "title": "Customer Testimonials",
+    "testimonial1_text": "“I am absolutely delighted with Pulpodin's 3D printing service. From the first contact, the team was incredibly professional and attentive to my needs.”",
+    "testimonial1_author": "Corporation",
+    "testimonial1_company": "Make Group",
+    "testimonial2_text": "Pulpodin's 3D printing service has been exceptional. The quality of the products and attention to detail exceeded our expectations. Thanks to their team, we have been able to innovate and improve our internal processes. Highly recommended!",
+    "testimonial2_author": "Entrepreneur",
+    "testimonial2_company": "Quoka"
+  },
+
+  "menu": {
+    "3d_printing": "3D Printing",
+    "software_innovation1": "Software Innovation",
+    "marketing": "Marketing",
+    "software_innovation2": "Software Innovation",
+    "sublimado": "Sublimation",
+    "audiovisual": "Audiovisual",
+    "graphic_design": "Graphic Design"
+  },
+
+  "navigation": {
+    "home": "HOME",
+    "services": "SERVICES",
+    "3d_printing": "3D Printing",
+    "software_innovation": "Software Innovation",
+    "marketing": "Marketing",
+    "sublimado": "Sublimation",
+    "audiovisual": "Audiovisual",
+    "graphic_design": "Graphic Design",
+    "contact": "CONTACT"
+  },
+
+  "web services": {
+    "sub_heading": "WE BOOST YOUR BRAND",
+    "main_heading": "Web Services",
+    "info_heading": "We create custom web solutions that drive growth and enhance your business's digital experience.",
+    "button_text": "Learn More"
+  },
+
+  "tech solutions": {
+    "heading": "Innovative Tech Solutions Cutting-Edge Web and App Development",
+    "text": "Our web and mobile app development projects stand out for their innovation and efficiency. We analyze and present success stories that offer your clients, partners, and visitors a deep understanding of the latest technological trends. Our comprehensive approach and expert advice ensure that your audience gets the maximum benefit, keeping them always interested and engaged."
+  },
+
+  "tech services": {
+    "sub_title": "TECHNOLOGICAL SOLUTIONS",
+    "main_heading": "Pulpodin offers you specialized services",
+    "button_text": "Consult here"
+  },
+
+  "virtual store development": {
+    "title": "Virtual Store Development",
+    "more_info": "More information"
+  },
+
+  "remote access management": {
+    "title": "Remote Access Implementation and Management (RDP)",
+    "more_info": "More information"
+  },
+
+  "database management": {
+    "title": "Database Management and Development",
+    "more_info": "More information"
+  },
+
+  "web application development": {
+    "title": "Web Application Development",
+    "more_info": "More information"
+  },
+
+  "cms development": {
+    "title": "Web Development with Content Management Systems (CMS)",
+    "more_info": "More information"
+  },
+
+  "custom systems design": {
+    "title": "Custom Systems Analysis and Design",
+    "more_info": "More information"
+  },
+
+  "mobile app development": {
+    "title": "Mobile App Development (iOS/Android)",
+    "more_info": "More information"
+  },
+
+  "static web development": {
+    "title": "Static Web Design and Development",
+    "more_info": "More information"
+  },
+
+  "business solutions": {
+    "sub_title": "Solutions tailored to your business",
+    "main_heading": "Advanced technology to boost your growth",
+    "button_text": "More Information"
+  },
+
+  "projects-image-box": {
+    "heading": "Enhance the Customer Experience",
+    "text": "We develop technological solutions that improve the way your customers interact with your company, from mobile applications to websites that create an efficient experience."
+  },
+  "projects-image-box-2": {
+    "heading": "Comprehensive Web Solutions",
+    "text": "At Pulpodin, we design and develop all kinds of web solutions, from informational sites to CMS platforms and virtual stores, ensuring that your online presence is solid and effective."
+  },
+  "projects-image-box-3": {
+    "heading": "System Development and Management",
+    "text": "We offer analysis, design, and custom system development services, as well as databases and web applications that optimize your business management and prepare it for the future."
+  },
+
+  "section-under-heading": {
+    "section-under-heading": "Boost your company's growth with our team of experts."
+  },
+  "link-text": {
+    "link-text": "Start now"
+  },
+
+  "fun-fact__text": {
+    "clientes": "Clients Who Trust Us",
+    "proyectos": "Projects Successfully Completed",
+    "profesionales": "Professionals at Your Service",
+    "publicaciones": "Relevant Publications"
+  },
+
+  "hero-sub-heading": {
+    "impulsa-marca": "BOOST YOUR BRAND"
+  },
+  "hero-heading": {
+    "marketing-pulpodin": "Marketing PulpoDin"
+  },
+  "hero-info-heading": {
+    "servicios-integrales": "We offer comprehensive services that develop and maintain solutions for your business success"
+  },
+  "hero-button": {
+    "ver-mas": "See More"
+  },
+
+  "sub-title": {
+    "innovacion-estrategia": "INNOVATION AND STRATEGY AT YOUR SERVICE"
+  },
+  "heading3": {
+    "marketing-digital": "Personalized digital marketing for exceptional results"
+  },
+  "description": {
+    "pulpodin-description": "At Pulpodin, we understand that every company is unique. That's why our Digital Marketing Department is dedicated to designing tailored strategies that not only position your brand in the market but also create genuine connections with your audience. We specialize in transforming your digital presence, optimizing every aspect to ensure you achieve results that exceed your expectations. With an integrated and personalized approach, we help you stand out in today's competitive digital environment and achieve the success your business deserves."
+  },
+
+  "sub-title2": {
+    "estrategias-necesidades": "STRATEGIES TAILORED TO YOUR NEEDS"
+  },
+  "heading4": {
+    "marketing-exito": "Digital marketing tailored for the success of your company"
+  },
+  "button": {
+    "solicita-asesoria": "Request a consultation"
+  },
+
+  "social-heading": {
+    "gestion-redes": "Social Media Management"
+  },
+  "social-text": {
+    "descripcion-redes": "We manage your social media, creating content and fostering an active community. We adjust strategies to maximize impact."
+  },
+
+  "social-heading-2": {
+    "asesoria-redes": "Social Media Consulting"
+  },
+  "social-text-2": {
+    "descripcion-asesoria": "We guide you to optimize your social media strategy, improving your presence with effective practices."
+  },
+
+  "ads-heading": {
+    "campanas-publicitarias": "Advertising campaigns"
+  },
+  "ads-text": {
+    "descripcion-campanas": "We create optimized advertising campaigns on Google Ads, Facebook Ads, and Instagram Ads to maximize your return on investment."
+  },
+
+  "content-strategy-heading": {
+    "estrategia-contenido": "Content Strategies"
+  },
+  "content-strategy-text": {
+    "descripcion-contenido": "We design content based on audience analysis to attract and convert potential clients."
+  },
+
+  "seo-heading": {
+    "seo-sem": "SEO and SEM"
+  },
+  "seo-text": {
+    "descripcion-seo": "We position your site on search engines through SEO and SEM campaigns, attracting more potential clients."
+  },
+
+  "email-heading": {
+    "email-marketing": "Email Marketing"
+  },
+  "email-text": {
+    "descripcion-email": "We develop email marketing campaigns to maintain relationships with your clients and foster their loyalty."
+  },
+
+  "projects-sub-title": {
+    "soluciones-adaptadas": "Solutions that adapt to you"
+  },
+  "projects-heading": {
+    "paquetes-exclusivos": "Our exclusive digital marketing packages"
+  },
+  "projects-button": {
+    "contactanos": "Contact us"
+  },
+  "package-heading-1": {
+    "paquete-pulpillo": "Pulpillo Package"
+  },
+  "package-text-1": {
+    "descripcion-pulpillo": "This package is ideal for small businesses that are just starting to manage their social media or looking to maintain a constant and basic online presence. Optimizing the Biography and regular posts help keep the profile active and attractive to followers."
+  },
+  "package-heading-2": {
+    "paquete-pulpo": "Pulpo Package"
+  },
+  "package-text-2": {
+    "descripcion-pulpo": "This package is suitable for medium-sized businesses looking for greater interaction with their audience and more frequent content. Additional visits for content creation allow for a more dynamic and authentic presence."
+  },
+  "package-heading-3": {
+    "paquete-pulpon": "Pulpon Package"
+  },
+  "package-text-3": {
+    "descripcion-pulpon": "This package is designed for large companies or brands that want a strong presence on social media. The high frequency of posts and visits for content creation ensures that the profile is constantly updated with fresh and attractive content, and provides personalized attention to followers."
+  },
+
+  "cta-final": {
+    "cta-text": "Start today with a plan designed for your business's success."
+  },
+  "cta-link": {
+    "exito-negocio": "your business's success."
+  },
+
+  "fun-fact-1": {
+    "clientes-satisfechos": "Satisfied Clients"
+  },
+  "fun-fact-2": {
+    "proyectos-finalizados": "Completed Projects"
+  },
+  "fun-fact-3": {
+    "nuestros-expertos": "Our Experts"
+  },
+  "fun-fact-4": {
+    "post-realizados": "Posts Made"
+  },
+
+  "portfolio-sub-title": {
+    "nuestro-portafolio": "OUR PORTFOLIO"
+  },
+  "portfolio-heading": {
+    "proyectos-exito": "Projects that define our success"
+  },
+  "project-title-1": {
+    "lanzamiento-producto": "Digital product launch for TechSolutions"
+  },
+  "project-category-1": {
+    "marketing-digital": "Digital Marketing"
+  },
+  "project-description-1": {
+    "lanzamiento-descripcion": "We managed the digital launch of a new product for TechSolutions, online advertising campaigns, and content marketing strategies. The goal was to generate anticipation and capture potential clients."
+  },
+  "project-title-2": {
+    "optimizacion-seo": "SEO Optimization for EcoFriendly"
+  },
+  "project-category-2": {
+    "marketing-digital": "Digital Marketing"
+  },
+  "project-description-2": {
+    "seo-descripcion": "We implemented an SEO optimization strategy for EcoFriendly, improving their search engine ranking. We conducted a full website audit, keyword optimization, and relevant content creation to increase organic traffic."
+  },
+  "project-title-3": {
+    "email-marketing": "Email marketing campaign for HealthFirst"
+  },
+  "project-category-3": {
+    "marketing-digital": "Digital Marketing"
+  },
+  "project-description-3": {
+    "email-marketing-descripcion": "We designed and executed an email marketing campaign for HealthFirst, focused on nurturing leads and converting subscribers into clients. We used advanced segmentation and personalized content to maximize the open and conversion rates."
+  },
+  "project-title-4": {
+    "estrategia-redes": "Social Media Strategy for InnovateCorp"
+  },
+  "project-category-4": {
+    "marketing-digital": "Digital Marketing"
+  },
+  "project-description-4": {
+    "estrategia-redes-descripcion": "We developed a comprehensive social media strategy for InnovateCorp, including creating engaging content and managing profiles. The goal was to increase brand visibility and interaction with their audience."
+  },
+  "cta-portfolio": {
+    "proximo-exito": "Your next success starts here."
+  },
+  "cta-link2": {
+    "atrevete": "dare to take the first step!"
+  },
+
+  "blog-sub-title": {
+    "no-te-pierdas-nada": "DON'T MISS OUT"
+  },
+  "blog-heading": {
+    "ultimas-estrategias": "The latest in digital strategies"
+  },
+  "post-title-1": {
+    "automatizacion-marketing": "Marketing Automation"
+  },
+  "post-excerpt-1": {
+    "descripcion-automatizacion": "Marketing automation is one of the most powerful tools in current digital marketing. It uses software to automate repetitive tasks such as sending emails, scheduling social media posts, and managing advertising campaigns. Tools like HubSpot, Marketo, and ActiveCampaign allow companies to personalize communication with customers on a large scale, improve operational efficiency, and increase conversion rates. With automation, marketing teams can focus on more creative strategies and data-driven decision making."
+  },
+  "post-title-2": {
+    "marketing-datos": "Data-Driven Marketing"
+  },
+  "post-excerpt-2": {
+    "descripcion-marketing-datos": "Data-driven marketing is a crucial trend in today's digital landscape, where information is key to success. This approach uses large volumes of data (Big Data) and advanced analytics to make informed and precise decisions in marketing strategies. Tools like Google Analytics, Tableau, and Power BI facilitate the collection, analysis, and visualization of customer data, enabling companies to optimize campaigns, segment audiences, and maximize return on investment (ROI). Data-driven marketing helps to better understand customers and tailor strategies to meet their specific needs."
+  },
+  "post-title-3": {
+    "realidad-aumentada": "Augmented Reality (AR) and Virtual Reality (VR) in Marketing"
+  },
+  "post-excerpt-3": {
+    "descripcion-realidad-aumentada": "Augmented reality (AR) and virtual reality (VR) are transforming the way brands interact with their consumers, offering immersive experiences that capture attention and generate engagement. These technologies allow users to experience products or services in a virtual environment before making a purchase decision. For example, IKEA uses AR to enable customers to visualize how furniture would look in their homes, while fashion brands use VR to offer virtual fashion shows."
+  },
+
+  "cta-heading2": {
+    "transforma-negocio": "Transform your business with our digital strategies"
+  },
+  "cta-button2": {
+    "informacion": "Information"
+  },
+
+  
+    "sublimation-sub-heading": {
+      "impulsamos-marca": "WE BOOST YOUR BRAND"
+    },
+    "sublimation-heading": {
+      "sublimado-material-pop": "Sublimation POP Material"
+    },
+    "sublimation-info-heading": {
+      "descripcion-sublimado": "We offer comprehensive sublimation services that bring your ideas to life and strengthen your brand identity with vibrant and durable designs."
+    },
+    "sublimation-button": {
+      "ver-mas": "See More"
+    },
+    
+        "sub-title3": {
+          "conoce-sublimado": "Get to know our sublimation department"
+        },
+        "heading5": {
+          "creatividad-calidad": "Your creativity, our sublimation unsurpassed quality in every detail"
+        },
+        "sub-heading": {
+          "sublimado-pulpodin": "PulpoDin Sublimation"
+        },
+        "description2": {
+          "descripcion-servicio": "Our sublimation service covers everything from creating custom designs to producing unique pieces, adapting to the specific needs of each client. Whether you need a special item for an event or a series of personalized products for your business, at Pulpodin we are ready to help you materialize your ideas with the highest quality and detail."
+        },
+        "button3": {
+          "consulta-servicio": "Check out our service"
+    
+      },
+      
+      
+        "cta-heading3": {
+          "calidad-sublimado": "Discover the best quality in sublimation, guaranteed to impress"
+        },
+        "cta-button3": {
+          "mas-informacion": "More Information"
+        },
+      
+      
+  
+
+  "section-sub-title": {
+    "logros": "OUR ACHIEVEMENTS"
+  },
+  "heading": {
+    "proyectos": "Projects that demonstrate our excellence"
+  },
+
+  "project-heading-1": {
+    "MakeTicket": "MakeTicket"
+  },
+  "project-link-1": {
+    "maketicket-link": "https://www.maketicket.com.ve"
+  },
+  "project-text-1": {
+    "maketicket-description": "This website aims to provide a platform that allows ticket sales, event bookings, and national invitation sends. It also allows managing access control for the entire event."
+  },
+  "project-heading-2": {
+    "E-bango": "E-bango"
+  },
+  "project-link-2": {
+    "ebango-link": "https://panel.e-bango.com/"
+  },
+  "project-text-2": {
+    "ebango-description": "It is a platform that allows investing in multiple currencies and precious metals, generating profits through small percentages. Additionally, users can earn commissions by referring new clients who invest in the platform."
+  },
+  "project-heading-3": {
+    "EwexCar": "EwexCar"
+  },
+  "project-link-3": {
+    "ewexcar-link": "https://ewexcar.com"
+  },
+  "project-text-3": {
+    "ewexcar-description": "At Ewexcar, we offer a wide selection of vehicles with credit financing plans designed to suit your needs. Our special plans make acquiring the car of your dreams more accessible and convenient."
+  },
+  "section-under-heading2": {
+    "final-heading": "At Pulpodin, we turn challenges into innovative solutions."
+  },
+  "link-text2": {
+    "discover-link": "Discover how!"
+  },
+
+  "technology": {
+    "nuestra-tecnologia": "OUR TECHNOLOGY",
+    "pulpodin-soluciones": "Pulpodin – High-Quality Software Solutions",
+    "descripcion": "At Pulpodin, we are dedicated to offering reliable and effective software solutions, backed by our extensive experience in the most advanced technologies. We specialize in developing solutions that are tailored to the specific needs of each client, ensuring results that help optimize and enhance their operations. Pulpodin is the ideal partner for software outsourcing, providing services that generate value and efficiency."
+  },
+
+  "section-sub-title2": {
+    "actualizaciones-noticias": "UPDATES & NEWS"
+  },
+  "heading2": {
+    "tendencias-tecnologicas": "Technological trends transforming the software sector"
+  },
+
+  "post-title": {
+    "adopcion-ia": "Mass Adoption of Artificial Intelligence (AI)"
+  },
+  "post-excerpt": {
+    "descripcion-ia": "Artificial intelligence is no longer a novelty; it has become an essential component in software development. From automation to predictive analytics, AI is optimizing processes and creating new opportunities to personalize the user experience. At Pulpodin, we are incorporating AI into our solutions to offer faster performance and more informed decisions."
+  },
+
+  "post-title2": {
+    "expansion-nube": "Expansion of Cloud Native Development"
+  },
+  "post-excerpt2": {
+    "descripcion-nube": "Cloud native development is becoming the preferred option for many companies due to its scalability and efficiency. It allows applications to run more efficiently and adapt quickly to changes in demand. At Pulpodin, we are implementing cloud native solutions to ensure our clients can scale their operations seamlessly."
+  },
+
+  "post-title-4": {
+    "aumento-uso": "Increase in the Use of Low-Code/No-Code Platforms"
+  },
+  "post-excerpt-4": {
+    "descripcion-uso": "Low-code and no-code development platforms are democratizing the software creation process, allowing individuals without technical knowledge to develop functional applications. Our team at Pulpodin is already using these tools to streamline the delivery of solutions without compromising quality."
+  },
+
+  "cta-heading": {
+    "cta-text": "We offer a full range of IT services to ensure your success."
+  },
+  "cta-button": {
+    "contactanos": "Contact us"
+  },
+
+  "text banner": {
+    "title": "DIGITAL SOLUTIONS",
+    "text": "CREATIVITY AND TECHNOLOGY THAT MAKES YOU STAND OUT"
+  },
+  "Button banner": {
+    "text": "View Services"
+  },
+  "slider primary": {
+    "title": "Digital Marketing",
+    "text": "Personalized strategies to increase your visibility on social media and digital platforms.",
+    "title2": "E-commerce",
+    "text2": "Comprehensive solutions to create and optimize online stores, facilitating the sale of products and services.",
+    "title3": "Web Applications",
+    "text3": "Development of custom web applications, optimized for performance and usability.",
+    "title4": "Branding",
+    "text4": "Creation and management of visual identity and branding to ensure a coherent and attractive image.",
+    "title5": "3D Printing",
+    "text5": "High-quality 3D printing services for prototypes, custom products, and more.",
+    "title6": "Hybrid Mobile Apps",
+    "text6": "Development of hybrid mobile applications compatible with multiple platforms, ensuring broad reach and functionality."
+  },
+  "first section": {
+    "title": "Explore Our Services",
+    "title2": "Comprehensive Solutions",
+    "title3": " for Your Digital Presence",
+    "title4": "3D Printing",
+    "title5": "Sublimation",
+    "title6": "Graphic Design",
+    "button": "See More"
+  },
+  "mision": {
+    "title": "Our Mission",
+    "text": "At Pulpodin, our mission is to ignite the spark that lights up your brand through comprehensive solutions in digital marketing, graphic design, and 3D technology. We are dedicated to transforming ideas into unforgettable digital experiences that resonate globally. We are passionate about providing superior customer service, always at the forefront of innovation, to offer unique and creative solutions. We believe in designing visual identities that not only capture the eye but also forge deep connections with your audience, driving sustainable and lasting growth. With Pulpodin, your vision transforms into reality in an authentic, vibrant, and memorable way."
+  },
+  "vision": {
+    "title": "Our Vision",
+    "text": "At Pulpodin, our vision is to lead digital innovation and creativity, being recognized for driving brand growth through cutting-edge technological solutions and genuine strategies. We aim to stand out as a sector benchmark, adapting to the changing needs of the digital environment with a personalized, results-oriented approach. We want to be the preferred strategic partner for companies looking to excel and establish authentic connections with their audience in a constantly evolving digital world. We are committed to always staying at the forefront, offering creative and technological solutions that ensure the relevance and sustained success of our clients. In summary, our vision is to inspire and connect, taking brands beyond the imaginable."
+  },
+  "valores": {
+    "title": "Our Values",
+    "text": "At Pulpodin, creativity is the essence that guides each of our projects. We foster innovation and originality, always seeking unique and personalized solutions for each client. Our commitment to excellence drives us to work closely with our clients, exceeding their expectations at every stage of the process. We value authenticity, building strong and reliable relationships based on honesty and transparency. Growth is another of our fundamental values. We focus on the continuous development of both our team and our clients and their brands. We stand out for offering personalized and superior quality customer service, ensuring that each client feels cared for and supported at all times. Technological innovation is key for us; we stay at the forefront of digital and 3D tools, providing modern and effective solutions that drive success in the competitive world of digital marketing. In summary, at Pulpodin, our passion for creativity, commitment to excellence, continuous growth, and technological innovation drives us to transform our clients' vision into a vibrant and successful reality."
+  },
+  "section three": {
+    "title": "Marketing Consultant",
+    "text": "We offer marketing consultancy that generates personalized strategies to improve your business's visibility and performance. Our experience and innovative techniques ensure optimal results.",
+    "title2": "Technology Consultant",
+    "text2": "We provide technology consultancy to implement solutions that optimize your processes and increase operational efficiency. With our professional approach and advanced resources, we take your company to the next level."
+  },
+
+  "section final": {
+    "text1": "Discover the path to digital success with Pulpodin, your innovative software development and marketing startup.",
+    "text2": "Comprehensive growth strategies for your business",
+    "button": "Contact Us"
+  },
+
+  "footer": {
+    "title": "Services",
+    "title2": "Address and Contact",
+    "text1": "Sublimation",
+    "text2": "Graphic Design",
+    "text3": "3D Printing",
+    "text4": "Street Berrizbeitia with Avenue Jose Antonio Paez, El Paraiso (Caracas, Venezuela)"
+  }
+}

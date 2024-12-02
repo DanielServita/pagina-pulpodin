@@ -17031,7 +17031,7 @@ body {
   /* Letras negras */
 }
 
-@media (max-width: 767px) {
+@media (max-width: 100%) {
   .mobile-navigation-icon {
     display: block;
     /* Mostrar el ícono en dispositivos móviles */
@@ -17236,6 +17236,8 @@ body {
     align-items: center;
     flex-wrap: wrap;
   }
+
+  
   
 
 
