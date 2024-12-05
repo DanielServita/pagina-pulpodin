@@ -89,7 +89,10 @@
                                                 data-section="primary header" data-value="WHO WE ARE">QUIENES SOMOS</a>
                                         </li>
 
-
+                                        <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
+                                                href="index-machine-learning-2.html">QUIENES
+                                                SOMOS</a>
+                                        </li>
                                         <li id="flags" style="display: flex; gap: 10px;">
                                             <button class="flags__item" data-language="es"
                                                 onclick="changeLanguage('es')"
@@ -1275,32 +1278,33 @@
         });
     </script>
 
-    <script>
-        function changeLanguage(language) {
-    fetch(`../original%20pulpodin/languajes/${language}.json`)
-        .then(data => {
-            console.log(data);
-            const textToChange = document.querySelectorAll("[data-section]");
-            textToChange.forEach(element => {
-                const section = element.dataset.section;
-                const value = element.dataset.value;
+<script>
+    function changeLanguage(language) {
+        fetch(`../original%20pulpodin/languajes/${language}.json`)
+            .then(response => response.json()) // Convertir la respuesta en JSON
+            .then(data => {
+                console.log(data);
+                const textToChange = document.querySelectorAll("[data-section]");
+                textToChange.forEach(element => {
+                    const section = element.dataset.section;
+                    const value = element.dataset.value;
 
-                if (data[section] && data[section][value]) {
-                    element.textContent = data[section][value];
-                }
-            });
-        })
-        .catch(error => console.error('Error al cambiar el idioma:', error));
-}
+                    if (data[section] && data[section][value]) {
+                        element.textContent = data[section][value];
+                    }
+                });
+            })
+            .catch(error => console.error('Error al cambiar el idioma:', error));
+    }
 
-const langButtons = document.querySelectorAll("[data-language]");
-langButtons.forEach(button => {
-    button.addEventListener("click", () => {
-        changeLanguage(button.dataset.language);
+    const langButtons = document.querySelectorAll("[data-language]");
+    langButtons.forEach(button => {
+        button.addEventListener("click", () => {
+            changeLanguage(button.dataset.language);
+        });
     });
-});
+</script>
 
-    </script>
 
 
 
