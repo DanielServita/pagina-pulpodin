@@ -232,7 +232,7 @@ input {
   outline: none !important;
 }
 
-a:focus {
+a:focus {gid 
   color: inherit;
   outline: none;
   text-decoration: none;
@@ -851,7 +851,6 @@ input[type=checkbox] {
       background-position: center;
   }
 }
-<<<<<<< HEAD
 
 
 .breadcrumb-area-223 {
@@ -953,8 +952,6 @@ input[type=checkbox] {
 
 
 
-=======
->>>>>>> c81c8309e063b6d889e3546df113d42027f00652
 
 .breadcrumb-area-2 {
   padding-top: 114px;
