@@ -85,7 +85,7 @@
                                                 data-value="SERVICES">SERVICIOS</a>
                                         </li>
                                         <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
-                                                href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0"
+                                                href="index-machine-learning-2.html"
                                                 data-section="primary header" data-value="WHO WE ARE">QUIENES SOMOS</a>
                                         </li>
 
@@ -1277,11 +1277,9 @@
 
     <script>
         function changeLanguage(language) {
-    fetch(`../original%20pulpodin/languajes/${language}.json`) // Ajusta la ruta según la estructura del directorio
-        .then(res => res.json())
+    fetch(`../original%20pulpodin/languajes/${language}.json`)
         .then(data => {
             console.log(data);
-            // Aquí actualizamos el contenido del sitio web con los datos del JSON
             const textToChange = document.querySelectorAll("[data-section]");
             textToChange.forEach(element => {
                 const section = element.dataset.section;
