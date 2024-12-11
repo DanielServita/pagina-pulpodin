@@ -235,47 +235,69 @@
                                                     <ul>
                                                         <li class="">
                                                             <a style="font-family: 'anton', sans-serif; font-weight: 400;"
-                                                                href="index.html"><span>INICIO</span></a>
+                                                                href="index.html" data-section="primary header"
+                                                                data-value="HOME">INICIO</a>
 
                                                         </li>
                                                         <li class="has-children has-children--multilevel-submenu">
                                                             <a style="font-family: 'anton', sans-serif; font-weight: 400;"
-                                                                href=""><span>SERVICIOS</span></a>
+                                                                href="" data-section="primary header"
+                                                                data-value="SERVICES">SERVICIOS</a>
                                                             <ul class="submenu">
-                                                                <li><a href="index-machine-learning.html"><span>Impresiones
-                                                                            3D</span></a></li>
-                                                                <li><a href="index-software-innovation.html"><span>Software
-                                                                            Innovation</span></a></li>
+                                                                <li><a href="index-machine-learning.html"><span>IMPRESIONES 3D</span></a></li>
+                                                                <li><a href="index-software-innovation.html"><span>SOFTWARE INNOVATION</span></a></li>
                                                                 <li><a
-                                                                        href="index-software-innovation-2.html"><span>Marketing</span></a>
+                                                                        href="index-software-innovation-2.html"><span>MARKETING</span></a>
                                                                 </li>
                                                                 <li><a
-                                                                        href="index-appointment.html"><span>Sublimado</span></a>
+                                                                        href="index-appointment.html"><span>SUBLIMADO</span></a>
                                                                 </li>
                                                                 <li><a
-                                                                        href="index-processing.html"><span>Audiovisual</span></a>
+                                                                        href="index-processing.html"><span>AUDIOVISUAL</span></a>
                                                                 </li>
-                                                                <li><a href="index-services.html"><span>Diseño
-                                                                            Grafico</span></a></li>
+                                                                <li><a href="index-services.html"><span>DISEÑO GRÁFICO</span></a></li>
 
                                                             </ul>
                                                         </li>
                                                         <li class="">
                                                             <a style="font-family: 'anton', sans-serif; font-weight: 400;"
-                                                                href="contact-us.html"><span>CONTACTO</span></a>
-                                                            <!--  <ul class="submenu">
-                                                                <li>
-                                                                    <a href="about-us-01.html"><span>Sobre Nosotros</span></a>
-                                                                   
-                                                                </li>
-                                                                <li><a href="contact-us.html"><span>Contactanos</span></a></li>
-                                                                <li><a href="why-choose-us.html"><span>¿Por qué escogernos?</span></a></li>
-                                                                <li><a href="our-history.html"><span>Nuesta Historia</span></a></li>
-                                                
-                                                            </ul>-->
+                                                                href="index-machine-learning-2.html" data-section="primary header"
+                                                                data-value="CONTACT">QUIENES SOMOS</a>
+                                                            
+                                                        </li>
+                                                        <li class="">
+                                                            <a style="font-family: 'anton', sans-serif; font-weight: 400;"
+                                                                href="contact-us.html" data-section="primary header"
+                                                                data-value="CONTACT">CONTACTO</a>
+                                                            
                                                         </li>
 
-
+                                                        <li id="flags" style="display: flex; gap: 10px;">
+                                                            <button class="flags__item" data-language="es"
+                                                                onclick="changeLanguage('es')"
+                                                                style="background: none; border: none; padding: 0; cursor: pointer;">
+                                                                <img src="assets/images/hero/es.png" alt="Español"
+                                                                    style="width: 20px; height: auto;">
+                                                            </button>
+                                                            <button class="flags__item" data-language="en"
+                                                                onclick="changeLanguage('en')"
+                                                                style="background: none; border: none; padding: 0; cursor: pointer;">
+                                                                <img src="assets/images/hero/en.png" alt="English"
+                                                                    style="width: 20px; height: auto;">
+                                                            </button>
+                                                            <button class="flags__item" data-language="it"
+                                                                onclick="changeLanguage('it')"
+                                                                style="background: none; border: none; padding: 0; cursor: pointer;">
+                                                                <img src="assets/images/hero/it.png" alt="Italiano"
+                                                                    style="width: 20px; height: auto;">
+                                                            </button>
+                                                            <button class="flags__item" data-language="pt"
+                                                                onclick="changeLanguage('pt')"
+                                                                style="background: none; border: none; padding: 0; cursor: pointer;">
+                                                                <img src="assets/images/hero/pt.png" alt="Português"
+                                                                    style="width: 20px; height: auto;">
+                                                            </button>
+                                                        </li>
 
                                                     </ul>
                                                 </nav>
@@ -310,10 +332,7 @@
                                     <h2 style="text-align: justify;color: rgb(255, 255, 255); font-family: 'anton', sans-serif; font-weight: 400;"
                                         class="info-heading">En pulpodin diseñamos soluciones tecnológicas <br> para el desarrollo efectivo de su empresa, <br> ofreciendo variedad de servicios como lo son: <br> impresiones 3d, software innovation, marketing digital, <br> sublimado, audiovisual y diseño gráfico.
                                     </h2>
-                                    <div class="hero-button  mt-30">
-                                        <a style="color: black; background-color: #ffeb00; font-family: 'anton', sans-serif; font-weight: 400;"
-                                            href="#elegirnos" class="ht-btn ht-btn-md">Ver Más</a>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -491,116 +510,291 @@
         </div>
     </div>
     <!--======= Layouts section End =======-->
-
-        <!--=========== Machine Learning Service Area End ==========-->
-        <div class="contact-us-section-wrappaer machine-learning-contact-us-bg section-space--ptb_120">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 m-auto">
-                        <h4 style="font-family: 'anton', sans-serif; font-weight: 400; color: #fff; top: 30px;"
-                            class="text-center">
-                            Imprimimos tus ideas en 3D <br> con precisión y calidad
-                        </h4>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--====================  Conact us Section End  ====================-->
-
-        <!-- ============ Team Member Wrapper Start =============== -->
-        <div class="team-member-wrapper section-space--pt_100-5 section-space--pb_40">
+    <div class="rtl-section-wrap section-space--ptb_100 layout-section-bg">
+        <div class="team-section section-space--ptb_120" id="team">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
-                        <div class="section-title section-space--mb_60">
-                            <h3 style="color: black; font-family: 'anton', sans-serif; font-weight: 400;"
-                                class="heading"> Conoce nuestra galería<span class="text-color-primary"></span> </h3>
-                            <p style="color: black; font-family: 'anton', ; font-weight: 400; "
-                                class="text mt-30">Nos especializamos en la creación de soluciones únicas a través de la
-                                impresión 3D, ofreciendo una amplia variedad de impresiones personalizadas que abarcan
-                                desde prototipos industriales hasta objetos decorativos. Nuestra galería muestra la
-                                versatilidad y precisión de nuestras impresiones, destacando la ingeniería de productos,
-                                el diseño personalizado y las aplicaciones innovadoras en diversos sectores. Explora
-                                nuestra colección y descubre cómo transformamos ideas en realidad tridimensional.</p>
-
-                            <!--  <div class="sider-title-button-box mt-30">
-                                    <a href="#" class="ht-btn ht-btn-md">Ver mas</a>
-                                    <a href="#" class="btn-text font-weight--bold small-mt__20">Nuestras Impresiones<i class="ml-1 button-icon fas fa-arrow-right"></i></a>
-                                </div>-->
-
+                    <div class="col-lg-16">
+                        <div class="section-title-wrap text-center section-space--mb_40">
+                            <h1 style="font-family: 'anton', sans-serif; color: #232325; font-weight: 500;"
+                                class="heading">
+                                <span style="color: #FFEB00;">TEAM PULPODIN</span>
+                            </h1>
                         </div>
-                    </div>
-                    <div class="col-lg-8 ht-team-member-style-one">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 wow move-up">
-                                <div class="grid-item">
-                                    <div class="ht-team-member">
-                                        <div class="team-image">
-                                            <img class="img-fluid" src="assets/images/hero/material-pop.jpg" alt="">
-
-                                        </div>
-                                        <div class="team-info ">
-                                            <h5 style="color: black; font-family: 'anton', sans-serif; font-weight: 400;"
-                                                class="name">Material P.O.P </h5>
-                                            <div class="position"></div>
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="row justify-content-center">
+                            <div class="row justify-content-center">
+                                
+                                <!-- Espacio entre las imágenes -->
+                                
                             </div>
-                            <div class="col-lg-6 col-md-6 wow move-up">
-                                <div class="grid-item">
-                                    <div class="ht-team-member">
-                                        <div class="team-image">
-                                            <img class="img-fluid" src="assets/images/hero/logos.jpg" alt="">
-
-
-                                        </div>
-                                        <div class="team-info ">
-                                            <h5 style="color: black; font-family: 'anton', sans-serif; font-weight: 400;"
-                                                class="name">Logos </h5>
-                                            <div class="position"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 wow move-up">
-                                <div class="grid-item">
-                                    <div class="ht-team-member">
-                                        <div class="team-image">
-                                            <img class="img-fluid" src="assets/images/hero/ingenieria.jpg" alt="">
-
-                                        </div>
-                                        <div class="team-info ">
-                                            <h5 style="color: black; font-family: 'anton', sans-serif; font-weight: 400;"
-                                                class="name">Ingenieria</h5>
-                                            <div class="position"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 wow move-up">
-                                <div class="grid-item">
-                                    <div class="ht-team-member">
-                                        <div class="team-image">
-                                            <img class="img-fluid" src="assets/images/hero/diseños-personalizados.jpg"
-                                                alt="">
-
-                                        </div>
-                                        <div class="team-info ">
-                                            <h5 style="color: black; font-family: 'anton', sans-serif; font-weight: 400;"
-                                                class="name">Diseños Personalizados</h5>
-                                            <div class="position"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
                     </div>
                 </div>
             </div>
+
+
+            <br><br><br>
+
+            <div class="row team-row no-space"> <!-- Henry Romero -->
+                <div class="col-lg-2 col-md-6">
+                    <div class="team-member">
+                        <div class="team-image-wrapper"> <img src="assets/images/team/perfil-hombre-vacio.jpg"
+                                alt="Henry Romero" class="img-fluid team-img">
+                            <div class="team-overlay">
+                                <h5
+                                    style="color: #FFEB00; margin-bottom: 0; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Henry Romero</h5>
+                                <p style="color: #FFEB00; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    3D Model
+                                    Development Specialist</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="team-member">
+                        <div class="team-image-wrapper"> <img src="assets/images/team/perfil-hombre-vacio.jpg"
+                                alt="Marcos Lopez" class="img-fluid team-img">
+                            <div class="team-overlay">
+                                <h5
+                                    style="color: #FFEB00; margin-bottom: 0; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Marcos Lopez</h5>
+                                <p style="color: #FFEB00; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Full Stack
+                                    Development Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- Genesis Fontana -->
+                <!-- Marcos Lopez -->
+                <!-- Daniel Vivas -->
+
+
+                <div class="col-lg-2 col-md-6">
+                    <div class="team-member">
+                        <div class="team-image-wrapper"> <img src="assets/images/team/perfil-hombre-vacio.jpg"
+                                alt="Daniel Vivas" class="img-fluid team-img">
+                            <div class="team-overlay">
+                                <h5
+                                    style="color: #FFEB00; margin-bottom: 0; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Daniel Vivas</h5>
+                                <p style="color: #FFEB00; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Mobile
+                                    Application Development Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="team-member">
+                        <div class="team-image-wrapper"> <img src="assets/images/team/perfil-hombre-vacio.jpg"
+                                alt="Raymari Gonzalez" class="img-fluid team-img">
+                            <div class="team-overlay">
+                                <h5
+                                    style="color: #FFEB00; margin-bottom: 0; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Raymari González</h5>
+                                <p style="color: #FFEB00; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Web Design
+                                    Specialist</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <div class="team-member">
+                        <div class="team-image-wrapper"> <img src="assets/images/team/perfil-hombre-vacio.jpg"
+                                alt="Jhosmer" class="img-fluid team-img">
+                            <div class="team-overlay">
+                                <h5
+                                    style="color: #FFEB00; margin-bottom: 0; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Jhosmer Sanchez</h5>
+                                <p style="color: #FFEB00; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Graphic Design
+                                    Specialist</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="team-member">
+                        <div class="team-image-wrapper"> <img src="assets/images/team/perfil-hombre-vacio.jpg"
+                                alt="Cristian Berbesi" class="img-fluid team-img">
+                            <div class="team-overlay">
+                                <h5
+                                    style="color: #FFEB00; margin-bottom: 0; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Cristian Berbesi</h5>
+                                <p style="color: #FFEB00; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Full Stack
+                                    Development Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="team-member">
+                        <div class="team-image-wrapper"> <img src="assets/images/team/perfil-hombre-vacio.jpg"
+                                alt="Genesis Fontana" class="img-fluid team-img">
+                            <div class="team-overlay">
+                                <h5
+                                    style="color: #FFEB00; margin-bottom: 0; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Guillermo Berbesi</h5>
+                                <p style="color: #FFEB00; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Technology Director</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="team-member">
+                        <div class="team-image-wrapper"> <img src="assets/images/team/perfil-hombre-vacio.jpg"
+                                alt="Guillermo Berbesi" class="img-fluid team-img">
+                            <div class="team-overlay">
+                                <h5
+                                    style="color: #FFEB00; margin-bottom: 0; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Guillermo Berbesi</h5>
+                                <p style="color: #FFEB00; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Chief Executive
+                                    Officer (CEO)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Marcos Lopez -->
+
+                <div class="col-lg-2 col-md-6">
+                    <div class="team-member">
+                        <div class="team-image-wrapper"> <img src="assets/images/team/perfil-hombre-vacio.jpg"
+                                alt="Marcos Lopez" class="img-fluid team-img">
+                            <div class="team-overlay">
+                                <h5
+                                    style="color: #FFEB00; margin-bottom: 0; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Marcos Lopez</h5>
+                                <p style="color: #FFEB00; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Full Stack
+                                    Development Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="team-member">
+                        <div class="team-image-wrapper"> <img src="assets/images/team/perfil-hombre-vacio.jpg"
+                                alt="Marcos Lopez" class="img-fluid team-img">
+                            <div class="team-overlay">
+                                <h5
+                                    style="color: #FFEB00; margin-bottom: 0; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Marcos Lopez</h5>
+                                <p style="color: #FFEB00; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Full Stack
+                                    Development Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="team-member">
+                        <div class="team-image-wrapper"> <img src="assets/images/team/perfil-hombre-vacio.jpg"
+                                alt="Marcos Lopez" class="img-fluid team-img">
+                            <div class="team-overlay">
+                                <h5
+                                    style="color: #FFEB00; margin-bottom: 0; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Marcos Lopez</h5>
+                                <p style="color: #FFEB00; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Full Stack
+                                    Development Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="team-member">
+                        <div class="team-image-wrapper"> <img src="assets/images/team/perfil-hombre-vacio.jpg"
+                                alt="Marcos Lopez" class="img-fluid team-img">
+                            <div class="team-overlay">
+                                <h5
+                                    style="color: #FFEB00; margin-bottom: 0; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Marcos Lopez</h5>
+                                <p style="color: #FFEB00; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Full Stack
+                                    Development Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="team-member">
+                        <div class="team-image-wrapper"> <img src="assets/images/team/perfil-hombre-vacio.jpg"
+                                alt="Marcos Lopez" class="img-fluid team-img">
+                            <div class="team-overlay">
+                                <h5
+                                    style="color: #FFEB00; margin-bottom: 0; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Marcos Lopez</h5>
+                                <p style="color: #FFEB00; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Full Stack
+                                    Development Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="team-member">
+                        <div class="team-image-wrapper"> <img src="assets/images/team/perfil-hombre-vacio.jpg"
+                                alt="Marcos Lopez" class="img-fluid team-img">
+                            <div class="team-overlay">
+                                <h5
+                                    style="color: #FFEB00; margin-bottom: 0; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Marcos Lopez</h5>
+                                <p style="color: #FFEB00; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Full Stack
+                                    Development Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="team-member">
+                        <div class="team-image-wrapper"> <img src="assets/images/team/perfil-hombre-vacio.jpg"
+                                alt="Jhosmer" class="img-fluid team-img">
+                            <div class="team-overlay">
+                                <h5
+                                    style="color: #FFEB00; margin-bottom: 0; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Jhosmer Sanchez</h5>
+                                <p style="color: #FFEB00; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Graphic Design
+                                    Specialist</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="team-member">
+                        <div class="team-image-wrapper"> <img src="assets/images/team/perfil-hombre-vacio.jpg"
+                                alt="Jhosmer" class="img-fluid team-img">
+                            <div class="team-overlay">
+                                <h5
+                                    style="color: #FFEB00; margin-bottom: 0; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Jhosmer Sanchez</h5>
+                                <p style="color: #FFEB00; font-family: 'anton', sans-serif; font-weight: 400;">
+                                    Graphic Design
+                                    Specialist</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row team-row no-space"> <!-- Raymari Gonzalez -->
+                <!-- Daniel Vivas -->
+
+            </div>
+            <div class="row team-row no-space"> <!-- Última Fila --> </div>
         </div>
+    </div>
+    </div>
+
+    <!--======== Preview RTL section End ============-->
+
         <!--====================  Conact us Section Start ====================-->
 
         <!--====================  Conact us Section End  ====================-->
@@ -615,107 +809,7 @@
         <!--===========  Projects wrapper End =============-->
 
         <!--=========== Testimonials Area Start =============-->
-        <div class="testimonials-area infotechno-contact-us-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="projects-wrap swiper-container testimonial-slider-machine">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="row align-items-center">
-                                        <div class="col-lg-6">
-                                            <div class="testimonials-contails-machine  tablet-mt__60 small-mt__60">
-                                                <h6
-                                                    style="color: #FFEB00; font-family: 'anton', sans-serif; font-weight: 400;">
-                                                    Testimonios de nuestros clientes</h6>
-                                                <p
-                                                    style="color: white; font-family: 'anton', sans-serif; font-weight: 400; text-align: justify;">
-                                                    “Estoy absolutamente encantado con el servicio de impresión 3D de
-                                                    Pulpodin. Desde el primer contacto, el equipo fue increíblemente
-                                                    profesional y atento a mis necesidades.”
-
-                                                </p>
-                                                <div class="testimonial-info">
-                                                    <div style="color: white; font-family: 'anton', sans-serif; font-weight: 400;"
-                                                        class="testimonial-name">Corporacion</div>
-                                                    <div style="color: white; font-family: 'anton', sans-serif; font-weight: 400;"
-                                                        class="testimonial-by-line">Grupo Make</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="testimonials-image text-center mt-20">
-                                                <img style="margin-top: 40px;"
-                                                    src="assets/images/hero/icono-testimonios-3d.png" class="img-fluid"
-                                                    alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="row align-items-center">
-                                        <div class="col-lg-6">
-                                            <div class="testimonials-contails-machine tablet-mt__60 small-mt__60">
-                                                <h6
-                                                    style="color: #FFEB00; font-family: 'anton', sans-serif; font-weight: 400;">
-                                                    Testimonios de nuestros clientes</h6>
-                                                <p
-                                                    style="color: white; font-family: 'anton', sans-serif; font-weight: 400; text-align: justify;">
-                                                    El servicio de impresión 3D de Pulpodin ha sido excepcional. La
-                                                    calidad de los productos y la atención al detalle superaron nuestras
-                                                    expectativas. Gracias a su equipo, hemos podido innovar y mejorar
-                                                    nuestros procesos internos. ¡Altamente recomendado!</p>
-                                                <div class="testimonial-info">
-                                                    <div style="color: white; font-family: 'anton', sans-serif; font-weight: 400;"
-                                                        class="testimonial-name">Emprendedor</div>
-                                                    <div style="color: white; font-family: 'anton', sans-serif; font-weight: 400;"
-                                                        class="testimonial-by-line">Quoka</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="testimonials-image text-center mt-20">
-                                                <img src="assets/images/hero/icono-testimonios-3d.png" class="img-fluid"
-                                                    alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-pagination swiper-pagination-machine mt_20"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--====================  footer area ====================-->
-    <footer class="footer-area-preview">
-        <div class="footer-preview section-space--ptb_120 prv-section-footer-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 m-auto">
-                        <div class="footer-preview-content section-space--ptb_70 text-center">
-                            <h2 style="font-family: 'anton', sans-serif; font-weight: 400;" class="heading text-white">
-                                Descubre el camino al éxito digital
-                                <br> con pulpodin, tu startup de desarrollo de software y marketing innovador
-                            </h2>
-                            <h6 style="font-family: 'anton', sans-serif; font-weight: 400;"
-                                class="heading  text-white mt-25">Estrategias de crecimiento integral para tu negocio
-                            </h6>
-                            <div class="header-button downlode-btn mt-40">
-                                <a style="font-family: 'anton', sans-serif; font-weight: 400; background-color: #FFEB00; color: black;"
-                                    href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0"
-                                    class="btn btn--white">Contáctanos </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    </div>
+        
 
 
     <div class="footer-area-wrapper bg-gray">
@@ -848,41 +942,64 @@
             <div class="mobile-menu-overlay__body">
                 <nav class="offcanvas-navigation offcanvas-navigation--onepage">
                     <ul>
-                        <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
-                                href="index.html">INICIO</a></li>
+                        <li id="flags" style="display: flex; gap: 10px;">
+                                            <button class="flags__item" data-language="es"
+                                                onclick="changeLanguage('es')"
+                                                style="background: none; border: none; padding: 0; cursor: pointer;">
+                                                <img src="assets/images/hero/es.png" alt="Español"
+                                                    style="width: 20px; height: auto;">
+                                            </button>
+                                            <button class="flags__item" data-language="en"
+                                                onclick="changeLanguage('en')"
+                                                style="background: none; border: none; padding: 0; cursor: pointer;">
+                                                <img src="assets/images/hero/en.png" alt="English"
+                                                    style="width: 20px; height: auto;">
+                                            </button>
+                                            <button class="flags__item" data-language="it"
+                                                onclick="changeLanguage('it')"
+                                                style="background: none; border: none; padding: 0; cursor: pointer;">
+                                                <img src="assets/images/hero/it.png" alt="Italiano"
+                                                    style="width: 20px; height: auto;">
+                                            </button>
+                                            <button class="flags__item" data-language="pt"
+                                                onclick="changeLanguage('pt')"
+                                                style="background: none; border: none; padding: 0; cursor: pointer;">
+                                                <img src="assets/images/hero/pt.png" alt="Português"
+                                                    style="width: 20px; height: auto;">
+                                            </button>
+                                        </li>
 
                         <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
-                                href="#">SERVICIOS</a></li>
+                                href="index.html" data-section="primary header.HOME">INICIO</a></li>
+
+                        
 
                         <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
-                                href="index-machine-learning">Impresiones 3D</a></li>
+                                href="index-machine-learning.html">IMPRESIONES 3D</a></li>
 
                         <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
-                                href="index-software-innovation.html">Software
-                                Innovation</a></li>
+                                href="index-software-innovation.html">SOFTWARE INNOVATION</a></li>
                         <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
-                                href="index-software-innovation-2.html">Marketing</a></li>
+                                href="index-software-innovation-2.html">MARKETING</a></li>
+
+                       
 
                         <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
-                                href="index-software-innovation.html">Software
-                                Innovation</a></li>
-
-                        <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
-                                href="index-appointment.html">Sublimado</a></li>
+                                href="index-appointment.html">SUBLIMADO</a></li>
 
 
                         <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
-                                href="index-processing.html">Audiovisual</a></li>
+                                href="index-processing.html">AUDIOVISUAL</a></li>
 
                         <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
-                                href="index-services.html">Diseño
-                                Grafico</a></li>
+                                href="index-services.html">DISEÑO GRÁFICO</a></li>
 
 
 
                         <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
-                                href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0">SUPPORT</a>
+                                href="index-machine-learning-2.html">QUIENES SOMOS</a>
                         </li>
+                        
 
 
 

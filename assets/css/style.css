@@ -16117,7 +16117,7 @@ only screen and (max-width: 767px) {
 }
 
 .layout-section-bg {
-  background: url(../images/hero/fondo-team.jpg);
+  background: url(../images/hero/fondo-team\ -\ copia.jpg);
   background-size: cover;
   background-color: #f6f2ed;
   background-repeat: no-repeat;

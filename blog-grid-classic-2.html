@@ -132,47 +132,69 @@
                                                     <ul>
                                                         <li class="">
                                                             <a style="font-family: 'anton', sans-serif; font-weight: 400;"
-                                                                href="index.html"><span>INICIO</span></a>
+                                                                href="index.html" data-section="primary header"
+                                                                data-value="HOME">INICIO</a>
 
                                                         </li>
                                                         <li class="has-children has-children--multilevel-submenu">
                                                             <a style="font-family: 'anton', sans-serif; font-weight: 400;"
-                                                                href=""><span>SERVICIOS</span></a>
+                                                                href="" data-section="primary header"
+                                                                data-value="SERVICES">SERVICIOS</a>
                                                             <ul class="submenu">
-                                                                <li><a href="index-machine-learning.html"><span>Impresiones
-                                                                            3D</span></a></li>
-                                                                <li><a href="index-software-innovation.html"><span>Software
-                                                                            Innovation</span></a></li>
+                                                                <li><a href="index-machine-learning.html"><span>IMPRESIONES 3D</span></a></li>
+                                                                <li><a href="index-software-innovation.html"><span>SOFTWARE INNOVATION</span></a></li>
                                                                 <li><a
-                                                                        href="index-software-innovation-2.html"><span>Marketing</span></a>
+                                                                        href="index-software-innovation-2.html"><span>MARKETING</span></a>
                                                                 </li>
                                                                 <li><a
-                                                                        href="index-appointment.html"><span>Sublimado</span></a>
+                                                                        href="index-appointment.html"><span>SUBLIMADO</span></a>
                                                                 </li>
                                                                 <li><a
-                                                                        href="index-processing.html"><span>Audiovisual</span></a>
+                                                                        href="index-processing.html"><span>AUDIOVISUAL</span></a>
                                                                 </li>
-                                                                <li><a href="index-services.html"><span>Diseño
-                                                                            Grafico</span></a></li>
+                                                                <li><a href="index-services.html"><span>DISEÑO GRÁFICO</span></a></li>
 
                                                             </ul>
                                                         </li>
                                                         <li class="">
                                                             <a style="font-family: 'anton', sans-serif; font-weight: 400;"
-                                                                href="contact-us.html"><span>CONTACTO</span></a>
-                                                            <!--  <ul class="submenu">
-                                                                <li>
-                                                                    <a href="about-us-01.html"><span>Sobre Nosotros</span></a>
-                                                                   
-                                                                </li>
-                                                                <li><a href="contact-us.html"><span>Contactanos</span></a></li>
-                                                                <li><a href="why-choose-us.html"><span>¿Por qué escogernos?</span></a></li>
-                                                                <li><a href="our-history.html"><span>Nuesta Historia</span></a></li>
-                                                
-                                                            </ul>-->
+                                                                href="index-machine-learning-2.html" data-section="primary header"
+                                                                data-value="CONTACT">QUIENES SOMOS</a>
+                                                            
+                                                        </li>
+                                                        <li class="">
+                                                            <a style="font-family: 'anton', sans-serif; font-weight: 400;"
+                                                                href="contact-us.html" data-section="primary header"
+                                                                data-value="CONTACT">CONTACTO</a>
+                                                            
                                                         </li>
 
-
+                                                        <li id="flags" style="display: flex; gap: 10px;">
+                                                            <button class="flags__item" data-language="es"
+                                                                onclick="changeLanguage('es')"
+                                                                style="background: none; border: none; padding: 0; cursor: pointer;">
+                                                                <img src="assets/images/hero/es.png" alt="Español"
+                                                                    style="width: 20px; height: auto;">
+                                                            </button>
+                                                            <button class="flags__item" data-language="en"
+                                                                onclick="changeLanguage('en')"
+                                                                style="background: none; border: none; padding: 0; cursor: pointer;">
+                                                                <img src="assets/images/hero/en.png" alt="English"
+                                                                    style="width: 20px; height: auto;">
+                                                            </button>
+                                                            <button class="flags__item" data-language="it"
+                                                                onclick="changeLanguage('it')"
+                                                                style="background: none; border: none; padding: 0; cursor: pointer;">
+                                                                <img src="assets/images/hero/it.png" alt="Italiano"
+                                                                    style="width: 20px; height: auto;">
+                                                            </button>
+                                                            <button class="flags__item" data-language="pt"
+                                                                onclick="changeLanguage('pt')"
+                                                                style="background: none; border: none; padding: 0; cursor: pointer;">
+                                                                <img src="assets/images/hero/pt.png" alt="Português"
+                                                                    style="width: 20px; height: auto;">
+                                                            </button>
+                                                        </li>
 
                                                     </ul>
                                                 </nav>
@@ -612,57 +634,107 @@
     
     
         <!--====================  mobile menu overlay ====================-->
-        <div class="mobile-menu-overlay" id="mobile-menu-overlay">
-            <div class="mobile-menu-overlay__inner">
-                <div class="mobile-menu-overlay__header">
-                    <div class="container-fluid">
-                        <div class="row align-items-center">
-                            <div class="col-md-6 col-8">
-                                <!-- logo -->
-                                <div class="logo">
-                                    <a href="index.html">
-                                        <img style="top: -35px;" src="assets/images/hero/logo-principal.png"
-                                            class="img-fluid" alt="">
-                                    </a>
-                                </div>
+    <div class="mobile-menu-overlay" id="mobile-menu-overlay">
+        <div class="mobile-menu-overlay__inner">
+            <div class="mobile-menu-overlay__header">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 col-8">
+                            <!-- logo -->
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img style="top: -35px;" src="assets/images/hero/logo-principal.png"
+                                        class="img-fluid" alt="">
+                                </a>
                             </div>
-                            <div class="col-md-6 col-4">
-                                <!-- mobile menu content -->
-                                <div class="mobile-menu-content text-end">
-                                    <span class="mobile-navigation-close-icon" id="mobile-menu-close-trigger"></span>
-                                </div>
+                        </div>
+                        <div class="col-md-6 col-4">
+                            <!-- mobile menu content -->
+                            <div class="mobile-menu-content text-end">
+                                <span class="mobile-navigation-close-icon" id="mobile-menu-close-trigger"></span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="mobile-menu-overlay__body">
-                    <nav class="offcanvas-navigation offcanvas-navigation--onepage">
-                        <ul>
-                            <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
-                                    href="index.html">INICIO</a></li>
-    
-                            <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
-                                    href="#section-demos">SERVICIOS</a></li>
-    
-                            <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
-                                    href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0">SUPPORT</a>
-                            </li>
-    
-    
-    
-                            <li class="">
-                                <a style="font-family: 'anton', sans-serif; font-size: 20px;"
-                                    href="contact-us.html"><span>CONTACTO</span></a>
-                            </li>
-                        </ul>
+            </div>
+
+            <div class="mobile-menu-overlay__body">
+                <nav class="offcanvas-navigation offcanvas-navigation--onepage">
+                    <ul>
+                        <li id="flags" style="display: flex; gap: 10px;">
+                                            <button class="flags__item" data-language="es"
+                                                onclick="changeLanguage('es')"
+                                                style="background: none; border: none; padding: 0; cursor: pointer;">
+                                                <img src="assets/images/hero/es.png" alt="Español"
+                                                    style="width: 20px; height: auto;">
+                                            </button>
+                                            <button class="flags__item" data-language="en"
+                                                onclick="changeLanguage('en')"
+                                                style="background: none; border: none; padding: 0; cursor: pointer;">
+                                                <img src="assets/images/hero/en.png" alt="English"
+                                                    style="width: 20px; height: auto;">
+                                            </button>
+                                            <button class="flags__item" data-language="it"
+                                                onclick="changeLanguage('it')"
+                                                style="background: none; border: none; padding: 0; cursor: pointer;">
+                                                <img src="assets/images/hero/it.png" alt="Italiano"
+                                                    style="width: 20px; height: auto;">
+                                            </button>
+                                            <button class="flags__item" data-language="pt"
+                                                onclick="changeLanguage('pt')"
+                                                style="background: none; border: none; padding: 0; cursor: pointer;">
+                                                <img src="assets/images/hero/pt.png" alt="Português"
+                                                    style="width: 20px; height: auto;">
+                                            </button>
+                                        </li>
+
+                        <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
+                                href="index.html" data-section="primary header.HOME">INICIO</a></li>
+
+                        
+
+                        <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
+                                href="index-machine-learning.html">IMPRESIONES 3D</a></li>
+
+                        <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
+                                href="index-software-innovation.html">SOFTWARE INNOVATION</a></li>
+                        <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
+                                href="index-software-innovation-2.html">MARKETING</a></li>
+
+                       
+
+                        <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
+                                href="index-appointment.html">SUBLIMADO</a></li>
+
+
+                        <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
+                                href="index-processing.html">AUDIOVISUAL</a></li>
+
+                        <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
+                                href="index-services.html">DISEÑO GRÁFICO</a></li>
+
+
+
+                        <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
+                                href="index-machine-learning-2.html">QUIENES SOMOS</a>
                         </li>
-    
-                        </ul>
-                    </nav>
-                </div>
+                        
+
+
+
+                        <li class="">
+                            <a style="font-family: 'anton', sans-serif; font-size: 20px;"
+                                href="contact-us.html"><span>CONTACTO</span></a>
+                        </li>
+                    </ul>
+                    </li>
+
+                    </ul>
+                </nav>
             </div>
         </div>
-        <!--====================  End of mobile menu overlay  ====================-->
+    </div>
+    <!--====================  End of mobile menu overlay  ====================-->
     
     
     
