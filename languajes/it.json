@@ -567,5 +567,200 @@
     "text2": "Design Grafico",
     "text3": "Stampa 3D",
     "text4": "Calle Berrizbeitia con Avenida Jose Antonio Paez, El Paraiso (Caracas, Venezuela)"
-  }
+  },
+  
+    "hero": {
+        "boost_your_brand": "IMPULSA IL TUO MARCHIO"
+    },
+
+    
+      "services": {
+          "audiovisual_production": "Produzione audiovisiva",
+          "audiovisual_services": "Offriamo servizi integrati di produzione audiovisiva <br> per aumentare il successo e la visibilità del tuo marchio.",
+          
+                "our_services": "I nostri servizi",
+                "headline": "In Pulpodin, trasformiamo le tue idee in esperienze visive di grande impatto",
+                "corporate_video": "Produzione Video Aziendale",
+                "event_coverage": "Copertura di Eventi",
+                "social_content": "Produzione di Contenuti per i Social Media",
+                "editing_postproduction": "Servizi di Montaggio e Post-produzione",
+                "advertising_audiovisual": "Progettazione e Produzione di Pubblicità Audiovisiva",
+                "audiovisual_support": "Servizi di supporto Audiovisivo",
+                "quote": "Pulpodin: Innovazione audiovisiva per ogni esigenza. Produzione, montaggio, eventi e altro.",
+                "cta": "Dai vita alle tue idee con noi."
+         
+      },
+      
+        "audiovisual": {
+            "creative_production": "Produzione audiovisiva creativa per connettersi con il tuo pubblico",
+            "services_description": "I nostri servizi di produzione audiovisiva si distinguono per la capacità di raccontare storie che si connettono emotivamente con il tuo pubblico. Che si tratti di video promozionali, sessioni fotografiche o contenuti progettati per i social network, offriamo soluzioni visive che trasmettono il messaggio del tuo marchio in modo potente ed efficace. Con un approccio innovativo e strumenti all'avanguardia, ci assicuriamo che i tuoi contenuti visivi si distinguano e generino l'impatto di cui la tua attività ha bisogno.",
+            "discover_more": "Scopri di più"
+        },
+
+        
+          "fun_fact": {
+              "years_experience_number": "1",
+              "years_experience_text": "Anno di esperienza audiovisiva",
+              "discover_more": "Scopri di più sui nostri servizi",
+              "accounts_advised_number": "1790",
+              "accounts_advised_text": "Conti Consigliati",
+              "projects_completed_number": "32",
+              "projects_completed_text": "Progetti Completati",
+              "satisfied_clients_number": "73",
+              "satisfied_clients_text": "Clienti Soddisfatti",
+              "blog_posts_number": "318",
+              "blog_posts_text": "Post del Blog"
+          },
+
+          
+            "testimonials2": {
+              "title": "Testimonianze",
+              "subtitle": "I nostri clienti preferiscono <span>Pulpodin</span>",
+              "author_1_name": "Carlos Pérez",
+              "author_1_company": "TechSolutions",
+              "author_1_comment": "Il team di Pulpodin ha superato le nostre aspettative con la sua creatività e professionalità. <br> Altamente raccomandati!",
+              "author_2_name": "Luis Martínez",
+              "author_2_company": "MarketingPro",
+              "author_2_comment": "La produzione audiovisiva di Pulpodin ci ha aiutato a connetterci meglio con il nostro pubblico. <br> Lavoro incredibile!",
+              "author_3_name": "Ana Rodríguez",
+              "author_3_company": "InnovateCorp",
+              "author_3_comment": "Professionisti, creativi e sempre pronti a fare di più. Pulpodin è il nostro partner audiovisivo di fiducia. <br> Servizio eccellente!!"
+            },
+
+            
+              "contact": {
+                "help_title": "Hai bisogno del nostro aiuto?",
+                "help_subtitle": "A Pulpodin, siamo qui per realizzare i tuoi progetti!",
+                "name_placeholder": "Nome *",
+                "email_placeholder": "Email *",
+                "message_placeholder": "Descrivi la tua richiesta.",
+                "submit_button": "Contattaci",
+                "contact_now_title": "Mettiti in contatto ora!",
+                "contact_number": "(+58) 412 994 8381",
+                "contact_text": "Dai slancio alla tua attività con Pulpodin"
+              },
+
+              
+                "graphic_design": {
+                  "boost_brand": "DÀ IMPULSO AL TUO MARCHIO",
+                  "title": "Design Grafico",
+                  "description": "Offriamo servizi di design grafico che creano soluzioni visive efficaci per migliorare il successo della tua attività.",
+                  "see_more": "Scopri di più",
+                  "corporate_identity_title": "Identità Aziendale",
+                  "corporate_identity_description": "Creazione di loghi, palette di colori e manuali di marchio che riflettono l'essenza e i valori della tua azienda, garantendo un'immagine coerente e professionale.",
+                  "advertising_materials_title": "Design di Materiali Pubblicitari",
+                  "advertising_materials_description": "Sviluppo di brochure, manifesti, banner e altri materiali promozionali che catturano l'attenzione e comunicano efficacemente il tuo messaggio.",
+                  "packaging_title": "Design del Packaging",
+                  "packaging_description": "Progettazione di imballaggi attraenti e funzionali che si distinguono sul mercato e rafforzano l'identità del tuo marchio."
+                },
+
+                
+                  "graphic_section": {
+                    "sub_title": "Design Grafico Pulpodin",
+                    "title": "Il nostro team di design grafico si dedica a trasformare le tue idee in creazioni visive straordinarie.",
+                    "description": "Dall'identità aziendale al design per i social media, siamo qui per aiutarti a distinguerti e a comunicare il tuo messaggio in modo efficace e attraente.",
+                    "button_text": "Maggiori Informazioni"
+                  },
+
+                  
+                  
+                    "work_process": {
+                      "subtitle": "Come lavoriamo",
+                      "title": "Il nostro modello di business si basa su 4 passaggi chiave"
+                    },
+                    "work_process_step_1": {
+                      "step": "1",
+                      "title": "01. Incontro Iniziale e Briefing:",
+                      "description": "Iniziamo con un incontro per comprendere le tue esigenze, obiettivi e visione. Raccogliamo tutte le informazioni necessarie per garantire che il design rifletta accuratamente il tuo marchio e il tuo messaggio."
+                    },
+                    "work_process_step_2": {
+                      "step": "2",
+                      "title": "02. Ricerca e Concettualizzazione:",
+                      "description": "Conduciamo una ricerca approfondita sul tuo settore, sui concorrenti e sulle tendenze attuali. Sulla base di queste informazioni, sviluppiamo concetti creativi che si allineano con i tuoi obiettivi."
+                    },
+                    "work_process_step_3": {
+                      "step": "3",
+                      "title": "03. Progettazione e Revisione:",
+                      "description": "Creiamo i design iniziali e li condividiamo con te per ricevere feedback. Effettuiamo le revisioni necessarie per garantire che il risultato finale soddisfi le tue aspettative e requisiti."
+                    },
+                    "work_process_step_4": {
+                      "step": "4",
+                      "title": "04. Consegna e Supporto:",
+                      "description": "Una volta approvato il design finale, consegniamo tutti i file necessari nei formati appropriati. Inoltre, offriamo supporto continuo per eventuali regolazioni o aggiornamenti futuri di cui potresti aver bisogno."
+                    },
+
+                    
+                      "cta": {
+                        "title": "Trasforma il tuo marchio con design d'impatto. Scopri il potere del design grafico con Pulpodin e porta la tua attività al livello successivo!",
+                        "highlight": "Trasforma il tuo marchio con design d'impatto.",
+                        "button": "Contattaci"
+                      },
+
+                      
+                        "projects": {
+                          "title": "Progetti di design",
+                          "subtitle": "Siamo orgogliosi di aver realizzato progetti di design grafico di alta qualità",
+                          "highlight": "design grafico di alta qualità",
+                          "experience-title": "Esperienza nel Design Grafico con Pulpodin",
+                          "experience-highlight": "Pulpodin",
+                          "experience-description": "In Pulpodin, abbiamo una vasta esperienza nella realizzazione di progetti di design grafico per vari settori. Il nostro team ha lavorato con clienti di tutte le dimensioni, dalle startup alle grandi aziende, creando soluzioni visive che si distinguono e comunicano efficacemente i loro messaggi. Siamo orgogliosi della nostra capacità di comprendere le esigenze uniche di ogni cliente e trasformare le loro idee in design impattanti e memorabili. Con un focus sulla creatività, la qualità e l'attenzione ai dettagli, Pulpodin è il partner ideale per portare il tuo marchio al livello successivo."
+                        },
+
+                        
+                          "projects2": {
+                            "title": "Progetti completati",
+                            "subtitle": "Dai un'occhiata ai nostri progetti",
+                            "highlight": "nostri progetti",
+                            "project1-client": "TechSolutions",
+                            "project1-date": "18 gennaio 2023",
+                            "project1-title": "Rebranding aziendale per TechSolutions",
+                            "project1-description": "Abbiamo ridisegnato l'identità visiva di TechSolutions, inclusi un nuovo logo, palette di colori e materiali di marketing. L'obiettivo era modernizzare l'immagine dell'azienda e riflettere la sua innovazione e leadership nel settore tecnologico.",
+                            "project2-client": "EcoFriendly",
+                            "project2-date": "18 gennaio 2023",
+                            "project2-title": "Campagna pubblicitaria visiva per EcoFriendly",
+                            "project2-description": "Abbiamo creato una campagna visiva attraente per EcoFriendly, evidenziando il suo impegno verso l'ambiente e ampliando la sua portata tra i consumatori responsabili.",
+                            "project3-client": "HealthFirst",
+                            "project3-date": "21 febbraio 2019",
+                            "project3-title": "Design innovativo del packaging per HealthFirst",
+                            "project3-description": "Abbiamo progettato un packaging funzionale ed estetico per i prodotti di HealthFirst, rafforzando la loro presenza nel mercato competitivo.",
+                            "project4-client": "EduTech",
+                            "project4-date": "18 gennaio 2023",
+                            "project4-title": "Sviluppo dell'identità visiva per EduTech",
+                            "project4-description": "Abbiamo creato un'identità visiva distintiva per EduTech, allineata con la sua missione di trasformare l'educazione attraverso la tecnologia."
+                          },
+
+                          
+                            "breadcrumb": {
+                                "contactTitle": "Contattaci",
+                                "home": "Inizio",
+                                "contactActive": "Contattaci"
+                            },
+
+                            
+                              "about-us": {
+                                  "boost-your-brand": "DA' SLANCIO AL TUO BRAND",
+                                  "who-we-are": "Chi <br> <span style=\"color: #ffeb00;\">Siamo?</span>",
+                                  "our-services": "In PulpoDin progettiamo soluzioni tecnologiche <br> per lo sviluppo efficace della tua azienda, <br> offrendo una varietà di servizi come: <br> stampa 3D, innovazione software, marketing digitale, <br> sublimazione, audiovisivi e design grafico. <br><br><br><br>"
+                              }
+                          
+                          
+                        
+                        
+                        
+                        
+                      
+                      
+                    
+                    
+                  
+                  
+                
+                
+              
+              
+            
+          
+          
+  
+
 }
