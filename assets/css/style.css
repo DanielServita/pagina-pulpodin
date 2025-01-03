@@ -1726,6 +1726,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 .section-space--pt_801 {
   padding-top: 80px;
   background-image: url(../images/team/team_copia.jpg);
+  background-size: cover;
 }
 /* Imagen de fondo para pantallas pequeñas (móvil) */
 @media (max-width: 768px) {
