@@ -10,14 +10,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = trim($_POST['con_email'] ?? '');
     $message = trim($_POST['con_message'] ?? '');
 
-    // Validar campos requeridos
+    
     if (empty($name) || empty($email) || empty($message)) {
         http_response_code(400);
         echo "Todos los campos son obligatorios.";
         exit;
     }
 
-    // Validar formato del correo electrónico
+  
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         http_response_code(400);
         echo "El correo electrónico no es válido.";
@@ -35,12 +35,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     try {
         // Configuración del servidor SMTP
         $mail->isSMTP();
-        $mail->Host = 'mail.pulpodin.com'; // Servidor SMTP
+        $mail->Host = 'mail.pulpodin.com'; 
         $mail->SMTPAuth = true;
-        $mail->Username = 'contacto@pulpodin.com'; // Usuario SMTP
-        $mail->Password = 'Bx0#P,,Ds2CB'; // Contraseña SMTP
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // Encriptación
-        $mail->Port = 465; // Puerto SMTP
+        $mail->Username = 'contacto@pulpodin.com'; 
+        $mail->Password = 'Bx0#P,,Ds2CB'; 
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+        $mail->Port = 465; 
 
         // Configuración del remitente y destinatario
         $mail->setFrom('contacto@pulpodin.com', 'Formulario de Contacto'); // Correo del remitente
@@ -72,4 +72,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     echo "Método no permitido.";
 }
 ?>
-
