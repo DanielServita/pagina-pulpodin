@@ -1492,6 +1492,14 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   background-image: url(../images/hero/fondo-4-audiovisual.png);
   background-size: cover;
 }
+/* Imagen de fondo para pantallas pequeñas (móvil) */
+@media (max-width: 768px) {
+  .section-space--ptb_103{
+      background-image: url('../images/hero/fondo-4-audiovisual-tlf.jpg');
+      background-size: cover;
+      background-position: center;
+  }
+}
 
 .section-space--ptb_104 {
   padding-top: 100px;
@@ -12422,10 +12430,11 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   background-repeat: no-repeat;
   background-position: top right;
 }
+
 /* Imagen de fondo para pantallas pequeñas (móvil) */
 @media (max-width: 768px) {
   .processing-contact-us-bg{
-      background-image: url('../images/hero/fondo-7-audiovisual-modo-telefono.png');
+      background-image: url('../images/hero/fondo-audiovisual-telefono-7.jpg');
       background-size: cover;
       background-position: center;
   }
