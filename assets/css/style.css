@@ -1724,7 +1724,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   background-image: url(../images/hero/marketing-principal.png);
 }
 .section-space--pt_801 {
-  padding-top: 20px;
+  padding-top: 80px;
   background-image: url(../images/team/team_copia.jpg);
   background-size: cover;
 }
@@ -12418,6 +12418,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 .processing-contact-us-bg {
   background-color: #002fa6;
   background-image: url(../images/hero/fondo-7-audiovisual.png);
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top right;
 }
