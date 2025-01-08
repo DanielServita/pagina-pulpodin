@@ -1,72 +1,73 @@
 <?php
-
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-use PHPMailer\PHPMailer\Exception;
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Obtener datos del formulario
     $name = trim($_POST['con_name'] ?? '');
     $email = trim($_POST['con_email'] ?? '');
     $message = trim($_POST['con_message'] ?? '');
 
-    
     if (empty($name) || empty($email) || empty($message)) {
         http_response_code(400);
         echo "Todos los campos son obligatorios.";
         exit;
     }
 
-  
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         http_response_code(400);
         echo "El correo electrónico no es válido.";
         exit;
     }
 
-    // Incluir librerías de PHPMailer
-    require 'path/to/PHPMailer/src/PHPMailer.php';
-    require 'path/to/PHPMailer/src/SMTP.php';
-    require 'path/to/PHPMailer/src/Exception.php';
+    // Configuración del correo
+    $to = 'contacto@pulpodin.com'; // Correo del destinatario
+    $subject = "Nuevo mensaje de contacto de $name";
+    $headers = "From: contacto@pulpodin.com\r\n";
+    $headers .= "Reply-To: $email\r\n";
+    $headers .= "MIME-Version: 1.0\r\n";
+    $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 
-    // Crear una instancia de PHPMailer
-    $mail = new PHPMailer(true);
+    $body = "<h3>Tienes un nuevo mensaje de contacto</h3>
+             <p><strong>Nombre:</strong> $name</p>
+             <p><strong>Email:</strong> $email</p>
+             <p><strong>Mensaje:</strong><br>$message</p>";
 
-    try {
-        // Configuración del servidor SMTP
-        $mail->isSMTP();
-        $mail->Host = 'mail.pulpodin.com'; 
-        $mail->SMTPAuth = true;
-        $mail->Username = 'contacto@pulpodin.com'; 
-        $mail->Password = 'Bx0#P,,Ds2CB'; 
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-        $mail->Port = 465; 
+    // Parámetros SMTP
+    $smtp_server = 'mail.pulpodin.com'; // Servidor SMTP
+    $smtp_port = 465; // Puerto SMTP
+    $smtp_username = 'contacto@pulpodin.com'; // Usuario SMTP
+    $smtp_password = 'Bx0#P,,Ds2CB'; // Contraseña SMTP
 
-        // Configuración del remitente y destinatario
-        $mail->setFrom('contacto@pulpodin.com', 'Formulario de Contacto'); // Correo del remitente
-        $mail->addAddress('destinatario@tu-dominio.com', 'Destinatario'); // Cambia al correo del destinatario
-
-        // Contenido del mensaje
-        $mail->isHTML(true);
-        $mail->Subject = "Nuevo mensaje de contacto de $name";
-        $mail->Body = "<h3>Tienes un nuevo mensaje de contacto</h3>
-                       <p><strong>Nombre:</strong> $name</p>
-                       <p><strong>Email:</strong> $email</p>
-                       <p><strong>Mensaje:</strong><br>$message</p>";
-        $mail->AltBody = "Tienes un nuevo mensaje de contacto\n
-                          Nombre: $name\n
-                          Email: $email\n
-                          Mensaje: $message";
-
-        // Enviar correo
-        $mail->send();
-        http_response_code(200);
-        echo "Tu mensaje ha sido enviado con éxito.";
-    } catch (Exception $e) {
-        // Manejo de errores
+    // Crear el correo usando sockets
+    $sock = fsockopen('ssl://' . $smtp_server, $smtp_port, $errno, $errstr, 10);
+    if (!$sock) {
         http_response_code(500);
-        echo "Hubo un error al enviar tu mensaje. Error: {$mail->ErrorInfo}";
+        echo "No se pudo conectar al servidor SMTP: $errstr ($errno)";
+        exit;
     }
+
+    $response = fgets($sock);
+    fputs($sock, "EHLO " . $_SERVER['SERVER_NAME'] . "\r\n");
+    $response = fgets($sock);
+    fputs($sock, "AUTH LOGIN\r\n");
+    $response = fgets($sock);
+    fputs($sock, base64_encode($smtp_username) . "\r\n");
+    $response = fgets($sock);
+    fputs($sock, base64_encode($smtp_password) . "\r\n");
+    $response = fgets($sock);
+    fputs($sock, "MAIL FROM: <$smtp_username>\r\n");
+    $response = fgets($sock);
+    fputs($sock, "RCPT TO: <$to>\r\n");
+    $response = fgets($sock);
+    fputs($sock, "DATA\r\n");
+    $response = fgets($sock);
+    fputs($sock, "Subject: $subject\r\n$headers\r\n$body\r\n.\r\n");
+    $response = fgets($sock);
+    fputs($sock, "QUIT\r\n");
+    $response = fgets($sock);
+
+    fclose($sock);
+
+    http_response_code(200);
+    echo "Tu mensaje ha sido enviado con éxito.";
 } else {
     http_response_code(405);
     echo "Método no permitido.";
