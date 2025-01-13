@@ -3,9 +3,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Obtener datos del formulario
     $name = trim($_POST['con_name'] ?? '');
     $email = trim($_POST['con_email'] ?? '');
+    $phone = trim($_POST['con_phone'] ?? '');
+    $budget = trim($_POST['con_budget'] ?? '');
     $message = trim($_POST['con_message'] ?? '');
 
-    if (empty($name) || empty($email) || empty($message)) {
+    if (empty($name) || empty($email) || empty($phone) || empty($budget) || empty($message)) {
         http_response_code(400);
         echo "Todos los campos son obligatorios.";
         exit;
@@ -28,6 +30,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $body = "<h3>Tienes un nuevo mensaje de contacto</h3>
              <p><strong>Nombre:</strong> $name</p>
              <p><strong>Email:</strong> $email</p>
+             <p><strong>Teléfono:</strong> $phone</p>
+             <p><strong>Presupuesto del proyecto:</strong> $budget</p>
              <p><strong>Mensaje:</strong><br>$message</p>";
 
     // Parámetros SMTP
