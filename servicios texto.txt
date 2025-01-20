@@ -1,0 +1,235 @@
+
+            <!--====================  Blog Area Start ====================-->
+            <div class="blog-pages-wrapper section-space--ptb_195">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6  mb-30 wow move-up">
+                            <!--======= Single Blog Item Start ========-->
+                            <div class="single-blog-item blog-grid">
+                                <!-- Post Feature Start -->
+                                <div class="post-feature blog-thumbnail">
+                                    <a >
+                                        <img class="img-fluid"
+                                            src="assets/images/hero/desarrollo-tienda-virtuales-ARTE.jpg"
+                                            alt="Blog Images">
+                                    </a>
+                                </div>
+                                <!-- Post Feature End -->
+
+                                <!-- Post info Start -->
+                                <div class="post-info lg-blog-post-info">
+
+
+                                    <h5 class="post-title font-weight--bold">
+                                        <a
+                                            style="font-family: 'anton', sans-serif; font-weight: 400; text-align: center; color: black;">Desarrollo
+                                            de tiendas virtuales</a>
+                                    </h5>
+
+                                    <div  class="post-excerpt mt-15">
+                                        <p style="color: rgb(0, 0, 0); font-family: 'Helvetica Light', sans-serif; text-align: left; font-weight: 400;">
+    El desarrollo de tiendas virtuales ha transformado el comercio electrónico, permitiendo a empresas y emprendedores llegar a un público global sin las limitaciones de una tienda física. Esta tecnología ha cambiado cómo compramos y vendemos productos, facilitando interacciones más dinámicas entre consumidores y vendedores. Además, ofrece herramientas para gestionar inventarios, realizar ventas y analizar comportamientos de clientes, beneficiando tanto a pequeñas startups como a grandes corporaciones.
+</p>
+
+                                    </div>
+
+                                </div>
+                                <!-- Post info End -->
+                            </div>
+                            <!--===== Single Blog Item End =========-->
+
+                        </div>
+
+                        <div class="col-lg-4 col-md-6  mb-30 wow move-up">
+                            <!--======= Single Blog Item Start ========-->
+                            <div class="single-blog-item blog-grid">
+                                <!-- Post Feature Start -->
+                                <div class="post-feature blog-thumbnail">
+                                    <a >
+                                        <img class="img-fluid"
+                                            src="assets/images/hero/implementacion-y-gestion-de-acceso-remoto-ARTE.jpg"
+                                            alt="Blog Images">
+                                    </a>
+                                </div>
+                                <!-- Post Feature End -->
+
+                                <!-- Post info Start -->
+                                <div class="post-info lg-blog-post-info">
+
+
+                                    <h5 class="post-title font-weight--bold">
+                                        <a
+                                            style="font-family: 'anton', sans-serif; font-weight: 400; text-align: center; color: black;">Implementación
+                                            y gestión de acceso remoto (RDP)</a>
+                                    </h5>
+
+                                    <div style="text-align: left;" class="post-excerpt mt-15">
+                                        <p style="color: black; font-family: 'Helvetica Light', sans-serif; font-weight: 400;">
+    El acceso remoto mediante Remote Desktop Protocol (RDP), desarrollado por Microsoft, ha revolucionado la gestión y acceso a sistemas informáticos. Permite a los usuarios conectarse a un equipo desde cualquier ubicación, ofreciendo control total sobre la máquina remota como si estuvieran físicamente presentes. Esta capacidad facilita actividades como la administración de sistemas y resolución de problemas técnicos, permitiendo a los equipos de soporte actuar eficientemente sin estar en el mismo lugar que el equipo afectado.
+</p>
+
+                                    </div>
+
+                                </div>
+                                <!-- Post info End -->
+                            </div>
+                            <!--===== Single Blog Item End =========-->
+
+                        </div>
+
+                        <div class="col-lg-4 col-md-6  mb-30 wow move-up">
+                            <!--======= Single Blog Item Start ========-->
+                            <div class="single-blog-item blog-grid">
+                                <!-- Post Feature Start -->
+                                <div class="post-feature blog-thumbnail">
+                                    <a >
+                                        <img class="img-fluid"
+                                            src="assets/images/hero/gestion-y-desarrollo-de-bases-de-datos-ARTE.jpg"
+                                            alt="Blog Images">
+                                    </a>
+                                </div>
+                                <!-- Post Feature End -->
+
+                                <!-- Post info Start -->
+                                <div class="post-info lg-blog-post-info">
+
+
+                                    <h5 class="post-title font-weight--bold">
+                                        <a
+                                            style="font-family: 'anton', sans-serif; font-weight: 400; text-align: center; color: black;">Gestión
+                                            y desarrollo de bases de datos</a>
+                                    </h5>
+
+                                    <div style="text-align: justify;" class="post-excerpt mt-15">
+                                        <p style="color: black; font-family: 'Helvetica Light', sans-serif; text-align: left; font-weight: 400;">
+    La gestión y el desarrollo de bases de datos son cruciales en la infraestructura de TI de cualquier organización, apoyando operaciones y crecimiento empresarial. Estos sistemas almacenan, organizan y gestionan grandes volúmenes de información, facilitando el acceso y actualización en tiempo real. También integran información de diversas fuentes, creando un repositorio centralizado de conocimiento crítico para la organización.
+</p>
+
+                                    </div>
+
+                                </div>
+                                <!-- Post info End -->
+                            </div>
+                            <!--===== Single Blog Item End =========-->
+
+                        </div>
+
+                        <div class="col-lg-4 col-md-6  mb-30 wow move-up">
+                            <!--======= Single Blog Item Start ========-->
+                            <div class="single-blog-item blog-grid">
+                                <!-- Post Feature Start -->
+                                <div class="post-feature blog-thumbnail">
+                                    <a >
+                                        <img class="img-fluid"
+                                            src="assets/images/hero/desarrollo-de-aplicacion-web-ARTE.jpg"
+                                            alt="Blog Images">
+                                    </a>
+                                </div>
+                                <!-- Post Feature End -->
+
+                                <!-- Post info Start -->
+                                <div class="post-info lg-blog-post-info">
+
+
+                                    <h5 class="post-title font-weight--bold">
+                                        <a
+                                            style="font-family: 'anton', sans-serif; font-weight: 400; text-align: center; color: black;">Desarrollo
+                                            de aplicaciones web</a>
+                                    </h5>
+
+                                    <div style="text-align: left;" class="post-excerpt mt-15">
+                                        <p style="color: black; font-family: 'Helvetica Light', sans-serif; font-weight: 400;">
+    El desarrollo de aplicaciones web, esencial en la tecnología de la información, abarca la creación, diseño y mantenimiento de aplicaciones accesibles vía navegador. Este campo ha crecido exponencialmente debido a la demanda de soluciones digitales interactivas y accesibles globalmente. Hoy en día, es crucial para las estrategias digitales de empresas de todos los tamaños, mejorando la eficiencia operativa, la experiencia del usuario y la conectividad global.
+</p>
+
+                                    </div>
+
+                                </div>
+                                <!-- Post info End -->
+                            </div>
+                            <!--===== Single Blog Item End =========-->
+
+                        </div>
+
+                        <div class="col-lg-4 col-md-6  mb-30 wow move-up">
+                            <!--======= Single Blog Item Start ========-->
+                            <div class="single-blog-item blog-grid">
+                                <!-- Post Feature Start -->
+                                <div class="post-feature blog-thumbnail">
+                                    <a >
+                                        <img class="img-fluid"
+                                            src="assets/images/hero/desarrollo-de-paginas-web-cms.jpg"
+                                            alt="Blog Images">
+                                    </a>
+                                </div>
+                                <!-- Post Feature End -->
+
+                                <!-- Post info Start -->
+                                <div class="post-info lg-blog-post-info">
+
+
+                                    <h5 class="post-title font-weight--bold">
+                                        <a
+                                            style="font-family: 'anton', sans-serif; font-weight: 400; text-align: center; color: black;">Desarrollo
+                                            de páginas web con sistemas de gestión de contenidos (CMS)</a>
+                                    </h5>
+
+                                    <div style="text-align: justify;" class="post-excerpt mt-15">
+                                        <p style="color: black; font-family: 'Helvetica Light', sans-serif; text-align: justify; font-weight: 400;">
+    El desarrollo de páginas web utilizando sistemas de gestión de contenidos (CMS) ha revolucionado la creación y gestión de sitios web, permitiendo a individuos y organizaciones construir y administrar sitios sin necesidad de conocimientos avanzados en programación. Esto ha simplificado el proceso de desarrollo web, ofreciendo mayor flexibilidad y control sobre el contenido, mejorando la accesibilidad y la funcionalidad de los sitios web.
+</p>
+
+                                    </div>
+
+                                </div>
+                                <!-- Post info End -->
+                            </div>
+                            <!--===== Single Blog Item End =========-->
+
+                        </div>
+
+                        <div class="col-lg-4 col-md-6  mb-30 wow move-up">
+                            <!--======= Single Blog Item Start ========-->
+                            <div class="single-blog-item blog-grid">
+                                <!-- Post Feature Start -->
+                                <div class="post-feature blog-thumbnail">
+                                    <a >
+                                        <img class="img-fluid"
+                                            src="assets/images/hero/analisis-y-diseño-de-sistemas-personalizados.jpg"
+                                            alt="Blog Images">
+                                    </a>
+                                </div>
+                                <!-- Post Feature End -->
+
+                                <!-- Post info Start -->
+                                <div class="post-info lg-blog-post-info">
+
+
+                                    <h5 class="post-title font-weight--bold">
+                                        <a
+                                            style="font-family: 'anton', sans-serif; font-weight: 400; text-align: center; color: black;">Análisis
+                                            y diseño de sistemas personalizados</a>
+                                    </h5>
+
+                                    <div style="text-align: left;" class="post-excerpt mt-15">
+                                        <p style="color: black; font-family: 'Helvetica Light', sans-serif; font-weight: 400;">
+    El análisis y diseño de sistemas personalizados en ingeniería de software y TI crea soluciones adaptadas a necesidades específicas de organizaciones o clientes. A diferencia de los sistemas genéricos, estos abordan requerimientos únicos y ofrecen funcionalidades específicas alineadas con los objetivos del usuario. Este enfoque mejora significativamente la eficiencia operativa y proporciona una ventaja competitiva a las organizaciones.
+</p>
+
+                                    </div>
+
+                                </div>
+                                <!-- Post info End -->
+
+                            </div>
+                            <!--===== Single Blog Item End =========-->
+
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
