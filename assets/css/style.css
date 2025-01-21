@@ -654,7 +654,7 @@ input[type=checkbox] {
   border-radius: 100%;
   width: 8px;
   height: 8px;
-  background: #d8d8d8;
+  background: #7601d8;
   z-index: 1;
   -webkit-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -672,7 +672,7 @@ input[type=checkbox] {
   width: 12px;
   height: 12px;
   opacity: 1;
-  background: #FFEB00;
+  background: #000;
 }
 
 .site-wrapper-reveal {
@@ -1461,14 +1461,14 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 .section-space--ptb_161 {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: url(../images/hero/fondo-3-diseño.jpg);
+  background-image: url(../images/hero/audiovisual_creacion\ contenido.png);
   background-size: cover;
 }
 
 .section-space--ptb_163 {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: url(../images/hero/fondo-3d-index.png);
+  background-image: url(../images/hero/fondo-4-diseño.png);
   background-size: cover;
 }
 
@@ -1595,7 +1595,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 
 .section-space--pt_162 {
   padding-top: 100px;
-  background-image: url(../images/hero/fondo-4-diseño.png);
+  background-image: url(../images/hero/fondo-3d-index.png);
   background-size: cover;
 }
 
@@ -1613,7 +1613,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 
 .section-space--pt_100-5 {
   padding-top: 100px;
-  background-image: url(../images/hero/fondo-galeria-3d.png);
+  background-image: url(../images/hero/fondo-4-sublimado.png);
   background-size: cover;
 }
 
@@ -1744,6 +1744,8 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
       background-position: center;
   }
 }
+
+
 
 .section-space--pt_81 {
   padding-top: 80px;
@@ -12412,6 +12414,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 
 .appointment-contact-bg {
   background: url(../images/bg/home-appointment-contact-bg-image.webp);
+  background-color: #7601d8;
   background-repeat: no-repeat;
   background-position: center right;
 }
@@ -12497,8 +12500,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 .infotechno-contact-us-bg {
-  background-color: #eff2f6;
-  background-image: url(../images/hero/fondo-testimonios-3d.png);
+  background-color: #ffeb00;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -12639,7 +12641,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .contact-info-one .call-us a:hover,
 .contact-info-two .call-us a:hover,
 .contact-info-three .call-us a:hover {
-  color: #002fa6;
+  color: #ffeb00;
 }
 
 .contact-info-one .btn--secondary,
@@ -16140,7 +16142,7 @@ only screen and (max-width: 767px) {
 }
 
 .layout-section-bg {
-  background: url(../images/hero/fondo-team\ -\ copia.jpg);
+  background: url(../images/team/team_copia2.jpg);
   background-size: cover;
   background-color: #f6f2ed;
   background-repeat: no-repeat;
@@ -16157,11 +16159,11 @@ only screen and (max-width: 767px) {
 }
 
 .layout-section-bg-210 {
-  background: url(../images/hero/fondo-2-diseño.jpg);
   background-size: cover;
   background-color: #f6f2ed;
   background-repeat: no-repeat;
   background-position: bottom right;
+  background-color: #ffeb00;
 }
 
 .layout-section-bg-0 {
@@ -16829,8 +16831,13 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .machine-learning-about-bg {
-  background-color: #f8fbfe;
-  background-image: url("../images/hero/fondo-siloimaginas-3d.png");
+  background-color: #ffeb00;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.machine-learning-about-bg-02 {
+  background-color: #ffeb00;
+  background-image: url(../images/hero/fondo-3d-index.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
