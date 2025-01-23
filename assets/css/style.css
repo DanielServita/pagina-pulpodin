@@ -16836,8 +16836,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   background-repeat: no-repeat;
 }
 .machine-learning-about-bg-02 {
-  background-color: #ffeb00;
-  background-image: url(../images/hero/fondo-3d-index.png);
+  background-color: #fff;
   background-size: cover;
   background-repeat: no-repeat;
 }
