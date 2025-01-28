@@ -3675,8 +3675,9 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .header-social-networks.style-icons a {
   display: inline-block;
   padding: 0 10px;
-  font-size: 18px;
+  font-size: 25px;
   margin-top: 10px;
+  color: #000;
 }
 
 .header-bottom-inner {
