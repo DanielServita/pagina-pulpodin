@@ -1650,7 +1650,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 .section-space--ptb_3 {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: url(../images/hero/fondo-paquetes-mark.png);
+  background-color: #b5b5b5;
   background-size: cover;
 }
 
@@ -1691,8 +1691,8 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 
 .section-space--pt_100 {
   padding-top: 100px;
-  background-image: url(../images/hero/fondo-innovacion-index.png);
   background-size: cover;
+  background-color: #ffeb00;
 }
 
 .section-space--pt_100-55 {
@@ -1726,7 +1726,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 
 .section-space--pt_150 {
   padding-top: 100px;
-  background-image: url(../images/hero/audiovisual_creacion\ contenido.png);
+  background-color: #7601d8;
   background-size: cover;
 }
 
@@ -1744,7 +1744,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 
 .section-space--pt_100-3 {
   padding-top: 100px;
-  background-image: url(../images/hero/fondo-tendenciastecnologicas.png);
+  background-color: #ffeb00;
   background-size: cover;
 }
 
@@ -12125,8 +12125,9 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 .projectinfotechno-bg2 {
-  background-image: url(../images/hero/fondo-paquetes-mark.png);
+  background-image: url(../images/hero/fondo-p.png);
   background-repeat: no-repeat;
+  background-color: #b5b5b5;
   background-position: bottom left;
 }
 
@@ -15113,7 +15114,7 @@ only screen and (max-width: 767px) {
   position: relative;
   /* Asegúrate de que el elemento contenedor tenga posición relativa */
   background-repeat: no-repeat;
-  background-image: url("../images/hero/Pulpodin1.jpg");
+  background-image: url("../images/hero/fondo-principal-pulpo.jpg");
   background-size: cover;
   background-position: 50% 50%;
   width: 100%;
@@ -16293,9 +16294,8 @@ only screen and (max-width: 767px) {
 }
 
 .layout-section-bg-0 {
-  background: url(../images/hero/fondo-4-index.png);
+  background: url(../images/hero/fondo-4-in);
   background-size: cover;
-  background-color: #f6f2ed;
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -16968,8 +16968,8 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .machine-learning-about-bg2 {
-  background-color: #f8fbfe;
-  background-image: url("../images/hero/fondo-2-sublimado.png");
+  background-color: #ffeb00;
+  background-image: url("../images/hero/");
   background-size: cover;
   background-repeat: no-repeat;
 }
