@@ -1625,6 +1625,22 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   }
 
 }
+.section-space--ptb_100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #ffeb00;
+  background-size: cover;
+  background-image: url(../images/hero/);
+}
+
+
+.section-space--ptb_100-222 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #ffeb00;
+  background-size: cover;
+  background-image: url(../images/hero/asesoría-en-redes-sociales);
+}
 
 .section-space--ptb_100-123 {
   padding-top: 100px;
