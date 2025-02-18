@@ -828,7 +828,7 @@ input[type=checkbox] {
 /*===================================
     - Breadvrumb  
 =================================*/
-.breadcrumb-area {
+.breadcrumb-area-123 {
   padding-top: 114px;
   padding-bottom: 114px;
   background-color: #fff;
@@ -840,8 +840,112 @@ input[type=checkbox] {
   background-size: cover;
   z-index: 3;
   position: relative;
-  background-image: url(../images/hero/ba);
+  background-image: url(../images/hero/asesoría-en-redes-sociales-banner.jpg)
 
+}
+/* Imagen de fondo para pantallas pequeñas (móvil) */
+@media (max-width: 768px) {
+  .breadcrumb-area-123 {
+      background-image: url('../images/hero/asesoría-en-redes-sociales-telefono-banner.jpg')
+      background-size: cover;
+      background-position: center;
+  }
+}
+
+.breadcrumb-area-234 {
+  padding-top: 114px;
+  padding-bottom: 114px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom-width: 0px;
+  padding-top: 136px;
+  padding-bottom: 131px;
+  background-size: cover;
+  z-index: 3;
+  position: relative;
+  background-image: url(../images/hero/campañas-publicitarias-banner.jpg)
+
+}
+/* Imagen de fondo para pantallas pequeñas (móvil) */
+@media (max-width: 768px) {
+  .breadcrumb-area-234 {
+      background-image: url('../images/hero/campañas-publicitarias-telefono-banner.jpg')
+      background-size: cover;
+      background-position: center;
+  }
+}
+
+.breadcrumb-area-345 {
+  padding-top: 114px;
+  padding-bottom: 114px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom-width: 0px;
+  padding-top: 136px;
+  padding-bottom: 131px;
+  background-size: cover;
+  z-index: 3;
+  position: relative;
+  background-image: url(../images/hero/estrategia-de-contenido-banner.jpg)
+
+}
+/* Imagen de fondo para pantallas pequeñas (móvil) */
+@media (max-width: 768px) {
+  .breadcrumb-area-345 {
+      background-image: url('../images/hero/estrategia-de-contenido-telefono-banner.jpg')
+      background-size: cover;
+      background-position: center;
+  }
+}
+
+.breadcrumb-area-456 {
+  padding-top: 114px;
+  padding-bottom: 114px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom-width: 0px;
+  padding-top: 136px;
+  padding-bottom: 131px;
+  background-size: cover;
+  z-index: 3;
+  position: relative;
+  background-image: url(../images/hero/SEO-SEM-banner.jpg)
+
+}
+/* Imagen de fondo para pantallas pequeñas (móvil) */
+@media (max-width: 768px) {
+  .breadcrumb-area-456 {
+      background-image: url('../images/hero/SEO-SEM-telefono-banner.jpg')
+      background-size: cover;
+      background-position: center;
+  }
+}
+
+.breadcrumb-area-567 {
+  padding-top: 114px;
+  padding-bottom: 114px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom-width: 0px;
+  padding-top: 136px;
+  padding-bottom: 131px;
+  background-size: cover;
+  z-index: 3;
+  position: relative;
+  background-image: url(../images/hero/asesoría-en-redes-sociales-banner.jpg)
+
+}
+/* Imagen de fondo para pantallas pequeñas (móvil) */
+@media (max-width: 768px) {
+  .breadcrumb-area-567 {
+      background-image: url('../images/hero/asesoría-en-redes-sociales-telefono-banner.jpg')
+      background-size: cover;
+      background-position: center;
+  }
 }
 
 .breadcrumb-area-7 {
@@ -1522,11 +1626,43 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 
 }
 
-.section-space--ptb_100-222 {
+.section-space--ptb_100-123 {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #000;
   background-size: cover;
+  background-image: url(../images/hero/asesoría-en-redes-sociales-fondo.jpg);
+}
+.section-space--ptb_100-234 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #000;
+  background-size: cover;
+  background-image: url(../images/hero/campañas-publicitarias-fondo.jpg);
+}
+
+.section-space--ptb_100-345 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #000;
+  background-size: cover;
+  background-image: url(../images/hero/estrategia-de-contenido-fondo.jpg);
+}
+
+.section-space--ptb_100-456 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #000;
+  background-size: cover;
+  background-image: url(../images/hero/SEO-SEM-fondo.jpg);
+}
+
+.section-space--ptb_100-567 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #000;
+  background-size: cover;
+  background-image: url(../images/hero/email-marketing-fondo.jpg);
 }
 
 .section-space--ptb_100-97 {
