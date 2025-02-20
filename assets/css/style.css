@@ -831,7 +831,6 @@ input[type=checkbox] {
 .breadcrumb-area-123 {
   padding-top: 114px;
   padding-bottom: 114px;
-  background-color: #fff;
   background-repeat: no-repeat;
   background-position: center center;
   border-bottom-width: 0px;
@@ -845,8 +844,32 @@ input[type=checkbox] {
 }
 /* Imagen de fondo para pantallas pequeñas (móvil) */
 @media (max-width: 768px) {
-  .breadcrumb-area-123 {
-      background-image: url('../images/hero/asesoría-en-redes-sociales-telefono-banner.jpg')
+  .breadcrumb-area-123{
+      background-image: url('../images/hero/asesoría-en-redes-sociales-telefono-banner.jpg');
+      background-size: cover;
+      background-position: center;
+  }
+}
+
+.breadcrumb-area {
+  padding-top: 114px;
+  padding-bottom: 114px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom-width: 0px;
+  padding-top: 136px;
+  padding-bottom: 131px;
+  background-size: cover;
+  z-index: 3;
+  position: relative;
+  background-image: url(../images/hero/banner-contacto.jpg)
+
+}
+/* Imagen de fondo para pantallas pequeñas (móvil) */
+@media (max-width: 768px) {
+  .breadcrumb-area {
+      background-image: url('../images/hero/banner-contacto-tlf.jpg')
       background-size: cover;
       background-position: center;
   }
@@ -869,8 +892,8 @@ input[type=checkbox] {
 }
 /* Imagen de fondo para pantallas pequeñas (móvil) */
 @media (max-width: 768px) {
-  .breadcrumb-area-234 {
-      background-image: url('../images/hero/campañas-publicitarias-telefono-banner.jpg')
+  .breadcrumb-area-234{
+      background-image: url('../images/hero/campañas-publicitarias-telefono-banner.jpg');
       background-size: cover;
       background-position: center;
   }
@@ -893,8 +916,8 @@ input[type=checkbox] {
 }
 /* Imagen de fondo para pantallas pequeñas (móvil) */
 @media (max-width: 768px) {
-  .breadcrumb-area-345 {
-      background-image: url('../images/hero/estrategia-de-contenido-telefono-banner.jpg')
+  .breadcrumb-area-345{
+      background-image: url('../images/hero/estrategia-de-contenido-telefono-banner.jpg');
       background-size: cover;
       background-position: center;
   }
@@ -917,8 +940,8 @@ input[type=checkbox] {
 }
 /* Imagen de fondo para pantallas pequeñas (móvil) */
 @media (max-width: 768px) {
-  .breadcrumb-area-456 {
-      background-image: url('../images/hero/SEO-SEM-telefono-banner.jpg')
+  .breadcrumb-area-456{
+      background-image: url('../images/hero/SEO-SEM-telefono-banner.jpg');
       background-size: cover;
       background-position: center;
   }
