@@ -887,13 +887,13 @@ input[type=checkbox] {
   background-size: cover;
   z-index: 3;
   position: relative;
-  background-image: url(../images/hero/campañas-publicitarias-banner.jpg)
+  background-image: url(../images/hero/campañas-publicitarias-fondo-servicios.jpg)
 
 }
 /* Imagen de fondo para pantallas pequeñas (móvil) */
 @media (max-width: 768px) {
   .breadcrumb-area-234{
-      background-image: url('../images/hero/campañas-publicitarias-telefono-banner.jpg');
+      background-image: url('../images/hero/campañas-publicitarias-telefono-servicios.jpg');
       background-size: cover;
       background-position: center;
   }
@@ -959,13 +959,37 @@ input[type=checkbox] {
   background-size: cover;
   z-index: 3;
   position: relative;
-  background-image: url(../images/hero/asesoría-en-redes-sociales-banner.jpg)
+  background-image: url(../images/hero/email-marketing-banner.jpg)
 
 }
 /* Imagen de fondo para pantallas pequeñas (móvil) */
 @media (max-width: 768px) {
-  .breadcrumb-area-567 {
-      background-image: url('../images/hero/asesoría-en-redes-sociales-telefono-banner.jpg')
+  .breadcrumb-area-567{
+      background-image: url('../images/hero/email-marketing-telefono-banner.jpg');
+      background-size: cover;
+      background-position: center;
+  }
+}
+
+.breadcrumb-area-321 {
+  padding-top: 114px;
+  padding-bottom: 114px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom-width: 0px;
+  padding-top: 136px;
+  padding-bottom: 131px;
+  background-size: cover;
+  z-index: 3;
+  position: relative;
+  background-image: url(../images/hero/campañas-publicitarias-fondo-servicios.jpg)
+
+}
+/* Imagen de fondo para pantallas pequeñas (móvil) */
+@media (max-width: 768px) {
+  .breadcrumb-area-321{
+      background-image: url('../images/hero/campañas-publicitarias-telefono-servicios.jpg');
       background-size: cover;
       background-position: center;
   }
@@ -15289,7 +15313,7 @@ only screen and (max-width: 767px) {
   position: relative;
   /* Asegúrate de que el elemento contenedor tenga posición relativa */
   background-repeat: no-repeat;
-  background-image: url("../images/hero/fondo-principal-pulpo.jpg");
+  background-image: url("../images/hero/imagene-aplicacion-fondo-pc.jpg");
   background-size: cover;
   background-position: 50% 50%;
   width: 100%;
@@ -15297,6 +15321,15 @@ only screen and (max-width: 767px) {
   height: 100vh;
   /* Ajusta según sea necesario */
 }
+/* Imagen de fondo para pantallas pequeñas (móvil) */
+@media (max-width: 768px) {
+  .resolutions-hero-bg-2{
+      background-image: url('../images/hero/imagene-aplicacion-fondo.jpg');
+      background-size: cover;
+      background-position: center;
+  }
+}
+
 
 .resolutions-hero-bg-2::before {
   content: "";
