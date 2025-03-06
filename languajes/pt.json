@@ -435,32 +435,28 @@
     "atrevete": "ousar dar o primeiro passo!"
   },
 
-  
-    "sub-title3": {
-      "conoce-sublimado": "Conheça nosso departamento de sublimação"
-    },
-    "heading5": {
-      "creatividad-calidad": "Sua criatividade, nossa sublimação qualidade insuperável em cada detalhe"
-    },
-    "sub-heading": {
-      "sublimado-pulpodin": "Sublimação da PulpoDin"
-    },
-    "description2": {
-      "descripcion-servicio": "Nosso serviço de sublimação abrange desde a criação de designs personalizados até a produção de peças únicas, adaptando-se às necessidades específicas de cada cliente. Seja que você precise de um artigo especial para um evento ou de uma série de produtos personalizados para seu negócio, na Pulpodin estamos prontos para ajudá-lo a concretizar suas ideias com a mais alta qualidade e detalhe."
-    },
-    "button3": {
-      "consulta-servicio": "Consulte nosso serviço"
-    },
-    
-        "cta-heading3": {
-          "calidad-sublimado": "Descubra a melhor qualidade em sublimação, garantida para impressionar"
-        },
-        "cta-button3": {
-          "mas-informacion": "Mais Informações"
-        },
-      
-      
-  
+  "sub-title3": {
+    "conoce-sublimado": "Conheça nosso departamento de sublimação"
+  },
+  "heading5": {
+    "creatividad-calidad": "Sua criatividade, nossa sublimação qualidade insuperável em cada detalhe"
+  },
+  "sub-heading": {
+    "sublimado-pulpodin": "Sublimação da PulpoDin"
+  },
+  "description2": {
+    "descripcion-servicio": "Nosso serviço de sublimação abrange desde a criação de designs personalizados até a produção de peças únicas, adaptando-se às necessidades específicas de cada cliente. Seja que você precise de um artigo especial para um evento ou de uma série de produtos personalizados para seu negócio, na Pulpodin estamos prontos para ajudá-lo a concretizar suas ideias com a mais alta qualidade e detalhe."
+  },
+  "button3": {
+    "consulta-servicio": "Consulte nosso serviço"
+  },
+
+  "cta-heading3": {
+    "calidad-sublimado": "Descubra a melhor qualidade em sublimação, garantida para impressionar"
+  },
+  "cta-button3": {
+    "mas-informacion": "Mais Informações"
+  },
 
   "blog-sub-title": {
     "no-te-pierdas-nada": "NÃO PERCA NADA"
@@ -568,200 +564,522 @@
     "text3": "Impressões 3D",
     "text4": "Rua Berrizbeitia com Avenida Jose Antonio Paez, El Paraiso (Caracas, Venezuela)"
   },
-  
-    "hero": {
-        "boost_your_brand": "IMPULSIONAMOS SUA MARCA"
+
+  "hero": {
+    "boost_your_brand": "IMPULSIONAMOS SUA MARCA"
+  },
+
+  "services": {
+    "audiovisual_production": "Produção audiovisual",
+    "audiovisual_services": "Oferecemos serviços integrais de produção audiovisual para impulsionar o sucesso e a visibilidade da sua marca.",
+
+    "our_services": "Nossos Serviços",
+    "headline": "Na Pulpodin, transformamos suas ideias em experiências visuais impactantes",
+    "corporate_video": "Produção de Vídeo Corporativo",
+    "event_coverage": "Cobertura de Eventos",
+    "social_content": "Produção de Conteúdo para Redes Sociais",
+    "editing_postproduction": "Serviços de Edição e Pós-produção",
+    "advertising_audiovisual": "Design e Produção de Publicidade Audiovisual",
+    "audiovisual_support": "Serviços de Suporte Audiovisual",
+    "quote": "Pulpodin: Inovação audiovisual para cada necessidade. Produção, edição, eventos e mais.",
+    "cta": "Dê vida às suas ideias conosco."
+  },
+
+  "audiovisual": {
+    "creative_production": "Produção audiovisual criativa para se conectar com seu público",
+    "services_description": "Nossos serviços de produção audiovisual se destacam por sua capacidade de contar histórias que se conectam emocionalmente com seu público. Seja por meio de vídeos promocionais, sessões fotográficas ou conteúdo projetado para redes sociais, oferecemos soluções visuais que transmitem a mensagem da sua marca de maneira poderosa e eficaz. Com uma abordagem inovadora e ferramentas de última geração, garantimos que seu conteúdo visual se destaque e gere o impacto que sua empresa precisa.",
+    "discover_more": "Descubra Mais"
+  },
+
+  "fun_fact": {
+    "years_experience_number": "1",
+    "years_experience_text": "Ano de experiência audiovisual",
+    "discover_more": "Descubra mais sobre nossos serviços",
+    "accounts_advised_number": "1790",
+    "accounts_advised_text": "Contas Aconselhadas",
+    "projects_completed_number": "32",
+    "projects_completed_text": "Projetos Concluídos",
+    "satisfied_clients_number": "73",
+    "satisfied_clients_text": "Clientes Satisfeitos",
+    "blog_posts_number": "318",
+    "blog_posts_text": "Postagens no Blog"
+  },
+
+  "testimonials2": {
+    "title": "Depoimentos",
+    "subtitle": "Nossos clientes preferem <span>Pulpodin</span>",
+    "author_1_name": "Carlos Pérez",
+    "author_1_company": "TechSolutions",
+    "author_1_comment": "A equipe da Pulpodin superou nossas expectativas com sua criatividade e profissionalismo.  Altamente recomendados!",
+    "author_2_name": "Luis Martínez",
+    "author_2_company": "MarketingPro",
+    "author_2_comment": "A produção audiovisual da Pulpodin nos ajudou a nos conectar melhor com nosso público. Trabalho incrível!",
+    "author_3_name": "Ana Rodríguez",
+    "author_3_company": "InnovateCorp",
+    "author_3_comment": "Profissionais, criativos e sempre dispostos a ir além. Pulpodin é nosso parceiro audiovisual de confiança. Excelente serviço!!"
+  },
+
+  "contact": {
+    "help_title": "Você precisa da nossa ajuda?",
+    "help_subtitle": "Na Pulpodin, estamos aqui para tornar seus projetos realidade!",
+    "name_placeholder": "Nome *",
+    "email_placeholder": "Email *",
+    "message_placeholder": "Por favor, descreva sua solicitação.",
+    "submit_button": "Contate-nos",
+    "contact_now_title": "Entre em contato agora!",
+    "contact_number": "(+58) 412 994 8381",
+    "contact_text": "Dê um impulso ao seu negócio com Pulpodin"
+  },
+
+  "graphic_design": {
+    "boost_brand": "IMPULSIONE SUA MARCA",
+    "title": "Design Gráfico",
+    "description": "Oferecemos serviços de design gráfico que criam soluções visuais eficazes para aumentar o sucesso do seu negócio.",
+    "see_more": "Ver Mais",
+    "corporate_identity_title": "Identidade Corporativa",
+    "corporate_identity_description": "Criação de logotipos, paletas de cores e manuais de marca que refletem a essência e os valores da sua empresa, garantindo uma imagem coerente e profissional.",
+    "advertising_materials_title": "Design de Materiais Publicitários",
+    "advertising_materials_description": "Desenvolvimento de folhetos, cartazes, banners e outros materiais promocionais que chamam a atenção e comunicam sua mensagem de forma eficaz.",
+    "packaging_title": "Design de Embalagens",
+    "packaging_description": "Desenho de embalagens atraentes e funcionais que se destacam no mercado e reforçam a identidade da sua marca."
+  },
+
+  "graphic_section": {
+    "sub_title": "Design Gráfico Pulpodin",
+    "title": "Nossa equipe de design gráfico é dedicada a transformar suas ideias em criações visuais impressionantes.",
+    "description": "De identidade corporativa ao design para redes sociais, estamos aqui para ajudá-lo a se destacar e comunicar sua mensagem de forma eficaz e atraente.",
+    "button_text": "Mais Informações"
+  },
+
+  "work_process": {
+    "subtitle": "Como trabalhamos",
+    "title": "Nosso modelo de negócios é baseado em 4 etapas principais"
+  },
+  "work_process_step_1": {
+    "step": "1",
+    "title": "01. Reunião Inicial e Briefing:",
+    "description": "Começamos com uma reunião para entender suas necessidades, objetivos e visão. Reunimos todas as informações necessárias para garantir que o design reflita com precisão sua marca e mensagem."
+  },
+  "work_process_step_2": {
+    "step": "2",
+    "title": "02. Pesquisa e Conceituação:",
+    "description": "Realizamos uma pesquisa aprofundada sobre seu setor, concorrentes e tendências atuais. Com base nessas informações, desenvolvemos conceitos criativos que estão alinhados com seus objetivos."
+  },
+  "work_process_step_3": {
+    "step": "3",
+    "title": "03. Design e Revisão:",
+    "description": "Criamos os designs iniciais e os compartilhamos com você para receber feedback. Fazemos as revisões necessárias para garantir que o resultado final atenda às suas expectativas e requisitos."
+  },
+  "work_process_step_4": {
+    "step": "4",
+    "title": "04. Entrega e Suporte:",
+    "description": "Após a aprovação do design final, entregamos todos os arquivos necessários nos formatos adequados. Além disso, oferecemos suporte contínuo para quaisquer ajustes ou atualizações futuras que você possa precisar."
+  },
+
+  "cta": {
+    "title": "Transforme sua marca com designs impactantes. Descubra o poder do design gráfico com a Pulpodin e leve o seu negócio para o próximo nível!",
+    "highlight": "Transforme sua marca com designs impactantes.",
+    "button": "Contate-nos"
+  },
+
+  "projects": {
+    "title": "Projetos de design",
+    "subtitle": "Temos orgulho em ter realizado projetos de design gráfico de alta qualidade",
+    "highlight": "design gráfico de alta qualidade",
+    "experience-title": "Experiência em Design Gráfico com a Pulpodin",
+    "experience-highlight": "Pulpodin",
+    "experience-description": "Na Pulpodin, temos ampla experiência na realização de projetos de design gráfico para diversas indústrias. Nossa equipe já trabalhou com clientes de todos os tamanhos, desde startups até grandes corporações, criando soluções visuais que se destacam e comunicam suas mensagens de forma eficaz. Nos orgulhamos de nossa capacidade de entender as necessidades únicas de cada cliente e transformar suas ideias em designs impactantes e memoráveis. Com foco em criatividade, qualidade e atenção aos detalhes, a Pulpodin é o parceiro ideal para levar sua marca ao próximo nível."
+  },
+
+  "projects2": {
+    "title": "Projetos Concluídos",
+    "subtitle": "Dê uma olhada em nossos projetos",
+    "highlight": "nossos projetos",
+    "project1-client": "TechSolutions",
+    "project1-date": "18 de janeiro de 2023",
+    "project1-title": "Rebranding Corporativo para TechSolutions",
+    "project1-description": "Redesenhamos a identidade visual da TechSolutions, incluindo um novo logotipo, paleta de cores e materiais de marketing. O objetivo foi modernizar a imagem da empresa e refletir sua inovação e liderança no setor de tecnologia.",
+    "project2-client": "EcoFriendly",
+    "project2-date": "18 de janeiro de 2023",
+    "project2-title": "Campanha Publicitária Visual para EcoFriendly",
+    "project2-description": "Criamos uma campanha visual atraente para a EcoFriendly, destacando seu compromisso com o meio ambiente e ampliando seu alcance entre consumidores responsáveis.",
+    "project3-client": "HealthFirst",
+    "project3-date": "21 de fevereiro de 2019",
+    "project3-title": "Design Inovador de Embalagem para HealthFirst",
+    "project3-description": "Projetamos embalagens funcionais e estéticas para os produtos da HealthFirst, fortalecendo sua presença no mercado competitivo.",
+    "project4-client": "EduTech",
+    "project4-date": "18 de janeiro de 2023",
+    "project4-title": "Desenvolvimento de Identidade Visual para EduTech",
+    "project4-description": "Criamos uma identidade visual distinta para a EduTech, alinhada com sua missão de transformar a educação por meio da tecnologia."
+  },
+
+  "breadcrumb": {
+    "contactTitle": "Entre em contato",
+    "home": "Início",
+    "contactActive": "Entre em contato"
+  },
+
+  "about-us": {
+    "boost-your-brand": "IMPULSE SUA MARCA",
+    "who-we-are": "Quem Somos?",
+    "our-services": "Na PulpoDin, projetamos soluções tecnológicas para o desenvolvimento eficaz da sua empresa, oferecendo uma variedade de serviços como: impressão 3D, inovação em software, marketing digital, sublimação, audiovisuais e design gráfico."
+  },
+
+  "services2": {
+    "title": "Nossos Serviços de Impressão 3D",
+    "advisor": "Assessoria personalizada para entender suas necessidades e recomendar as melhores soluções de impressão 3D.",
+    "design": "Design e modelagem 3D personalizados, criando modelos detalhados e precisos de acordo com suas especificações.",
+    "printing": "Impressão 3D de alta qualidade, utilizando materiais duráveis e tecnologia avançada para garantir resultados excepcionais.",
+    "optimization": "Otimização de designs para melhorar a eficiência e reduzir custos de produção.",
+    "prototypes": "Protótipos rápidos para validar suas ideias e realizar testes antes da produção final.",
+    "mass_production": "Produção em massa de peças utilizando tecnologia de impressão 3D para projetos de grande escala.",
+    "revision": "Revisão e ajuste de modelos impressos, garantindo que atendam às suas expectativas e padrões de qualidade.",
+    "support": "Suporte técnico contínuo para resolver qualquer problema ou dúvida durante o processo.",
+    "delivery": "Entrega pontual de seus produtos impressos, garantindo que você os receba no prazo combinado.",
+    "button_text": "Consulte nosso serviço"
+  },
+
+  "cta2": {
+    "cta_text": "Impulsionamos o seu futuro com soluções tecnológicas inovadoras"
+  },
+
+  "landing_page": {
+    "title": "Página de Destino Informativa",
+    "description": "Criamos páginas de destino informativas que não apenas chamam a atenção do seu público, mas também convertem visitantes em clientes fiéis.",
+    "more_info": "Mais informações",
+    "price": "$280",
+    "total_value": "Valor total",
+    "note": "O custo varia de acordo com os requisitos",
+    "whatsapp_button": "Orçar pelo WhatsApp"
+  },
+
+  "corporate_page": {
+    "title": "Site Corporativo",
+    "description": "Criamos e desenvolvemos sites corporativos que encapsulam a identidade e os valores únicos da sua empresa, destacando-a no mercado.",
+    "more_info": "Mais informações",
+    "price": "$350",
+    "total_value": "Valor total",
+    "note": "O custo varia de acordo com os requisitos",
+    "whatsapp_button": "Orçar pelo WhatsApp"
+  },
+
+  "web_store": {
+    "title": "Loja Online Corporativa",
+    "description": "Criamos lojas online corporativas que elevam o seu negócio para o próximo nível, aumentando as vendas e a visibilidade.",
+    "more_info": "Mais informações",
+    "price": "$750",
+    "total_value": "Valor total",
+    "note": "O custo varia de acordo com os requisitos",
+    "whatsapp_button": "Orçar pelo WhatsApp"
+  },
+
+  "landing_page_details": {
+    "department": "Departamento de Inovação de Software",
+    "title": "Detalhes incluídos ao contratar o design da sua Landing Page:",
+    "single_page": "Desenvolvimento de página única dividida em 4-5 seções.",
+    "modern_design": "Site moderno e fácil de navegar para qualquer usuário.",
+    "responsive": "Design responsivo para uma visualização perfeita em celulares.",
+    "fast_loading": "Velocidade de carregamento ideal (menos de 5 segundos).",
+    "contact_buttons": "Botões de contato direto para WhatsApp ou Chat do Facebook.",
+    "contact_forms": "Formulários de contato.",
+    "social_media": "Integração com suas redes sociais.",
+    "hosting": "Hospedagem e domínio (o domínio depende do nome da empresa) incluído por um ano."
+  },
+
+  "corporate_web": {
+    "sub_title": "Departamento de Inovação de Software",
+    "title": "Detalhes incluídos ao contratar o design do seu Site Corporativo:",
+    "custom_design": "Design Personalizado: Criamos designs únicos que refletem a identidade da sua empresa.",
+    "seo_optimization": "Otimização de SEO: Garantimos que seu site seja facilmente encontrado nos buscadores.",
+    "responsiveness": "Responsividade: Nossos sites se adaptam a qualquer dispositivo.",
+    "security": "Segurança: Implementamos as melhores práticas para proteger suas informações.",
+    "fast_loading": "Velocidade de Carregamento: Otimizamos para um carregamento rápido e eficiente.",
+    "easy_navigation": "Navegação Fácil: Criamos interfaces intuitivas para uma melhor experiência do usuário.",
+    "integration": "Integração: Conectamos seu site a outras plataformas e ferramentas.",
+    "support": "Suporte Contínuo: Oferecemos manutenção e atualizações regulares."
+  },
+
+  "breadcrumb_corporate_web": {
+    "title": "Sites Corporativos",
+    "home": "Início",
+    "current_page": "Sites Corporativos"
+  },
+
+  "corporate_online_store": {
+    "sub_title": "Departamento de Inovação de Software",
+    "title": "Detalhes incluídos ao contratar o design da sua Loja Online Corporativa:",
+    "attractive_design": "Design Atraente: Criamos designs visualmente impactantes que captam a atenção dos clientes.",
+    "advanced_functionality": "Funcionalidade Avançada: Implementamos recursos como carrinhos de compras, gateways de pagamento e rastreamento de pedidos.",
+    "seo_optimization": "Otimização de SEO: Garantimos que sua loja seja facilmente encontrada nos motores de busca.",
+    "data_security": "Segurança de Dados: Protegemos as informações dos seus clientes com medidas de segurança avançadas.",
+    "mobile_friendly": "Adaptabilidade Móvel: Nossas lojas online são projetadas para funcionar perfeitamente em qualquer dispositivo.",
+    "system_integration": "Integração de Sistemas: Conectamos sua loja a sistemas de inventário, CRM e outras ferramentas.",
+    "user_experience": "Experiência do Usuário: Criamos interfaces intuitivas e fáceis de navegar para uma melhor experiência de compra.",
+    "support_maintenance": "Suporte e Manutenção: Oferecemos assistência contínua e atualizações para manter sua loja funcionando no máximo desempenho."
+  },
+
+  "breadcrumb_inventory_systems": {
+    "title": "Sistemas de Inventário",
+    "home": "Início",
+    "current_page": "Sistemas de Inventário"
+  },
+
+  "inventory_systems": {
+    "title": "Sistemas de Inventário",
+    "description": "Nossos sistemas de inventário automatizados ajudam a reduzir perdas, otimizar seu estoque e aumentar a eficiência. Deixe a tecnologia trabalhar para você e concentre-se no que realmente importa: expandir seu negócio!",
+    "more_info": "Mais informações",
+    "price": "$699",
+    "total_value": "Valor total",
+    "note": "O custo varia de acordo com os requisitos",
+    "whatsapp_button": "Orçar pelo WhatsApp"
+  },
+
+  "inventory_system_development": {
+    "sub_title": "Departamento de Inovação de Software",
+    "title": "Detalhes incluídos ao contratar o desenvolvimento do seu sistema de inventário:",
+    "price": "Preço USD 699",
+    "needs_analysis": "Análise de Necessidades: Identificação das necessidades específicas do cliente e do negócio para projetar um sistema de inventário adequado.",
+    "system_design": "Design do Sistema: Criação de um design de sistema que inclua a interface do usuário, banco de dados e processos de fluxo de trabalho.",
+    "software_development": "Desenvolvimento de Software: Programação e desenvolvimento do software de gestão de inventários, garantindo que seja fácil de usar e eficiente.",
+    "system_integration": "Integração com Outros Sistemas: Integração do sistema de inventário com outros sistemas empresariais, como contabilidade, vendas e CRM.",
+    "testing_validation": "Testes e Validação: Realização de testes rigorosos para garantir que o sistema funcione corretamente e atenda aos requisitos do cliente.",
+    "implementation": "Implementação: Instalação e configuração do sistema no ambiente do cliente, garantindo uma transição suave.",
+    "training": "Treinamento de Pessoal: Treinamento da equipe do cliente no uso do novo sistema de inventário para maximizar sua eficácia.",
+    "support_maintenance": "Suporte e Manutenção: Fornecimento de suporte técnico contínuo e atualizações regulares do sistema para mantê-lo atualizado e funcionando sem problemas."
+  },
+
+  "breadcrumb_mobile_apps": {
+    "title": "Aplicativos Móveis",
+    "home": "Início",
+    "current_page": "Aplicativos Móveis"
+  },
+
+  "mobile_apps": {
+    "title": "Aplicativos Móveis (Android/iOS)",
+    "description": "Desenvolvemos aplicativos móveis personalizados para Android e iOS que levarão sua empresa para a palma da mão de seus usuários. Com designs intuitivos, funcionalidades robustas e um foco na experiência do usuário.",
+    "more_info": "Mais informações",
+    "price": "$1000",
+    "total_value": "Valor total",
+    "note": "O custo varia de acordo com os requisitos",
+    "whatsapp_button": "Orçar pelo WhatsApp"
+  },
+
+  "mobile_app_development": {
+    "sub_title": "Departamento de Inovação de Software",
+    "title": "Detalhes incluídos ao contratar o desenvolvimento do seu aplicativo móvel:",
+    "price": "Preço USD 1000",
+    "consulting": "Consultoria Inicial: Avaliação de suas necessidades e objetivos para o desenvolvimento do aplicativo.",
+    "ux_ui_design": "Design UX/UI: Criação de um design intuitivo e atraente para a interface do usuário.",
+    "backend_development": "Desenvolvimento do Backend: Implementação da lógica do servidor e do banco de dados.",
+    "frontend_development": "Desenvolvimento do Frontend: Programação da interface do usuário para iOS e/ou Android.",
+    "testing_debugging": "Testes e Depuração: Realização de testes rigorosos para garantir qualidade e funcionalidade.",
+    "app_store_launch": "Lançamento na App Store/Google Play: Publicação do aplicativo nas lojas de aplicativos.",
+    "marketing_promotion": "Marketing e Promoção: Estratégias para promover seu aplicativo e atrair usuários.",
+    "support_maintenance": "Suporte e Manutenção: Assistência contínua e atualizações para manter o aplicativo em ótimas condições."
+  },
+
+  "breadcrumb_admin_systems": {
+    "title": "Sistemas Administrativos",
+    "home": "Início",
+    "current_page": "Sistemas Administrativos"
+  },
+
+  "admin_systems": {
+    "title": "Sistemas Administrativos",
+    "description": "Desenvolvemos sistemas administrativos personalizados que otimizam a gestão da sua empresa. Desde a gestão de pessoal até a geração de relatórios em tempo real, nossas soluções permitem que você se concentre no crescimento.",
+    "more_info": "Mais informações",
+    "price": "$800",
+    "total_value": "Valor total",
+    "note": "O custo varia de acordo com os requisitos",
+    "whatsapp_button": "Orçar pelo WhatsApp"
+  },
+
+  "admin_system_development": {
+    "sub_title": "Departamento de Inovação de Software",
+    "title": "Detalhes incluídos ao contratar o desenvolvimento do seu sistema administrativo:",
+    "price": "Preço USD 800",
+    "needs_evaluation": "Avaliação de Necessidades: Identificação das necessidades específicas da sua empresa.",
+    "system_design": "Design do Sistema: Criação de um design eficiente e escalável.",
+    "software_development": "Desenvolvimento de Software: Programação e desenvolvimento do sistema.",
+    "integration": "Integração: Conexão com outros sistemas empresariais existentes.",
+    "testing_validation": "Testes e Validação: Verificação de que o sistema funciona corretamente.",
+    "implementation": "Implementação: Instalação e configuração do sistema no seu ambiente.",
+    "training": "Treinamento: Capacitação da equipe para o uso do novo sistema.",
+    "support_maintenance": "Suporte e Manutenção: Assistência contínua e atualizações regulares."
+  },
+
+  "team_section": {
+    "button_text": "Conheça nossa equipe"
+  },
+
+  "did_you_know": {
+    "title": "Você sabia?",
+    "description": "Nosso serviço de impressão 3D abrange desde a criação de protótipos até a produção de peças finais, adaptando-se às necessidades específicas de cada cliente. Seja um modelo único para um projeto especial ou uma série de componentes para seu negócio, na Pulpodin estamos prontos para ajudá-lo a alcançar seus objetivos.",
+    "button_text": "Consulte nosso serviço"
+  },
+
+  "printing_services": {
+    "sub_title": "Departamento de Impressão 3D",
+    "heading": "Detalhes incluídos ao contratar nossos serviços de impressão 3D:",
+    "advisor": "Consultoria personalizada para entender suas necessidades e recomendar as melhores soluções de impressão 3D.",
+    "design": "Design e modelagem 3D sob medida, criando modelos detalhados e precisos de acordo com suas especificações.",
+    "printing": "Impressão 3D de alta qualidade, utilizando materiais duráveis e tecnologia avançada para garantir resultados excepcionais.",
+    "optimization": "Otimização de designs para melhorar a eficiência e reduzir custos de produção.",
+    "prototypes": "Protótipos rápidos para validar suas ideias e realizar testes antes da produção final.",
+    "mass_production": "Produção em massa de peças utilizando tecnologia de impressão 3D para projetos de grande escala.",
+    "revision": "Revisão e ajuste de modelos impressos, garantindo que atendam às suas expectativas e padrões de qualidade.",
+    "support": "Suporte técnico contínuo para resolver qualquer problema ou dúvida durante o processo.",
+    "delivery": "Entrega pontual dos seus produtos impressos, garantindo que você os receba no prazo acordado.",
+    "button_text": "Consulte nosso serviço"
+  },
+
+  "software_innovation": {
+    "sub_title": "Departamento de Inovação de Software",
+    "heading": "Detalhes incluídos ao contratar nossos serviços de inovação de software:",
+    "advisor": "Consultoria personalizada para entender suas necessidades e recomendar as melhores soluções de software.",
+    "custom_development": "Desenvolvimento de software sob medida, criando aplicativos e sistemas adaptados às suas especificações.",
+    "advanced_technology": "Integração de tecnologia avançada para garantir resultados excepcionais.",
+    "process_optimization": "Otimização de processos para melhorar a eficiência e reduzir custos operacionais.",
+    "prototypes": "Protótipos rápidos para validar suas ideias e realizar testes antes da implementação final.",
+    "large_scale_solutions": "Implementação de soluções tecnológicas para projetos de grande escala.",
+    "revision": "Revisão e ajuste do software, garantindo que atenda às suas expectativas e padrões de qualidade.",
+    "support": "Suporte técnico contínuo para resolver quaisquer problemas ou dúvidas durante o processo.",
+    "delivery": "Entrega pontual dos seus projetos, garantindo que você os receba no prazo acordado.",
+    "button_text": "Consulte nosso serviço"
+  },
+
+  "marketing_services": {
+    "sub_title": "Departamento de Marketing",
+    "heading": "Detalhes incluídos ao contratar nossos serviços de marketing:",
+    "market_analysis": "Análise de mercado para entender seu público-alvo e concorrência.",
+    "custom_strategies": "Estratégias de marketing personalizadas, adaptadas aos seus objetivos e necessidades.",
+    "campaign_management": "Desenvolvimento e gestão de campanhas publicitárias em diversos meios.",
+    "content_creation": "Criação de conteúdo atraente e relevante para seus canais de comunicação.",
+    "seo_optimization": "Otimização de SEO para melhorar a visibilidade do seu site nos motores de busca.",
+    "social_media": "Gestão de redes sociais para aumentar sua presença e engajamento nas plataformas chave.",
+    "email_marketing": "Email marketing para manter e fortalecer relações com seus clientes.",
+    "performance_analysis": "Análise e relatórios de desempenho para ajustar e melhorar as estratégias.",
+    "ongoing_support": "Suporte contínuo para resolver quaisquer dúvidas ou problemas relacionados às campanhas.",
+    "button_text": "Consulte nosso serviço"
+  },
+
+  "contact2": {
+    "title": "Precisa de mais informações?",
+    "description": "Estamos aqui para ajudar! Sinta-se à vontade para entrar em contato conosco através dos nossos canais sociais. Responderemos em poucas horas e garantimos uma resposta em até 2 dias úteis.",
+    "address_label": "Endereço:",
+    "address": "Calle Berrizbeitia com Avenida Jose Antonio Paez, El Paraiso (Caracas, Venezuela)",
+    "email_label": "E-mail:",
+    "email": "contacto@pulpodin.com",
+    "phone_label": "Telefone:",
+    "phone": "(+58) 4129948381",
+    "whatsapp_button": "WhatsApp"
+  },
+
+  "gallery2": {
+    "material_pop": "MATERIAL P.O.P",
+    "logos": "LOGOS",
+    "engineering": "ENGENHARIA",
+    "custom_designs": "DESENHOS PERSONALIZADOS"
+  },
+
+  "packages": {
+    "package_pulpillo": "Pacote Pulpillo",
+    "description_pulpillo": "Este pacote é ideal para pequenos negócios que estão começando a gerenciar suas redes sociais ou que buscam manter uma presença constante e básica online. A otimização da biografia e as postagens regulares ajudam a manter o perfil ativo e atraente para os seguidores.Serviços incluídos: • Otimização da biografia. • Planejamento de conteúdo e Copywriting. • 10 posts ou reels mensais (2 posts ou reels semanais). • 20 histórias mensais (1 história de segunda a sábado). • Design gráfico e gerenciamento de conta. • Relatório mensal básico. • Uma visita mensal para criação de conteúdo. Investimento:</b> de $150 a $300 USD por mês.",
+    "package_pulpo": "Pacote Polvo",
+    "description_pulpo": "Este pacote é adequado para empresas de médio porte que buscam maior interação com seu público e conteúdo mais frequente. Visitas adicionais para criação de conteúdo permitem uma presença mais dinâmica e autêntica. Serviços incluídos: • Otimização de perfil. • Planejamento de conteúdo e Copywriting. • 15 posts ou reels por mês (3 posts ou reels por semana). • 45 histórias por mês (1 a 2 histórias inter diárias). • Design gráfico e gerenciamento de conta. • Relatório mensal. • Duas visitas mensais para criação de conteúdo. • Interação com os usuários. • Gestão de ADS (publicidade paga). • Estratégia de marketing. Investimento: de $300 a $500 USD por mês.",
+    "package_pulpon": "Pacote Polvo Grande",
+    "description_pulpon": "Este pacote foi projetado para grandes empresas ou marcas que desejam uma forte presença nas redes sociais. A alta frequência de postagens e visitas para criação de conteúdo garante que o perfil esteja constantemente atualizado com conteúdo fresco e envolvente, além de proporcionar atenção personalizada aos seguidores. Serviços incluídos: • Otimização de perfil. • Planejamento de conteúdo e Copywriting. • 30 posts ou reels por mês (6 posts ou reels por semana). • 90 histórias por mês (3 histórias diárias). • Design gráfico e gerenciamento de conta. • Relatório mensal. • 1 visita semanal para criação de conteúdo. • Atendimento ao cliente. • Interação com os usuários. • Gestão de ADS (publicidade paga). • Estratégia de marketing. Investimento: de $600 a $900 USD por mês."
+  },
+
+  "sublimation_services": {
+    "sub_title": "Departamento de Sublimação",
+    "heading": "Detalhes incluídos ao contratar nossos serviços de sublimação:",
+    "advisor": "Assessoria personalizada para entender suas necessidades e recomendar as melhores soluções de sublimação.",
+    "design": "Design gráfico personalizado, criando imagens e padrões conforme suas especificações.",
+    "high_quality_printing": "Sublimação de alta qualidade, utilizando tintas e materiais duráveis para garantir resultados excepcionais.",
+    "optimization": "Otimização de designs para garantir uma transferência precisa e vibrante.",
+    "prototypes": "Protótipos rápidos para validar suas ideias e realizar testes antes da produção final.",
+    "mass_production": "Produção em massa de produtos sublimados para projetos de grande escala.",
+    "revision": "Revisão e ajuste dos produtos, garantindo que atendam às suas expectativas e padrões de qualidade.",
+    "support": "Suporte técnico contínuo para resolver quaisquer problemas ou dúvidas durante o processo.",
+    "delivery": "Entrega pontual de seus produtos sublimados, garantindo que você os receba no prazo combinado.",
+    "button_text": "Consulte nosso serviço"
+  },
+
+  "machine learningav": {
+    "sub_title": "Departamento de Produção Audiovisual",
+    "heading22": "Detalhes incluídos ao contratar nossos serviços de produção audiovisual:",
+    "item_1": "Assessoria personalizada para entender suas necessidades e recomendar as melhores soluções audiovisuais.",
+    "item_2": "Pré-produção, incluindo roteiro, storyboarding e planejamento.",
+    "item_3": "Produção de vídeo com equipamentos de alta qualidade e profissionais capacitados.",
+    "item_4": "Pós-produção, incluindo edição, efeitos visuais e som.",
+    "item_5": "Animação e gráficos em movimento para melhorar a qualidade visual de seus projetos.",
+    "item_6": "Otimização de conteúdo para diversas plataformas e dispositivos.",
+    "item_7": "Revisão e ajuste do produto final, garantindo que atenda às suas expectativas e padrões de qualidade.",
+    "item_8": "Suporte técnico contínuo para resolver quaisquer problemas ou dúvidas durante o processo.",
+    "item_9": "Entrega pontual de seus projetos audiovisuais, garantindo que você os receba no prazo combinado.",
+    "button_text": "Consulte nosso serviço"
+  },
+
+  "budgets": {
+    "sub_title": "Orçamentos",
+    "heading": "Serviços Audiovisuais",
+    "content_1": "1. Orçamento de Criação de Conteúdo Audiovisual: Este orçamento inclui a produção completa de vídeos para Instagram, desde o planejamento até a entrega final."
+  },
+
+  "included_services": {
+    "title": "",
+    "services_heading": "Serviços incluídos:",
+    "concept_script": "Conceituação e roteiro: Desenvolvimento da ideia, roteiro e storyboard. (Custo estimado: 30−50 USD por vídeo).",
+    "pre_production": "Pré-produção: Planejamento de locações, figurino, horários e recursos. (Custo estimado: 20−40 USD por vídeo).",
+    "recording": "Gravação: Filmagem com equipamento profissional (câmera, iluminação, som). (Custo estimado: 50−100 USD por vídeo).",
+    "editing_post_production": "Edição e Pós-produção: Montagem, efeitos, transições, música e legendas. (Custo estimado: 40−80 USD por vídeo).",
+    "graphic_design": "Design Gráfico (Opcional): Criação de gráficos animados, textos e sobreposições. (20−50 USD por vídeo)."
+  },
+
+  "pacote": {
+    "cabecalho": {
+      "titulo": "Pacote básico",
+      "imagem": "Imagem do pacote básico",
+      "precos": {
+        "desde": "a partir de",
+        "moeda": "R$",
+        "preco": "160",
+        "unidade": "BRL/vídeo"
+      }
     },
+    "corpo": {
+      "caracteristica": "Conceito simples, edição padrão."
+    },
+    "rodape": {
+      "botao": "Solicitar"
+    }
+  },
 
-    
-      "services": {
-          "audiovisual_production": "Produção audiovisual",
-          "audiovisual_services": "Oferecemos serviços integrais de produção audiovisual <br> para impulsionar o sucesso e a visibilidade da sua marca.",
-         
-                "our_services": "Nossos Serviços",
-                "headline": "Na Pulpodin, transformamos suas ideias em experiências visuais impactantes",
-                "corporate_video": "Produção de Vídeo Corporativo",
-                "event_coverage": "Cobertura de Eventos",
-                "social_content": "Produção de Conteúdo para Redes Sociais",
-                "editing_postproduction": "Serviços de Edição e Pós-produção",
-                "advertising_audiovisual": "Design e Produção de Publicidade Audiovisual",
-                "audiovisual_support": "Serviços de Suporte Audiovisual",
-                "quote": "Pulpodin: Inovação audiovisual para cada necessidade. Produção, edição, eventos e mais.",
-                "cta": "Dê vida às suas ideias conosco."
-         
-        
-      },
-      
-        "audiovisual": {
-            "creative_production": "Produção audiovisual criativa para se conectar com seu público",
-            "services_description": "Nossos serviços de produção audiovisual se destacam por sua capacidade de contar histórias que se conectam emocionalmente com seu público. Seja por meio de vídeos promocionais, sessões fotográficas ou conteúdo projetado para redes sociais, oferecemos soluções visuais que transmitem a mensagem da sua marca de maneira poderosa e eficaz. Com uma abordagem inovadora e ferramentas de última geração, garantimos que seu conteúdo visual se destaque e gere o impacto que sua empresa precisa.",
-            "discover_more": "Descubra Mais"
-        },
+  "breadcrumbpop": {
+    "titulo": "MATERIAL P.O.P",
+    "home": "Início",
+    "actual": "Material P.O.P"
+  },
 
-        
-          "fun_fact": {
-              "years_experience_number": "1",
-              "years_experience_text": "Ano de experiência audiovisual",
-              "discover_more": "Descubra mais sobre nossos serviços",
-              "accounts_advised_number": "1790",
-              "accounts_advised_text": "Contas Aconselhadas",
-              "projects_completed_number": "32",
-              "projects_completed_text": "Projetos Concluídos",
-              "satisfied_clients_number": "73",
-              "satisfied_clients_text": "Clientes Satisfeitos",
-              "blog_posts_number": "318",
-              "blog_posts_text": "Postagens no Blog"
-          },
+  "material": {
+    "titulo": {
+      "heading": "O que é?",
+      "descripcion": "O Material POP refere-se aos elementos visuais, decorativos ou informativos que são colocados em locais estratégicos dentro de uma loja ou ponto de venda. Seu objetivo é atrair a atenção do consumidor e promover compras por impulso, proporcionando uma experiência interativa e memorável. Os materiais POP podem ser tanto funcionais quanto estéticos, projetados para facilitar a venda do produto ou serviço."
+    },
+    "filtros": {
+      "todos": "Todos",
+      "nylon": "PA (Nylon)",
+      "nylon-carbono": "PA-GF (Nylon com fibra de carbono)",
+      "nylon-vidrio": "PA-CF (Nylon com fibra de vidro)",
+      "policarbonato": "PC (Policarbonato)",
+      "pc-carbono": "PC-CF (Policarbonato com fibra de carbono)",
+      "pet-carbono": "PET-CF (PETG com fibra de carbono)"
+    }
+  },
 
-          
-            "testimonials2": {
-              "title": "Depoimentos",
-              "subtitle": "Nossos clientes preferem <span>Pulpodin</span>",
-              "author_1_name": "Carlos Pérez",
-              "author_1_company": "TechSolutions",
-              "author_1_comment": "A equipe da Pulpodin superou nossas expectativas com sua criatividade e profissionalismo. <br> Altamente recomendados!",
-              "author_2_name": "Luis Martínez",
-              "author_2_company": "MarketingPro",
-              "author_2_comment": "A produção audiovisual da Pulpodin nos ajudou a nos conectar melhor com nosso público. <br> Trabalho incrível!",
-              "author_3_name": "Ana Rodríguez",
-              "author_3_company": "InnovateCorp",
-              "author_3_comment": "Profissionais, criativos e sempre dispostos a ir além. Pulpodin é nosso parceiro audiovisual de confiança. <br> Excelente serviço!!"
-            },
-
-            
-              "contact": {
-                "help_title": "Você precisa da nossa ajuda?",
-                "help_subtitle": "Na Pulpodin, estamos aqui para tornar seus projetos realidade!",
-                "name_placeholder": "Nome *",
-                "email_placeholder": "Email *",
-                "message_placeholder": "Por favor, descreva sua solicitação.",
-                "submit_button": "Contate-nos",
-                "contact_now_title": "Entre em contato agora!",
-                "contact_number": "(+58) 412 994 8381",
-                "contact_text": "Dê um impulso ao seu negócio com Pulpodin"
-              },
-
-              
-                "graphic_design": {
-                  "boost_brand": "IMPULSIONE SUA MARCA",
-                  "title": "Design Gráfico",
-                  "description": "Oferecemos serviços de design gráfico que criam soluções visuais eficazes para aumentar o sucesso do seu negócio.",
-                  "see_more": "Ver Mais",
-                  "corporate_identity_title": "Identidade Corporativa",
-                  "corporate_identity_description": "Criação de logotipos, paletas de cores e manuais de marca que refletem a essência e os valores da sua empresa, garantindo uma imagem coerente e profissional.",
-                  "advertising_materials_title": "Design de Materiais Publicitários",
-                  "advertising_materials_description": "Desenvolvimento de folhetos, cartazes, banners e outros materiais promocionais que chamam a atenção e comunicam sua mensagem de forma eficaz.",
-                  "packaging_title": "Design de Embalagens",
-                  "packaging_description": "Desenho de embalagens atraentes e funcionais que se destacam no mercado e reforçam a identidade da sua marca."
-                },
-
-                
-                  "graphic_section": {
-                    "sub_title": "Design Gráfico Pulpodin",
-                    "title": "Nossa equipe de design gráfico é dedicada a transformar suas ideias em criações visuais impressionantes.",
-                    "description": "De identidade corporativa ao design para redes sociais, estamos aqui para ajudá-lo a se destacar e comunicar sua mensagem de forma eficaz e atraente.",
-                    "button_text": "Mais Informações"
-                  },
-
-                  
-                    "work_process": {
-                      "subtitle": "Como trabalhamos",
-                      "title": "Nosso modelo de negócios é baseado em 4 etapas principais"
-                    },
-                    "work_process_step_1": {
-                      "step": "1",
-                      "title": "01. Reunião Inicial e Briefing:",
-                      "description": "Começamos com uma reunião para entender suas necessidades, objetivos e visão. Reunimos todas as informações necessárias para garantir que o design reflita com precisão sua marca e mensagem."
-                    },
-                    "work_process_step_2": {
-                      "step": "2",
-                      "title": "02. Pesquisa e Conceituação:",
-                      "description": "Realizamos uma pesquisa aprofundada sobre seu setor, concorrentes e tendências atuais. Com base nessas informações, desenvolvemos conceitos criativos que estão alinhados com seus objetivos."
-                    },
-                    "work_process_step_3": {
-                      "step": "3",
-                      "title": "03. Design e Revisão:",
-                      "description": "Criamos os designs iniciais e os compartilhamos com você para receber feedback. Fazemos as revisões necessárias para garantir que o resultado final atenda às suas expectativas e requisitos."
-                    },
-                    "work_process_step_4": {
-                      "step": "4",
-                      "title": "04. Entrega e Suporte:",
-                      "description": "Após a aprovação do design final, entregamos todos os arquivos necessários nos formatos adequados. Além disso, oferecemos suporte contínuo para quaisquer ajustes ou atualizações futuras que você possa precisar."
-                    },
-
-                    
-                      "cta": {
-                        "title": "Transforme sua marca com designs impactantes. Descubra o poder do design gráfico com a Pulpodin e leve o seu negócio para o próximo nível!",
-                        "highlight": "Transforme sua marca com designs impactantes.",
-                        "button": "Contate-nos"
-                      },
-
-                      
-                        "projects": {
-                          "title": "Projetos de design",
-                          "subtitle": "Temos orgulho em ter realizado projetos de design gráfico de alta qualidade",
-                          "highlight": "design gráfico de alta qualidade",
-                          "experience-title": "Experiência em Design Gráfico com a Pulpodin",
-                          "experience-highlight": "Pulpodin",
-                          "experience-description": "Na Pulpodin, temos ampla experiência na realização de projetos de design gráfico para diversas indústrias. Nossa equipe já trabalhou com clientes de todos os tamanhos, desde startups até grandes corporações, criando soluções visuais que se destacam e comunicam suas mensagens de forma eficaz. Nos orgulhamos de nossa capacidade de entender as necessidades únicas de cada cliente e transformar suas ideias em designs impactantes e memoráveis. Com foco em criatividade, qualidade e atenção aos detalhes, a Pulpodin é o parceiro ideal para levar sua marca ao próximo nível."
-                        },
-
-                        
-                          "projects2": {
-                            "title": "Projetos Concluídos",
-                            "subtitle": "Dê uma olhada em nossos projetos",
-                            "highlight": "nossos projetos",
-                            "project1-client": "TechSolutions",
-                            "project1-date": "18 de janeiro de 2023",
-                            "project1-title": "Rebranding Corporativo para TechSolutions",
-                            "project1-description": "Redesenhamos a identidade visual da TechSolutions, incluindo um novo logotipo, paleta de cores e materiais de marketing. O objetivo foi modernizar a imagem da empresa e refletir sua inovação e liderança no setor de tecnologia.",
-                            "project2-client": "EcoFriendly",
-                            "project2-date": "18 de janeiro de 2023",
-                            "project2-title": "Campanha Publicitária Visual para EcoFriendly",
-                            "project2-description": "Criamos uma campanha visual atraente para a EcoFriendly, destacando seu compromisso com o meio ambiente e ampliando seu alcance entre consumidores responsáveis.",
-                            "project3-client": "HealthFirst",
-                            "project3-date": "21 de fevereiro de 2019",
-                            "project3-title": "Design Inovador de Embalagem para HealthFirst",
-                            "project3-description": "Projetamos embalagens funcionais e estéticas para os produtos da HealthFirst, fortalecendo sua presença no mercado competitivo.",
-                            "project4-client": "EduTech",
-                            "project4-date": "18 de janeiro de 2023",
-                            "project4-title": "Desenvolvimento de Identidade Visual para EduTech",
-                            "project4-description": "Criamos uma identidade visual distinta para a EduTech, alinhada com sua missão de transformar a educação por meio da tecnologia."
-                          },
-
-                          
-                            "breadcrumb": {
-                                "contactTitle": "Entre em contato",
-                                "home": "Início",
-                                "contactActive": "Entre em contato"
-                            },
-                            
-                              "about-us": {
-                                  "boost-your-brand": "IMPULSE SUA MARCA",
-                                  "who-we-are": "Quem <br> <span style=\"color: #ffeb00;\">Somos?</span>",
-                                  "our-services": "Na PulpoDin, projetamos soluções tecnológicas <br> para o desenvolvimento eficaz da sua empresa, <br> oferecendo uma variedade de serviços como: <br> impressão 3D, inovação em software, marketing digital, <br> sublimação, audiovisuais e design gráfico. <br><br><br><br>"
-                              }
-                          
-                          
-                        
-                        
-                        
-                        
-                      
-                      
-                    
-                    
-                  
-                  
-                
-                
-              
-              
-            
-            
-          
-          
-      
-  
-
+  "cta22": {
+    "mensaje": "Oferecemos uma gama completa de serviços de TI para garantir seu sucesso",
+    "boton": "Entre em contato"
+  }
 }

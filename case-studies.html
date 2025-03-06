@@ -326,16 +326,16 @@
 
 
     <!-- breadcrumb-area start -->
-    <div class="breadcrumb-area-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="breadcrumb_box text-center">
-                        <h2 style="font-family: 'anton', sans-serif; font-weight: 400; color: white;" class="breadcrumb-title">MATERIAL P.O.P</h2>
+    <div class="breadcrumb-area-5" data-section="breadcrumbpop">
+        <div class="container" data-section="container">
+            <div class="row" data-section="row">
+                <div class="col-12" data-section="columna">
+                    <div class="breadcrumb_box text-center" data-section="contenido">
+                        <h2 style="font-family: 'anton', sans-serif; font-weight: 400; color: white;" class="breadcrumb-title" data-section="breadcrumbpop" data-value="titulo">MATERIAL P.O.P</h2>
                         <!-- breadcrumb-list start -->
                         <ul class="breadcrumb-list">
-                            <li style="color: white" class="breadcrumb-item"><a href="index.html">Home</a></li>
-                            <li style="color: white" class="breadcrumb-item active">Material P.O.P</li>
+                            <li style="color: white" class="breadcrumb-item" data-section="breadcrumbpop" data-value="home"><a href="index.html">Home</a></li>
+                            <li style="color: white" class="breadcrumb-item active" data-section="breadcrumbpop" data-value="actual">Material P.O.P</li>
                         </ul>
                         <!-- breadcrumb-list end -->
                     </div>
@@ -343,6 +343,7 @@
             </div>
         </div>
     </div>
+    
     <!-- breadcrumb-area end -->
 
 
@@ -361,24 +362,27 @@
             <!--===========  Projects wrapper Start =============-->
             <div class="projects-wrapper section-space--ptb_100-11 projects-masonary-wrapper">
                 <div class="container">
-                    <div class="row">
+                    <div class="row" data-section="material">
                         <div class="col-lg-12">
-                            <div class="section-title-wrap text-center section-space--mb_40">
-                                <h3 style="'anton', sans-serif; font-weight: 400;" class="heading">¿Que és?<span class="text-color-primary"></span></h3>
-                                <p>El Material POP se refiere a los elementos visuales, decorativos o informativos que se colocan en lugares clave dentro de una tienda o punto de venta. Su objetivo es atraer la atención del consumidor y promover la compra impulsiva, brindando una experiencia interactiva y memorable. Los materiales POP pueden ser tanto funcionales como estéticos, diseñados para facilitar la venta del producto o servicio.</p>
+                            <div class="section-title-wrap text-center section-space--mb_40" data-section="titulo">
+                                <h3 style="'anton', sans-serif; font-weight: 400;" class="heading" data-value="heading">¿Qué es?<span class="text-color-primary"></span></h3>
+                                <p data-value="descripcion">El Material POP se refiere a los elementos visuales, decorativos o informativos que se colocan en lugares clave dentro de una tienda o punto de venta. Su objetivo es atraer la atención del consumidor y promover la compra impulsiva, brindando una experiencia interactiva y memorable. Los materiales POP pueden ser tanto funcionales como estéticos, diseñados para facilitar la venta del producto o servicio.</p>
                             </div>
-                            <div class="messonry-button text-center  section-space--mb_60">
-                                <button data-filter="*" class="is-checked"><span class="filter-text">Todos</span><span class="filter-counter">12</span></button>
-                                <button data-filter=".cat--1"><span class="filter-text">PA (Nylon)</span> <span class="filter-counter">2</span></button>
-                                <button data-filter=".cat--2"><span class="filter-text">PA-GF (Nylon con fibra de carbono)</span> <span class="filter-counter">2</span></button>
-                                <button data-filter=".cat--3"><span class="filter-text">PA-CF (Nylon con fibra de vidrio)</span> <span class="filter-counter">2</span></button>
-                                <button data-filter=".cat--4"><span class="filter-text">PC (Policarbonato)</span> <span class="filter-counter">2</span></button>
-                                <button data-filter=".cat--5"><span class="filter-text">PC-CF (Policarbonato con fibra de carbono) </span> <span class="filter-counter">2</span></button>
-                                <button data-filter=".cat--6"><span class="filter-text">PET-CF (PETG con fibra de carbono) </span> <span class="filter-counter">2</span></button>
-
+                            <div class="messonry-button text-center section-space--mb_60" data-section="filtros">
+                                <button data-filter="*" class="is-checked" data-value="todos"><span class="filter-text">Todos</span><span class="filter-counter">12</span></button>
+                                <button data-filter=".cat--1" data-value="nylon"><span class="filter-text">PA (Nylon)</span> <span class="filter-counter">2</span></button>
+                                <button data-filter=".cat--2" data-value="nylon-carbono"><span class="filter-text">PA-GF (Nylon con fibra de carbono)</span> <span class="filter-counter">2</span></button>
+                                <button data-filter=".cat--3" data-value="nylon-vidrio"><span class="filter-text">PA-CF (Nylon con fibra de vidrio)</span> <span class="filter-counter">2</span></button>
+                                <button data-filter=".cat--4" data-value="policarbonato"><span class="filter-text">PC (Policarbonato)</span> <span class="filter-counter">2</span></button>
+                                <button data-filter=".cat--5" data-value="pc-carbono"><span class="filter-text">PC-CF (Policarbonato con fibra de carbono)</span> <span class="filter-counter">2</span></button>
+                                <button data-filter=".cat--6" data-value="pet-carbono"><span class="filter-text">PET-CF (PETG con fibra de carbono)</span> <span class="filter-counter">2</span></button>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            
+                    
 
                     <div class="projects-case-wrap">
                         <div class="row mesonry-list">
@@ -639,22 +643,26 @@
 
 
             <!--========== Call to Action Area Start ============-->
-            <div class="cta-image-area_one section-space--ptb_80 cta-bg-image_one">
+            <div class="cta-image-area_one section-space--ptb_80 cta-bg-image_one" data-section="cta22">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-xl-8 col-lg-7">
                             <div class="cta-content md-text-center">
-                                <h3 class="heading text-white">Ofrecemos una gama completa de servicios de TI para garantizar tu <span style="color: #ffeb00;"> éxito</span></h3>
+                                <h3 class="heading text-white" data-value="mensaje">Ofrecemos una gama completa de servicios de TI para garantizar tu <span style="color: #ffeb00;">éxito</span></h3>
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-5">
                             <div class="cta-button-group--one text-center">
-                                <a href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0" class="btn btn--white btn-one"><span class="btn-icon me-2"><i class="far fa-comment-alt"></i></span>Contáctanos</a>
+                                <a href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0" class="btn btn--white btn-one" data-value="boton">
+                                    <span class="btn-icon me-2"><i class="far fa-comment-alt"></i></span>Contáctanos
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            
+            
             <!--========== Call to Action Area End ============-->
 
         </div>
@@ -935,7 +943,34 @@
 
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
+    <script>
+        function changeLanguage(language) {
+            fetch(`../languajes/${language}.json`)
+            .then(res => res.json())
+                .then(data => {
+                    console.log(data);
+                    // Aquí actualizamos el contenido del sitio web con los datos del JSON
+                    const textToChange = document.querySelectorAll("[data-section]");
+                    textToChange.forEach(element => {
+                        const section = element.dataset.section;
+                        const value = element.dataset.value;
 
+                        if (data[section] && data[section][value]) {
+                            element.textContent = data[section][value];
+                        }
+                    });
+                })
+                .catch(error => console.error('Error al cambiar el idioma:', error));
+        }
+
+        const langButtons = document.querySelectorAll("[data-language]");
+        langButtons.forEach(button => {
+            button.addEventListener("click", () => {
+                changeLanguage(button.dataset.language);
+            });
+        });
+
+    </script>
 </body>
 
 </html>
