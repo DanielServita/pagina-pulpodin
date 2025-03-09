@@ -43,9 +43,43 @@
 
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
-    
 
-    <style> @media (max-width: 768px) { .footer-widget, .footer-copyright-area { text-align: center; } .footer-widget_title, .footer-widgetlist li, .copyright-text { text-align: center; } .footer-widgetlogo img { display: block; margin: 0 auto; } .footer-widgetlist a { display: block; margin: 0 auto; } .footer-widgetlist li, .footer-widget_list { display: block; text-align: center; } .ht-social-networks { justify-content: center; } } </style>
+
+    <style>
+        @media (max-width: 768px) {
+
+            .footer-widget,
+            .footer-copyright-area {
+                text-align: center;
+            }
+
+            .footer-widget_title,
+            .footer-widgetlist li,
+            .copyright-text {
+                text-align: center;
+            }
+
+            .footer-widgetlogo img {
+                display: block;
+                margin: 0 auto;
+            }
+
+            .footer-widgetlist a {
+                display: block;
+                margin: 0 auto;
+            }
+
+            .footer-widgetlist li,
+            .footer-widget_list {
+                display: block;
+                text-align: center;
+            }
+
+            .ht-social-networks {
+                justify-content: center;
+            }
+        }
+    </style>
 
 </head>
 
@@ -213,78 +247,80 @@
                                 <div class="header-bottom-left-wrap">
                                     <!-- navigation menu -->
                                     <div class="header__navigation d-none d-xl-block">
-                                                <nav class="navigation-menu navigation-menu--text_white">
+                                        <nav class="navigation-menu navigation-menu--text_white">
 
-                                                    <ul>
-                                                        <li class="">
-                                                            <a style="font-family: 'anton', sans-serif; font-weight: 400;"
-                                                                href="index.html" data-section="primary header"
-                                                                data-value="HOME">INICIO</a>
+                                            <ul>
+                                                <li class="">
+                                                    <a style="font-family: 'anton', sans-serif; font-weight: 400;"
+                                                        href="index.html" data-section="primary header"
+                                                        data-value="HOME">INICIO</a>
 
+                                                </li>
+                                                <li class="has-children has-children--multilevel-submenu">
+                                                    <a style="font-family: 'anton', sans-serif; font-weight: 400;"
+                                                        href="index.html#section-demos" data-section="primary header"
+                                                        data-value="SERVICES">SERVICIOS</a>
+                                                    <ul class="submenu">
+                                                        <li><a href="index-machine-learning.html"><span>IMPRESIONES
+                                                                    3D</span></a></li>
+                                                        <li><a href="index-software-innovation.html"><span>SOFTWARE
+                                                                    INNOVATION</span></a></li>
+                                                        <li><a
+                                                                href="index-software-innovation-2.html"><span>MARKETING</span></a>
                                                         </li>
-                                                        <li class="has-children has-children--multilevel-submenu">
-                                                            <a style="font-family: 'anton', sans-serif; font-weight: 400;"
-                                                            href="index.html#section-demos" data-section="primary header"
-                                                                data-value="SERVICES">SERVICIOS</a>
-                                                            <ul class="submenu">
-                                                                <li><a href="index-machine-learning.html"><span>IMPRESIONES 3D</span></a></li>
-                                                                <li><a href="index-software-innovation.html"><span>SOFTWARE INNOVATION</span></a></li>
-                                                                <li><a
-                                                                        href="index-software-innovation-2.html"><span>MARKETING</span></a>
-                                                                </li>
-                                                                <li><a
-                                                                        href="index-appointment.html"><span>SUBLIMADO</span></a>
-                                                                </li>
-                                                                <li><a
-                                                                        href="index-processing.html"><span>AUDIOVISUAL</span></a>
-                                                                </li>
-                                                                <li><a href="index-services.html"><span>DISEÑO GRÁFICO</span></a></li>
-
-                                                            </ul>
+                                                        <li><a href="index-appointment.html"><span>SUBLIMADO</span></a>
                                                         </li>
-                                                        <li class="">
-                                                            <a style="font-family: 'anton', sans-serif; font-weight: 400;"
-                                                                href="index-machine-learning-2.html" data-section="primary header"
-                                                                data-value="WHO WE ARE">QUIENES SOMOS</a>
-                                                            
+                                                        <li><a href="index-processing.html"><span>AUDIOVISUAL</span></a>
                                                         </li>
-                                                        <li class="">
-                                                            <a style="font-family: 'anton', sans-serif; font-weight: 400;"
-                                                                href="contact-us.html" data-section="primary header"
-                                                                data-value="CONTACT">CONTACTO</a>
-                                                            
-                                                        </li>
-
-                                                        <li id="flags" style="display: flex; gap: 10px;">
-                                                            <button class="flags__item" data-language="es"
-                                                                onclick="changeLanguage('es')"
-                                                                style="background: none; border: none; padding: 0; cursor: pointer;">
-                                                                <img src="assets/images/hero/es.png" alt="Español"
-                                                                    style="width: 20px; height: auto;">
-                                                            </button>
-                                                            <button class="flags__item" data-language="en"
-                                                                onclick="changeLanguage('en')"
-                                                                style="background: none; border: none; padding: 0; cursor: pointer;">
-                                                                <img src="assets/images/hero/en.png" alt="English"
-                                                                    style="width: 20px; height: auto;">
-                                                            </button>
-                                                            <button class="flags__item" data-language="it"
-                                                                onclick="changeLanguage('it')"
-                                                                style="background: none; border: none; padding: 0; cursor: pointer;">
-                                                                <img src="assets/images/hero/it.png" alt="Italiano"
-                                                                    style="width: 20px; height: auto;">
-                                                            </button>
-                                                            <button class="flags__item" data-language="pt"
-                                                                onclick="changeLanguage('pt')"
-                                                                style="background: none; border: none; padding: 0; cursor: pointer;">
-                                                                <img src="assets/images/hero/pt.png" alt="Português"
-                                                                    style="width: 20px; height: auto;">
-                                                            </button>
-                                                        </li>
+                                                        <li><a href="index-services.html"><span>DISEÑO
+                                                                    GRÁFICO</span></a></li>
 
                                                     </ul>
-                                                </nav>
-                                            </div>
+                                                </li>
+                                                <li class="">
+                                                    <a style="font-family: 'anton', sans-serif; font-weight: 400;"
+                                                        href="index-machine-learning-2.html"
+                                                        data-section="primary header" data-value="WHO WE ARE">QUIENES
+                                                        SOMOS</a>
+
+                                                </li>
+                                                <li class="">
+                                                    <a style="font-family: 'anton', sans-serif; font-weight: 400;"
+                                                        href="contact-us.html" data-section="primary header"
+                                                        data-value="CONTACT">CONTACTO</a>
+
+                                                </li>
+
+                                                <li id="flags" style="display: flex; gap: 10px;">
+                                                    <button class="flags__item" data-language="es"
+                                                        onclick="changeLanguage('es')"
+                                                        style="background: none; border: none; padding: 0; cursor: pointer;">
+                                                        <img src="assets/images/hero/es.png" alt="Español"
+                                                            style="width: 20px; height: auto;">
+                                                    </button>
+                                                    <button class="flags__item" data-language="en"
+                                                        onclick="changeLanguage('en')"
+                                                        style="background: none; border: none; padding: 0; cursor: pointer;">
+                                                        <img src="assets/images/hero/en.png" alt="English"
+                                                            style="width: 20px; height: auto;">
+                                                    </button>
+                                                    <button class="flags__item" data-language="it"
+                                                        onclick="changeLanguage('it')"
+                                                        style="background: none; border: none; padding: 0; cursor: pointer;">
+                                                        <img src="assets/images/hero/it.png" alt="Italiano"
+                                                            style="width: 20px; height: auto;">
+                                                    </button>
+                                                    <button class="flags__item" data-language="pt"
+                                                        onclick="changeLanguage('pt')"
+                                                        style="background: none; border: none; padding: 0; cursor: pointer;">
+                                                        <img src="assets/images/hero/pt.png" alt="Português"
+                                                            style="width: 20px; height: auto;">
+                                                    </button>
+                                                </li>
+
+                                            </ul>
+                                        </nav>
+                                    </div>
 
 
 
@@ -327,9 +363,9 @@
                                         Ofrecemos servicios integrales que desarrollan y mantienen <br> soluciones para
                                         el éxito de tu negocio
                                     </h2>
-                                    
+
                                 </div>
-                               
+
 
                             </div>
                         </div>
@@ -381,7 +417,7 @@
                                         posicionan a tu marca en el mercado, sino que también crean conexiones genuinas
                                         con tu audiencia. Nos especializamos en transformar tu presencia digital,
                                         optimizando cada aspecto para garantizar que obtengas resultados que superen tus
-                                        expectativas. 
+                                        expectativas.
                                     </p>
                                 </div>
                             </div>
@@ -427,13 +463,13 @@
                         <div class="col-12">
                             <div class="feature-list__two">
                                 <div class="row">
-                                    
+
                                     <div class="col-lg-4 col-md-6 col-sm-6 col-12 wow move-up">
                                         <!-- ht-box-icon Start -->
                                         <div class="ht-box-images style-10">
                                             <div class="image-box-wrap">
                                                 <div class="box-image">
-                                                    <img class="img-fulid"
+                                                    <img style="display: block; margin: auto;" class="img-fluid"
                                                         src="assets/images/icons/asesoria-en-redes.png" alt="">
                                                 </div>
                                                 <div class="content">
@@ -456,8 +492,7 @@
                                                                 data-section="web application development"
                                                                 data-value="more_info">Más información
                                                             </span>
-                                                            <i style="color: #7601d8;"
-                                                                class="fas fa-arrow-right"></i>
+                                                            <i style="color: #7601d8;" class="fas fa-arrow-right"></i>
                                                         </a>
                                                     </div>
                                                     <div class="box-images-arrow"></div>
@@ -472,8 +507,8 @@
                                         <div class="ht-box-images style-10">
                                             <div class="image-box-wrap">
                                                 <div class="box-image">
-                                                    <img class="img-fulid" src="assets/images/icons/redes-sociales.png"
-                                                        alt="">
+                                                    <img style="display: block; margin: auto;" class="img-fluid"
+                                                        src="assets/images/icons/redes-sociales.png" alt="">
                                                 </div>
                                                 <div class="content">
                                                     <h5 style="font-family: 'anton', sans-serif; color: black; font-weight: 400;"
@@ -496,8 +531,7 @@
                                                                 data-section="web application development"
                                                                 data-value="more_info">Más información
                                                             </span>
-                                                            <i style="color: #7601d8;"
-                                                                class="fas fa-arrow-right"></i>
+                                                            <i style="color: #7601d8;" class="fas fa-arrow-right"></i>
                                                         </a>
                                                     </div>
                                                     <div class="box-images-arrow"></div>
@@ -512,7 +546,7 @@
                                         <div class="ht-box-images style-10">
                                             <div class="image-box-wrap">
                                                 <div class="box-image">
-                                                    <img class="img-fulid"
+                                                    <img style="display: block; margin: auto;" class="img-fluid"
                                                         src="assets/images/icons/estrategia-de-contenido.png" alt="">
                                                 </div>
                                                 <div class="content">
@@ -535,8 +569,7 @@
                                                                 data-section="web application development"
                                                                 data-value="more_info">Más información
                                                             </span>
-                                                            <i style="color: #7601d8;"
-                                                                class="fas fa-arrow-right"></i>
+                                                            <i style="color: #7601d8;" class="fas fa-arrow-right"></i>
                                                         </a>
                                                     </div>
                                                     <div class="box-images-arrow"></div>
@@ -551,7 +584,8 @@
                                         <div class="ht-box-images style-10">
                                             <div class="image-box-wrap">
                                                 <div class="box-image">
-                                                    <img class="img-fulid" src="assets/images/icons/semi.png" alt="">
+                                                    <img style="display: block; margin: auto;" class="img-fluid"
+                                                        src="assets/images/icons/semi.png" alt="">
                                                 </div>
                                                 <div class="content">
                                                     <h5 style="font-family: 'anton', sans-serif; color: black; font-weight: 400;"
@@ -572,8 +606,7 @@
                                                                 data-section="web application development"
                                                                 data-value="more_info">Más información
                                                             </span>
-                                                            <i style="color: #7601d8;"
-                                                                class="fas fa-arrow-right"></i>
+                                                            <i style="color: #7601d8;" class="fas fa-arrow-right"></i>
                                                         </a>
                                                     </div>
                                                     <div class="box-images-arrow"></div>
@@ -589,8 +622,8 @@
                                         <div class="ht-box-images style-10">
                                             <div class="image-box-wrap">
                                                 <div class="box-image">
-                                                    <img class="img-fulid" src="assets/images/icons/campana-digital.png"
-                                                        alt="">
+                                                    <img style="display: block; margin: auto;" class="img-fluid"
+                                                        src="assets/images/icons/campana-digital.png" alt="">
                                                 </div>
                                                 <div class="content">
                                                     <h5 style="font-family: 'anton', sans-serif; color: black; font-weight: 400;"
@@ -612,8 +645,7 @@
                                                                 data-section="web application development"
                                                                 data-value="more_info">Más información
                                                             </span>
-                                                            <i style="color: #7601d8;"
-                                                                class="fas fa-arrow-right"></i>
+                                                            <i style="color: #7601d8;" class="fas fa-arrow-right"></i>
                                                         </a>
                                                     </div>
                                                     <div class="box-images-arrow"></div>
@@ -666,151 +698,149 @@
             </div>
 
             <div class="row">
-    <div class="col-12">
-        <div class="projects-wrap">
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <!-- Projects Wrap Start -->
-                    <a class="projects-wrap style-04 wow move-up">
-                        <div class="projects-image-box">
-                            <div class="projects-image">
-                                <div class="image">
-                                    <img class="img-fluid" src="assets/images/icons/pulpin.png" alt="">
-                                </div>
-                            </div>
-                            <div class="content text-center">
-                                <h5 style="font-family: 'anton', sans-serif; color: black; font-weight: 400;"
-                                    class="heading" data-section="packages" data-value="package_pulpillo">
-                                    Paquete Pulpillo
-                                </h5>
-                                <div style="color: black; , sans-serif; text-align: left;" 
-                                    class="text" data-section="packages" data-value="description_pulpillo">
-                                    Este paquete es ideal para pequeños negocios que recién
-                                    empiezan a gestionar sus redes sociales o que buscan
-                                    mantener una presencia constante y básica en línea. La
-                                    optimización de la biografía y las publicaciones regulares
-                                    ayudan a mantener el perfil activo y atractivo para los
-                                    seguidores. <br><br>
-                                    <b>Servicios incluidos:</b> <br>
-                                    • Optimización de biografía. <br>
-                                    • Planificación de contenido y Copywriter. <br>
-                                    • 10 posts o reels mensuales (2 posts o reels semanales). <br>
-                                    • 20 historias mensuales (1 historia de lunes a sábado). <br>
-                                    • Diseño gráfico y gestor de cuenta. <br>
-                                    • Informe básico mensual. <br>
-                                    • Una visita mensual para creación de contenido. <br><br>
-                                    <b>Inversión:</b> desde $150 a $300 USD mensuales. <br><br>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <!-- Projects Wrap End -->
-                </div>
-                <div class="col-lg-4 col-md-6">
-    <!-- Projects Wrap Start -->
-    <a class="projects-wrap style-04 wow move-up">
-        <div class="projects-image-box">
-            <div class="projects-image">
-                <div class="image">
-                    <img class="img-fluid" src="assets/images/icons/pulpo.png" alt="">
-                </div>
-            </div>
-            <div class="content text-center">
-                <h5 style="font-family: 'anton', sans-serif; color: black; font-weight: 400;"
-                    class="heading" data-section="packages" data-value="package_pulpo">
-                    Paquete Pulpo
-                </h5>
-                <div style="color: black; , sans-serif; text-align: left;"
-                    class="text" data-section="packages" data-value="description_pulpo">
-                    Este paquete es adecuado para negocios de tamaño medio que buscan una mayor interacción con su audiencia y un contenido más frecuente.
-                    Las visitas adicionales para creación de contenido permiten una presencia más dinámica y auténtica. <br><br>
-                    
-                    <b>Servicios incluidos:</b> <br>
-                    • Optimización de perfil. <br>  
-                    • Planificación de contenido y Copywriter. <br>
-                    • 15 posts o reels mensuales (3 posts o reels semanales). <br>
-                    • 45 historias mensuales (1 a 2 historias inter diarias). <br>
-                    • Diseño gráfico y gestor de cuenta. <br>
-                    • Informe mensual. <br>
-                    • Dos visitas mensuales para creación de contenido. <br>
-                    • Interacción con los usuarios. <br>                                  
-                    • Gestión de ADS (publicidad paga). <br>                                              
-                    • Estrategia de marketing. <br>                                         
-
-                    <br><b>Inversión:</b> desde $300 a $500 USD mensuales.<br><br>
-                </div>
-            </div>
-        </div>
-    </a>
-    <!-- Projects Wrap End -->
-</div>
-
-
-<div class="col-lg-4 col-md-6">
-    <!-- Projects Wrap Start -->
-    <a class="projects-wrap style-04 wow move-up">
-        <div class="projects-image-box">
-            <div class="projects-image">
-                <div class="image">
-                    <img class="img-fluid" src="assets/images/icons/pulpon.png" alt="">
-                </div>
-            </div>
-            <div class="content text-center">
-                <h5 style="font-family: 'anton', sans-serif; color: black; font-weight: 400;"
-                    class="heading" data-section="packages" data-value="package_pulpon">
-                    Paquete Pulpón
-                </h5>
-                <div style="color: black;  sans-serif; text-align: left;" 
-                     class="text" data-section="packages" data-value="description_pulpon">
-                    Este paquete está diseñado para empresas grandes o marcas que desean una fuerte presencia en redes sociales. La alta frecuencia de publicaciones y visitas para creación de contenido asegura que el perfil esté constantemente actualizado con contenido fresco y atractivo, además de brindar una atención personalizada a los seguidores. <br><br>
-                    <b>Servicios incluidos:</b> <br>
-                    • Optimización de perfil.  
-                    • Planificación de contenido y Copywriter. 
-                    • 30 posts o reels mensuales (6 posts o reels semanales). 
-                    • 90 historias mensuales (3 historias diarias). 
-                    • Diseño gráfico y gestor de cuenta. 
-                    • Informe mensual. 
-                    • 1 visita semanal para creación de contenido. 
-                    • Atención al cliente. 
-                    • Interacción con los usuarios.  
-                    • Gestión de ADS (publicidad paga).                                              
-                    • Estrategia de marketing. 
-                    <br><br>
-                    <br><b>Inversión:</b> desde $600 a $900 USD mensuales.
-                </div>
-            </div>
-        </div>
-    </a>
-    <!-- Projects Wrap End -->
-</div>
-
-            </div>
-        </div>
-    </div>
-</div>
-
-
-                            
+                <div class="col-12">
+                    <div class="projects-wrap">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <!-- Projects Wrap Start -->
+                                <a class="projects-wrap style-04 wow move-up">
+                                    <div class="projects-image-box">
+                                        <div class="projects-image">
+                                            <div class="image">
+                                                <img class="img-fluid" src="assets/images/icons/pulpin.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="content text-center">
+                                            <h5 style="font-family: 'anton', sans-serif; color: black; font-weight: 400;"
+                                                class="heading" data-section="packages" data-value="package_pulpillo">
+                                                Paquete Pulpillo
+                                            </h5>
+                                            <div style="color: black; , sans-serif; text-align: left;" class="text"
+                                                data-section="packages" data-value="description_pulpillo">
+                                                Este paquete es ideal para pequeños negocios que recién
+                                                empiezan a gestionar sus redes sociales o que buscan
+                                                mantener una presencia constante y básica en línea. La
+                                                optimización de la biografía y las publicaciones regulares
+                                                ayudan a mantener el perfil activo y atractivo para los
+                                                seguidores. <br><br>
+                                                <b>Servicios incluidos:</b> <br>
+                                                • Optimización de biografía. <br>
+                                                • Planificación de contenido y Copywriter. <br>
+                                                • 10 posts o reels mensuales (2 posts o reels semanales). <br>
+                                                • 20 historias mensuales (1 historia de lunes a sábado). <br>
+                                                • Diseño gráfico y gestor de cuenta. <br>
+                                                • Informe básico mensual. <br>
+                                                • Una visita mensual para creación de contenido. <br><br>
+                                                <b>Inversión:</b> desde $150 a $300 USD mensuales. <br><br><br><br>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </a>
                                 <!-- Projects Wrap End -->
                             </div>
+                            <div class="col-lg-4 col-md-6">
+                                <!-- Projects Wrap Start -->
+                                <a class="projects-wrap style-04 wow move-up">
+                                    <div class="projects-image-box">
+                                        <div class="projects-image">
+                                            <div class="image">
+                                                <img class="img-fluid" src="assets/images/icons/pulpo.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="content text-center">
+                                            <h5 style="font-family: 'anton', sans-serif; color: black; font-weight: 400;"
+                                                class="heading" data-section="packages" data-value="package_pulpo">
+                                                Paquete Pulpo
+                                            </h5>
+                                            <div style="color: black; , sans-serif; text-align: left;" class="text"
+                                                data-section="packages" data-value="description_pulpo">
+                                                Este paquete es adecuado para negocios de tamaño medio que buscan una
+                                                mayor interacción con su audiencia y un contenido más frecuente.
+                                                Las visitas adicionales para creación de contenido permiten una
+                                                presencia más dinámica y auténtica. <br><br>
+
+                                                <b>Servicios incluidos:</b> <br>
+                                                • Optimización de perfil. <br>
+                                                • Planificación de contenido y Copywriter. <br>
+                                                • 15 posts o reels mensuales (3 posts o reels semanales). <br>
+                                                • 45 historias mensuales (1 a 2 historias inter diarias). <br>
+                                                • Diseño gráfico y gestor de cuenta. <br>
+                                                • Informe mensual. <br>
+                                                • Dos visitas mensuales para creación de contenido. <br>
+                                                • Interacción con los usuarios. <br>
+                                                • Gestión de ADS (publicidad paga). <br>
+                                                • Estrategia de marketing. <br>
+
+                                                <br><b>Inversión:</b> desde $300 a $500 USD mensuales. <br><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <!-- Projects Wrap End -->
+                            </div>
+
+
+                            <div class="col-lg-4 col-md-6">
+                                <!-- Projects Wrap Start -->
+                                <a class="projects-wrap style-04 wow move-up">
+                                    <div class="projects-image-box">
+                                        <div class="projects-image">
+                                            <div class="image">
+                                                <img class="img-fluid" src="assets/images/icons/pulpon.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="content text-center">
+                                            <h5 style="font-family: 'anton', sans-serif; color: black; font-weight: 400;"
+                                                class="heading" data-section="packages" data-value="package_pulpon">
+                                                Paquete Pulpón
+                                            </h5>
+                                            <div style="color: black;  sans-serif; text-align: left;" class="text"
+                                                data-section="packages" data-value="description_pulpon">
+                                                Este paquete está diseñado para empresas grandes o marcas que desean una
+                                                fuerte presencia en redes sociales. La alta frecuencia de publicaciones
+                                                y visitas para creación de contenido asegura que el perfil esté
+                                                constantemente actualizado con contenido fresco y atractivo, además de
+                                                brindar una atención personalizada a los seguidores. <br><br>
+                                                <b>Servicios incluidos:</b> <br>
+                                                • Optimización de perfil. <br>
+                                                • Planificación de contenido y Copywriter. <br>
+                                                • 30 posts o reels mensuales (6 posts o reels semanales). <br>
+                                                • 90 historias mensuales (3 historias diarias). <br>
+                                                • Diseño gráfico y gestor de cuenta. <br>
+                                                • Informe mensual. <br>
+                                                • 1 visita semanal para creación de contenido. <br>
+                                                • Atención al cliente. <br>
+                                                • Interacción con los usuarios. <br>
+                                                • Gestión de ADS (publicidad paga). <br>
+                                                • Estrategia de marketing. <br>
+
+                                                <br><b>Inversión:</b> desde $600 a $900 USD mensuales.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <!-- Projects Wrap End -->
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
 
 
-        <div style="font-family: 'anton', sans-serif; color: black; font-weight: 400;"
-            class="section-under-heading text-center section-space--mt_40" data-section="cta-final"
-            data-value="cta-text">
-            Empieza hoy con un plan diseñado para el <a style="color: #7601d8;"
-                href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0"
-                data-section="cta-link" data-value="exito-negocio">
-                éxito de tu negocio.
             </a>
+            <!-- Projects Wrap End -->
         </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+
+    
 
 
     </div>
@@ -883,7 +913,7 @@
                         <h6 style="font-family: 'anton', sans-serif; color: black; font-weight: 400;"
                             class="section-sub-title mb-20" data-section="portfolio-sub-title"
                             data-value="nuestro-portafolio">
-                          <br><br>  NUESTRO PORTAFOLIO
+                            <br><br> NUESTRO PORTAFOLIO
                         </h6>
                         <h3 style="font-family: 'anton', sans-serif; color: black; font-weight: 400;" class="heading"
                             data-section="portfolio-heading" data-value="proyectos-exito">
@@ -1024,7 +1054,7 @@
                         Tu próximo éxito comienza aquí. <a style="color: #7601d8;"
                             href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0"
                             data-section="cta-link2" data-value="atrevete">
-                            atrévete a dar el primer paso! 
+                            atrévete a dar el primer paso!
                         </a> <br><br>
                     </div>
                 </div>
@@ -1038,16 +1068,13 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12">
                     <div class="section-title-wrap text-center section-space--mb_40">
-                        <h6 style="font-family: 'anton', sans-serif; color: white; font-weight: 400;" 
-                            class="section-sub-title mb-20" 
-                            data-section="blog-sub-title" 
+                        <h6 style="font-family: 'anton', sans-serif; color: white; font-weight: 400;"
+                            class="section-sub-title mb-20" data-section="blog-sub-title"
                             data-value="no-te-pierdas-nada">
                             NO TE PIERDAS NADA
                         </h6>
-                        <h3 style="font-family: 'anton', sans-serif; color: white; font-weight: 400;" 
-                            class="heading" 
-                            data-section="blog-heading" 
-                            data-value="ultimas-estrategias">
+                        <h3 style="font-family: 'anton', sans-serif; color: white; font-weight: 400;" class="heading"
+                            data-section="blog-heading" data-value="ultimas-estrategias">
                             Lo último en <span style="color: #ffeb00;">estrategias digitales</span>
                         </h3>
                     </div>
@@ -1058,21 +1085,27 @@
                     <div class="single-blog-item blog-grid">
                         <div class="post-feature blog-thumbnail">
                             <a>
-                                <img class="img-fluid" src="assets/images/hero/automatizacion-de-marketing.png" alt="Blog Images">
+                                <img class="img-fluid" src="assets/images/hero/automatizacion-de-marketing.png"
+                                    alt="Blog Images">
                             </a>
                         </div>
                         <div class="post-info lg-blog-post-info">
-                            <h5 style="font-family: 'anton', sans-serif; color: white; font-weight: 400;" 
-                                class="post-title font-weight--bold" 
-                                data-section="post-title-1" 
+                            <h5 style="font-family: 'anton', sans-serif; color: white; font-weight: 400;"
+                                class="post-title font-weight--bold" data-section="post-title-1"
                                 data-value="automatizacion-marketing">
                                 Automatización del Marketing (Marketing Automation)
                             </h5>
                             <div class="post-excerpt mt-15">
-                                <p style="font-family: 'anton', ; color: white;" 
-                                   data-section="post-excerpt-1" 
-                                   data-value="descripcion-automatizacion">
-                                   La automatización del marketing es una de las herramientas más poderosas en el marketing digital actual. Utiliza software para automatizar tareas repetitivas como el envío de correos electrónicos, la programación de publicaciones en redes sociales y la gestión de campañas publicitarias. Herramientas como HubSpot, Marketo y ActiveCampaign permiten a las empresas personalizar la comunicación con los clientes a gran escala, mejorar la eficiencia operativa y aumentar la tasa de conversión. Con la automatización, los equipos de marketing pueden centrarse en estrategias más creativas y en la toma de decisiones basada en datos.
+                                <p style="font-family: 'anton', ; color: white;" data-section="post-excerpt-1"
+                                    data-value="descripcion-automatizacion">
+                                    La automatización del marketing es una de las herramientas más poderosas en el
+                                    marketing digital actual. Utiliza software para automatizar tareas repetitivas como
+                                    el envío de correos electrónicos, la programación de publicaciones en redes sociales
+                                    y la gestión de campañas publicitarias. Herramientas como HubSpot, Marketo y
+                                    ActiveCampaign permiten a las empresas personalizar la comunicación con los clientes
+                                    a gran escala, mejorar la eficiencia operativa y aumentar la tasa de conversión. Con
+                                    la automatización, los equipos de marketing pueden centrarse en estrategias más
+                                    creativas y en la toma de decisiones basada en datos.
                                 </p>
                             </div>
                         </div>
@@ -1082,21 +1115,28 @@
                     <div class="single-blog-item blog-grid">
                         <div class="post-feature blog-thumbnail">
                             <a>
-                                <img class="img-fluid" src="assets/images/hero/marketing-basado-en-datos.png" alt="Blog Images">
+                                <img class="img-fluid" src="assets/images/hero/marketing-basado-en-datos.png"
+                                    alt="Blog Images">
                             </a>
                         </div>
                         <div class="post-info lg-blog-post-info">
-                            <h5 style="font-family: 'anton', sans-serif; color: white; font-weight: 400;" 
-                                class="post-title font-weight--bold" 
-                                data-section="post-title-2" 
+                            <h5 style="font-family: 'anton', sans-serif; color: white; font-weight: 400;"
+                                class="post-title font-weight--bold" data-section="post-title-2"
                                 data-value="marketing-datos">
                                 Marketing basado en Datos <br> (Data-Driven Marketing)
                             </h5>
                             <div class="post-excerpt mt-15">
-                                <p style="font-family: 'anton', ; color: white;" 
-                                   data-section="post-excerpt-2" 
-                                   data-value="descripcion-marketing-datos">
-                                   El marketing basado en datos es una tendencia crucial en el panorama digital actual, donde la información es clave para el éxito. Este enfoque utiliza grandes volúmenes de datos (Big Data) y análisis avanzados para tomar decisiones informadas y precisas en las estrategias de marketing. Herramientas como Google Analytics, Tableau y Power BI facilitan la recolección, análisis y visualización de datos de clientes, lo que permite a las empresas optimizar campañas, segmentar audiencias y maximizar el retorno de la inversión (ROI). El marketing basado en datos ayuda a comprender mejor a los clientes y a adaptar las estrategias para satisfacer sus necesidades específicas.
+                                <p style="font-family: 'anton', ; color: white;" data-section="post-excerpt-2"
+                                    data-value="descripcion-marketing-datos">
+                                    El marketing basado en datos es una tendencia crucial en el panorama digital actual,
+                                    donde la información es clave para el éxito. Este enfoque utiliza grandes volúmenes
+                                    de datos (Big Data) y análisis avanzados para tomar decisiones informadas y precisas
+                                    en las estrategias de marketing. Herramientas como Google Analytics, Tableau y Power
+                                    BI facilitan la recolección, análisis y visualización de datos de clientes, lo que
+                                    permite a las empresas optimizar campañas, segmentar audiencias y maximizar el
+                                    retorno de la inversión (ROI). El marketing basado en datos ayuda a comprender mejor
+                                    a los clientes y a adaptar las estrategias para satisfacer sus necesidades
+                                    específicas.
                                 </p>
                             </div>
                         </div>
@@ -1106,21 +1146,26 @@
                     <div class="single-blog-item blog-grid">
                         <div class="post-feature blog-thumbnail">
                             <a>
-                                <img class="img-fluid" src="assets/images/hero/realidad-aumentada.png" alt="Blog Images">
+                                <img class="img-fluid" src="assets/images/hero/realidad-aumentada.png"
+                                    alt="Blog Images">
                             </a>
                         </div>
                         <div class="post-info lg-blog-post-info">
-                            <h5 style="font-family: 'anton', sans-serif; color: white; font-weight: 400;" 
-                                class="post-title font-weight--bold" 
-                                data-section="post-title-3" 
+                            <h5 style="font-family: 'anton', sans-serif; color: white; font-weight: 400;"
+                                class="post-title font-weight--bold" data-section="post-title-3"
                                 data-value="realidad-aumentada">
                                 Realidad Aumentada (AR) y Realidad Virtual (VR) en Marketing
                             </h5>
                             <div class="post-excerpt mt-15">
-                                <p style="font-family: 'anton', ; color: white;" 
-                                   data-section="post-excerpt-3" 
-                                   data-value="descripcion-realidad-aumentada">
-                                   La realidad aumentada (AR) y la realidad virtual (VR) están transformando la manera en que las marcas interactúan con sus consumidores, ofreciendo experiencias inmersivas que captan la atención y generan engagement. Estas tecnologías permiten a los usuarios experimentar productos o servicios en un entorno virtual antes de tomar una decisión de compra. Por ejemplo, IKEA utiliza AR para que los clientes puedan visualizar cómo se verían los muebles en su hogar, mientras que marcas de moda emplean VR para ofrecer desfiles de moda virtuales.
+                                <p style="font-family: 'anton', ; color: white;" data-section="post-excerpt-3"
+                                    data-value="descripcion-realidad-aumentada">
+                                    La realidad aumentada (AR) y la realidad virtual (VR) están transformando la manera
+                                    en que las marcas interactúan con sus consumidores, ofreciendo experiencias
+                                    inmersivas que captan la atención y generan engagement. Estas tecnologías permiten a
+                                    los usuarios experimentar productos o servicios en un entorno virtual antes de tomar
+                                    una decisión de compra. Por ejemplo, IKEA utiliza AR para que los clientes puedan
+                                    visualizar cómo se verían los muebles en su hogar, mientras que marcas de moda
+                                    emplean VR para ofrecer desfiles de moda virtuales.
                                 </p>
                             </div>
                         </div>
@@ -1129,7 +1174,7 @@
             </div>
         </div>
     </div>
-    
+
     <!--===========  Projects wrapper End =============-->
 
 
@@ -1169,198 +1214,227 @@
 
 
 
-            <div class="cta-image-area_one section-space--ptb_80 cta-bg-image_blue">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-8 col-lg-7">
-                            <div class="cta-content md-text-center">
-                                <h3 style="font-family: 'anton', sans-serif; font-weight: 400;" 
-                                    class="heading text-white" 
-                                    data-section="cta-heading2" 
-                                    data-value="transforma-negocio">
-                                    Transforma tu negocio con nuestras <span style="color: #ffeb00;">estrategias digitales</span>
-                                </h3>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-5">
-                            <div class="cta-button-group--one text-center">
-                                <a style="color: black; background-color: white;" 
-                                   href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0" 
-                                   class="btn btn--secondary btn-two" 
-                                   data-section="cta-button2" 
-                                   data-value="informacion">
-                                   <span class="btn-icon me-2"><i class="fas fa-info-circle"></i></span> Información
+    <div class="cta-image-area_one section-space--ptb_80 cta-bg-image_blue">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-8 col-lg-7">
+                    <div class="cta-content md-text-center">
+                        <h3 style="font-family: 'anton', sans-serif; font-weight: 400;" class="heading text-white"
+                            data-section="cta-heading2" data-value="transforma-negocio">
+                            Transforma tu negocio con nuestras <span style="color: #ffeb00;">estrategias
+                                digitales</span>
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-5">
+                    <div class="cta-button-group--one text-center">
+                        <a style="color: black; background-color: white;"
+                            href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0"
+                            class="btn btn--secondary btn-two" data-section="cta-button2" data-value="informacion">
+                            <span class="btn-icon me-2"><i class="fas fa-info-circle"></i></span> Información
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+    <div class="machine-learning-about-company-area machine-learning-about-bg section-space--ptb_120"
+        style="font-family: 'Helvetica Light', sans-serif;" data-section="marketing_services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- section-title-wrap Start -->
+                    <div class="section-title-wrap text-left section-space--mb_30">
+                        <h6 style="color: rgb(0, 0, 0);" class="section-sub-title mb-20"
+                            data-section="marketing_services" data-value="sub_title">
+                            Departamento de Marketing
+                        </h6>
+                        <h2 style="color: rgb(0, 0, 0); font-family: 'anton', sans-serif; font-weight: 400;"
+                            class="heading" data-section="marketing_services" data-value="heading">
+                            Detalle de lo incluido al contratar nuestros servicios <br> de marketing:
+                            <span class="text-color-primary"></span>
+                            <br>
+                        </h2>
+                    </div>
+                    <!-- section-title-wrap End -->
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 ms-auto mt-30">
+                    <div class="machine-learning-about-content">
+                        <div class="section-title mb-20">
+                            <h4 style="color: white;"></h4>
+                            <ul style="color: black; list-style-type: none; padding: 0; font-size: 18px;">
+                                <li data-section="marketing_services" data-value="market_analysis"
+                                    style="position: relative; padding-left: 25px;">
+                                    <span
+                                        style="position: absolute; left: 0; top: 0; color: #7601d8; font-size: 24px;">•</span>
+                                    Análisis de mercado para comprender tu audiencia y competencia.
+                                </li>
+                                <li data-section="marketing_services" data-value="custom_strategies"
+                                    style="position: relative; padding-left: 25px;">
+                                    <span
+                                        style="position: absolute; left: 0; top: 0; color: #7601d8; font-size: 24px;">•</span>
+                                    Estrategias de marketing personalizadas, adaptadas a tus objetivos y necesidades.
+                                </li>
+                                <li data-section="marketing_services" data-value="campaign_management"
+                                    style="position: relative; padding-left: 25px;">
+                                    <span
+                                        style="position: absolute; left: 0; top: 0; color: #7601d8; font-size: 24px;">•</span>
+                                    Desarrollo y gestión de campañas publicitarias en diversos medios.
+                                </li>
+                                <li data-section="marketing_services" data-value="content_creation"
+                                    style="position: relative; padding-left: 25px;">
+                                    <span
+                                        style="position: absolute; left: 0; top: 0; color: #7601d8; font-size: 24px;">•</span>
+                                    Creación de contenido atractivo y relevante para tus canales de comunicación.
+                                </li>
+                                <li data-section="marketing_services" data-value="seo_optimization"
+                                    style="position: relative; padding-left: 25px;">
+                                    <span
+                                        style="position: absolute; left: 0; top: 0; color: #7601d8; font-size: 24px;">•</span>
+                                    Optimización SEO para mejorar la visibilidad de tu sitio web en motores de búsqueda.
+                                </li>
+                                <li data-section="marketing_services" data-value="social_media"
+                                    style="position: relative; padding-left: 25px;">
+                                    <span
+                                        style="position: absolute; left: 0; top: 0; color: #7601d8; font-size: 24px;">•</span>
+                                    Gestión de redes sociales para aumentar tu presencia y engagement en plataformas
+                                    clave.
+                                </li>
+                                <li data-section="marketing_services" data-value="email_marketing"
+                                    style="position: relative; padding-left: 25px;">
+                                    <span
+                                        style="position: absolute; left: 0; top: 0; color: #7601d8; font-size: 24px;">•</span>
+                                    Email marketing para mantener y fortalecer relaciones con tus clientes.
+                                </li>
+                                <li data-section="marketing_services" data-value="performance_analysis"
+                                    style="position: relative; padding-left: 25px;">
+                                    <span
+                                        style="position: absolute; left: 0; top: 0; color: #7601d8; font-size: 24px;">•</span>
+                                    Análisis y reportes de rendimiento para ajustar y mejorar las estrategias.
+                                </li>
+                                <li data-section="marketing_services" data-value="ongoing_support"
+                                    style="position: relative; padding-left: 25px;">
+                                    <span
+                                        style="position: absolute; left: 0; top: 0; color: #7601d8; font-size: 24px;">•</span>
+                                    Soporte continuo para resolver cualquier duda o problema relacionado con las
+                                    campañas.
+                                </li>
+                            </ul>
+
+                            <div class="button-box mt-30">
+                                <a style="color: white; background-color: #7601d8; font-family: 'anton', sans-serif; font-weight: 400;"
+                                    href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0"
+                                    class="ht-btn ht-btn-md" data-section="marketing_services" data-value="button_text">
+                                    Consulta nuestro servicio
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
 
-
-
-    </div>
-
-    <div class="machine-learning-about-company-area machine-learning-about-bg section-space--ptb_120" 
-     style="font-family: 'Helvetica Light', sans-serif;" data-section="marketing_services">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <!-- section-title-wrap Start -->
-                <div class="section-title-wrap text-left section-space--mb_30">
-                    <h6 style="color: rgb(0, 0, 0);" class="section-sub-title mb-20" 
-                        data-section="marketing_services" data-value="sub_title">
-                        Departamento de Marketing
-                    </h6>
-                    <h2 style="color: rgb(0, 0, 0); font-family: 'anton', sans-serif; font-weight: 400;" 
-                        class="heading" data-section="marketing_services" data-value="heading">
-                        Detalle de lo incluido al contratar nuestros servicios <br> de marketing:
-                        <span class="text-color-primary"></span>
-                        <br>
-                    </h2>
-                </div>
-                <!-- section-title-wrap End -->
-            </div>
-        </div>
-
-        <div class="row">
-    <div class="col-lg-12 ms-auto mt-30">
-        <div class="machine-learning-about-content">
-            <div class="section-title mb-20">
-                <h4 style="color: white;"></h4>
-                <ul style="color: black; list-style-type: none; padding: 0; font-size: 18px;">
-                    <li data-section="marketing_services" data-value="market_analysis" style="position: relative; padding-left: 25px;">
-                        <span style="position: absolute; left: 0; top: 0; color: #7601d8; font-size: 24px;">•</span>
-                        Análisis de mercado para comprender tu audiencia y competencia.
-                    </li>
-                    <li data-section="marketing_services" data-value="custom_strategies" style="position: relative; padding-left: 25px;">
-                        <span style="position: absolute; left: 0; top: 0; color: #7601d8; font-size: 24px;">•</span>
-                        Estrategias de marketing personalizadas, adaptadas a tus objetivos y necesidades.
-                    </li>
-                    <li data-section="marketing_services" data-value="campaign_management" style="position: relative; padding-left: 25px;">
-                        <span style="position: absolute; left: 0; top: 0; color: #7601d8; font-size: 24px;">•</span>
-                        Desarrollo y gestión de campañas publicitarias en diversos medios.
-                    </li>
-                    <li data-section="marketing_services" data-value="content_creation" style="position: relative; padding-left: 25px;">
-                        <span style="position: absolute; left: 0; top: 0; color: #7601d8; font-size: 24px;">•</span>
-                        Creación de contenido atractivo y relevante para tus canales de comunicación.
-                    </li>
-                    <li data-section="marketing_services" data-value="seo_optimization" style="position: relative; padding-left: 25px;">
-                        <span style="position: absolute; left: 0; top: 0; color: #7601d8; font-size: 24px;">•</span>
-                        Optimización SEO para mejorar la visibilidad de tu sitio web en motores de búsqueda.
-                    </li>
-                    <li data-section="marketing_services" data-value="social_media" style="position: relative; padding-left: 25px;">
-                        <span style="position: absolute; left: 0; top: 0; color: #7601d8; font-size: 24px;">•</span>
-                        Gestión de redes sociales para aumentar tu presencia y engagement en plataformas clave.
-                    </li>
-                    <li data-section="marketing_services" data-value="email_marketing" style="position: relative; padding-left: 25px;">
-                        <span style="position: absolute; left: 0; top: 0; color: #7601d8; font-size: 24px;">•</span>
-                        Email marketing para mantener y fortalecer relaciones con tus clientes.
-                    </li>
-                    <li data-section="marketing_services" data-value="performance_analysis" style="position: relative; padding-left: 25px;">
-                        <span style="position: absolute; left: 0; top: 0; color: #7601d8; font-size: 24px;">•</span>
-                        Análisis y reportes de rendimiento para ajustar y mejorar las estrategias.
-                    </li>
-                    <li data-section="marketing_services" data-value="ongoing_support" style="position: relative; padding-left: 25px;">
-                        <span style="position: absolute; left: 0; top: 0; color: #7601d8; font-size: 24px;">•</span>
-                        Soporte continuo para resolver cualquier duda o problema relacionado con las campañas.
-                    </li>
-                </ul>
-
-                <div class="button-box mt-30">
-                    <a style="color: white; background-color: #7601d8; font-family: 'anton', sans-serif; font-weight: 400;" 
-                       href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0" 
-                       class="ht-btn ht-btn-md" 
-                       data-section="marketing_services" 
-                       data-value="button_text">
-                        Consulta nuestro servicio
-                    </a>
-                </div>
-            </div>
         </div>
     </div>
-</div>
-
-    </div>
-</div>
 
 
 
     <!--============ Contact Us Area Start =================-->
     <!--============ Contact Us Area Start =================-->
-<div class="contact-us-area appointment-contact-bg section-space--ptb_100" data-section="contact" id="formulario">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="contact-title section-space--mb_50">
-                    <h3 data-section="contact" data-value="help_title" style="font-family: 'anton', sans-serif; font-weight: 400; color: #fff;" class="mb-20">
-                     <br><br>   ¿Necesitas nuestra ayuda?
-                    </h3>
-                    <p data-section="contact" data-value="help_subtitle" style="font-family: ; font-weight: 400; color: #fff;" class="sub-title">
-                        En Pulpodin estamos para hacer tus proyectos realidad!
-                    </p>
+    <div class="contact-us-area appointment-contact-bg section-space--ptb_100" data-section="contact" id="formulario">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="contact-title section-space--mb_50">
+                        <h3 data-section="contact" data-value="help_title"
+                            style="font-family: 'anton', sans-serif; font-weight: 400; color: #fff;" class="mb-20">
+                            <br><br> ¿Necesitas nuestra ayuda?
+                        </h3>
+                        <p data-section="contact" data-value="help_subtitle"
+                            style="font-family: ; font-weight: 400; color: #fff;" class="sub-title">
+                            En Pulpodin estamos para hacer tus proyectos realidad!
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="contact-form-wrap">
-                    <form class="contact-form" id="contact-form-2" action="assets/php/services-mail.php" method="post">
-                        <div class="contact-form__two">
-                            <div class="contact-input">
-                                <div class="contact-inner">
-                                    <input name="con_name" type="text" data-section="contact" data-value="name_placeholder" placeholder="Nombre *">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-form-wrap">
+                        <form class="contact-form" id="contact-form-2" action="assets/php/services-mail.php"
+                            method="post">
+                            <div class="contact-form__two">
+                                <div class="contact-input">
+                                    <div class="contact-inner">
+                                        <input name="con_name" type="text" data-section="contact"
+                                            data-value="name_placeholder" placeholder="Nombre *">
+                                    </div>
+                                    <div class="contact-inner">
+                                        <input name="con_email" type="email" data-section="contact"
+                                            data-value="email_placeholder" placeholder="Email *">
+                                    </div>
+                                    <div class="contact-inner">
+                                        <input name="con_phone" type="tel" data-section="contact"
+                                            data-value="phone_placeholder" placeholder="Teléfono *">
+                                    </div>
+                                    <div class="contact-inner">
+                                        <select name="con_budget" data-section="contact"
+                                            data-value="budget_placeholder">
+                                            <option value="" disabled selected>Presupuesto del proyecto *</option>
+                                            <option value="100-250">$100 - $250 (busco algo económico)</option>
+                                            <option value="300-550">$300 - $550 (busco diferenciarme)</option>
+                                            <option value="600-900">$600 - $900 (busco algo personalizado)</option>
+                                            <option value="1000+">+ $1000</option>
+                                        </select>
+                                    </div>
                                 </div>
-                                <div class="contact-inner">
-                                    <input name="con_email" type="email" data-section="contact" data-value="email_placeholder" placeholder="Email *">
+                                <div class="contact-inner contact-message">
+                                    <textarea name="con_message" data-section="contact" data-value="message_placeholder"
+                                        placeholder="Por favor describenos tu solicitud."></textarea>
                                 </div>
-                                <div class="contact-inner">
-                                    <input name="con_phone" type="tel" data-section="contact" data-value="phone_placeholder" placeholder="Teléfono *">
-                                </div>
-                                <div class="contact-inner">
-                                    <select name="con_budget" data-section="contact" data-value="budget_placeholder">
-                                        <option value="" disabled selected>Presupuesto del proyecto *</option>
-                                        <option value="100-250">$100 - $250 (busco algo económico)</option>
-                                        <option value="300-550">$300 - $550 (busco diferenciarme)</option>
-                                        <option value="600-900">$600 - $900 (busco algo personalizado)</option>
-                                        <option value="1000+">+ $1000</option>
-                                    </select>
+                                <div class="comment-submit-btn">
+                                    <button class="ht-btn ht-btn-md" type="submit" data-section="contact"
+                                        data-value="submit_button"
+                                        style="background-color: #ffeb00; color: #000; font-family: 'anton', sans-serif; font-weight: 400;">
+                                        Consúltanos
+                                    </button>
+                                    <p class="form-messege-2"></p>
                                 </div>
                             </div>
-                            <div class="contact-inner contact-message">
-                                <textarea name="con_message" data-section="contact" data-value="message_placeholder" placeholder="Por favor describenos tu solicitud."></textarea>
-                            </div>
-                            <div class="comment-submit-btn">
-                                <button class="ht-btn ht-btn-md" type="submit" data-section="contact" data-value="submit_button" style="background-color: #ffeb00; color: #000; font-family: 'anton', sans-serif; font-weight: 400;">
-                                    Consúltanos
-                                </button>
-                                <p class="form-messege-2"></p>
-                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-5 ms-auto">
+                    <div class="contact-info-three text-left">
+                        <h6 data-section="contact" data-value="contact_now_title"
+                            style="font-family: ; font-weight: 400; color: #fff;" class="heading font-weight--reguler">
+                            Ponte en contacto ahora!
+                        </h6>
+                        <h3 style="font-family: 'anton', sans-serif; font-weight: 400; color: #ffeb00;" class="call-us">
+                            <a href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0"
+                                data-section="contact" data-value="contact_number">
+                                (+58) 412 994 8381
+                            </a>
+                        </h3>
+                        <div data-section="contact" data-value="contact_text"
+                            style="font-family: 'anton', sans-serif; font-weight: 400; color: #fff; font-size: 25px;"
+                            class="text">
+                            Inicia tu impulso empresarial con Pulpodin
                         </div>
-                    </form>
-                </div>
-            </div>
-            <div class="col-lg-5 ms-auto">
-                <div class="contact-info-three text-left">
-                    <h6 data-section="contact" data-value="contact_now_title" style="font-family: ; font-weight: 400; color: #fff;" class="heading font-weight--reguler">
-                        Ponte en contacto ahora!
-                    </h6>
-                    <h3 style="font-family: 'anton', sans-serif; font-weight: 400; color: #ffeb00;" class="call-us">
-                        <a href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0" data-section="contact" data-value="contact_number">
-                            (+58) 412 994 8381
-                        </a> 
-                    </h3> 
-                    <div data-section="contact" data-value="contact_text" style="font-family: 'anton', sans-serif; font-weight: 400; color: #fff; font-size: 25px;" class="text">
-                        Inicia tu impulso empresarial con Pulpodin
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-        <!--============ Contact Us Area End =================-->
+    <!--============ Contact Us Area End =================-->
 
 
 
@@ -1370,22 +1444,25 @@
         <div class="footer-preview section-space--ptb_120 prv-section-footer-bg-2">
             <div class="container">
                 <div class="row">
-                        <div class="col-lg-12 col-md-12 m-auto">
-                            <div class="footer-preview-content section-space--ptb_70 text-center">
-                                <h2 style="font-family: 'anton', sans-serif; font-weight: 400;" class="heading text-white"
+                    <div class="col-lg-12 col-md-12 m-auto">
+                        <div class="footer-preview-content section-space--ptb_70 text-center">
+                            <h2 style="font-family: 'anton', sans-serif; font-weight: 400;" class="heading text-white"
                                 data-section="section final" data-value="text1">Quieres el camino al éxito digital
                                 con pulpodin, <br> somos tu startup de desarrollo de software y marketing innovador
                             </h2>
-                            <h6 style="font-family: 'anton', sans-serif; font-weight: 400; letter-spacing: normal; font-size: 25px;" class="heading text-white mt-25"
-                                data-section="section final" data-value="text2">
+                            <h6 style="font-family: 'anton', sans-serif; font-weight: 400; letter-spacing: normal; font-size: 25px;"
+                                class="heading text-white mt-25" data-section="section final" data-value="text2">
                                 Tenemos las estrategias de crecimiento integral para tu negocio
                             </h6>
                             <div class="header-button downlode-btn mt-40">
-                                <a style="font-family: 'anton', sans-serif; font-weight: 400; width: 250px; font-size: 25px; background-color: #FFEB00; color: black;" href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0" class="btn btn--white" data-section="section final" data-value="button">Contáctanos</a>
-                            </div>
+                                <a style="font-family: 'anton', sans-serif; font-weight: 400; width: 250px; font-size: 25px; background-color: #FFEB00; color: black;"
+                                    href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0"
+                                    class="btn btn--white" data-section="section final"
+                                    data-value="button">Contáctanos</a>
                             </div>
                         </div>
                     </div>
+                </div>
             </div>
         </div>
     </footer>
@@ -1405,14 +1482,15 @@
                     <div class="col-lg-2 col-md-4 col-sm-6 footer-widget"
                         style="font-weight: 400; font-family: 'anton', sans-serif;">
                         <h6 class="footer-widget__title mb-20"
-    style="font-weight: 400; font-family: 'anton', sans-serif;" data-section="footer" data-value="title">Servicios</h6>
+                            style="font-weight: 400; font-family: 'anton', sans-serif;" data-section="footer"
+                            data-value="title">Servicios</h6>
 
                         <ul class="footer-widget__list">
                             <li><a href="index-software-innovation-2.html" class="hover-style-link"
                                     style="color: #7601d8;">Marketing</a></li>
-                                    <li><a href="index-appointment.html" class="hover-style-link"
-                                        style="color: #7601d8;" data-section="footer" data-value="text1">Sublimado</a></li>
-                                
+                            <li><a href="index-appointment.html" class="hover-style-link" style="color: #7601d8;"
+                                    data-section="footer" data-value="text1">Sublimado</a></li>
+
                             <li><a href="index-processing.html" class="hover-style-link"
                                     style="color: #7601d8;">Audiovisual</a></li>
                             <li><a href="index-services.html" class="hover-style-link" style="color: #7601d8;">Diseño
@@ -1425,20 +1503,23 @@
                         </ul>
                     </div>
                     <div class="col-lg-2 col-md-4 col-sm-6 footer-widget"
-    style="font-weight: 400; font-family: 'anton', sans-serif;">
-    <h6 class="footer-widget__title mb-20"
-        style="font-weight: 400; font-family: 'anton', sans-serif;" data-section="footer" data-value="title2">Dirección y Contacto</h6>
-    <ul class="footer-widget__list" style="color: #7601d8;">
-        <li data-section="footer" data-value="text4">Calle Berrizbeitia con avenida <br> Jose Antonio Paez, El Paraiso <br> (Caracas,
-            Venezuela)</li>
-        <li><a href="mailto:contact@pulpodin.com" class="hover-style-link" >contacto@pulpodin.com</a></li>
-        <li><a href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0"
-                class="hover-style-link text-black font-weight--bold"
-                style="font-weight: 400; font-family: 'anton', sans-serif;" >(+58)4129948381</a></li>
-        <li><a href="https://principal.pulpodin.com" class="hover-style-link text-color-primary"
-                style="color: #7601d8; text-shadow: #000000;" >www.pulpodin.com</a></li>
-    </ul>
-</div>
+                        style="font-weight: 400; font-family: 'anton', sans-serif;">
+                        <h6 class="footer-widget__title mb-20"
+                            style="font-weight: 400; font-family: 'anton', sans-serif;" data-section="footer"
+                            data-value="title2">Dirección y Contacto</h6>
+                        <ul class="footer-widget__list" style="color: #7601d8;">
+                            <li data-section="footer" data-value="text4">Calle Berrizbeitia con avenida <br> Jose
+                                Antonio Paez, El Paraiso <br> (Caracas,
+                                Venezuela)</li>
+                            <li><a href="mailto:contact@pulpodin.com" class="hover-style-link">contacto@pulpodin.com</a>
+                            </li>
+                            <li><a href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0"
+                                    class="hover-style-link text-black font-weight--bold"
+                                    style="font-weight: 400; font-family: 'anton', sans-serif;">(+58)4129948381</a></li>
+                            <li><a href="https://principal.pulpodin.com" class="hover-style-link text-color-primary"
+                                    style="color: #7601d8; text-shadow: #000000;">www.pulpodin.com</a></li>
+                        </ul>
+                    </div>
 
 
 
@@ -1525,36 +1606,28 @@
                 <nav class="offcanvas-navigation offcanvas-navigation--onepage">
                     <ul>
                         <li id="flags" style="display: flex; gap: 10px;">
-                                            <button class="flags__item" data-language="es"
-                                                onclick="changeLanguage('es')"
-                                                style="background: none; border: none; padding: 0; cursor: pointer;">
-                                                <img src="assets/images/hero/es.png" alt="Español"
-                                                    style="width: 20px; height: auto;">
-                                            </button>
-                                            <button class="flags__item" data-language="en"
-                                                onclick="changeLanguage('en')"
-                                                style="background: none; border: none; padding: 0; cursor: pointer;">
-                                                <img src="assets/images/hero/en.png" alt="English"
-                                                    style="width: 20px; height: auto;">
-                                            </button>
-                                            <button class="flags__item" data-language="it"
-                                                onclick="changeLanguage('it')"
-                                                style="background: none; border: none; padding: 0; cursor: pointer;">
-                                                <img src="assets/images/hero/it.png" alt="Italiano"
-                                                    style="width: 20px; height: auto;">
-                                            </button>
-                                            <button class="flags__item" data-language="pt"
-                                                onclick="changeLanguage('pt')"
-                                                style="background: none; border: none; padding: 0; cursor: pointer;">
-                                                <img src="assets/images/hero/pt.png" alt="Português"
-                                                    style="width: 20px; height: auto;">
-                                            </button>
-                                        </li>
+                            <button class="flags__item" data-language="es" onclick="changeLanguage('es')"
+                                style="background: none; border: none; padding: 0; cursor: pointer;">
+                                <img src="assets/images/hero/es.png" alt="Español" style="width: 20px; height: auto;">
+                            </button>
+                            <button class="flags__item" data-language="en" onclick="changeLanguage('en')"
+                                style="background: none; border: none; padding: 0; cursor: pointer;">
+                                <img src="assets/images/hero/en.png" alt="English" style="width: 20px; height: auto;">
+                            </button>
+                            <button class="flags__item" data-language="it" onclick="changeLanguage('it')"
+                                style="background: none; border: none; padding: 0; cursor: pointer;">
+                                <img src="assets/images/hero/it.png" alt="Italiano" style="width: 20px; height: auto;">
+                            </button>
+                            <button class="flags__item" data-language="pt" onclick="changeLanguage('pt')"
+                                style="background: none; border: none; padding: 0; cursor: pointer;">
+                                <img src="assets/images/hero/pt.png" alt="Português" style="width: 20px; height: auto;">
+                            </button>
+                        </li>
 
                         <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
                                 href="index.html" data-section="primary header.HOME">INICIO</a></li>
 
-                        
+
 
                         <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
                                 href="index-machine-learning.html">IMPRESIONES 3D</a></li>
@@ -1564,7 +1637,7 @@
                         <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
                                 href="index-software-innovation-2.html">MARKETING</a></li>
 
-                       
+
 
                         <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
                                 href="index-appointment.html">SUBLIMADO</a></li>
@@ -1581,7 +1654,7 @@
                         <li><a style="font-family: 'anton', sans-serif; color: black; font-size: 20px;"
                                 href="index-machine-learning-2.html">QUIENES SOMOS</a>
                         </li>
-                        
+
 
 
 
@@ -1647,7 +1720,7 @@
     <script>
         function changeLanguage(language) {
             fetch(`../languajes/${language}.json`)
-            .then(res => res.json())
+                .then(res => res.json())
                 .then(data => {
                     console.log(data);
                     // Aquí actualizamos el contenido del sitio web con los datos del JSON
