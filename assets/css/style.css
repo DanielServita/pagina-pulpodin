@@ -899,6 +899,294 @@ input[type=checkbox] {
   }
 }
 
+.breadcrumb-area-14 {
+  padding-top: 114px;
+  padding-bottom: 114px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom-width: 0px;
+  padding-top: 136px;
+  padding-bottom: 131px;
+  background-size: cover;
+  z-index: 3;
+  position: relative;
+  background-image: url(../images/hero/aplicacion-web-PC.jpg)
+
+}
+/* Imagen de fondo para pantallas pequeñas (móvil) */
+@media (max-width: 768px) {
+  .breadcrumb-area-14{
+      background-image: url('../images/hero/aplicacion-web-telefono.jpg');
+      background-size: cover;
+      background-position: center;
+  }
+}
+
+.breadcrumb-area-15 {
+  padding-top: 114px;
+  padding-bottom: 114px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom-width: 0px;
+  padding-top: 136px;
+  padding-bottom: 131px;
+  background-size: cover;
+  z-index: 3;
+  position: relative;
+  background-image: url(../images/hero/sistema-de-inventario-PC.jpg)
+
+}
+/* Imagen de fondo para pantallas pequeñas (móvil) */
+@media (max-width: 768px) {
+  .breadcrumb-area-15{
+      background-image: url('../images/hero/sistema-de-inventario-telefono.jpg');
+      background-size: cover;
+      background-position: center;
+  }
+}
+
+.breadcrumb-area-16 {
+  padding-top: 114px;
+  padding-bottom: 114px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom-width: 0px;
+  padding-top: 136px;
+  padding-bottom: 131px;
+  background-size: cover;
+  z-index: 3;
+  position: relative;
+  background-image: url(../images/hero/aplicacion-movil-PC.jpg)
+
+}
+/* Imagen de fondo para pantallas pequeñas (móvil) */
+@media (max-width: 768px) {
+  .breadcrumb-area-16{
+      background-image: url('../images/hero/aplicacion-movil-telefono.jpg');
+      background-size: cover;
+      background-position: center;
+  }
+}
+
+.breadcrumb-area-17 {
+  padding-top: 114px;
+  padding-bottom: 114px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom-width: 0px;
+  padding-top: 136px;
+  padding-bottom: 131px;
+  background-size: cover;
+  z-index: 3;
+  position: relative;
+  background-image: url(../images/hero/sistema-administrativo-PC.jpg)
+
+}
+/* Imagen de fondo para pantallas pequeñas (móvil) */
+@media (max-width: 768px) {
+  .breadcrumb-area-17{
+      background-image: url('../images/hero/sistema-administrativo-telefono.jpg');
+      background-size: cover;
+      background-position: center;
+  }
+}
+
+.breadcrumb-area-18 {
+  padding-top: 114px;
+  padding-bottom: 114px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom-width: 0px;
+  padding-top: 136px;
+  padding-bottom: 131px;
+  background-size: cover;
+  z-index: 3;
+  position: relative;
+  background-image: url(../images/hero/landings-pages-PC.jpg)
+
+}
+/* Imagen de fondo para pantallas pequeñas (móvil) */
+@media (max-width: 768px) {
+  .breadcrumb-area-18{
+      background-image: url('../images/hero/landings-pages-telefono.jpg');
+      background-size: cover;
+      background-position: center;
+  }
+}
+
+.breadcrumb-area-19 {
+  padding-top: 114px;
+  padding-bottom: 114px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom-width: 0px;
+  padding-top: 136px;
+  padding-bottom: 131px;
+  background-size: cover;
+  z-index: 3;
+  position: relative;
+  background-image: url(../images/hero/pagina-web-corporativa-PC.jpg)
+
+}
+/* Imagen de fondo para pantallas pequeñas (móvil) */
+@media (max-width: 768px) {
+  .breadcrumb-area-19{
+      background-image: url('../images/hero/pagina-web-corporativa-telefono.jpg');
+      background-size: cover;
+      background-position: center;
+  }
+}
+
+.breadcrumb-area-20 {
+  padding-top: 114px;
+  padding-bottom: 114px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom-width: 0px;
+  padding-top: 136px;
+  padding-bottom: 131px;
+  background-size: cover;
+  z-index: 3;
+  position: relative;
+  background-image: url(../images/hero/tienda-online-corporativa-PC.jpg)
+
+}
+/* Imagen de fondo para pantallas pequeñas (móvil) */
+@media (max-width: 768px) {
+  .breadcrumb-area-20{
+      background-image: url('../images/hero/tienda-online-corporativa-telefono.jpg');
+      background-size: cover;
+      background-position: center;
+  }
+}
+
+.breadcrumb-area-21 {
+  padding-top: 114px;
+  padding-bottom: 114px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom-width: 0px;
+  padding-top: 136px;
+  padding-bottom: 131px;
+  background-size: cover;
+  z-index: 3;
+  position: relative;
+  background-image: url(../images/hero/diseño-de-logosl-PC.jpg)
+
+}
+/* Imagen de fondo para pantallas pequeñas (móvil) */
+@media (max-width: 768px) {
+  .breadcrumb-area-21{
+      background-image: url('../images/hero/diseño-de-logosl-telefono.jpg');
+      background-size: cover;
+      background-position: center;
+  }
+}
+
+.breadcrumb-area-22 {
+  padding-top: 114px;
+  padding-bottom: 114px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom-width: 0px;
+  padding-top: 136px;
+  padding-bottom: 131px;
+  background-size: cover;
+  z-index: 3;
+  position: relative;
+  background-image: url(../images/hero/diseño-de-redes-sociales-PC.jpg)
+
+}
+/* Imagen de fondo para pantallas pequeñas (móvil) */
+@media (max-width: 768px) {
+  .breadcrumb-area-22{
+      background-image: url('../images/hero/diseño-de-redes-sociales-telefono.jpg');
+      background-size: cover;
+      background-position: center;
+  }
+}
+
+.breadcrumb-area-23 {
+  padding-top: 114px;
+  padding-bottom: 114px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom-width: 0px;
+  padding-top: 136px;
+  padding-bottom: 131px;
+  background-size: cover;
+  z-index: 3;
+  position: relative;
+  background-image: url(../images/hero/diseño-de-flyer-o-folletos-PC.jpg)
+
+}
+/* Imagen de fondo para pantallas pequeñas (móvil) */
+@media (max-width: 768px) {
+  .breadcrumb-area-23{
+      background-image: url('../images/hero/diseño-de-flyer-o-folletos-telefono.jpg');
+      background-size: cover;
+      background-position: center;
+  }
+}
+
+.breadcrumb-area-25 {
+  padding-top: 114px;
+  padding-bottom: 114px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom-width: 0px;
+  padding-top: 136px;
+  padding-bottom: 131px;
+  background-size: cover;
+  z-index: 3;
+  position: relative;
+  background-image: url(../images/hero/diseño-de-catalogos-PC.jpg)
+
+}
+/* Imagen de fondo para pantallas pequeñas (móvil) */
+@media (max-width: 768px) {
+  .breadcrumb-area-25{
+      background-image: url('../images/hero/diseño-de-catalogos-telefono.jpg');
+      background-size: cover;
+      background-position: center;
+  }
+}
+
+.breadcrumb-area-27 {
+  padding-top: 114px;
+  padding-bottom: 114px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom-width: 0px;
+  padding-top: 136px;
+  padding-bottom: 131px;
+  background-size: cover;
+  z-index: 3;
+  position: relative;
+  background-image: url(../images/hero/diseño-de-vallas-publicitarias-PC.jpg)
+
+}
+/* Imagen de fondo para pantallas pequeñas (móvil) */
+@media (max-width: 768px) {
+  .breadcrumb-area-27{
+      background-image: url('../images/hero/diseño-de-vallas-publicitarias-telefono.jpg');
+      background-size: cover;
+      background-position: center;
+  }
+}
+
 .breadcrumb-area-345 {
   padding-top: 114px;
   padding-bottom: 114px;
