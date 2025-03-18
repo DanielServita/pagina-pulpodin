@@ -66,6 +66,51 @@
             font-family: 'anton', sans-serif;
             font-weight: 400;
         }
+
+        .fixed-box {
+    height: 550px; /* Mantén la altura fija */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Espacia uniformemente los elementos */
+    text-align: center;
+    padding: 20px; /* Espaciado interno */
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para el diseño */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+    overflow: hidden; /* Asegura que no se desborde contenido */
+}
+
+.fixed-box:hover {
+    transform: translateY(-10px); /* Efecto de "levantar" la caja */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+    
+}
+
+.fixed-box .content {
+    visibility: visible; /* Asegura que el contenido sea siempre visible */
+    color: inherit; /* Usa el color definido por el estilo actual */
+    transition: color 0.3s ease; /* Transición suave para cambios de color */
+}
+
+.fixed-box:hover .content {
+    visibility: visible; /* El texto sigue visible en hover */
+    color: inherit; /* Asegura que el color del texto no cambie */
+}
+
+.fixed-box .text {
+    visibility: visible; /* Mantén el texto visible */
+    color: black; /* Asegura que el texto tenga un color legible */
+    transition: color 0.3s ease; /* Cambios suaves en el color */
+}
+
+.fixed-box:hover .text {
+    color: black; /* Mantén el color del texto en hover */
+    visibility: visible; /* Asegura que sea visible en todo momento */
+}
+
+
+
     </style>
 
     <style>
@@ -375,7 +420,7 @@
                                         class="sub-heading" data-section="section hero" data-value="sub_heading">IMPULSA TU MARCA</p>
                                     <h3 style="color: rgb(0, 0, 0);"></h3>
                                     <h1 style="font-size: 650%; color: rgb(255, 255, 255); font-family: 'anton', sans-serif; font-weight: 400;"
-                                        class="font-weight--reguler mb-30" data-section="section hero" data-value="main_heading">Impresión <br> <span style="color: #ffeb00;"
+                                        class="font-weight--reguler mb-25" data-section="section hero" data-value="main_heading">Impresión <br> <span style="color: #ffeb00;"
                                             data-section="section hero" data-value="main_heading">en 3D</span> </h1>
                                     <h2 style="text-align: justify;color: rgb(255, 255, 255); font-family: 'anton', sans-serif; font-weight: 400;"
                                         class="info-heading" data-section="section hero" data-value="info_heading">
@@ -531,124 +576,123 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <!-- section-title-wrap Start -->
                         <div class="section-title-wrap text-center section-space--mb_30">
-                            <h6 style="color: white; font-family: 'anton', sans-serif; font-weight: 400; color: #FFEB00;"
-                                class="section-sub-title mb-20" id="elegirnos" data-section="why choose us"
-                                data-value="sub_title">¿Por qué Elegirnos?</h6>
-                            <h3 style="color: white; font-family: 'anton', sans-serif; font-weight: 400;"
-                                class="heading" data-section="why choose us" data-value="heading">Realizamos diseños
-                                personalizados a tu gusto<br><span class="text-color-primary"></span></h3>
+                            <h6 
+                                style="color: white; font-family: 'anton', sans-serif; font-weight: 400; color: #FFEB00;"
+                                class="section-sub-title mb-20" 
+                                id="elegirnos" 
+                                data-section="why choose us" 
+                                data-value="sub_title">
+                                ¿Por qué Elegirnos?
+                            </h6>
+                            <h3 
+                                style="color: white; font-family: 'anton', sans-serif; font-weight: 400;"
+                                class="heading" 
+                                data-section="why choose us" 
+                                data-value="heading">
+                                Realizamos diseños personalizados a tu gusto
+                                <br><span class="text-color-primary"></span>
+                            </h3>
                         </div>
-                        <!-- section-title-wrap Start -->
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-12">
-                        <div class="feature-images__five">
-                            <div class="row">
-
-                                <div class="col-lg-4 col-md-6 wow move-up">
-                                    <!-- ht-box-icon Start -->
-                                    <div class="ht-box-images style-05">
-                                        <div style="border-radius: 50px;" class="image-box-wrap">
-                                            <div class="box-image">
-                                                <div class="box-image">
-                                                    <img style="display: block; margin: auto;" class="img-fluid" src="assets/images/hero/iconito-3d.png"
-                                                        alt="">
-                                                </div>
-                                                
-                                            </div>
-                                            <div class="content">
-                                                <h5 style="color: #000; font-family: 'anton', sans-serif; font-weight: 400; text-align: center;"
-                                                    class="heading" data-section="why choose us"
-                                                    data-value="technology_title">Tecnología Avanzada de Impresión 3D:
-                                                </h5>
-                                                <div style=" color: black; font-family: ; font-weight: 400; text-align: center;"
-                                                    class="text" data-section="why choose us"
-                                                    data-value="technology_text">En Pulpodin, utilizamos tecnología de
-                                                    impresión 3D de
-                                                    última generación para dar vida a tus ideas con precisión y rapidez.
-                                                    Nuestras impresoras avanzadas pueden manejar diseños complejos,
-                                                    asegurando que cada detalle se capture tal como lo imaginaste.
-                                                </div>
-                                                <div class="box-images-arrow">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- ht-box-icon End -->
+                    <div class="col-lg-4 col-md-6 wow move-up">
+                        <div class="ht-box-images style-05 fixed-box">
+                            <div class="image-box-wrap">
+                                <div class="box-image">
+                                    <img 
+                                        class="img-fluid" 
+                                        src="assets/images/hero/iconito-3d.png" 
+                                        alt=""
+                                        data-section="why choose us" 
+                                        data-value="technology_image">
                                 </div>
-
-                                <div class="col-lg-4 col-md-6 wow move-up">
-                                    <!-- ht-box-icon Start -->
-                                    <div class="ht-box-images style-05">
-                                        <div style="border-radius: 50px;" class="image-box-wrap">
-                                            <div class="box-image">
-                                                <div class="box-image">
-                                                    <img style="display: block; margin: auto;" class="img-fluid"
-                                                        src="assets/images/hero/expertos-en-personalizacion.png" alt="">
-                                                </div>
-                                                
-                                            </div>
-                                            <div class="content">
-                                                <h5 style="color: #000; font-family: 'anton', sans-serif; font-weight: 400; text-align: center;"
-                                                    class="heading" data-section="why choose us"
-                                                    data-value="customization_title">Expertos en Personalización: <br>
-                                                </h5>
-                                                <div style="color: black; font-family: ; font-weight: 400; text-align: justify; text-align: center;"
-                                                    class="text" data-section="why choose us"
-                                                    data-value="customization_text">La imaginación es el único límite
-                                                    cuando se trata de
-                                                    las capacidades de personalización de Pulpodin. Nuestro equipo de
-                                                    diseñadores trabaja estrechamente contigo para crear modelos 3D a
-                                                    medida que cumplen con tus especificaciones exactas. <br> <br>
-                                                </div>
-                                                <div class="box-images-arrow">
-                                                </div>
-                                            </div>
-                                        </div>
+                                <div class="content">
+                                    <h5 
+                                        class="heading" 
+                                        style="color: rgb(0, 0, 0); text-align: center;"
+                                        data-section="why choose us" 
+                                        data-value="technology_title">
+                                        Tecnología Avanzada de Impresión 3D:
+                                    </h5>
+                                    <div 
+                                        class="text" 
+                                        style="color: rgb(0, 0, 0); text-align: center;"
+                                        data-section="why choose us" 
+                                        data-value="technology_text">
+                                        En Pulpodin, utilizamos tecnología de impresión 3D de última generación para dar vida a tus ideas con precisión y rapidez.
                                     </div>
-                                    <!-- ht-box-icon End -->
-                                </div>
-
-                                <div class="col-lg-4 col-md-6 wow move-up">
-                                    <!-- ht-box-icon Start -->
-                                    <div class="ht-box-images style-05">
-                                        <div style="border-radius: 50px;" class="image-box-wrap">
-                                            <div class="box-image">
-                                                <div class="box-image">
-                                                    <img style="display: block; margin: auto;" class="img-fluid"
-                                                        src="assets/images/hero/soluciones-ecologicas.png" alt="">
-                                                </div>
-                                                
-                                            </div>
-                                            <div class="content">
-                                                <h5 style="color: #000; font-family: 'anton', sans-serif; font-weight: 400; text-align: center;"
-                                                    class="heading" data-section="why choose us"
-                                                    data-value="eco_solutions_title">Soluciones Ecológicas:</h5>
-                                                <div style="color: black; font-family: ; font-weight: 400; text-align: center;"
-                                                    class="text" data-section="why choose us"
-                                                    data-value="eco_solutions_text">En Pulpodin, estamos comprometidos
-                                                    con la
-                                                    sostenibilidad en nuestros procesos de impresión 3D. Utilizamos
-                                                    materiales ecológicos y adoptamos prácticas que minimizan el
-                                                    desperdicio sin comprometer la calidad. <br> <br> <br>
-                                                </div>
-                                                <div class="box-images-arrow">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- ht-box-icon End -->
                                 </div>
                             </div>
                         </div>
-
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow move-up">
+                        <div class="ht-box-images style-05 fixed-box">
+                            <div class="image-box-wrap">
+                                <div class="box-image">
+                                    <img 
+                                        class="img-fluid" 
+                                        src="assets/images/hero/expertos-en-personalizacion.png" 
+                                        alt=""
+                                        data-section="why choose us" 
+                                        data-value="customization_image">
+                                </div>
+                                <div class="content">
+                                    <h5 
+                                        class="heading" 
+                                        style="color: rgb(0, 0, 0); text-align: center;"
+                                        data-section="why choose us" 
+                                        data-value="customization_title">
+                                        Expertos en Personalización:
+                                    </h5>
+                                    <div 
+                                        class="text" 
+                                        style="color: rgb(0, 0, 0); text-align: center;"
+                                        data-section="why choose us" 
+                                        data-value="customization_text">
+                                        Nuestro equipo de diseñadores trabaja contigo para crear modelos 3D a medida que cumplen con tus especificaciones.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow move-up">
+                        <div class="ht-box-images style-05 fixed-box">
+                            <div class="image-box-wrap">
+                                <div class="box-image">
+                                    <img 
+                                        class="img-fluid" 
+                                        src="assets/images/hero/soluciones-ecologicas.png" 
+                                        alt=""
+                                        data-section="why choose us" 
+                                        data-value="eco_solutions_image">
+                                </div>
+                                <div class="content">
+                                    <h5 
+                                        class="heading" 
+                                        style="color: rgb(0, 0, 0); text-align: center;"
+                                        data-section="why choose us" 
+                                        data-value="eco_solutions_title">
+                                        Soluciones Ecológicas:
+                                    </h5>
+                                    <div 
+                                        class="text" 
+                                        style="color: rgb(0, 0, 0); text-align: center;"
+                                        data-section="why choose us" 
+                                        data-value="eco_solutions_text">
+                                        Utilizamos materiales ecológicos para minimizar el desperdicio sin comprometer la calidad.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        
+        
+        
 
         <div class="machine-learning-about-company-area machine-learning-about-bg section-space--ptb_120" 
      style="font-family: 'Helvetica Light', sans-serif;" data-section="printing_services">
