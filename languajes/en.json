@@ -626,6 +626,7 @@
     "help_subtitle": "At Pulpodin, we're here to make your projects a reality!",
     "name_placeholder": "Name *",
     "email_placeholder": "Email *",
+    "phone_placeholder": "Phone *",
     "message_placeholder": "Please describe your request.",
     "submit_button": "Contact us",
     "contact_now_title": "Get in touch now!",
@@ -1087,5 +1088,474 @@
   "cta22": {
     "mensaje": "We offer a full range of IT services to ensure your success",
     "boton": "Contact us"
-  }
+  },
+
+  "projects22": {
+    "sub_title": "Completed Projects",
+    "title": "Take a look at",
+    "highlight": "our projects",
+    "techsolutions": "TechSolutions",
+    "ecofriendly": "EcoFriendly",
+    "healthfirst": "HealthFirst",
+    "edutech": "EduTech",
+    "date_1": "January 18, 2023",
+    "date_2": "January 18, 2023",
+    "date_3": "February 21, 2019",
+    "date_4": "January 18, 2023",
+    "title_1": "Corporate Rebranding for TechSolutions",
+    "title_2": "Visual Advertising Campaign for EcoFriendly",
+    "title_3": "Innovative Packaging Design for HealthFirst",
+    "title_4": "Visual Identity Development for EduTech",
+    "description_1": "We redesigned TechSolutions' visual identity, including a new logo, color palette, and marketing materials. The goal was to modernize the company's image and reflect its innovation and leadership in the tech sector."
+  },
+
+  "breadcrumbdiseño": {
+    "title": "Logo Design",
+    "home": "Home",
+    "current": "Logo Design"
+  },
+
+  "graphic-design": {
+    "sub_title": "Graphic Design Services",
+    "title": "Logo Design",
+    "description": "At Pulpodin, our graphic design team specializes in creating logos that reflect your brand's essence and project it strongly in the market. Every detail is carefully crafted to ensure your visual identity stands out and connects with your audience."
+  },
+
+  "packages2": {
+    "title": "",
+    "description": "The packages include the following:"
+  },
+
+  "basic-package": {
+    "name": "Basic Package: Simple Logo",
+    "starting": "starting at",
+    "currency": "$",
+    "price": "50",
+    "unit": "USD",
+    "proposal": "Proposals: 2 logo design proposals.",
+    "revisions": "Revisions: 1 round of revisions for minor adjustments.",
+    "format": "Format: Delivery in PNG and JPG format (transparent background and with background).",
+    "mockup": "Basic application: Logo preview in a social media mockup (e.g., how it would look on an Instagram profile).",
+    "palette": "Color Palette: 1 suggested color palette for the logo.",
+    "cta": "Request"
+  },
+
+  "intermediate-package": {
+    "name": "Intermediate Package: Professional Logo",
+    "starting": "starting at",
+    "currency": "$",
+    "price": "100",
+    "unit": "USD",
+    "proposal": "Proposals: 3 logo design proposals.",
+    "revisions": "Revisions: 2 rounds of revisions for adjustments.",
+    "format": "Format: Delivery in PNG, JPG, SVG, and PDF formats (editable vectors).",
+    "mockup": "Application: Logo preview in mockups for social media, business cards, and stationery.",
+    "palette": "Color Palette: 1 color palette + typography suggestions.",
+    "guide": "Basic Guide: Brief explanation on how to use the logo (minimum sizes, allowed colors, etc.).",
+    "cta": "Request"
+  },
+
+  "premium-package": {
+    "name": "Premium Package: Logo + Complete Branding",
+    "starting": "starting at",
+    "currency": "$",
+    "price": "200",
+    "unit": "USD",
+    "proposal": "Proposals: 5 logo design proposals.",
+    "revisions": "Revisions: 3 rounds of revisions for adjustments.",
+    "format": "Format: Delivery in PNG, JPG, SVG, PDF, and AI (editable files in Illustrator).",
+    "mockup": "Application: Logo preview in mockups for social media, business cards, stationery, uniforms, and vehicles.",
+    "palette": "Color Palette: 1 color palette + typography + suggested iconography.",
+    "guide": "Complete Guide: Basic brand manual with logo usage guidelines (colors, sizes, spaces, etc.).",
+    "cta": "Request"
+  },
+
+  "important-notes": {
+    "title": "",
+    "header": "Important Notes:",
+    "pricing-adjustment": "These prices may vary depending on the complexity of the project and the client's specific needs.",
+    "custom-packages": "Request your custom packages when combining multiple services.",
+    "contact-us": "Contact us today to boost your brand!"
+  },
+
+  "breadcrumb-social": {
+    "title": "Social Media Design",
+    "home": "Home",
+    "current": "Social Media Design"
+  },
+
+  "graphic-design-social": {
+    "sub_title": "Graphic Design Services",
+    "title": "Social Media Design",
+    "description": "At Pulpodin, our graphic design team specializes in creating social media content that reflects your brand's essence on every platform. Every detail is carefully crafted to ensure a coherent and attractive visual identity that connects with your audience."
+  },
+
+  "package-details": {
+    "title": "",
+    "header": "The packages include the following:"
+  },
+
+  "basic-post-package": {
+    "name": "Basic Package: Simple Post Design",
+    "starting": "starting at",
+    "currency": "$",
+    "price": "10",
+    "unit": "USD/design",
+    "design": "Design: 1 post design for Instagram or Facebook (standard size).",
+    "revisions": "Revisions: 1 round of revisions for minor adjustments.",
+    "format": "Format: Delivery in PNG and JPG.",
+    "extras": "Extras: Use of predefined templates (not customized).",
+    "cta": "Request"
+  },
+
+  "intermediate-post-package": {
+    "name": "Intermediate Package: Professional Post Design",
+    "starting": "starting at",
+    "currency": "$",
+    "price": "20",
+    "unit": "USD/design",
+    "design": "Design: 1 post design for Instagram, Facebook, or LinkedIn (standard size).",
+    "revisions": "Revisions: 2 rounds of revisions for adjustments.",
+    "format": "Format: Delivery in PNG, JPG, and PDF.",
+    "extras": "Extras: Customized design (not predefined templates).",
+    "mockups": "Mockups: Post preview in a social media mockup.",
+    "cta": "Request"
+  },
+
+  "premium-post-package": {
+    "name": "Premium Package: Post Design + Visual Strategy",
+    "starting": "starting at",
+    "currency": "$",
+    "price": "30",
+    "unit": "USD/design",
+    "design": "Design: 1 post design for Instagram, Facebook, LinkedIn, or TikTok (standard size).",
+    "revisions": "Revisions: 3 rounds of revisions for adjustments.",
+    "format": "Format: Delivery in PNG, JPG, PDF, and editable files (PSD or AI).",
+    "extras": "Extras: Customized design + adaptation to different formats (stories, reels, etc.).",
+    "mockups": "Mockups: Post preview in different mockups (profile, stories, etc.).",
+    "guide": "Basic Guide: Suggestions for colors and fonts to maintain visual consistency.",
+    "cta": "Request"
+  },
+
+  "important-notes-post": {
+    "title": "",
+    "header": "Important Notes:",
+    "pricing-adjustment": "These prices may vary depending on the complexity of the project and the client's specific needs.",
+    "custom-packages": "Request your custom packages when combining multiple services.",
+    "contact-us": "Contact us today to boost your brand!"
+  },
+
+  "breadcrumb-flyers": {
+    "title": "Flyer or Brochure Design",
+    "home": "Home",
+    "current": "Flyer or Brochure Design"
+  },
+
+  "graphic-design-flyers": {
+    "sub_title": "Graphic Design Services",
+    "title": "Flyer or Brochure Design",
+    "description": "At Pulpodin, our graphic design team specializes in creating flyers and brochures that convey your brand's essence and attract your audience. Every detail is meticulously crafted to ensure a coherent and memorable visual identity that highlights your messages and connects with your audience."
+  },
+
+  "package-content": {
+    "title": "",
+    "header": "The packages include the following:"
+  },
+
+  "basic-flyer-package": {
+    "name": "Basic Package: Simple Flyer",
+    "starting": "starting at",
+    "currency": "$",
+    "price": "20",
+    "unit": "USD/design",
+    "design": "Design: 1 flyer design (1 side).",
+    "revisions": "Revisions: 1 round of revisions for minor adjustments.",
+    "format": "Format: Delivery in PDF (print-ready) and JPG.",
+    "extras": "Extras: Use of predefined templates (not customized).",
+    "cta": "Request"
+  },
+
+  "intermediate-flyer-package": {
+    "name": "Intermediate Package: Professional Flyer",
+    "starting": "starting at",
+    "currency": "$",
+    "price": "40",
+    "unit": "USD/design",
+    "design": "Design: 1 flyer design (2 sides).",
+    "revisions": "Revisions: 2 rounds of revisions for adjustments.",
+    "format": "Format: Delivery in PDF (high resolution) and editable files (AI or PSD).",
+    "extras": "Extras: Customized design (not predefined templates).",
+    "mockups": "Mockups: Flyer preview in a mockup (e.g., how it would look in hand).",
+    "cta": "Request"
+  },
+
+  "premium-flyer-package": {
+    "name": "Premium Package: Flyer + Adaptations",
+    "starting": "starting at",
+    "currency": "$",
+    "price": "60",
+    "unit": "USD/design",
+    "design": "Design: 1 flyer design (2 sides).",
+    "revisions": "Revisions: 3 rounds of revisions for adjustments.",
+    "format": "Format: Delivery in PDF (high resolution) and editable files (AI or PSD).",
+    "extras": "Extras: Customized design + adaptation to different formats (A4, A5, digital, etc.).",
+    "mockups": "Mockups: Flyer preview in different mockups (hand, wall, etc.).",
+    "guide": "Basic Guide: Suggestions for colors and typography for future designs.",
+    "cta": "Request"
+  },
+
+  "important-notes-flyers": {
+    "title": "",
+    "header": "Important Notes:",
+    "pricing-adjustment": "These prices may vary depending on the complexity of the project and the client's specific needs.",
+    "custom-packages": "Request your custom packages when combining multiple services.",
+    "contact-us": "Contact us today to boost your brand!"
+  },
+
+  "breadcrumb-billboards": {
+    "title": "Billboard Design",
+    "home": "Home",
+    "current": "Billboard Design"
+  },
+
+  "graphic-design-billboards": {
+    "sub_title": "Graphic Design Services",
+    "title": "Billboard Design",
+    "description": "At Pulpodin, our graphic design team specializes in creating billboards that strongly convey your brand's essence. Every detail is carefully crafted to generate a visually appealing and memorable impact, connecting with your audience and highlighting your messages."
+  },
+
+  "package-details-billboards": {
+    "title": "",
+    "header": "The packages include the following:"
+  },
+
+  "basic-package-design-header": {
+    "sub-title": "Basic Package: Simple Design"
+  },
+  "basic-package-design-price": {
+    "starting": "from",
+    "currency": "$",
+    "amount": "50",
+    "unit": "USD/design"
+  },
+  "basic-package-design-body": {
+    "design": "Design: 1 billboard design (standard size).",
+    "revisions": "Revisions: 1 round of minor adjustments.",
+    "format": "Format: Delivered in PDF (high resolution) and JPG.",
+    "extras": "Extras: Use of predefined templates (non-customized)."
+  },
+  "basic-package-design-footer": {
+    "request": "Request"
+  },
+
+  "intermediate-package-design-header": {
+    "sub-title": "Intermediate Package: Professional Design"
+  },
+  "intermediate-package-design-price": {
+    "starting": "from",
+    "currency": "$",
+    "amount": "80",
+    "unit": "USD/design"
+  },
+  "intermediate-package-design-body": {
+    "design": "Design: 1 billboard design (standard size).",
+    "revisions": "Revisions: 2 rounds of adjustments.",
+    "format": "Format: Delivered in PDF (high resolution) and editable files (AI or PSD).",
+    "extras": "Extras: Custom design (non-predefined templates).",
+    "mockups": "Mockups: Billboard visualization in a mockup (e.g., how it would appear on the street)."
+  },
+  "intermediate-package-design-footer": {
+    "request": "Request"
+  },
+
+  "premium-package-design-header": {
+    "sub-title": "Premium Package: Design + Adaptations"
+  },
+  "premium-package-design-price": {
+    "starting": "from",
+    "currency": "$",
+    "amount": "120",
+    "unit": "USD/design"
+  },
+  "premium-package-design-body": {
+    "design": "Design: 1 billboard design (standard size).",
+    "revisions": "Revisions: 3 rounds of adjustments.",
+    "format": "Format: Delivered in PDF (high resolution) and editable files (AI or PSD).",
+    "extras": "Extras: Custom design + adaptation to various formats (digital billboard, spectacular, etc.).",
+    "mockups": "Mockups: Visualization of the billboard in different mockups (street, digital, etc.).",
+    "guide": "Basic guide: Suggestions for colors and fonts for future designs."
+  },
+  "premium-package-design-footer": {
+    "request": "Request"
+  },
+
+  "important-notes-section": {
+    "title": "",
+    "main-note": "Important notes:",
+    "price-adjustment": "These prices can be adjusted according to the complexity of the project and the specific needs of the client.",
+    "custom-packages": "Request your custom packages by combining several services.",
+    "contact-us": "Contact us today to boost your brand!"
+  },
+
+  "catalog-design-breadcrumb": {
+    "title": "Catalog Design",
+    "home": "Home",
+    "current": "Catalog Design"
+  },
+
+  "graphic-design-services-section": {
+    "sub-title": "Graphic Design Services",
+    "heading": "Catalog Design",
+    "description": "At Pulpodin, our graphic design team specializes in creating catalogs that reinforce your brand's essence. Every detail is carefully crafted to deliver an attractive and coherent visual experience, highlighting your products or services and effectively connecting with your audience."
+  },
+
+  "package-inclusions-section": {
+    "title": "",
+    "main-note": "The packages include the following:"
+  },
+
+  "basic-package-catalog-header": {
+    "sub-title": "Basic Package: Simple Catalog"
+  },
+  "basic-package-catalog-price": {
+    "starting": "from",
+    "currency": "$",
+    "amount": "100",
+    "unit": "USD/10 pages"
+  },
+  "basic-package-catalog-body": {
+    "design": "Design: Catalog design with up to 10 pages.",
+    "revisions": "Revisions: 1 round of minor adjustments.",
+    "format": "Format: Delivered in PDF (print-ready) and JPG.",
+    "extras": "Extras: Use of predefined templates (non-customized)."
+  },
+  "basic-package-catalog-footer": {
+    "request": "Request"
+  },
+
+  "intermediate-package-catalog-header": {
+    "sub-title": "Intermediate Package: Professional Catalog"
+  },
+  "intermediate-package-catalog-price": {
+    "starting": "from",
+    "currency": "$",
+    "amount": "200",
+    "unit": "USD/20 pages"
+  },
+  "intermediate-package-catalog-body": {
+    "design": "Design: Catalog design with up to 20 pages.",
+    "revisions": "Revisions: 2 rounds of adjustments.",
+    "format": "Format: Delivered in PDF (high resolution) and editable files (AI or PSD).",
+    "extras": "Extras: Custom design (non-predefined templates).",
+    "mockups": "Mockups: Visualization of the catalog in a mockup (e.g., how it would look in hand)."
+  },
+  "intermediate-package-catalog-footer": {
+    "request": "Request"
+  },
+
+  "premium-package-catalog-header": {
+    "sub-title": "Premium Package: Catalog + Branding"
+  },
+  "premium-package-catalog-price": {
+    "starting": "from",
+    "currency": "$",
+    "amount": "300",
+    "unit": "USD/30 pages"
+  },
+  "premium-package-catalog-body": {
+    "design": "Design: Catalog design with up to 30 pages.",
+    "revisions": "Revisions: 3 rounds of adjustments.",
+    "format": "Format: Delivered in PDF (high resolution) and editable files (AI or PSD).",
+    "extras": "Extras: Custom design + adaptation to various formats (digital, print, etc.).",
+    "mockups": "Mockups: Visualization of the catalog in different mockups (hand, table, etc.).",
+    "guide": "Basic guide: Suggestions for colors and fonts for future designs."
+  },
+  "premium-package-catalog-footer": {
+    "request": "Request"
+  },
+
+  "important-notes2": {
+    "title": "",
+    "main-note": "Important notes:",
+    "price-adjustment": "These prices can be adjusted according to the complexity of the project and the specific needs of the client.",
+    "custom-packages": "Request your custom packages by combining several services.",
+    "contact-us": "Contact us today to boost your brand!"
+  },
+  
+    "web-design-breadcrumb": {
+        "title": "Web Design",
+        "home": "Home",
+        "current": "Web Design"
+    },
+    
+      "web-design-services-section": {
+          "sub-title": "Graphic Design Services",
+          "heading": "Web Design",
+          "description": "We design functional, attractive, and optimized websites to enhance your brand, improve user experience, and boost your digital presence. From corporate pages to online stores, we create tailor-made solutions that combine creativity, usability, and technology."
+      },
+      
+        "basic-package-web-header": {
+            "sub-title": "Basic Package: \"Web Starter\""
+        },
+        "basic-package-web-price": {
+            "starting": "from",
+            "currency": "$",
+            "amount": "500",
+            "unit": "USD"
+        },
+        "basic-package-web-body": {
+            "description": "Description: Ideal for entrepreneurs who need a basic website to showcase their business.",
+            "basic-web-design": "Basic web design: Up to 5 sections (home, about us, services, blog, contact).",
+            "logo-design": "Logo design: 1 basic logo design.",
+            "instagram-designs": "Instagram posts design: 5 designs to promote the website launch."
+        },
+        "basic-package-web-footer": {
+            "request": "Request"
+        },
+        
+          "intermediate-package-web-header": {
+              "sub-title": "Intermediate Package: \"Web Boost\""
+          },
+          "intermediate-package-web-price": {
+              "starting": "from",
+              "currency": "$",
+              "amount": "1000",
+              "unit": "USD"
+          },
+          "intermediate-package-web-body": {
+              "description": "Description: Perfect for businesses needing a more advanced website with additional functionalities.",
+              "advanced-web-design": "Advanced web design: Up to 10 sections (custom integrations, forms, etc.).",
+              "logo-design": "Logo design: 1 professional logo design.",
+              "brand-manual": "Brand manual: Creation of a basic brand manual.",
+              "instagram-designs": "Instagram posts design: 10 designs to promote the website."
+          },
+          "intermediate-package-web-footer": {
+              "request": "Request"
+          },
+          
+            "full-package-web-header": {
+                "sub-title": "Full Package: \"Web Pro\""
+            },
+            "full-package-web-price": {
+                "starting": "from",
+                "currency": "$",
+                "amount": "2000",
+                "unit": "USD"
+            },
+            "full-package-web-body": {
+                "description": "Description: The complete solution for companies looking for a premium website with custom design and advanced functionalities.",
+                "premium-web-design": "Premium web design: Up to 15 sections (e-commerce, advanced integrations, responsive design).",
+                "logo-design": "Logo design: 1 premium logo design.",
+                "brand-manual": "Brand manual: Creation of a complete brand manual.",
+                "visual-identity": "Visual identity: Application of the identity across different media.",
+                "instagram-designs": "Instagram posts design: 20 designs to promote the website."
+            },
+            "full-package-web-footer": {
+                "request": "Request"
+            
+        }
+      
+    
+  
+
 }

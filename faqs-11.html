@@ -319,12 +319,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="breadcrumb_box text-center">
-                        <h2 style="font-family: 'anton', sans-serif; font-weight: 400; color: white;" class="breadcrumb-title">Diseño web </h2>
+                    <div class="breadcrumb_box text-center" data-section="web-design-breadcrumb">
+                        <h2 style="font-family: 'anton', sans-serif; font-weight: 400; color: white;" class="breadcrumb-title" data-section="web-design-breadcrumb" data-value="title">Diseño web</h2>
                         <!-- breadcrumb-list start -->
                         <ul class="breadcrumb-list">
-                            <li style="color: white;" class="breadcrumb-item"><a href="index.html">Home</a></li>
-                            <li style="color: white;" class="breadcrumb-item active"> Diseño web</li>
+                            <li style="color: white;" class="breadcrumb-item" data-section="web-design-breadcrumb" data-value="home"><a href="index.html">Home</a></li>
+                            <li style="color: white;" class="breadcrumb-item active" data-section="web-design-breadcrumb" data-value="current">Diseño web</li>
                         </ul>
                         <!-- breadcrumb-list end -->
                     </div>
@@ -354,33 +354,30 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <!-- section-title-wrap Start -->
-                            <div class="section-title-wrap text-center section-space--mb_20">
-                                <h6 class="section-sub-title mb-20">Servicios de Diseño gráfico</h6>
-                                <h3 style="color: #ffeb00;" class="heading">Diseño web<br> <br>
-                                </h3>
-                                <p style="color: white; text-align: justify; font-size: 25px;">Diseñamos sitios web funcionales, atractivos y optimizados para destacar tu marca, mejorar la experiencia del usuario y potenciar tu presencia digital. Desde páginas corporativas hasta tiendas en línea, creamos soluciones a medida que combinan creatividad, usabilidad y tecnología.
+                            <div class="section-title-wrap text-center section-space--mb_20" data-section="web-design-services-section">
+                                <h6 class="section-sub-title mb-20" data-section="web-design-services-section" data-value="sub-title">Servicios de Diseño gráfico</h6>
+                                <h3 style="color: #ffeb00;" class="heading" data-section="web-design-services-section" data-value="heading">Diseño web<br><br></h3>
+                                <p style="color: white; text-align: justify; font-size: 25px;" data-section="web-design-services-section" data-value="description">
+                                    Diseñamos sitios web funcionales, atractivos y optimizados para destacar tu marca, mejorar la experiencia del usuario y potenciar tu presencia digital. Desde páginas corporativas hasta tiendas en línea, creamos soluciones a medida que combinan creatividad, usabilidad y tecnología.
                                 </p>
-                                
-                                
                             </div>
-                            <!-- section-title-wrap Start -->
+                            <!-- section-title-wrap End -->
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-lg-12 ms-auto mt-30">
-                            <div class="machine-learning-about-content">
+                            <div class="machine-learning-about-content" data-section="package-inclusions-section">
                                 <div class="section-title mb-20">
-                                    <h4 style="color: white;"></h4>
+                                    <h4 style="color: white;" data-section="package-inclusions-section" data-value="title"></h4>
                                     <ul style="color: black; list-style-type: none; padding: 0; font-size: 18px;">
-                                        <li style="position: relative; padding-left: 25px; font-family: 'anton', sans-serif; font-weight: 400; color: #ffeb00; font-size: 25px;">
-                                            <span style="position: absolute; left: 0; top: 0; color: #7601d8;  font-size: 30px;"></span> Los paquetes incluyen lo siguiente: <br> <br>
-
+                                        <li style="position: relative; padding-left: 25px; font-family: 'anton', sans-serif; font-weight: 400; color: #ffeb00; font-size: 25px;" 
+                                            data-section="package-inclusions-section" data-value="main-note">
+                                            Los paquetes incluyen lo siguiente: <br><br>
                                         </li>
-                                        
                                     </ul>
                                 </div>
                             </div>
-                        </div>  
+                        </div>
                     </div>
 
                     <div class="tab-content ht-tab__content wow move-up">
@@ -388,128 +385,111 @@
                             <div class="row pricing-table-one">
                                 <div class="col-12 col-md-6 col-lg-4 col-xl-4 pricing-table pricing-table--popular">
                                     <div class="pricing-table__inner">
-                                        
-                                        <div class="pricing-table__header">
-                                            <h6 class="sub-title">Paquete Básico: "Web <br> Starter"  
-                                            </h6>
+                                        <div class="pricing-table__header" data-section="basic-package-web-header">
+                                            <h6 class="sub-title" data-section="basic-package-web-header" data-value="sub-title">Paquete Básico: "Web <br> Starter"</h6>
                                             <div class="pricing-table__image">
                                                 <img src="assets/images/hero/estrategia-de-contenido-icono-basico.png" class="img-fluid" alt="">
                                             </div>
-                                            <div class="pricing-table__price-wrap">
-                                                <h6 style="color: #000000;" class="period">desde</h6>
-                                                <h6 class="currency">$</h6>
-                                                <h6 class="price">500</h6>
-                                                <h6 class="period">USD</h6>
+                                            <div class="pricing-table__price-wrap" data-section="basic-package-web-price">
+                                                <h6 style="color: #000000;" class="period" data-section="basic-package-web-price" data-value="starting">desde</h6>
+                                                <h6 class="currency" data-section="basic-package-web-price" data-value="currency">$</h6>
+                                                <h6 class="price" data-section="basic-package-web-price" data-value="amount">500</h6>
+                                                <h6 class="period" data-section="basic-package-web-price" data-value="unit">USD</h6>
                                             </div>
                                         </div>
-                                        <div class="pricing-table__body">
-                                            
+                                        <div class="pricing-table__body" data-section="basic-package-web-body">
                                             <ul class="pricing-table__list text-left">
-                                                <li>Descripción: Ideal para emprendedores que necesitan una página web básica para mostrar su negocio.  </li> <br>
-                                                <li>Diseño web básico: Hasta 5 secciones (inicio, sobre nosotros, servicios, blog, contacto).</li> <br>
-                                                <li>Diseño de logo: 1 diseño de logo básico.</li> <br>
-                                                <li>Diseño de posts para Instagram: 5 diseños para promocionar el lanzamiento del sitio web.  </li> <br>
-                                              <br><br>
-                                                
-                                                
+                                                <li data-section="basic-package-web-body" data-value="description">Descripción: Ideal para emprendedores que necesitan una página web básica para mostrar su negocio.</li>
+                                                <li data-section="basic-package-web-body" data-value="basic-web-design">Diseño web básico: Hasta 5 secciones (inicio, sobre nosotros, servicios, blog, contacto).</li>
+                                                <li data-section="basic-package-web-body" data-value="logo-design">Diseño de logo: 1 diseño de logo básico.</li>
+                                                <li data-section="basic-package-web-body" data-value="instagram-designs">Diseño de posts para Instagram: 5 diseños para promocionar el lanzamiento del sitio web.</li>
                                             </ul>
-                                            <div class="pricing-table__footer">
-                                                <a href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0"                                                class="ht-btn  ht-btn-md ">Solicitar</a>
-                                            </div>
+                                        </div>
+                                        <div class="pricing-table__footer" data-section="basic-package-web-footer">
+                                            <a href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0" class="ht-btn ht-btn-md" data-section="basic-package-web-footer" data-value="request">Solicitar</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-4 col-xl-4 pricing-table pricing-table--popular">
                                     <div class="pricing-table__inner">
-                                        
-                                        <div class="pricing-table__header">
-                                            <h6 class="sub-title">Paquete Intermedio: "Web Boost"</h6>
+                                        <div class="pricing-table__header" data-section="intermediate-package-web-header">
+                                            <h6 class="sub-title" data-section="intermediate-package-web-header" data-value="sub-title">Paquete Intermedio: "Web Boost"</h6>
                                             <div class="pricing-table__image">
                                                 <img src="assets/images/hero/estrategia-de-contenido-icono-avanzado.png" class="img-fluid" alt="">
                                             </div>
-                                            <div class="pricing-table__price-wrap">
-                                                <h6 style="color: #000000;" class="period">desde</h6>
-                                                <h6 class="currency">$</h6>
-                                                <h6 class="price">1000</h6>
-                                                <h6 class="period">USD</h6>
+                                            <div class="pricing-table__price-wrap" data-section="intermediate-package-web-price">
+                                                <h6 style="color: #000000;" class="period" data-section="intermediate-package-web-price" data-value="starting">desde</h6>
+                                                <h6 class="currency" data-section="intermediate-package-web-price" data-value="currency">$</h6>
+                                                <h6 class="price" data-section="intermediate-package-web-price" data-value="amount">1000</h6>
+                                                <h6 class="period" data-section="intermediate-package-web-price" data-value="unit">USD</h6>
                                             </div>
                                         </div>
-                                        <div class="pricing-table__body">
-                                            
+                                        <div class="pricing-table__body" data-section="intermediate-package-web-body">
                                             <ul class="pricing-table__list text-left">
-                                                <li>Descripción: Perfecto para negocios que necesitan un sitio web más avanzado con funcionalidades adicionales.</li> <br>
-                                                <li>Diseño web avanzado: Hasta 10 secciones (integraciones personalizadas, formularios, etc.).</li> <br>
-                                                <li>Diseño de logo: 1 diseño de logo profesional.</li> <br>
-                                                <li>Manual de marca: Creación de un manual de marca básico.</li> <br>
-                                                <li>Diseño de posts para Instagram: 10 diseños para promocionar el sitio web.</li> <br>
-                                               
+                                                <li data-section="intermediate-package-web-body" data-value="description">Descripción: Perfecto para negocios que necesitan un sitio web más avanzado con funcionalidades adicionales.</li>
+                                                <li data-section="intermediate-package-web-body" data-value="advanced-web-design">Diseño web avanzado: Hasta 10 secciones (integraciones personalizadas, formularios, etc.).</li>
+                                                <li data-section="intermediate-package-web-body" data-value="logo-design">Diseño de logo: 1 diseño de logo profesional.</li>
+                                                <li data-section="intermediate-package-web-body" data-value="brand-manual">Manual de marca: Creación de un manual de marca básico.</li>
+                                                <li data-section="intermediate-package-web-body" data-value="instagram-designs">Diseño de posts para Instagram: 10 diseños para promocionar el sitio web.</li>
                                             </ul>
-                                            <div class="pricing-table__footer">
-                                                <a href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0"                                                class="ht-btn  ht-btn-md ">Solicitar</a>
-                                            </div>
+                                        </div>
+                                        <div class="pricing-table__footer" data-section="intermediate-package-web-footer">
+                                            <a href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0" class="ht-btn ht-btn-md" data-section="intermediate-package-web-footer" data-value="request">Solicitar</a>
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="col-12 col-md-6 col-lg-4 col-xl-4 pricing-table pricing-table--popular">
                                     <div class="pricing-table__inner">
-                                        
-                                        <div class="pricing-table__header">
-                                            <h6 class="sub-title">Paquete full: "Web <br> Pro"</h6>
+                                        <div class="pricing-table__header" data-section="full-package-web-header">
+                                            <h6 class="sub-title" data-section="full-package-web-header" data-value="sub-title">Paquete full: "Web <br> Pro"</h6>
                                             <div class="pricing-table__image">
                                                 <img src="assets/images/hero/estrategia-de-contenido-icono-premiun.png" class="img-fluid" alt="">
                                             </div>
-                                            <div class="pricing-table__price-wrap">
-                                                <h6 style="color: #000000;" class="period">desde</h6>
-                                                <h6 class="currency">$</h6>
-                                                <h6 class="price">2000</h6>
-                                                <h6 class="period">USD</h6>
+                                            <div class="pricing-table__price-wrap" data-section="full-package-web-price">
+                                                <h6 style="color: #000000;" class="period" data-section="full-package-web-price" data-value="starting">desde</h6>
+                                                <h6 class="currency" data-section="full-package-web-price" data-value="currency">$</h6>
+                                                <h6 class="price" data-section="full-package-web-price" data-value="amount">2000</h6>
+                                                <h6 class="period" data-section="full-package-web-price" data-value="unit">USD</h6>
                                             </div>
                                         </div>
-                                        <div class="pricing-table__body">
-                                            
+                                        <div class="pricing-table__body" data-section="full-package-web-body">
                                             <ul class="pricing-table__list text-left">
-                                                <li>Descripción: La solución completa para empresas que buscan un sitio web premium con diseño personalizado y funcionalidades avanzadas.</li>
-                                                <li>Diseño web premium: Hasta 15 secciones (e-commerce, integraciones avanzadas, diseño responsive).</li>
-                                                <li>Diseño de logo: 1 diseño de logo premium.</li>
-                                                <li>Manual de marca: Creación de un manual de marca completo.</li>
-                                                <li>Identidad visual: Aplicación de la identidad en diferentes medios.</li>
-                                                <li>Diseño de posts para Instagram: 20 diseños para promocionar el sitio web.</li>
+                                                <li data-section="full-package-web-body" data-value="description">Descripción: La solución completa para empresas que buscan un sitio web premium con diseño personalizado y funcionalidades avanzadas.</li>
+                                                <li data-section="full-package-web-body" data-value="premium-web-design">Diseño web premium: Hasta 15 secciones (e-commerce, integraciones avanzadas, diseño responsive).</li>
+                                                <li data-section="full-package-web-body" data-value="logo-design">Diseño de logo: 1 diseño de logo premium.</li>
+                                                <li data-section="full-package-web-body" data-value="brand-manual">Manual de marca: Creación de un manual de marca completo.</li>
+                                                <li data-section="full-package-web-body" data-value="visual-identity">Identidad visual: Aplicación de la identidad en diferentes medios.</li>
+                                                <li data-section="full-package-web-body" data-value="instagram-designs">Diseño de posts para Instagram: 20 diseños para promocionar el sitio web.</li>
                                             </ul>
-                                            <div class="pricing-table__footer">
-                                                <a href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0"                                                class="ht-btn  ht-btn-md ">Solicitar</a>
-                                            </div>
+                                        </div>
+                                        <div class="pricing-table__footer" data-section="full-package-web-footer">
+                                            <a href="https://api.whatsapp.com/send/?phone=584129948381&text&type=phone_number&app_absent=0" class="ht-btn ht-btn-md" data-section="full-package-web-footer" data-value="request">Solicitar</a>
                                         </div>
                                     </div>
                                 </div>
-                                
-                            </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-12 ms-auto mt-30">
                                 <div class="machine-learning-about-content">
-                                    <div class="section-title mb-20">
-                                        <h4 style="color: white;"></h4>
+                                    <div class="section-title mb-20" data-section="important-notes">
+                                        <h4 style="color: white;" data-section="important-notes" data-value="title"></h4>
                                         <ul style="color: black; list-style-type: none; padding: 0; font-size: 18px;">
-                                            <li style="position: relative; padding-left: 25px; font-family: 'anton', sans-serif; font-weight: 400; color: #ffeb00; font-size: 25px;">
-                                                <span style="position: absolute; left: 0; top: 0; color: #7601d8;  font-size: 30px;"></span> Notas importantes: <br> <br>
-    
+                                            <li style="position: relative; padding-left: 25px; font-family: 'anton', sans-serif; font-weight: 400; color: #ffeb00; font-size: 25px;" 
+                                                data-section="important-notes2" data-value="main-note">
+                                                Notas importantes: <br><br>
                                             </li>
-                                            <li style="position: relative; padding-left: 25px; font-family: ; font-weight: 400; color: white; font-size: 20px;">
-                                                <span style="position: absolute; left: 0; top: 0; color: #7601d8; font-size: 24px;">•</span> Estos precios  pueden ajustarse según la complejidad del proyecto y las necesidades específicas del cliente.
-    
+                                            <li style="position: relative; padding-left: 25px; font-weight: 400; color: white; font-size: 20px;" 
+                                                data-section="important-notes2" data-value="price-adjustment">
+                                                • Estos precios pueden ajustarse según la complejidad del proyecto y las necesidades específicas del cliente.
                                             </li>
-                                            <li style="position: relative; padding-left: 25px; font-family: ; font-weight: 400; color: white; font-size: 20px;">
-                                                <span style="position: absolute; left: 0; top: 0; color: #7601d8; font-size: 24px;">•</span> Solicita tus paquetes personalizados al solicitar varios servicios combinados. <br><br>
-    
+                                            <li style="position: relative; padding-left: 25px; font-weight: 400; color: white; font-size: 20px;" 
+                                                data-section="important-notes2" data-value="custom-packages">
+                                                • Solicita tus paquetes personalizados al solicitar varios servicios combinados. <br><br>
                                             </li>
-                                            <li style="position: relative; padding-left: 25px; font-family: 'anton', sans-serif; font-weight: 400; color: #ffeb00; font-size: 20px;">
-                                                <span style="position: absolute; left: 0; top: 0; color: #7601d8; font-size: 24px;"></span>  ¡Contáctanos hoy mismo para potenciar tu marca!
-    
+                                            <li style="position: relative; padding-left: 25px; font-family: 'anton', sans-serif; font-weight: 400; color: #ffeb00; font-size: 20px;" 
+                                                data-section="important-notes2" data-value="contact-us">
+                                                ¡Contáctanos hoy mismo para potenciar tu marca!
                                             </li>
-                                            
-    
-                                            
                                         </ul>
                                     </div>
                                 </div>
@@ -805,6 +785,32 @@
 
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
+    <script>
+        function changeLanguage(language) {
+            fetch(`/original pulpodin/languajes/${language}.json`)
+                .then(response => response.json()) // Convertir la respuesta en JSON
+                .then(data => {
+                    console.log(data);
+                    const textToChange = document.querySelectorAll("[data-section]");
+                    textToChange.forEach(element => {
+                        const section = element.dataset.section;
+                        const value = element.dataset.value;
+
+                        if (data[section] && data[section][value]) {
+                            element.textContent = data[section][value];
+                        }
+                    });
+                })
+                .catch(error => console.error('Error al cambiar el idioma:', error));
+        }
+
+        const langButtons = document.querySelectorAll("[data-language]");
+        langButtons.forEach(button => {
+            button.addEventListener("click", () => {
+                changeLanguage(button.dataset.language);
+            });
+        });
+    </script>
 
 </body>
 

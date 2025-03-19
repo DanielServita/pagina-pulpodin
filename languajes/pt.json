@@ -624,6 +624,7 @@
     "help_subtitle": "Na Pulpodin, estamos aqui para tornar seus projetos realidade!",
     "name_placeholder": "Nome *",
     "email_placeholder": "Email *",
+    "phone_placeholder": "Telefone *",
     "message_placeholder": "Por favor, descreva sua solicitação.",
     "submit_button": "Contate-nos",
     "contact_now_title": "Entre em contato agora!",
@@ -1081,5 +1082,474 @@
   "cta22": {
     "mensaje": "Oferecemos uma gama completa de serviços de TI para garantir seu sucesso",
     "boton": "Entre em contato"
-  }
+  },
+
+  "projects22": {
+    "sub_title": "Projetos realizados",
+    "title": "Dê uma olhada em",
+    "highlight": "nossos projetos",
+    "techsolutions": "TechSolutions",
+    "ecofriendly": "EcoFriendly",
+    "healthfirst": "HealthFirst",
+    "edutech": "EduTech",
+    "date_1": "18 de janeiro de 2023",
+    "date_2": "18 de janeiro de 2023",
+    "date_3": "21 de fevereiro de 2019",
+    "date_4": "18 de janeiro de 2023",
+    "title_1": "Rebranding Corporativo para TechSolutions",
+    "title_2": "Campanha Publicitária Visual para EcoFriendly",
+    "title_3": "Design de Embalagem Inovador para HealthFirst",
+    "title_4": "Desenvolvimento de Identidade Visual para EduTech",
+    "description_1": "Redesenhamos a identidade visual da TechSolutions, incluindo um novo logotipo, paleta de cores e materiais de marketing. O objetivo foi modernizar a imagem da empresa e refletir sua inovação e liderança no setor tecnológico."
+  },
+
+  "breadcrumbdiseño": {
+    "title": "Design de logotipos",
+    "home": "Início",
+    "current": "Design de logotipos"
+  },
+
+  "graphic-design": {
+    "sub_title": "Serviços de Design Gráfico",
+    "title": "Design de logotipos",
+    "description": "Na Pulpodin, nossa equipe de design gráfico é especializada na criação de logotipos que refletem a essência da sua marca e a projetam com força no mercado. Cada detalhe é cuidadosamente elaborado para garantir que sua identidade visual se destaque e se conecte com seu público."
+  },
+
+  "packages2": {
+    "title": "",
+    "description": "Os pacotes incluem o seguinte:"
+  },
+
+  "basic-package": {
+    "name": "Pacote Básico: Logo Simples",
+    "starting": "a partir de",
+    "currency": "$",
+    "price": "50",
+    "unit": "USD",
+    "proposal": "Propostas: 2 propostas de design de logo.",
+    "revisions": "Revisões: 1 rodada de revisões para ajustes menores.",
+    "format": "Formato: Entrega em formato PNG e JPG (fundo transparente e com fundo).",
+    "mockup": "Aplicação básica: Pré-visualização do logo em um mockup de redes sociais (exemplo: como ficaria em um perfil do Instagram).",
+    "palette": "Paleta de cores: 1 paleta de cores sugerida para o logo.",
+    "cta": "Solicitar"
+  },
+
+  "intermediate-package": {
+    "name": "Pacote Intermediário: Logo Profissional",
+    "starting": "a partir de",
+    "currency": "$",
+    "price": "100",
+    "unit": "USD",
+    "proposal": "Propostas: 3 propostas de design de logo.",
+    "revisions": "Revisões: 2 rodadas de revisões para ajustes.",
+    "format": "Formato: Entrega em formatos PNG, JPG, SVG e PDF (vetores editáveis).",
+    "mockup": "Aplicação: Visualização do logo em mockups para redes sociais, cartões de visita e papelaria.",
+    "palette": "Paleta de cores: 1 paleta de cores + sugestões de tipografia.",
+    "guide": "Guia Básico: Breve explicação sobre como usar o logo (tamanhos mínimos, cores permitidas, etc.).",
+    "cta": "Solicitar"
+  },
+
+  "premium-package": {
+    "name": "Pacote Premium: Logo + Branding Completo",
+    "starting": "a partir de",
+    "currency": "$",
+    "price": "200",
+    "unit": "USD",
+    "proposal": "Propostas: 5 propostas de design de logo.",
+    "revisions": "Revisões: 3 rodadas de revisões para ajustes.",
+    "format": "Formato: Entrega em PNG, JPG, SVG, PDF e AI (arquivos editáveis no Illustrator).",
+    "mockup": "Aplicação: Visualização do logo em mockups para redes sociais, cartões de visita, papelaria, uniformes e veículos.",
+    "palette": "Paleta de cores: 1 paleta de cores + tipografias + iconografia sugerida.",
+    "guide": "Guia Completo: Manual básico da marca com normas de uso do logo (cores, tamanhos, espaços, etc.).",
+    "cta": "Solicitar"
+  },
+
+  "important-notes": {
+    "title": "",
+    "header": "Notas Importantes:",
+    "pricing-adjustment": "Esses preços podem variar dependendo da complexidade do projeto e das necessidades específicas do cliente.",
+    "custom-packages": "Solicite seus pacotes personalizados ao combinar vários serviços.",
+    "contact-us": "Contate-nos hoje para impulsionar sua marca!"
+  },
+
+  "breadcrumb-social": {
+    "title": "Design para Redes Sociais",
+    "home": "Início",
+    "current": "Design para Redes Sociais"
+  },
+
+  "graphic-design-social": {
+    "sub_title": "Serviços de Design Gráfico",
+    "title": "Design para Redes Sociais",
+    "description": "Na Pulpodin, nossa equipe de design gráfico é especializada na criação de conteúdo para redes sociais que reflete a essência da sua marca em cada plataforma. Cada detalhe é cuidadosamente elaborado para garantir uma identidade visual coerente e atraente que conecte com seu público."
+  },
+
+  "package-details": {
+    "title": "",
+    "header": "Os pacotes incluem o seguinte:"
+  },
+
+  "basic-post-package": {
+    "name": "Pacote Básico: Design de Posts Simples",
+    "starting": "a partir de",
+    "currency": "$",
+    "price": "10",
+    "unit": "USD/design",
+    "design": "Design: 1 design de post para Instagram ou Facebook (tamanho padrão).",
+    "revisions": "Revisões: 1 rodada de revisões para ajustes menores.",
+    "format": "Formato: Entrega em PNG e JPG.",
+    "extras": "Extras: Uso de templates predefinidos (não personalizados).",
+    "cta": "Solicitar"
+  },
+
+  "intermediate-post-package": {
+    "name": "Pacote Intermediário: Design de Posts Profissionais",
+    "starting": "a partir de",
+    "currency": "$",
+    "price": "20",
+    "unit": "USD/design",
+    "design": "Design: 1 design de post para Instagram, Facebook ou LinkedIn (tamanho padrão).",
+    "revisions": "Revisões: 2 rodadas de revisões para ajustes.",
+    "format": "Formato: Entrega em PNG, JPG e PDF.",
+    "extras": "Extras: Design personalizado (não templates predefinidos).",
+    "mockups": "Mockups: Visualização do post em um mockup de redes sociais.",
+    "cta": "Solicitar"
+  },
+
+  "premium-post-package": {
+    "name": "Pacote Premium: Design de Posts + Estratégia Visual",
+    "starting": "a partir de",
+    "currency": "$",
+    "price": "30",
+    "unit": "USD/design",
+    "design": "Design: 1 design de post para Instagram, Facebook, LinkedIn ou TikTok (tamanho padrão).",
+    "revisions": "Revisões: 3 rodadas de revisões para ajustes.",
+    "format": "Formato: Entrega em PNG, JPG, PDF e arquivos editáveis (PSD ou AI).",
+    "extras": "Extras: Design personalizado + adaptação a diferentes formatos (stories, reels, etc.).",
+    "mockups": "Mockups: Pré-visualização do post em diferentes mockups (perfil, stories, etc.).",
+    "guide": "Guia Básico: Sugestões de cores e fontes para manter consistência visual.",
+    "cta": "Solicitar"
+  },
+
+  "important-notes-post": {
+    "title": "",
+    "header": "Notas Importantes:",
+    "pricing-adjustment": "Esses preços podem variar dependendo da complexidade do projeto e das necessidades específicas do cliente.",
+    "custom-packages": "Solicite seus pacotes personalizados ao combinar vários serviços.",
+    "contact-us": "Contate-nos hoje para impulsionar sua marca!"
+  },
+
+  "breadcrumb-flyers": {
+    "title": "Design de Flyers ou Folhetos",
+    "home": "Início",
+    "current": "Design de Flyers ou Folhetos"
+  },
+
+  "graphic-design-flyers": {
+    "sub_title": "Serviços de Design Gráfico",
+    "title": "Design de Flyers ou Folhetos",
+    "description": "Na Pulpodin, nossa equipe de design gráfico é especializada na criação de flyers e folhetos que transmitem a essência da sua marca e atraem seu público. Cada detalhe é cuidadosamente elaborado para garantir uma identidade visual coerente e memorável que destaque suas mensagens e conecte com seu público."
+  },
+
+  "package-content": {
+    "title": "",
+    "header": "Os pacotes incluem o seguinte:"
+  },
+
+  "basic-flyer-package": {
+    "name": "Pacote Básico: Flyer Simples",
+    "starting": "a partir de",
+    "currency": "$",
+    "price": "20",
+    "unit": "USD/design",
+    "design": "Design: 1 design de flyer (1 lado).",
+    "revisions": "Revisões: 1 rodada de revisões para ajustes menores.",
+    "format": "Formato: Entrega em PDF (pronto para impressão) e JPG.",
+    "extras": "Extras: Uso de templates predefinidos (não personalizados).",
+    "cta": "Solicitar"
+  },
+
+  "intermediate-flyer-package": {
+    "name": "Pacote Intermediário: Flyer Profissional",
+    "starting": "a partir de",
+    "currency": "$",
+    "price": "40",
+    "unit": "USD/design",
+    "design": "Design: 1 design de flyer (2 lados).",
+    "revisions": "Revisões: 2 rodadas de revisões para ajustes.",
+    "format": "Formato: Entrega em PDF (alta resolução) e arquivos editáveis (AI ou PSD).",
+    "extras": "Extras: Design personalizado (não templates predefinidos).",
+    "mockups": "Mockups: Pré-visualização do flyer em um mockup (exemplo: como ficaria na mão).",
+    "cta": "Solicitar"
+  },
+
+  "premium-flyer-package": {
+    "name": "Pacote Premium: Flyer + Adaptações",
+    "starting": "a partir de",
+    "currency": "$",
+    "price": "60",
+    "unit": "USD/design",
+    "design": "Design: 1 design de flyer (2 lados).",
+    "revisions": "Revisões: 3 rodadas de revisões para ajustes.",
+    "format": "Formato: Entrega em PDF (alta resolução) e arquivos editáveis (AI ou PSD).",
+    "extras": "Extras: Design personalizado + adaptação a diferentes formatos (A4, A5, digital, etc.).",
+    "mockups": "Mockups: Pré-visualização do flyer em diferentes mockups (mão, parede, etc.).",
+    "guide": "Guia Básico: Sugestões de cores e tipografias para designs futuros.",
+    "cta": "Solicitar"
+  },
+
+  "important-notes-flyers": {
+    "title": "",
+    "header": "Notas Importantes:",
+    "pricing-adjustment": "Esses preços podem variar dependendo da complexidade do projeto e das necessidades específicas do cliente.",
+    "custom-packages": "Solicite seus pacotes personalizados ao combinar vários serviços.",
+    "contact-us": "Contate-nos hoje para impulsionar sua marca!"
+  },
+
+  "breadcrumb-billboards": {
+    "title": "Design de Outdoors",
+    "home": "Início",
+    "current": "Design de Outdoors"
+  },
+
+  "graphic-design-billboards": {
+    "sub_title": "Serviços de Design Gráfico",
+    "title": "Design de Outdoors",
+    "description": "Na Pulpodin, nossa equipe de design gráfico é especializada na criação de outdoors que transmitem com força a essência da sua marca. Cada detalhe é cuidadosamente trabalhado para gerar um impacto visual atraente e memorável, conectando-se com seu público e destacando suas mensagens."
+  },
+
+  "package-details-billboards": {
+    "title": "",
+    "header": "Os pacotes incluem o seguinte:"
+  },
+
+  "basic-package-design-header": {
+    "sub-title": "Pacote Básico: Design Simples"
+  },
+  "basic-package-design-price": {
+    "starting": "a partir de",
+    "currency": "$",
+    "amount": "50",
+    "unit": "USD/design"
+  },
+  "basic-package-design-body": {
+    "design": "Design: 1 design de outdoor (tamanho padrão).",
+    "revisions": "Revisões: 1 rodada de ajustes menores.",
+    "format": "Formato: Entrega em PDF (alta resolução) e JPG.",
+    "extras": "Extras: Uso de modelos predefinidos (não personalizados)."
+  },
+  "basic-package-design-footer": {
+    "request": "Solicitar"
+  },
+
+  "intermediate-package-design-header": {
+    "sub-title": "Pacote Intermediário: Design Profissional"
+  },
+  "intermediate-package-design-price": {
+    "starting": "a partir de",
+    "currency": "$",
+    "amount": "80",
+    "unit": "USD/design"
+  },
+  "intermediate-package-design-body": {
+    "design": "Design: 1 design de outdoor (tamanho padrão).",
+    "revisions": "Revisões: 2 rodadas de ajustes.",
+    "format": "Formato: Entrega em PDF (alta resolução) e arquivos editáveis (AI ou PSD).",
+    "extras": "Extras: Design personalizado (sem modelos predefinidos).",
+    "mockups": "Mockups: Visualização do outdoor em um mockup (exemplo: como ficaria na rua)."
+  },
+  "intermediate-package-design-footer": {
+    "request": "Solicitar"
+  },
+
+  "premium-package-design-header": {
+    "sub-title": "Pacote Premium: Design + Adaptações"
+  },
+  "premium-package-design-price": {
+    "starting": "a partir de",
+    "currency": "$",
+    "amount": "120",
+    "unit": "USD/design"
+  },
+  "premium-package-design-body": {
+    "design": "Design: 1 design de outdoor (tamanho padrão).",
+    "revisions": "Revisões: 3 rodadas de ajustes.",
+    "format": "Formato: Entrega em PDF (alta resolução) e arquivos editáveis (AI ou PSD).",
+    "extras": "Extras: Design personalizado + adaptação a diferentes formatos (outdoor digital, espetacular, etc.).",
+    "mockups": "Mockups: Visualização do outdoor em diferentes mockups (rua, digital, etc.).",
+    "guide": "Guia básico: Sugestões de cores e tipografias para designs futuros."
+  },
+  "premium-package-design-footer": {
+    "request": "Solicitar"
+  },
+
+  "important-notes-section": {
+    "title": "",
+    "main-note": "Notas importantes:",
+    "price-adjustment": "Esses preços podem ser ajustados de acordo com a complexidade do projeto e as necessidades específicas do cliente.",
+    "custom-packages": "Solicite seus pacotes personalizados ao combinar vários serviços.",
+    "contact-us": "Entre em contato conosco hoje mesmo para impulsionar sua marca!"
+  },
+
+  "catalog-design-breadcrumb": {
+    "title": "Design de Catálogos",
+    "home": "Início",
+    "current": "Design de Catálogos"
+  },
+
+  "graphic-design-services-section": {
+    "sub-title": "Serviços de Design Gráfico",
+    "heading": "Design de Catálogos",
+    "description": "Na Pulpodin, nossa equipe de design gráfico é especializada na criação de catálogos que reforçam a essência da sua marca. Cada detalhe é cuidadosamente elaborado para oferecer uma experiência visual atraente e coerente, destacando seus produtos ou serviços e conectando-se efetivamente com seu público."
+  },
+
+  "package-inclusions-section": {
+    "title": "",
+    "main-note": "Os pacotes incluem o seguinte:"
+  },
+
+  "basic-package-catalog-header": {
+    "sub-title": "Pacote Básico: Catálogo Simples"
+  },
+  "basic-package-catalog-price": {
+    "starting": "a partir de",
+    "currency": "$",
+    "amount": "100",
+    "unit": "USD/10 páginas"
+  },
+  "basic-package-catalog-body": {
+    "design": "Design: Design de catálogo com até 10 páginas.",
+    "revisions": "Revisões: 1 rodada de ajustes menores.",
+    "format": "Formato: Entrega em PDF (pronto para impressão) e JPG.",
+    "extras": "Extras: Uso de modelos predefinidos (não personalizados)."
+  },
+  "basic-package-catalog-footer": {
+    "request": "Solicitar"
+  },
+
+  "intermediate-package-catalog-header": {
+    "sub-title": "Pacote Intermediário: Catálogo Profissional"
+  },
+  "intermediate-package-catalog-price": {
+    "starting": "a partir de",
+    "currency": "$",
+    "amount": "200",
+    "unit": "USD/20 páginas"
+  },
+  "intermediate-package-catalog-body": {
+    "design": "Design: Design de catálogo com até 20 páginas.",
+    "revisions": "Revisões: 2 rodadas de ajustes.",
+    "format": "Formato: Entrega em PDF (alta resolução) e arquivos editáveis (AI ou PSD).",
+    "extras": "Extras: Design personalizado (sem modelos predefinidos).",
+    "mockups": "Mockups: Visualização do catálogo em um mockup (exemplo: como ficaria na mão)."
+  },
+  "intermediate-package-catalog-footer": {
+    "request": "Solicitar"
+  },
+
+  "premium-package-catalog-header": {
+    "sub-title": "Pacote Premium: Catálogo + Branding"
+  },
+  "premium-package-catalog-price": {
+    "starting": "a partir de",
+    "currency": "$",
+    "amount": "300",
+    "unit": "USD/30 páginas"
+  },
+  "premium-package-catalog-body": {
+    "design": "Design: Design de catálogo com até 30 páginas.",
+    "revisions": "Revisões: 3 rodadas de ajustes.",
+    "format": "Formato: Entrega em PDF (alta resolução) e arquivos editáveis (AI ou PSD).",
+    "extras": "Extras: Design personalizado + adaptação a diferentes formatos (digital, impresso, etc.).",
+    "mockups": "Mockups: Visualização do catálogo em diferentes mockups (mão, mesa, etc.).",
+    "guide": "Guia básico: Sugestões de cores e tipografias para designs futuros."
+  },
+  "premium-package-catalog-footer": {
+    "request": "Solicitar"
+  },
+
+  "important-notes2": {
+    "title": "",
+    "main-note": "Notas importantes:",
+    "price-adjustment": "Esses preços podem ser ajustados de acordo com a complexidade do projeto e as necessidades específicas do cliente.",
+    "custom-packages": "Solicite seus pacotes personalizados ao combinar vários serviços.",
+    "contact-us": "Entre em contato conosco hoje mesmo para impulsionar sua marca!"
+  },
+  
+    "web-design-breadcrumb": {
+        "title": "Design Web",
+        "home": "Início",
+        "current": "Design Web"
+    },
+    
+      "web-design-services-section": {
+          "sub-title": "Serviços de Design Gráfico",
+          "heading": "Design de Sites",
+          "description": "Projetamos sites funcionais, atrativos e otimizados para destacar sua marca, melhorar a experiência do usuário e aumentar sua presença digital. Desde páginas corporativas até lojas online, criamos soluções personalizadas que combinam criatividade, usabilidade e tecnologia."
+      },
+      
+        "basic-package-web-header": {
+            "sub-title": "Pacote Básico: \"Web Starter\""
+        },
+        "basic-package-web-price": {
+            "starting": "a partir de",
+            "currency": "$",
+            "amount": "500",
+            "unit": "USD"
+        },
+        "basic-package-web-body": {
+            "description": "Descrição: Ideal para empreendedores que precisam de um site básico para mostrar seu negócio.",
+            "basic-web-design": "Design web básico: Até 5 seções (início, sobre nós, serviços, blog, contato).",
+            "logo-design": "Design de logo: 1 design de logo básico.",
+            "instagram-designs": "Design de posts para Instagram: 5 designs para promover o lançamento do site."
+        },
+        "basic-package-web-footer": {
+            "request": "Solicitar"
+        },
+        
+          "intermediate-package-web-header": {
+              "sub-title": "Pacote Intermediário: \"Web Boost\""
+          },
+          "intermediate-package-web-price": {
+              "starting": "a partir de",
+              "currency": "$",
+              "amount": "1000",
+              "unit": "USD"
+          },
+          "intermediate-package-web-body": {
+              "description": "Descrição: Perfeito para empresas que precisam de um site mais avançado com funcionalidades adicionais.",
+              "advanced-web-design": "Design web avançado: Até 10 seções (integrações personalizadas, formulários, etc.).",
+              "logo-design": "Design de logo: 1 design de logo profissional.",
+              "brand-manual": "Manual de marca: Criação de um manual de marca básico.",
+              "instagram-designs": "Design de posts para Instagram: 10 designs para promover o site."
+          },
+          "intermediate-package-web-footer": {
+              "request": "Solicitar"
+          },
+          
+            "full-package-web-header": {
+                "sub-title": "Pacote Completo: \"Web Pro\""
+            },
+            "full-package-web-price": {
+                "starting": "a partir de",
+                "currency": "$",
+                "amount": "2000",
+                "unit": "USD"
+            },
+            "full-package-web-body": {
+                "description": "Descrição: A solução completa para empresas que procuram um site premium com design personalizado e funcionalidades avançadas.",
+                "premium-web-design": "Design web premium: Até 15 seções (e-commerce, integrações avançadas, design responsivo).",
+                "logo-design": "Design de logo: 1 design de logo premium.",
+                "brand-manual": "Manual de marca: Criação de um manual de marca completo.",
+                "visual-identity": "Identidade visual: Aplicação da identidade em diferentes mídias.",
+                "instagram-designs": "Design de posts para Instagram: 20 designs para promover o site."
+            },
+            "full-package-web-footer": {
+                "request": "Solicitar"
+            }
+        
+      
+    
+  
+
 }
