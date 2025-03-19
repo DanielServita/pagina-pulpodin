@@ -1547,7 +1547,121 @@
             },
             "full-package-web-footer": {
                 "request": "Richiedi"
-            }
+            },
+            
+              "titulo": {
+                  "heading": "Che cos'è?",
+                  "descripcion": "Il materiale POP si riferisce a elementi visivi, decorativi o informativi posizionati in aree chiave all'interno di un negozio o punto vendita. Il suo obiettivo è catturare l'attenzione del consumatore e promuovere acquisti impulsivi, offrendo un'esperienza interattiva e memorabile. I materiali POP possono essere sia funzionali che estetici, progettati per facilitare la vendita del prodotto o servizio."
+              },
+              
+                "filtros": {
+                    "todos": "Tutti",
+                    "todos-text": "Tutti",
+                    "nylon": "Nylon",
+                    "nylon-text": "PA (Nylon)",
+                    "nylon-carbono": "Nylon con fibra di carbonio",
+                    "nylon-carbono-text": "PA-GF (Nylon con fibra di carbonio)",
+                    "nylon-vidrio": "Nylon con fibra di vetro",
+                    "nylon-vidrio-text": "PA-CF (Nylon con fibra di vetro)",
+                    "policarbonato": "Policarbonato",
+                    "policarbonato-text": "PC (Policarbonato)",
+                    "pc-carbono": "Policarbonato con fibra di carbonio",
+                    "pc-carbono-text": "PC-CF (Policarbonato con fibra di carbonio)",
+                    "pet-carbono": "PETG con fibra di carbonio",
+                    "pet-carbono-text": "PET-CF (PETG con fibra di carbonio)"
+                },
+                
+                  "drone-parts-section": {
+                      "heading": "Parti per droni e robotica",
+                      "category": "PA (Nylon)",
+                      "description": "Sono componenti specifici utilizzati nella costruzione e nel funzionamento di droni e robot, rispettivamente. Ognuno di questi pezzi svolge una funzione particolare, consentendo ai dispositivi di eseguire compiti autonomi o semi-autonomi in base al design e all'obiettivo dell'applicazione."
+                  },
+                  
+                    "car-parts-section": {
+                        "heading": "Pezzi di automobili",
+                        "category": "PA-GF (Nylon con fibra di carbonio)",
+                        "description": "L'uso del PA-GF (nylon con fibra di carbonio) nella produzione di componenti automobilistici offre vantaggi significativi in termini di prestazioni, durata ed efficienza del veicolo, rendendolo un materiale chiave per l'industria automobilistica moderna."
+                    },
+                    
+                      "tool-casing-section": {
+                          "heading": "Carcasse per utensili elettrici",
+                          "category": "PA-CF (Nylon con fibra di vetro)",
+                          "description": "Sono componenti strutturali progettati per proteggere e ospitare i meccanismi interni di strumenti come trapani, seghe, smerigliatrici e altri utensili ad alte prestazioni."
+                      },
+                      
+                        "safety-glasses-section": {
+                            "heading": "Occhiali di sicurezza e visiere protettive",
+                            "category": "PC (Policarbonato)",
+                            "description": "Sono dispositivi di protezione individuale progettati per proteggere gli occhi e il viso da lesioni causate da impatti, frammenti volanti, prodotti chimici e altri pericoli in ambienti industriali o di lavoro."
+                        },
+                        
+                          "manufacturing-tools-section": {
+                              "heading": "Strumenti di fabbricazione con alta stabilità dimensionale",
+                              "category": "PC-CF (Policarbonato con fibra di carbonio)",
+                              "description": "Gli strumenti di fabbricazione realizzati con PC-CF si distinguono per offrire un'elevata stabilità dimensionale, il che significa che mantengono forma e dimensioni in modo preciso anche in condizioni di lavoro impegnative."
+                          },
+                          
+                            "structural-parts-section": {
+                                "heading": "Parti strutturali per stampanti 3D e CNC",
+                                "category": "PET-CF (PETG con fibra di carbonio)",
+                                "description": "Le parti strutturali per stampanti 3D e CNC sono componenti realizzati in un materiale composito che combina PETG, un tipo di termoplastico, con fibre di carbonio per migliorarne le proprietà meccaniche e termiche."
+                            },
+                            
+                              "electronic-device-casing-section": {
+                                  "heading": "Supporti e custodie per dispositivi elettronici",
+                                  "category": "PA (Nylon)",
+                                  "description": "Sono componenti utilizzati per proteggere e sostenere i dispositivi elettronici, fornendo al contempo una struttura robusta e resistente a fattori esterni."
+                              },
+                              
+                                "bicycle-components-section": {
+                                    "heading": "Componenti per biciclette",
+                                    "category": "PA-GF (Nylon con fibra di carbonio)",
+                                    "description": "Questa miscela di materiali consente la realizzazione di componenti per biciclette che sono leggeri, ma altamente resistenti agli sforzi e alle condizioni avverse, come impatti, abrasione e tensioni meccaniche."
+                                },
+                                
+                                  "high-temp-supports-section": {
+                                      "heading": "Pezzi e supporti per alte temperature",
+                                      "category": "PA-CF (Nylon con fibra di vetro)",
+                                      "description": "Questo materiale è particolarmente utilizzato nella fabbricazione di pezzi e supporti progettati per lavorare in condizioni di alte temperature, grazie alla sua eccezionale resistenza termica."
+                                  },
+                                  
+                                    "led-light-supports-section": {
+                                        "heading": "Supporti per illuminazione LED",
+                                        "category": "PC (Policarbonato)",
+                                        "description": "Sono strutture progettate per ospitare e sostenere sistemi di illuminazione LED, realizzate principalmente in policarbonato, un materiale termoplastico ad alta resistenza."
+                                    },
+                                    
+                                      "sports-accessories-section": {
+                                          "heading": "Accessori sportivi e supporti personalizzati",
+                                          "category": "PET-CF (PETG con fibra di carbonio)",
+                                          "description": "Questi componenti sono progettati per fornire una combinazione ottimale di resistenza, durata e leggerezza, ideali per il settore sportivo."
+                                      },
+                                      
+                                        "engine-mounts-section": {
+                                            "heading": "Supporti per motori e trasmissioni negli automobili",
+                                            "category": "PC-CF (Policarbonato con fibra di carbonio)",
+                                            "description": "Sono componenti chiave nella sospensione e fissaggio dei motori e delle trasmissioni al telaio del veicolo."
+                                        },
+                                        
+                                          "cta222": {
+                                              "mensaje": "Offriamo una gamma completa di servizi IT per garantire il tuo successo",
+                                              "boton": "Contattaci"
+                                          }
+                                      
+                                    
+                                  
+                                
+                              
+                            
+                          
+                        
+                      
+                  
+                  
+                
+              
+            
+          
         
       
     

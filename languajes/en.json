@@ -1553,7 +1553,121 @@
             "full-package-web-footer": {
                 "request": "Request"
             
-        }
+        },
+        
+          "titulo": {
+              "heading": "What is it?",
+              "descripcion": "POP material refers to visual, decorative, or informational elements placed in key areas within a store or point of sale. Its goal is to capture the consumer's attention and promote impulse buying, providing an interactive and memorable experience. POP materials can be both functional and aesthetic, designed to facilitate the sale of a product or service."
+          },
+          
+            "filtros": {
+                "todos": "All",
+                "todos-text": "All",
+                "nylon": "Nylon",
+                "nylon-text": "PA (Nylon)",
+                "nylon-carbono": "Nylon with carbon fiber",
+                "nylon-carbono-text": "PA-GF (Nylon with carbon fiber)",
+                "nylon-vidrio": "Nylon with fiberglass",
+                "nylon-vidrio-text": "PA-CF (Nylon with fiberglass)",
+                "policarbonato": "Polycarbonate",
+                "policarbonato-text": "PC (Polycarbonate)",
+                "pc-carbono": "Polycarbonate with carbon fiber",
+                "pc-carbono-text": "PC-CF (Polycarbonate with carbon fiber)",
+                "pet-carbono": "PETG with carbon fiber",
+                "pet-carbono-text": "PET-CF (PETG with carbon fiber)"
+            },
+            
+              "drone-parts-section": {
+                  "heading": "Drone and Robotics Parts",
+                  "category": "PA (Nylon)",
+                  "description": "These are specific components used in the construction and operation of drones and robots, respectively. Each of these parts serves a particular function, enabling the devices to perform autonomous or semi-autonomous tasks according to the design and purpose of the application."
+              },
+              
+                "car-parts-section": {
+                    "heading": "Car Parts",
+                    "category": "PA-GF (Nylon with carbon fiber)",
+                    "description": "The use of PA-GF (nylon with carbon fiber) in automotive parts manufacturing offers significant advantages in terms of performance, durability, and vehicle efficiency, making it a key material for the modern automotive industry."
+                },
+                
+                  "tool-casing-section": {
+                      "heading": "Casings for Power Tools",
+                      "category": "PA-CF (Nylon with fiberglass)",
+                      "description": "These are structural components designed to protect and house the internal mechanisms of tools such as drills, saws, grinders, and other high-performance tools."
+                  },
+                  
+                    "safety-glasses-section": {
+                        "heading": "Safety Glasses and Protective Visors",
+                        "category": "PC (Polycarbonate)",
+                        "description": "These are personal protective equipment designed to shield the eyes and face from injuries caused by impacts, flying debris, chemicals, and other hazards in industrial or work environments."
+                    },
+                    
+                      "manufacturing-tools-section": {
+                          "heading": "Manufacturing Tools with High Dimensional Stability",
+                          "category": "PC-CF (Polycarbonate with carbon fiber)",
+                          "description": "Manufacturing tools made with PC-CF are notable for offering high dimensional stability, which means they maintain their shape and size precisely even under demanding working conditions."
+                     },
+                     
+                      "structural-parts-section": {
+                          "heading": "Structural Parts for 3D Printers and CNC",
+                          "category": "PET-CF (PETG with carbon fiber)",
+                          "description": "Structural parts for 3D printers and CNC are components made from a composite material that combines PETG, a type of thermoplastic, with carbon fibers to enhance its mechanical and thermal properties."
+                      },
+                      
+                        "electronic-device-casing-section": {
+                            "heading": "Supports and Casings for Electronic Devices",
+                            "category": "PA (Nylon)",
+                            "description": "These are components used to protect and support electronic devices, while also providing a robust and durable structure resistant to external factors."
+                        },
+                        
+                          "bicycle-components-section": {
+                              "heading": "Bicycle Components",
+                              "category": "PA-GF (Nylon with carbon fiber)",
+                              "description": "This material blend allows the manufacture of bicycle components that are lightweight yet highly resistant to stresses and adverse conditions, such as impacts, abrasion, and mechanical tensions."
+                          },
+                          
+                            "high-temp-supports-section": {
+                                "heading": "High-Temperature Parts and Supports",
+                                "category": "PA-CF (Nylon with fiberglass)",
+                                "description": "This material is particularly used in manufacturing parts and supports designed to operate under high-temperature conditions due to its exceptional thermal resistance."
+                            },
+                            
+                              "led-light-supports-section": {
+                                  "heading": "LED Light Supports",
+                                  "category": "PC (Polycarbonate)",
+                                  "description": "These are structures designed to house and support LED lighting systems, primarily made from polycarbonate, a highly durable thermoplastic material."
+                              },
+                              
+                                "sports-accessories-section": {
+                                    "heading": "Sports Accessories and Custom Supports",
+                                    "category": "PET-CF (PETG with carbon fiber)",
+                                    "description": "These components are designed to provide an optimal combination of strength, durability, and lightness, making them ideal for the sports industry."
+                                },
+                                
+                                  "engine-mounts-section": {
+                                      "heading": "Engine and Transmission Mounts in Automobiles",
+                                      "category": "PC-CF (Polycarbonate with carbon fiber)",
+                                      "description": "These are key components in the suspension and fixation of engines and transmissions to the vehicle chassis."
+                                  },
+                                  
+                                    "cta222": {
+                                        "mensaje": "We offer a full range of IT services to ensure your success",
+                                        "boton": "Contact Us"
+                                    }
+                                
+                              
+                            
+                          
+                        
+                      
+                    
+                  
+                  
+                
+              
+            
+          
+        
+      
       
     
   

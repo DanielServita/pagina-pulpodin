@@ -1556,7 +1556,120 @@
     },
     "full-package-web-footer": {
         "request": "Solicitar"
-    }
+    },
+    
+      "titulo": {
+          "heading": "¿Qué es?",
+          "descripcion": "El Material POP se refiere a los elementos visuales, decorativos o informativos que se colocan en lugares clave dentro de una tienda o punto de venta. Su objetivo es atraer la atención del consumidor y promover la compra impulsiva, brindando una experiencia interactiva y memorable. Los materiales POP pueden ser tanto funcionales como estéticos, diseñados para facilitar la venta del producto o servicio."
+      },
+      
+        "filtros": {
+            "todos": "Todos",
+            "todos-text": "Todos",
+            "nylon": "Nylon",
+            "nylon-text": "PA (Nylon)",
+            "nylon-carbono": "Nylon con fibra de carbono",
+            "nylon-carbono-text": "PA-GF (Nylon con fibra de carbono)",
+            "nylon-vidrio": "Nylon con fibra de vidrio",
+            "nylon-vidrio-text": "PA-CF (Nylon con fibra de vidrio)",
+            "policarbonato": "Policarbonato",
+            "policarbonato-text": "PC (Policarbonato)",
+            "pc-carbono": "Policarbonato con fibra de carbono",
+            "pc-carbono-text": "PC-CF (Policarbonato con fibra de carbono)",
+            "pet-carbono": "PETG con fibra de carbono",
+            "pet-carbono-text": "PET-CF (PETG con fibra de carbono)"
+        },
+        
+          "drone-parts-section": {
+              "heading": "Piezas de drones y robótica",
+              "category": "PA (Nylon)",
+              "description": "Son componentes específicos utilizados en la construcción y funcionamiento de drones y robots, respectivamente. Cada una de estas piezas cumple una función particular, permitiendo a los dispositivos realizar tareas autónomas o semiautónomas de acuerdo con el diseño y objetivo de la aplicación."
+          },
+          
+            "car-parts-section": {
+                "heading": "Piezas de automóviles",
+                "category": "PA-GF (Nylon con fibra de carbono)",
+                "description": "El uso de PA-GF (nylon con fibra de carbono) en la fabricación de piezas automotrices ofrece ventajas significativas en términos de rendimiento, durabilidad y eficiencia del vehículo, convirtiéndolo en un material clave para la industria automotriz moderna."
+            },
+            
+              "tool-casing-section": {
+                  "heading": "Carcasas de herramientas eléctricas",
+                  "category": "PA-CF (Nylon con fibra de vidrio)",
+                  "description": "Son componentes estructurales diseñados para proteger y albergar los mecanismos internos de herramientas como taladros, sierras, amoladoras y otras herramientas de alto rendimiento."
+              },
+              
+                "safety-glasses-section": {
+                    "heading": "Lentes de seguridad y viseras protectoras",
+                    "category": "PC (Policarbonato)",
+                    "description": "Son equipos de protección personal diseñados para proteger los ojos y la cara de lesiones causadas por impactos, fragmentos voladores, productos químicos y otros peligros en ambientes industriales o de trabajo."
+                },
+                
+                  "manufacturing-tools-section": {
+                      "heading": "Herramientas de fabricación con alta estabilidad dimensional",
+                      "category": "PC-CF (Policarbonato con fibra de carbono)",
+                      "description": "Las herramientas de fabricación fabricadas con PC-CF, se destacan por ofrecer una alta estabilidad dimensional, lo que significa que mantienen su forma y tamaño de manera precisa incluso bajo condiciones de trabajo exigentes."
+                  },
+                  
+                    "structural-parts-section": {
+                        "heading": "Piezas estructurales para impresoras 3D y CNC",
+                        "category": "PET-CF (PETG con fibra de carbono)",
+                        "description": "Las piezas estructurales para impresoras 3D y CNC son componentes fabricados a partir de un material compuesto que combina PETG, un tipo de termoplástico, con fibras de carbono para mejorar sus propiedades mecánicas y térmicas."
+                    },
+                    
+                      "electronic-device-casing-section": {
+                          "heading": "Soportes y carcasas de dispositivos electrónicos",
+                          "category": "PA (Nylon)",
+                          "description": "Son componentes utilizados para proteger y soportar los dispositivos electrónicos, al mismo tiempo que proporcionan una estructura robusta y resistente a factores externos."
+                      },
+                      
+                        "bicycle-components-section": {
+                            "heading": "Componentes para bicicletas",
+                            "category": "PA-GF (Nylon con fibra de carbono)",
+                            "description": "Esta mezcla de materiales permite la fabricación de componentes de bicicletas que son ligeros, pero muy resistentes a los esfuerzos y condiciones adversas, como los impactos, la abrasión y las tensiones mecánicas."
+                        },
+                        
+                          "high-temp-supports-section": {
+                              "heading": "Piezas y soportes para altas temperaturas",
+                              "category": "PA-CF (Nylon con fibra de vidrio)",
+                              "description": "Este material es particularmente utilizado en la fabricación de piezas y soportes diseñados para trabajar en condiciones de altas temperaturas, debido a su excepcional resistencia térmica."
+                          },
+                          
+                            "led-light-supports-section": {
+                                "heading": "Soportes para iluminación led",
+                                "category": "PC (Policarbonato)",
+                                "description": "Son estructuras diseñadas para alojar y sostener sistemas de iluminación LED, fabricadas principalmente con policarbonato, un material termoplástico de alta resistencia."
+                            },
+                            
+                              "sports-accessories-section": {
+                                  "heading": "Accesorios deportivos y soportes personalizados",
+                                  "category": "PET-CF (PETG con fibra de carbono)",
+                                  "description": "Son componentes diseñados para proporcionar una combinación óptima de resistencia, durabilidad y ligereza, ideales para el sector deportivo."
+                              },
+                              
+                                "engine-mounts-section": {
+                                    "heading": "Soportes de motores y transmisiones en automóviles",
+                                    "category": "PC-CF (Policarbonato con fibra de carbono)",
+                                    "description": "Son componentes clave en la suspensión y fijación de los motores y transmisiones en el chasis del vehículo."
+                                },
+                                
+                                  "cta222": {
+                                      "mensaje": "Ofrecemos una gama completa de servicios de TI para garantizar tu éxito",
+                                      "boton": "Contáctanos"
+                                  }
+                              
+                            
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
 
 
 
