@@ -1016,7 +1016,7 @@
 
     <script>
         function changeLanguage(language) {
-            fetch(`..languajes/${language}.json`)
+            fetch(`../languajes/${language}.json`)
                 .then(response => response.json()) // Convertir la respuesta en JSON
                 .then(data => {
                     console.log(data);
