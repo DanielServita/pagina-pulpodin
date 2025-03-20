@@ -967,7 +967,7 @@
     <script src="assets/js/main.js"></script>
     <script>
         function changeLanguage(language) {
-            fetch(`/original pulpodin/languajes/${language}.json`)
+            fetch(`../languajes/${language}.json`)
                 .then(res => res.json())
                 .then(data => {
                     console.log(data);

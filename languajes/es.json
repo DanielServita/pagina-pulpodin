@@ -1483,194 +1483,638 @@
     "custom-packages": "Solicita tus paquetes personalizados al solicitar varios servicios combinados.",
     "contact-us": "¡Contáctanos hoy mismo para potenciar tu marca!"
   },
-  
-    "web-design-breadcrumb": {
-        "title": "Diseño web",
-        "home": "Home",
-        "current": "Diseño web"
-    },
-    
-      "web-design-services-section": {
-          "sub-title": "Servicios de Diseño gráfico",
-          "heading": "Diseño web",
-          "description": "Diseñamos sitios web funcionales, atractivos y optimizados para destacar tu marca, mejorar la experiencia del usuario y potenciar tu presencia digital. Desde páginas corporativas hasta tiendas en línea, creamos soluciones a medida que combinan creatividad, usabilidad y tecnología."
-      
+
+  "web-design-breadcrumb": {
+    "title": "Diseño web",
+    "home": "Home",
+    "current": "Diseño web"
   },
-  
-    "basic-package-web-header": {
-        "sub-title": "Paquete Básico: \"Web Starter\""
-    },
-    "basic-package-web-price": {
-        "starting": "desde",
-        "currency": "$",
-        "amount": "500",
-        "unit": "USD"
-    },
-    "basic-package-web-body": {
-        "description": "Descripción: Ideal para emprendedores que necesitan una página web básica para mostrar su negocio.",
-        "basic-web-design": "Diseño web básico: Hasta 5 secciones (inicio, sobre nosotros, servicios, blog, contacto).",
-        "logo-design": "Diseño de logo: 1 diseño de logo básico.",
-        "instagram-designs": "Diseño de posts para Instagram: 5 diseños para promocionar el lanzamiento del sitio web."
-    },
-    "basic-package-web-footer": {
-        "request": "Solicitar"
-    
-},
+
+  "web-design-services-section": {
+    "sub-title": "Servicios de Diseño gráfico",
+    "heading": "Diseño web",
+    "description": "Diseñamos sitios web funcionales, atractivos y optimizados para destacar tu marca, mejorar la experiencia del usuario y potenciar tu presencia digital. Desde páginas corporativas hasta tiendas en línea, creamos soluciones a medida que combinan creatividad, usabilidad y tecnología."
+  },
+
+  "basic-package-web-header": {
+    "sub-title": "Paquete Básico: \"Web Starter\""
+  },
+  "basic-package-web-price": {
+    "starting": "desde",
+    "currency": "$",
+    "amount": "500",
+    "unit": "USD"
+  },
+  "basic-package-web-body": {
+    "description": "Descripción: Ideal para emprendedores que necesitan una página web básica para mostrar su negocio.",
+    "basic-web-design": "Diseño web básico: Hasta 5 secciones (inicio, sobre nosotros, servicios, blog, contacto).",
+    "logo-design": "Diseño de logo: 1 diseño de logo básico.",
+    "instagram-designs": "Diseño de posts para Instagram: 5 diseños para promocionar el lanzamiento del sitio web."
+  },
+  "basic-package-web-footer": {
+    "request": "Solicitar"
+  },
 
   "intermediate-package-web-header": {
-      "sub-title": "Paquete Intermedio: \"Web Boost\""
+    "sub-title": "Paquete Intermedio: \"Web Boost\""
   },
   "intermediate-package-web-price": {
-      "starting": "desde",
-      "currency": "$",
-      "amount": "1000",
-      "unit": "USD"
+    "starting": "desde",
+    "currency": "$",
+    "amount": "1000",
+    "unit": "USD"
   },
   "intermediate-package-web-body": {
-      "description": "Descripción: Perfecto para negocios que necesitan un sitio web más avanzado con funcionalidades adicionales.",
-      "advanced-web-design": "Diseño web avanzado: Hasta 10 secciones (integraciones personalizadas, formularios, etc.).",
-      "logo-design": "Diseño de logo: 1 diseño de logo profesional.",
-      "brand-manual": "Manual de marca: Creación de un manual de marca básico.",
-      "instagram-designs": "Diseño de posts para Instagram: 10 diseños para promocionar el sitio web."
+    "description": "Descripción: Perfecto para negocios que necesitan un sitio web más avanzado con funcionalidades adicionales.",
+    "advanced-web-design": "Diseño web avanzado: Hasta 10 secciones (integraciones personalizadas, formularios, etc.).",
+    "logo-design": "Diseño de logo: 1 diseño de logo profesional.",
+    "brand-manual": "Manual de marca: Creación de un manual de marca básico.",
+    "instagram-designs": "Diseño de posts para Instagram: 10 diseños para promocionar el sitio web."
   },
   "intermediate-package-web-footer": {
-      "request": "Solicitar"
+    "request": "Solicitar"
   },
-  
-    "full-package-web-header": {
-        "sub-title": "Paquete full: \"Web Pro\""
-    },
-    "full-package-web-price": {
-        "starting": "desde",
-        "currency": "$",
-        "amount": "2000",
-        "unit": "USD"
-    },
-    "full-package-web-body": {
-        "description": "Descripción: La solución completa para empresas que buscan un sitio web premium con diseño personalizado y funcionalidades avanzadas.",
-        "premium-web-design": "Diseño web premium: Hasta 15 secciones (e-commerce, integraciones avanzadas, diseño responsive).",
-        "logo-design": "Diseño de logo: 1 diseño de logo premium.",
-        "brand-manual": "Manual de marca: Creación de un manual de marca completo.",
-        "visual-identity": "Identidad visual: Aplicación de la identidad en diferentes medios.",
-        "instagram-designs": "Diseño de posts para Instagram: 20 diseños para promocionar el sitio web."
-    },
-    "full-package-web-footer": {
-        "request": "Solicitar"
-    },
-    
-      "titulo": {
-          "heading": "¿Qué es?",
-          "descripcion": "El Material POP se refiere a los elementos visuales, decorativos o informativos que se colocan en lugares clave dentro de una tienda o punto de venta. Su objetivo es atraer la atención del consumidor y promover la compra impulsiva, brindando una experiencia interactiva y memorable. Los materiales POP pueden ser tanto funcionales como estéticos, diseñados para facilitar la venta del producto o servicio."
-      },
-      
-        "filtros": {
-            "todos": "Todos",
-            "todos-text": "Todos",
-            "nylon": "Nylon",
-            "nylon-text": "PA (Nylon)",
-            "nylon-carbono": "Nylon con fibra de carbono",
-            "nylon-carbono-text": "PA-GF (Nylon con fibra de carbono)",
-            "nylon-vidrio": "Nylon con fibra de vidrio",
-            "nylon-vidrio-text": "PA-CF (Nylon con fibra de vidrio)",
-            "policarbonato": "Policarbonato",
-            "policarbonato-text": "PC (Policarbonato)",
-            "pc-carbono": "Policarbonato con fibra de carbono",
-            "pc-carbono-text": "PC-CF (Policarbonato con fibra de carbono)",
-            "pet-carbono": "PETG con fibra de carbono",
-            "pet-carbono-text": "PET-CF (PETG con fibra de carbono)"
-        },
-        
-          "drone-parts-section": {
-              "heading": "Piezas de drones y robótica",
-              "category": "PA (Nylon)",
-              "description": "Son componentes específicos utilizados en la construcción y funcionamiento de drones y robots, respectivamente. Cada una de estas piezas cumple una función particular, permitiendo a los dispositivos realizar tareas autónomas o semiautónomas de acuerdo con el diseño y objetivo de la aplicación."
-          },
-          
-            "car-parts-section": {
-                "heading": "Piezas de automóviles",
-                "category": "PA-GF (Nylon con fibra de carbono)",
-                "description": "El uso de PA-GF (nylon con fibra de carbono) en la fabricación de piezas automotrices ofrece ventajas significativas en términos de rendimiento, durabilidad y eficiencia del vehículo, convirtiéndolo en un material clave para la industria automotriz moderna."
-            },
-            
-              "tool-casing-section": {
-                  "heading": "Carcasas de herramientas eléctricas",
-                  "category": "PA-CF (Nylon con fibra de vidrio)",
-                  "description": "Son componentes estructurales diseñados para proteger y albergar los mecanismos internos de herramientas como taladros, sierras, amoladoras y otras herramientas de alto rendimiento."
-              },
-              
-                "safety-glasses-section": {
-                    "heading": "Lentes de seguridad y viseras protectoras",
-                    "category": "PC (Policarbonato)",
-                    "description": "Son equipos de protección personal diseñados para proteger los ojos y la cara de lesiones causadas por impactos, fragmentos voladores, productos químicos y otros peligros en ambientes industriales o de trabajo."
-                },
-                
-                  "manufacturing-tools-section": {
-                      "heading": "Herramientas de fabricación con alta estabilidad dimensional",
-                      "category": "PC-CF (Policarbonato con fibra de carbono)",
-                      "description": "Las herramientas de fabricación fabricadas con PC-CF, se destacan por ofrecer una alta estabilidad dimensional, lo que significa que mantienen su forma y tamaño de manera precisa incluso bajo condiciones de trabajo exigentes."
-                  },
-                  
-                    "structural-parts-section": {
-                        "heading": "Piezas estructurales para impresoras 3D y CNC",
-                        "category": "PET-CF (PETG con fibra de carbono)",
-                        "description": "Las piezas estructurales para impresoras 3D y CNC son componentes fabricados a partir de un material compuesto que combina PETG, un tipo de termoplástico, con fibras de carbono para mejorar sus propiedades mecánicas y térmicas."
-                    },
-                    
-                      "electronic-device-casing-section": {
-                          "heading": "Soportes y carcasas de dispositivos electrónicos",
-                          "category": "PA (Nylon)",
-                          "description": "Son componentes utilizados para proteger y soportar los dispositivos electrónicos, al mismo tiempo que proporcionan una estructura robusta y resistente a factores externos."
-                      },
-                      
-                        "bicycle-components-section": {
-                            "heading": "Componentes para bicicletas",
-                            "category": "PA-GF (Nylon con fibra de carbono)",
-                            "description": "Esta mezcla de materiales permite la fabricación de componentes de bicicletas que son ligeros, pero muy resistentes a los esfuerzos y condiciones adversas, como los impactos, la abrasión y las tensiones mecánicas."
-                        },
-                        
-                          "high-temp-supports-section": {
-                              "heading": "Piezas y soportes para altas temperaturas",
-                              "category": "PA-CF (Nylon con fibra de vidrio)",
-                              "description": "Este material es particularmente utilizado en la fabricación de piezas y soportes diseñados para trabajar en condiciones de altas temperaturas, debido a su excepcional resistencia térmica."
-                          },
-                          
-                            "led-light-supports-section": {
-                                "heading": "Soportes para iluminación led",
-                                "category": "PC (Policarbonato)",
-                                "description": "Son estructuras diseñadas para alojar y sostener sistemas de iluminación LED, fabricadas principalmente con policarbonato, un material termoplástico de alta resistencia."
-                            },
-                            
-                              "sports-accessories-section": {
-                                  "heading": "Accesorios deportivos y soportes personalizados",
-                                  "category": "PET-CF (PETG con fibra de carbono)",
-                                  "description": "Son componentes diseñados para proporcionar una combinación óptima de resistencia, durabilidad y ligereza, ideales para el sector deportivo."
-                              },
-                              
-                                "engine-mounts-section": {
-                                    "heading": "Soportes de motores y transmisiones en automóviles",
-                                    "category": "PC-CF (Policarbonato con fibra de carbono)",
-                                    "description": "Son componentes clave en la suspensión y fijación de los motores y transmisiones en el chasis del vehículo."
-                                },
-                                
-                                  "cta222": {
-                                      "mensaje": "Ofrecemos una gama completa de servicios de TI para garantizar tu éxito",
-                                      "boton": "Contáctanos"
-                                  }
-                              
-                            
-                          
-                        
-                      
-                    
-                  
-                
-              
-            
-          
-        
-      
-    
 
+  "full-package-web-header": {
+    "sub-title": "Paquete full: \"Web Pro\""
+  },
+  "full-package-web-price": {
+    "starting": "desde",
+    "currency": "$",
+    "amount": "2000",
+    "unit": "USD"
+  },
+  "full-package-web-body": {
+    "description": "Descripción: La solución completa para empresas que buscan un sitio web premium con diseño personalizado y funcionalidades avanzadas.",
+    "premium-web-design": "Diseño web premium: Hasta 15 secciones (e-commerce, integraciones avanzadas, diseño responsive).",
+    "logo-design": "Diseño de logo: 1 diseño de logo premium.",
+    "brand-manual": "Manual de marca: Creación de un manual de marca completo.",
+    "visual-identity": "Identidad visual: Aplicación de la identidad en diferentes medios.",
+    "instagram-designs": "Diseño de posts para Instagram: 20 diseños para promocionar el sitio web."
+  },
+  "full-package-web-footer": {
+    "request": "Solicitar"
+  },
 
+  "titulo": {
+    "heading": "¿Qué es?",
+    "descripcion": "El Material POP se refiere a los elementos visuales, decorativos o informativos que se colocan en lugares clave dentro de una tienda o punto de venta. Su objetivo es atraer la atención del consumidor y promover la compra impulsiva, brindando una experiencia interactiva y memorable. Los materiales POP pueden ser tanto funcionales como estéticos, diseñados para facilitar la venta del producto o servicio."
+  },
 
+  "filtros": {
+    "todos": "Todos",
+    "todos-text": "Todos",
+    "nylon": "Nylon",
+    "nylon-text": "PA (Nylon)",
+    "nylon-carbono": "Nylon con fibra de carbono",
+    "nylon-carbono-text": "PA-GF (Nylon con fibra de carbono)",
+    "nylon-vidrio": "Nylon con fibra de vidrio",
+    "nylon-vidrio-text": "PA-CF (Nylon con fibra de vidrio)",
+    "policarbonato": "Policarbonato",
+    "policarbonato-text": "PC (Policarbonato)",
+    "pc-carbono": "Policarbonato con fibra de carbono",
+    "pc-carbono-text": "PC-CF (Policarbonato con fibra de carbono)",
+    "pet-carbono": "PETG con fibra de carbono",
+    "pet-carbono-text": "PET-CF (PETG con fibra de carbono)"
+  },
+
+  "drone-parts-section": {
+    "heading": "Piezas de drones y robótica",
+    "category": "PA (Nylon)",
+    "description": "Son componentes específicos utilizados en la construcción y funcionamiento de drones y robots, respectivamente. Cada una de estas piezas cumple una función particular, permitiendo a los dispositivos realizar tareas autónomas o semiautónomas de acuerdo con el diseño y objetivo de la aplicación."
+  },
+
+  "car-parts-section": {
+    "heading": "Piezas de automóviles",
+    "category": "PA-GF (Nylon con fibra de carbono)",
+    "description": "El uso de PA-GF (nylon con fibra de carbono) en la fabricación de piezas automotrices ofrece ventajas significativas en términos de rendimiento, durabilidad y eficiencia del vehículo, convirtiéndolo en un material clave para la industria automotriz moderna."
+  },
+
+  "tool-casing-section": {
+    "heading": "Carcasas de herramientas eléctricas",
+    "category": "PA-CF (Nylon con fibra de vidrio)",
+    "description": "Son componentes estructurales diseñados para proteger y albergar los mecanismos internos de herramientas como taladros, sierras, amoladoras y otras herramientas de alto rendimiento."
+  },
+
+  "safety-glasses-section": {
+    "heading": "Lentes de seguridad y viseras protectoras",
+    "category": "PC (Policarbonato)",
+    "description": "Son equipos de protección personal diseñados para proteger los ojos y la cara de lesiones causadas por impactos, fragmentos voladores, productos químicos y otros peligros en ambientes industriales o de trabajo."
+  },
+
+  "manufacturing-tools-section": {
+    "heading": "Herramientas de fabricación con alta estabilidad dimensional",
+    "category": "PC-CF (Policarbonato con fibra de carbono)",
+    "description": "Las herramientas de fabricación fabricadas con PC-CF, se destacan por ofrecer una alta estabilidad dimensional, lo que significa que mantienen su forma y tamaño de manera precisa incluso bajo condiciones de trabajo exigentes."
+  },
+
+  "structural-parts-section": {
+    "heading": "Piezas estructurales para impresoras 3D y CNC",
+    "category": "PET-CF (PETG con fibra de carbono)",
+    "description": "Las piezas estructurales para impresoras 3D y CNC son componentes fabricados a partir de un material compuesto que combina PETG, un tipo de termoplástico, con fibras de carbono para mejorar sus propiedades mecánicas y térmicas."
+  },
+
+  "electronic-device-casing-section": {
+    "heading": "Soportes y carcasas de dispositivos electrónicos",
+    "category": "PA (Nylon)",
+    "description": "Son componentes utilizados para proteger y soportar los dispositivos electrónicos, al mismo tiempo que proporcionan una estructura robusta y resistente a factores externos."
+  },
+
+  "bicycle-components-section": {
+    "heading": "Componentes para bicicletas",
+    "category": "PA-GF (Nylon con fibra de carbono)",
+    "description": "Esta mezcla de materiales permite la fabricación de componentes de bicicletas que son ligeros, pero muy resistentes a los esfuerzos y condiciones adversas, como los impactos, la abrasión y las tensiones mecánicas."
+  },
+
+  "high-temp-supports-section": {
+    "heading": "Piezas y soportes para altas temperaturas",
+    "category": "PA-CF (Nylon con fibra de vidrio)",
+    "description": "Este material es particularmente utilizado en la fabricación de piezas y soportes diseñados para trabajar en condiciones de altas temperaturas, debido a su excepcional resistencia térmica."
+  },
+
+  "led-light-supports-section": {
+    "heading": "Soportes para iluminación led",
+    "category": "PC (Policarbonato)",
+    "description": "Son estructuras diseñadas para alojar y sostener sistemas de iluminación LED, fabricadas principalmente con policarbonato, un material termoplástico de alta resistencia."
+  },
+
+  "sports-accessories-section": {
+    "heading": "Accesorios deportivos y soportes personalizados",
+    "category": "PET-CF (PETG con fibra de carbono)",
+    "description": "Son componentes diseñados para proporcionar una combinación óptima de resistencia, durabilidad y ligereza, ideales para el sector deportivo."
+  },
+
+  "engine-mounts-section": {
+    "heading": "Soportes de motores y transmisiones en automóviles",
+    "category": "PC-CF (Policarbonato con fibra de carbono)",
+    "description": "Son componentes clave en la suspensión y fijación de los motores y transmisiones en el chasis del vehículo."
+  },
+
+  "cta222": {
+    "mensaje": "Ofrecemos una gama completa de servicios de TI para garantizar tu éxito",
+    "boton": "Contáctanos"
+  },
+
+  "breadcrumb-logos": {
+    "title": "Logos",
+    "home": "INICIO",
+    "current": "LOGOS"
+  },
+
+  "logo-types-carousel": {
+    "title": "TIPOS DE LOGOS",
+    "slide1-title": "01. Logos Esculpidos o Relieve 3D",
+    "slide1-description": "Este tipo de logo tiene un diseño en relieve, donde las formas y letras sobresalen de la base. Se pueden crear detalles finos, texturas o incluso elementos adicionales como sombras. Este tipo de logo puede funcionar bien para aplicaciones como carteles, bases o señalizaciones.",
+    "slide2-title": "02. Logos Geométricos o Abstractos",
+    "slide2-description": "Un diseño minimalista o geométrico es perfecto para la impresión 3D, ya que permite jugar con formas simples que se pueden crear con facilidad. Puedes crear figuras tridimensionales que combinan varias formas geométricas, como cubos, esferas o pirámides. Este tipo de logo es ideal para marcas modernas y de tecnología.",
+    "slide3-title": "03. Logos con Efectos de Transparencia o Corte",
+    "slide3-description": "Utilizando materiales traslúcidos o combinando diferentes colores de plástico, puedes crear un logo que tenga zonas perforadas o detalles cortados para crear efectos visuales. Esto le da una apariencia moderna y dinámica, ideal para marcas que buscan destacarse en el mercado de la moda, el diseño o la tecnología.",
+    "slide4-title": "04. Logos Funcionales o Interactivos",
+    "slide4-description": "Este tipo de logo no solo es estéticamente atractivo, sino que también tiene una función interactiva. Puedes diseñar logos que, además de ser visualmente atractivos, tienen elementos que se mueven o se pueden modificar. Por ejemplo, un logo con piezas móviles o que permita cambios en su forma."
+  },
+
+  "breadcrumb-engineering": {
+    "title": "Ingeniería",
+    "home": "Home",
+    "current": "Ingeniería"
+  },
+
+  "material-engineering-main": {
+    "title": "Ingeniería de Materiales en impresión 3D"
+  },
+  "material-nylon": {
+    "name": "PA (Naylon)",
+    "description": "El PA (Naylon) es un tipo de poliamida, un material sintético altamente versátil, conocido por su resistencia y durabilidad."
+  },
+  "material-nylon-carbon": {
+    "name": "PA-CF (Nylon con fibra de carbono)",
+    "description": "Esta mezcla busca mejorar las propiedades mecánicas y térmicas del nylon, convirtiéndolo en un material más fuerte, ligero y resistente."
+  },
+  "material-nylon-glass": {
+    "name": "PA-GF (Nylon con fibra de vidrio)",
+    "description": "Es un material compuesto que combina el nylon (poliamida) con fibras de vidrio para mejorar sus propiedades mecánicas."
+  },
+  "material-polycarbonate": {
+    "name": "PC (Policarbonato)",
+    "description": "El policarbonato (PC) es un material termoplástico de ingeniería conocido por su alta resistencia al impacto, durabilidad y versatilidad."
+  },
+  "material-polycarbonate-carbon": {
+    "name": "PC-CF (Policarbonato con fibra de carbono)",
+    "description": "Es un material compuesto que combina las propiedades del policarbonato (PC) con la fibra de carbono (CF)."
+  },
+  "material-pet-carbon": {
+    "name": "PET-CF (PETG con fibra de carbono)",
+    "description": "Es un material compuesto que combina las propiedades del PETG con la fibra de carbono (CF)."
+  },
+
+  "breadcrumb-custom-designs": {
+    "title": "Diseños personalizados",
+    "home": "Home",
+    "current": "Diseños personalizados"
+  },
+
+  "imagine-print": {
+    "title": "Lo que imagines lo imprimimos!"
+  },
+
+  "custom-stand-post": {
+    "title": "Soporte personalizado para dispositivos móviles o tabletas",
+    "date": "14 de enero de 2025",
+    "views": "346 vistas",
+    "excerpt": "Puedes diseñar soportes específicos para cada modelo de teléfono o tablet, con espacio para cargar el dispositivo mientras está en uso, o con un diseño ergonómico que ajuste a la postura del usuario.",
+    "button": "Cotiza con nosotros"
+  },
+
+  "custom-figurines-post": {
+    "title": "Figuras decorativas personalizadas",
+    "date": "14 de enero de 2025",
+    "views": "346 vistas",
+    "excerpt": "Pueden ser personajes basados en gustos personales de la persona, como figuras de acción, personajes de series, películas o incluso de videojuegos, todo a escala y con detalles minuciosos.",
+    "button": "Cotiza con nosotros"
+  },
+
+  "home-accessories-post": {
+    "title": "Accesorios para el hogar",
+    "date": "14 de enero de 2025",
+    "views": "346 vistas",
+    "excerpt": "Diseñar elementos de decoración para el hogar, como lámparas personalizadas, portavasos con formas únicas, o incluso estanterías modulares que se adapten al estilo del cliente.",
+    "button": "Cotiza con nosotros"
+  },
+
+  "organizer-boxes-post": {
+    "title": "Cajas organizadoras con compartimentos personalizables",
+    "date": "14 de enero de 2025",
+    "views": "346 vistas",
+    "excerpt": "Para quienes necesitan organizar pequeñas piezas, joyas, herramientas o accesorios, puedes crear diseños modulares, con diferentes compartimentos y tamaños ajustables.",
+    "button": "Cotiza con nosotros"
+  },
+
+  "custom-toys-post": {
+    "title": "Juguetes Personalizados",
+    "date": "14 de enero de 2025",
+    "views": "346 vistas",
+    "excerpt": "Diseña juguetes educativos o de entretenimiento, como puzzles, rompecabezas o figuras interactivas, que se puedan personalizar con nombres, colores y detalles específicos según las preferencias del cliente.",
+    "button": "Cotiza con nosotros"
+  },
+
+  "social-media-consulting": {
+    "title": "Asesoría en redes sociales",
+    "home": "Home",
+    "current": "Asesoría en redes sociales"
+  },
+
+  "social-media-management": {
+    "subtitle": "Servicios de Marketing",
+    "title": "Asesorías para la Gestión de Redes Sociales",
+    "description": "¿Necesitas ayuda para manejar tus redes sociales pero no cuentas con un equipo interno? En Pulpodin te ofrecemos asesorías personalizadas para que aprendas a gestionar tus redes sociales de manera efectiva. Te guiamos paso a paso en la creación de contenido, planificación de publicaciones, interacción con tu audiencia y análisis de métricas. Ideal para emprendedores y pequeñas empresas que quieren tomar las riendas de su presencia digital."
+  },
+
+  "social-media-packages": {
+    "title": "Los paquetes incluyen lo siguiente:",
+    "list-item-1": "Los paquetes incluyen lo siguiente:",
+    "list-item-2": "Diagnóstico inicial de tus redes sociales.",
+    "list-item-3": "Planificación de contenido mensual.",
+    "list-item-4": "Estrategias para aumentar el engagement.",
+    "list-item-5": "Recomendaciones de herramientas y recursos.",
+    "list-item-6": "Sesiones de seguimiento y ajustes."
+  },
+
+  "basic-package3": {
+    "title": "Paquete Básico",
+    "from": "desde",
+    "currency": "$",
+    "price": "50",
+    "period": "USD/mes",
+    "item-1": "1 sesión de una (1) hora",
+    "item-2": "Informe mensual",
+    "button": "Solicitar"
+  },
+
+  "advanced-package": {
+    "title": "Paquete Avanzado",
+    "from": "desde",
+    "currency": "$",
+    "price": "100",
+    "period": "USD/mes",
+    "item-1": "2 sesiones de una (1) hora c/u",
+    "item-2": "Plan de contenido",
+    "item-3": "Informe mensual",
+    "button": "Solicitar"
+  },
+
+  "advertising-campaigns": {
+    "title": "Campañas publicitarias",
+    "home": "Home",
+    "current": "Campañas publicitarias"
+  },
+
+  "advertising-management": {
+    "subtitle": "Servicios de Marketing",
+    "title": "Gestión de campañas publicitarias",
+    "description": "Maximiza el alcance de tu marca con nuestras campañas publicitarias en redes sociales y Google Ads. En Pulpodin nos encargamos de todo: desde la creación de anuncios atractivos hasta la segmentación de audiencias y el monitoreo de resultados. Logra más ventas, leads y visibilidad con estrategias diseñadas específicamente para tu negocio."
+  },
+
+  "package-details2": {
+    "title": "Los paquetes incluyen lo siguiente:",
+    "list-header": "Los paquetes incluyen lo siguiente:",
+    "list-item-1": "Creación y diseño de anuncios.",
+    "list-item-2": "Segmentación de audiencias.",
+    "list-item-3": "Monitoreo y optimización diaria.",
+    "list-item-4": "Reportes semanales de rendimiento.",
+    "list-item-5": "Asesoría en la inversión publicitaria."
+  },
+
+  "social-media-campaigns": {
+    "title": "Campañas en redes sociales",
+    "from": "desde",
+    "currency": "$",
+    "price": "150",
+    "period": "USD/mes",
+    "item-1": "Gestión de 1 plataforma",
+    "button": "Solicitar"
+  },
+
+  "google-ads-campaigns": {
+    "title": "Campañas en Google Ads",
+    "from": "desde",
+    "currency": "$",
+    "price": "200",
+    "period": "USD/mes",
+    "item-1": "Gestión de 1 campaña",
+    "button": "Solicitar"
+  },
+
+  "full-package": {
+    "title": "Paquete completo",
+    "from": "desde",
+    "currency": "$",
+    "price": "300",
+    "period": "USD/mes",
+    "item-1": "Redes sociales + Google Ads",
+    "button": "Solicitar"
+  },
+
+  "content-strategies": {
+    "title": "Estrategias de contenido",
+    "home": "Home",
+    "current": "Estrategias de contenido"
+  },
+
+  "content-strategies-section": {
+    "subtitle": "Servicios de Marketing",
+    "title": "Estrategias de contenido",
+    "description": "El contenido es el rey, y en Pulpodin sabemos cómo hacerlo trabajar para ti. Desarrollamos estrategias de contenido que conectan con tu audiencia, aumentan tu engagement y fortalecen tu marca. Desde publicaciones en redes sociales hasta blogs y videos, creamos contenido que genera resultados."
+  },
+
+  "content-package-details": {
+    "title": "Los paquetes incluyen lo siguiente:",
+    "list-header": "Los paquetes incluyen lo siguiente:",
+    "list-item-1": "Creación de calendario de contenido.",
+    "list-item-2": "Redacción de textos y guiones.",
+    "list-item-3": "Planificación de temas y formatos."
+  },
+
+  "basic-content-package": {
+    "title": "Paquete Básico",
+    "from": "desde",
+    "currency": "$",
+    "price": "100",
+    "period": "USD/mes",
+    "item-1": "9 publicaciones en redes sociales",
+    "button": "Solicitar"
+  },
+
+  "advanced-content-package": {
+    "title": "Paquete Avanzado",
+    "from": "desde",
+    "currency": "$",
+    "price": "200",
+    "period": "USD/mes",
+    "item-1": "20 publicaciones + 1 blog o video",
+    "button": "Solicitar"
+  },
+
+  "premium-content-package": {
+    "title": "Paquete Premium",
+    "from": "desde",
+    "currency": "$",
+    "price": "300",
+    "period": "USD/mes",
+    "item-1": "30 publicaciones + 2 blogs o videos",
+    "button": "Solicitar"
+  },
+
+  "seo-sem": {
+    "title": "SEO y SEM",
+    "home": "Home",
+    "current": "SEO y SEM"
+  },
+
+  "seo-sem-section": {
+    "subtitle": "Servicios de Marketing",
+    "title": "SEO y SEM",
+    "description": "Posiciona tu sitio web en los primeros resultados de búsqueda con nuestras estrategias de SEO (optimización para motores de búsqueda) y SEM (publicidad en motores de búsqueda). Atrae tráfico orgánico y pago de calidad que se convierta en clientes para tu negocio."
+  },
+
+  "seo-sem-packages": {
+    "title": "Los paquetes incluyen lo siguiente:",
+    "list-header": "Los paquetes incluyen lo siguiente:",
+    "list-item-1": "Investigación de palabras clave.",
+    "list-item-2": "Optimización de meta tags y contenido.",
+    "list-item-3": "Creación de campañas en Google Ads.",
+    "list-item-4": "Monitoreo y ajustes continuos.",
+    "list-item-5": "Reportes mensuales de rendimiento."
+  },
+
+  "basic-seo-package": {
+    "title": "SEO básico",
+    "from": "desde",
+    "currency": "$",
+    "price": "150",
+    "period": "USD/mes",
+    "item-1": "Optimización de sitio web + 2 palabras clave",
+    "button": "Solicitar"
+  },
+
+  "advanced-seo-package": {
+    "title": "SEO avanzado",
+    "from": "desde",
+    "currency": "$",
+    "price": "250",
+    "period": "USD/mes",
+    "item-1": "Optimización completa + 5 palabras clave",
+    "button": "Solicitar"
+  },
+
+  "sem-package": {
+    "title": "SEM",
+    "from": "desde",
+    "currency": "$",
+    "price": "200",
+    "period": "USD/mes",
+    "item-1": "Gestión de campañas en Google Ads",
+    "button": "Solicitar"
+  },
+
+  "email-marketing": {
+    "title": "Email marketing",
+    "home": "Home",
+    "current": "Email marketing"
+  },
+
+  "email-marketing-section": {
+    "subtitle": "Servicios de Marketing",
+    "title": "Email Marketing",
+    "description": "Mantén a tu audiencia informada y comprometida con nuestras estrategias de email marketing. Diseñamos campañas personalizadas que aumentan la fidelización de tus clientes y generan ventas recurrentes. Desde newsletters promocionales hasta automatizaciones avanzadas, te ayudamos a sacar el máximo provecho de esta herramienta."
+  },
+
+  "email-marketing-packages": {
+    "title": "Los paquetes incluyen lo siguiente:",
+    "list-header": "Los paquetes incluyen lo siguiente:",
+    "list-item-1": "Diseño de plantillas de email.",
+    "list-item-2": "Redacción de textos atractivos.",
+    "list-item-3": "Segmentación de listas de contactos.",
+    "list-item-4": "Automatización de campañas.",
+    "list-item-5": "Análisis de métricas y ajustes."
+  },
+
+  "basic-email-package": {
+    "title": "Paquete básico",
+    "from": "desde",
+    "currency": "$",
+    "price": "80",
+    "period": "USD/mes",
+    "item-1": "1 campaña mensual",
+    "button": "Solicitar"
+  },
+
+  "advanced-email-package": {
+    "title": "Paquete avanzado",
+    "from": "desde",
+    "currency": "$",
+    "price": "150",
+    "period": "USD/mes",
+    "item-1": "2 campañas mensuales + automatización",
+    "button": "Solicitar"
+  },
+
+  "premium-email-package": {
+    "title": "Paquete premium",
+    "from": "desde",
+    "currency": "$",
+    "price": "150",
+    "period": "USD/mes",
+    "item-1": "4 campañas mensuales + informes detallados",
+    "button": "Solicitar"
+  },
+
+  "basic-package4": {
+    "title": "Paquete básico",
+    "from": "desde",
+    "currency": "$",
+    "price": "160",
+    "period": "USD/video",
+    "features": {
+      "feature-1": "Concepto simple, edición estándar."
+    },
+    "button": "Solicitar"
+  },
+
+  "video-editing-budget": {
+    "title": "2. Presupuesto de Edición de Videos para Instagram:",
+    "description": "Este presupuesto es perfecto para cuando el cliente nos proporciona el video y nosotros nos encargamos de la edición."
+  },
+
+  "video-editing-services": {
+    "title": "",
+    "services-header": "Servicios incluidos:",
+    "service-1": {
+      "service-1-title": "Revisión del material:",
+      "service-1-description": "Evaluación del video recibido y planificación de la edición. (Costo estimado: 10−20 USD por video)."
+    },
+    "service-2": {
+      "service-2-title": "Edición básica:",
+      "service-2-description": "Cortes, ajustes de color, música y subtítulos. (Costo estimado: 20−40 USD por video)."
+    },
+    "service-3": {
+      "service-3-title": "Edición avanzada:",
+      "service-3-description": "Efectos, transiciones, gráficos animados y overlays. (Costo estimado: 40−70 USD por video)."
+    },
+    "service-4": {
+      "service-4-title": "Optimización para Instagram:",
+      "service-4-description": "Ajuste de formato (vertical 9:16), recorte y adaptación para Reels o Stories. (Costo estimado: 10−20 USD por video)."
+    }
+  },
+
+  "additional-notes": {
+    "title": "",
+    "notes-header": "Notas adicionales:",
+    "volume-discounts": "Descuentos por volumen: Si el cliente solicita varios videos, ofrecemos descuentos.",
+    "recommended-tools": "Herramientas recomendadas: \n-Para edición: Adobe Premiere Pro, Final Cut Pro o DaVinci Resolve. \n-Para diseño gráfico: Adobe After Effects o Canva.",
+    "delivery-time": "Tiempo de entrega: Especificamos plazos al momento de concretar el servicio. (por ejemplo, 2-3 días para edición básica, 5-7 días para edición avanzada).",
+    "contact-us": "¡Contáctanos hoy mismo para potenciar tu marca!"
+  },
+
+  "contact-us": {
+    "heading": "¿Tienes un proyecto en mente? ¡Hablamos!",
+    "sub-heading": "Contáctanos hoy mismo y descubre cómo podemos ayudarte a transformar tus ideas en realidad.",
+    "phone": "(+58)4129948381",
+    "button-text": "Contáctanos"
+  },
+
+  "basic-package2": {
+    "title": "Paquete básico",
+    "from": "desde",
+    "currency": "$",
+    "price": "160",
+    "period": "USD/video",
+    "description": "Concepto simple, edición estándar.",
+    "button": "Solicitar"
+  },
+  "advanced-package2": {
+    "title": "Paquete avanzado",
+    "from": "desde",
+    "currency": "$",
+    "price": "250",
+    "period": "USD/video",
+    "description": "Concepto creativo, edición profesional con efectos.",
+    "button": "Solicitar"
+  },
+  "premium-package2": {
+    "title": "Paquete premium",
+    "from": "desde",
+    "currency": "$",
+    "price": "300+",
+    "period": "USD/video",
+    "description": "Producción completa con diseño gráfico y animaciones.",
+    "button": "Solicitar"
+  },
+
+  "basic-month-package": {
+    "title": "Paquete básico",
+    "from": "desde",
+    "currency": "$",
+    "price": "40",
+    "period": "USD/video",
+    "description": "Edición simple y optimización.",
+    "button": "Solicitar"
+  },
+  "advanced-month-package": {
+    "title": "Paquete avanzado",
+    "from": "desde",
+    "currency": "$",
+    "price": "80",
+    "period": "USD/video",
+    "description": "Edición con efectos y gráficos.",
+    "button": "Solicitar"
+  },
+  "premium-month-package": {
+    "title": "Paquete premium",
+    "from": "desde",
+    "currency": "$",
+    "price": "100+",
+    "period": "USD/video",
+    "description": "Edición profesional con animaciones y diseño.",
+    "button": "Solicitar"
+  }
 }
