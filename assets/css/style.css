@@ -4799,7 +4799,7 @@ only screen and (max-width: 767px) {
 .menu-style-four .navigation-menu>ul>li.active>a:before {
   width: 0%;
   left: 0;
-  background-color: #000;
+  background-color: #ffeb00;
 }
 
 .menu-style-three .submenu.left,
@@ -15620,7 +15620,7 @@ only screen and (max-width: 767px) {
   position: relative;
   /* Asegúrate de que el elemento contenedor tenga posición relativa */
   background-repeat: no-repeat;
-  background-image: url("../images/hero/imagene-aplicacion-fondo-pc.jpg");
+  background-image: url("../images/hero/Propuestas-01.png");
   background-size: cover;
   background-position: 50% 50%;
   width: 100%;
@@ -17817,7 +17817,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .preview-header-inner.header-sticky {
-  background-color: #FFEB00;
+  background-color: #000;
 }
 
 .section-title-wrap h3 {
