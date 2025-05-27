@@ -6672,19 +6672,17 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .cta-bg-image_one-02 {
-  background-color: #;
-  background-image: url(../images/hero/pie-pagina-web.png);
-  background-repeat: no-repeat;
-  background-position: top 35% right -68px;
+    background-color: transparent;
+    background-image: url('../images/hero/pie-pagina-web.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 300px; /* Ajusta la altura mínima */
 }
-/* Imagen de fondo para pantallas pequeñas (móvil) */
-@media (max-width: 768px) {
-  .cta-bg-image_one-02 {
-      background-image: url('../images/hero/pie-pagina-web-tlf.png')
-      background-size: cover;
-      background-position: center;
-  }
-}
+
+
+
 
 .cta-bg-image_blue {
   background-color: #454545;
@@ -6709,7 +6707,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   background-size: cover;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px),
+@media only screen and (min-width: 600px) and (min-width: 768px) and (max-width: 991px),
 only screen and (max-width: 767px) {
   .cta-content {
     text-align: center;
@@ -8310,67 +8308,69 @@ only screen and (max-width: 767px) {
 }
 
 .ht-box-images.style-10 .image-box-wrap {
-  -webkit-box-shadow: 0 18px 40px rgba(51, 51, 51, 0.1);
-  box-shadow: 0 18px 40px rgba(51, 51, 51, 0.1);
-  background: #ffffff;
-  border-radius: 5px;
-  padding: 50px 30px 63px;
-  -webkit-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
-  -o-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
-  margin-top: 30px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  height: 100%;
+    -webkit-box-shadow: 0 18px 40px rgba(51, 51, 51, 0.1);
+    box-shadow: 0 18px 40px rgba(51, 51, 51, 0.1);
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 40px 25px 50px;
+    transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Ajuste para pantallas pequeñas */
+@media (max-width: 768px) {
+    .ht-box-images.style-10 .image-box-wrap {
+        width: 100%; /* Se ajusta al ancho del contenedor */
+    }
 }
 
 .ht-box-images.style-10 .image-box-wrap .box-image {
-  position: relative;
-  margin-bottom: 41px;
-  height: 100px;
+    position: relative;
+    margin-bottom: 30px;
+    height: auto; /* Permite ajuste responsivo */
+    display: flex;
+    justify-content: center;
 }
 
-.ht-box-images.style-10 .image-box-wrap .box-image .hover-images {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  visibility: hidden;
+.ht-box-images.style-10 .image-box-wrap .box-image img {
+    max-width: 100%;
+    height: auto;
 }
 
 .ht-box-images.style-10 .image-box-wrap .content .heading {
-  font-weight: 500;
-  line-height: 1.25;
-  margin-bottom: 12px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 12px;
+    text-align: center;
 }
 
 .ht-box-images.style-10 .image-box-wrap .content .service_text {
-  color: #696969;
+    color: #696969;
+    font-size: 16px;
+    text-align: center;
 }
 
 .ht-box-images.style-10 .image-box-wrap .content .box-images-arrow {
-  display: inline-block;
-  margin-top: 27px;
-  font-size: 14px;
-  font-weight: 500;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
 }
 
 .ht-box-images.style-10 .image-box-wrap .content .box-images-arrow a {
-  color: #086AD8;
+    color: #086AD8;
+    text-decoration: none;
 }
 
+/* Animación al pasar el mouse */
 .ht-box-images.style-10:hover {
-  -webkit-transform: translateY(-5px);
-  -ms-transform: translateY(-5px);
-  transform: translateY(-5px);
+    transform: translateY(-5px);
 }
+
 
 .image-l-r-box {
   padding-left: 15px;
