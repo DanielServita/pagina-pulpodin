@@ -15631,7 +15631,7 @@ only screen and (max-width: 767px) {
 /* Imagen de fondo para pantallas pequeñas (móvil) */
 @media (max-width: 768px) {
   .resolutions-hero-bg-2{
-      background-image: url('../images/hero/imagene-aplicacion-fondo.jpg');
+      background-image: url('../images/hero/Propuestas-04.png');
       background-size: cover;
       background-position: center;
   }
